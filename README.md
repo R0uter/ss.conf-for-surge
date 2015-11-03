@@ -16,13 +16,12 @@ Or use ssconf.py to generate config file.
 ###Note:
 Edit ssconf.py,change your ss server config,like server ip,server port,and your password.
 
-`
-#Your SS IP or Domain here
-server = '127.0.0.1'
-#Your SS port
-port = '8388'
-#Your SS method
-method = 'aes-256-cfb'
-#Your SS password
-passwd = '1233211234567'
-`
+
+    #Your SS IP or Domain here
+    server = '127.0.0.1'
+    #Your SS port
+    port = '8388'
+    #Your SS method
+    method = 'aes-256-cfb'
+    #Your SS password
+    passwd = '1233211234567'
