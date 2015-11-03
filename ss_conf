@@ -1,0 +1,32 @@
+[General]
+skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local
+bypass-tun = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
+dns-server = 223.5.5.5, 114.114.114.114
+loglevel = notify
+
+[Proxy]
+Proxy = custom,__SERVER__,__PORT__,__METHOD__,__PASSWORD__,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+
+[Rule]
+
+// AD Block
+__ADBLOCK__
+
+
+// proxy list from gfwlist!
+__GFWLIST__
+
+// Telegram
+IP-CIDR,91.108.4.0/22,Proxy,no-resolve
+IP-CIDR,91.108.56.0/22,Proxy,no-resolve
+IP-CIDR,109.239.140.0/24,Proxy,no-resolve
+IP-CIDR,149.154.160.0/20,Proxy,no-resolve
+
+// LAN
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT
+
+GEOIP,CN,DIRECT
+FINAL,DIRECT
