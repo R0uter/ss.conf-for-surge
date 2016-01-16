@@ -10,6 +10,7 @@ import os
 import datetime
 import base64
 import shutil
+import whiteListCheck
 
 
 #Your SS IP or Domain here
@@ -20,6 +21,29 @@ port = '8388'
 method = 'aes-256-cfb'
 #Your SS password
 passwd = '1233211234567'
+
+def whiteListCheck():
+    whitelist = './whitelist'
+    wtfs = open(whitelist,'r')
+    wfs = open('./whitelist.txt','w')
+    
+    domain_pattern = '([\w\-\_]+\.[\w\.\-\_]+)[\/\*]*'
+    
+    # Write list
+    for line in wtfs.readlines():
+        
+        domain = re.findall(domain_pattern, line)
+        if domain:
+            try:
+                found = domainlist.index(domain[0])
+            except ValueError:
+                domainlist.append(domain[0])
+                wfs.write('DOMAIN-SUFFIX,%s,DIRECT\n'%(domain[0]))
+        else:
+            continue
+
+    wtfs.close()
+    wfs.close()
 
 
 # the url of gfwlist
@@ -73,8 +97,8 @@ for line in tfs.readlines():
 
 tfs.close()
 fs.close()
-print 'Generate config file: ss.conf'
-cfs = open('ss_conf', 'r')
+print 'Generate config file: gfwlist-ss.conf'
+cfs = open('ss_gfwlist_conf', 'r')
 gfwlist = open('gfwlist.txt', 'r')
 adlist = open('adlist.txt', 'r')
 file_content = cfs.read()
@@ -91,8 +115,33 @@ file_content = file_content.replace('__PORT__', port)
 file_content = file_content.replace('__METHOD__', method)
 file_content = file_content.replace('__PASSWORD__', passwd)
 
-confs = open('ss.conf', 'w')
+confs = open('gfwlist-ss.conf', 'w')
 confs.write(file_content)
 confs.close()
+# whitelist config
+print 'Generate config file: whitelist_ss.conf'
+whiteListCheck()
+cfs = open('ss_whitelist_conf', 'r')
+gfwlist = open('whitelist.txt', 'r')
+adlist = open('adlist.txt', 'r')
+file_content = cfs.read()
+adlist_buffer = adlist.read()
+gfwlist_buffer = gfwlist.read()
+gfwlist.close()
+adlist.close()
+cfs.close()
+
+file_content = file_content.replace('__ADBLOCK__', adlist_buffer)
+file_content = file_content.replace('__GFWWHITELIST__', gfwlist_buffer)
+file_content = file_content.replace('__SERVER__', server)
+file_content = file_content.replace('__PORT__', port)
+file_content = file_content.replace('__METHOD__', method)
+file_content = file_content.replace('__PASSWORD__', passwd)
+
+confs = open('whitelist_ss.conf', 'w')
+confs.write(file_content)
+confs.close()
+
+
 
 print 'All done!'

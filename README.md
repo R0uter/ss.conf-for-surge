@@ -2,19 +2,22 @@
 This is a conf file for Surge!
 In order to use shad0ws0cks in surge.
 
+NOW ssconf.py can generate both gfwlist and whitelist!
+
 ##Proxy list 
 Proxy list was generated from gfwlist,all marked with force-remote-dns.
+White list come from https://goo.gl/bKy0gP.
 
 ##Anti ads
 Ad's list from https://goo.gl/gqgGD9.
 
 ##How-to-use
-Just use ss.conf directly.
+Just use gfwlist-ss.conf or whitelist-ss.conf directly.
 
 Or use ssconf.py to generate config file.
 
 ###Note:
-Edit ssconf.py,change your ss server config,like server ip,server port,and your password.
+Make sure edit ssconf.py,change your ss server config,like server ip,server port,and your password.
 
 
     #Your SS IP or Domain here
