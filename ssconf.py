@@ -10,7 +10,6 @@ import os
 import datetime
 import base64
 import shutil
-import whiteListCheck
 
 
 #Your SS IP or Domain here
