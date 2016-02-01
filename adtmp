@@ -1,0 +1,379 @@
+# Add below line to merge a basic configuration file
+#!PROXY-OVERRIDE:main.conf
+
+# Surge will support updating conf sometime in the future
+#!UPDATE-URL:https://gist.githubusercontent.com/raw/2e27c124af2f7a4f0d5a/main.conf
+
+[General]
+skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.0.0.0/8, localhost, *.local, e.crashlytics.com
+bypass-tun = 10.0.0.0/8, 172.0.0.0/8, 0.0.0.0/8, 1.0.0.0/9, 1.160.0.0/11, 1.192.0.0/11, 10.0.0.0/8, 14.0.0.0/11, 14.96.0.0/11, 14.128.0.0/11, 14.192.0.0/11, 27.0.0.0/10, 27.96.0.0/11, 27.128.0.0/9, 36.0.0.0/10, 36.96.0.0/11, 36.128.0.0/9, 39.0.0.0/11, 39.64.0.0/10, 39.128.0.0/10, 42.0.0.0/8, 43.224.0.0/11, 45.64.0.0/10, 47.64.0.0/10, 49.0.0.0/9, 49.128.0.0/11, 49.192.0.0/10, 54.192.0.0/11, 58.0.0.0/9, 58.128.0.0/11, 58.192.0.0/10, 59.32.0.0/11, 59.64.0.0/10, 59.128.0.0/9, 60.0.0.0/10, 60.160.0.0/11, 60.192.0.0/10, 61.0.0.0/10, 61.64.0.0/11, 61.128.0.0/10, 61.224.0.0/11, 100.64.0.0/10, 101.0.0.0/9, 101.128.0.0/11, 101.192.0.0/10, 103.0.0.0/10, 103.192.0.0/10, 106.0.0.0/9, 106.224.0.0/11, 110.0.0.0/7, 112.0.0.0/9, 112.128.0.0/11, 112.192.0.0/10, 113.0.0.0/9, 113.128.0.0/11, 113.192.0.0/10, 114.0.0.0/9, 114.128.0.0/11, 114.192.0.0/10, 115.0.0.0/8, 116.0.0.0/8, 117.0.0.0/9, 117.128.0.0/10, 118.0.0.0/11, 118.64.0.0/10, 118.128.0.0/9, 119.0.0.0/9, 119.128.0.0/10, 119.224.0.0/11, 120.0.0.0/10, 120.64.0.0/11, 120.128.0.0/11, 120.192.0.0/10, 121.0.0.0/9, 121.192.0.0/10, 122.0.0.0/7, 124.0.0.0/8, 125.0.0.0/9, 125.160.0.0/11, 125.192.0.0/10, 127.0.0.0/8, 139.0.0.0/11, 139.128.0.0/9, 140.64.0.0/11, 140.128.0.0/11, 140.192.0.0/10, 144.0.0.0/10, 144.96.0.0/11, 144.224.0.0/11, 150.0.0.0/11, 150.96.0.0/11, 150.128.0.0/11, 150.192.0.0/10, 152.96.0.0/11, 153.0.0.0/10, 153.96.0.0/11, 157.0.0.0/10, 157.96.0.0/11, 157.128.0.0/11, 157.224.0.0/11, 159.224.0.0/11, 161.192.0.0/11, 162.96.0.0/11, 163.0.0.0/10, 163.96.0.0/11, 163.128.0.0/10, 163.192.0.0/11, 166.96.0.0/11, 167.128.0.0/10, 167.192.0.0/11, 168.160.0.0/11, 169.254.0.0/16, 171.0.0.0/9, 171.192.0.0/11, 172.16.0.0/12, 175.0.0.0/9, 175.128.0.0/10, 180.64.0.0/10, 180.128.0.0/9, 182.0.0.0/8, 183.0.0.0/10, 183.64.0.0/11, 183.128.0.0/9, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.96.0.0/11, 192.160.0.0/11, 198.18.0.0/15, 198.51.100.0/24, 202.0.0.0/9, 202.128.0.0/10, 202.192.0.0/11, 203.0.0.0/9, 203.128.0.0/10, 203.192.0.0/11, 210.0.0.0/10, 210.64.0.0/11, 210.160.0.0/11, 210.192.0.0/11, 211.64.0.0/10, 211.128.0.0/10, 218.0.0.0/9, 218.160.0.0/11, 218.192.0.0/10, 219.64.0.0/11, 219.128.0.0/11, 219.192.0.0/10, 220.96.0.0/11, 220.128.0.0/9, 221.0.0.0/11, 221.96.0.0/11, 221.128.0.0/9, 222.0.0.0/8, 223.0.0.0/11, 223.64.0.0/10, 223.128.0.0/9
+# dns-server = 119.29.29.29,223.5.5.5,114.114.114.114
+# warning, notify, info, verbose
+loglevel = notify
+
+[Proxy]
+# 同名 Proxy，Surge 只保留最后一个
+# ShadowSocks配置格式 Proxy = custom, 1.2.3.4, 443, rc4-md5, password, http://foo.bar/SSEncrypt.module
+# Proxy = http/https/socks/custom,服务器地址,端口,帐号,密码
+Proxy = http,null,1234
+null = http,null,1234
+
+[Rule]
+# Cert
+DOMAIN-SUFFIX,digicert.com,Proxy
+DOMAIN-SUFFIX,symcb.com,Proxy
+
+# block trackers by keyword
+#DOMAIN-KEYWORD,analytics,REJECT
+#DOMAIN-KEYWORD,syndication,REJECT
+
+# Google
+#DOMAIN,csi.gstatic.com,REJECT
+DOMAIN,g.co,Proxy
+DOMAIN,goo.gl,Proxy
+#DOMAIN,static.googleadsserving.cn,REJECT
+#DOMAIN-SUFFIX,doubleclick.net,REJECT
+#DOMAIN-SUFFIX,googleadservices.com,REJECT
+#DOMAIN-SUFFIX,googletagservices.com,REJECT
+DOMAIN-KEYWORD,blogspot,Proxy
+DOMAIN-KEYWORD,google,Proxy,force-remote-dns
+DOMAIN-KEYWORD,youtube,Proxy,force-remote-dns
+DOMAIN-KEYWORD,gmail,Proxy,force-remote-dns
+DOMAIN-SUFFIX,appspot.com,Proxy
+DOMAIN-SUFFIX,ggpht.com,Proxy
+DOMAIN-SUFFIX,gstatic.com,Proxy
+DOMAIN-SUFFIX,ytimg.com,Proxy
+
+# Twitter
+DOMAIN,syndication.twitter.com,REJECT
+DOMAIN,t.co,Proxy
+DOMAIN-KEYWORD,twitter,Proxy,force-remote-dns
+DOMAIN-SUFFIX,twimg.com,Proxy,force-remote-dns
+
+# Facebook
+DOMAIN-KEYWORD,facebook,Proxy,force-remote-dns
+DOMAIN-SUFFIX,fbcdn.net,Proxy,force-remote-dns
+
+# Block privacy trackers
+DOMAIN,adlog.flurry.com,REJECT
+DOMAIN,ads.flurry.com,REJECT
+DOMAIN,alexa.links.cn,REJECT
+#DOMAIN,api.amplitude.com,REJECT
+DOMAIN,api.instabug.com,REJECT
+#DOMAIN,api.mixpanel.com,REJECT
+DOMAIN,api.segment.io,REJECT
+DOMAIN,app.sysdigcloud.com,REJECT
+DOMAIN,bam.nr-data.net,REJECT
+DOMAIN,bi-collector.oneapm.com,REJECT
+DOMAIN,cdn.mxpnl.com,REJECT
+DOMAIN,collector.githubapp.com,REJECT
+DOMAIN,counter.kingsoft.com,REJECT
+#DOMAIN,data.flurry.com,REJECT
+#DOMAIN,engine.mobileapptracking.com,REJECT
+DOMAIN,js-agent.newrelic.com,REJECT
+DOMAIN,log.cmbchina.com,REJECT
+#DOMAIN,log.tapatalk.com,REJECT
+#DOMAIN,log.umsns.com,REJECT
+#DOMAIN,pixel.redditmedia.com,REJECT
+DOMAIN,pageviewp.icbc.com.cn,REJECT
+DOMAIN,pixel.wp.com,REJECT
+DOMAIN,sfsapi.micloud.xiaomi.net,REJECT
+#DOMAIN,stat.api.dianping.com,REJECT
+DOMAIN,zhihu-analytics.zhihu.com,REJECT
+DOMAIN-KEYWORD,cnzz,REJECT
+DOMAIN-KEYWORD,tongji,REJECT
+DOMAIN-KEYWORD,trace,REJECT
+DOMAIN-KEYWORD,track,REJECT
+DOMAIN-KEYWORD,traffic,REJECT
+DOMAIN-KEYWORD,usage,REJECT
+DOMAIN-SUFFIX,51.la,REJECT
+DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,adjust.io,REJECT
+#DOMAIN-SUFFIX,alipaylog.com,REJECT
+DOMAIN-SUFFIX,beacon.tingyun.com,REJECT
+DOMAIN-SUFFIX,cmcore.com,REJECT
+DOMAIN-SUFFIX,coremetrics.com,REJECT
+#DOMAIN-SUFFIX,flurry.com,REJECT
+#DOMAIN-SUFFIX,irs01.com,REJECT
+DOMAIN-SUFFIX,madmini.com,REJECT
+DOMAIN-SUFFIX,mmstat.com,REJECT
+DOMAIN-SUFFIX,optimizelyapis.com,REJECT
+DOMAIN-SUFFIX,segment.com,REJECT
+DOMAIN-SUFFIX,sitemeter.com,REJECT
+DOMAIN-SUFFIX,statcounter.com,REJECT
+DOMAIN-SUFFIX,wrating.com,REJECT
+
+# Block Ads servers
+DOMAIN,ads.mopub.com,REJECT
+DOMAIN,api.adform.com,REJECT
+#DOMAIN,api.tapstream.com,REJECT
+DOMAIN,ark.letv.com,REJECT
+DOMAIN,e.apsalar.com,REJECT
+DOMAIN,syndication.streamads.yahoo.com,REJECT
+DOMAIN-KEYWORD,openx,REJECT
+DOMAIN-SUFFIX,99click.com,REJECT
+DOMAIN-SUFFIX,acs86.com,REJECT
+DOMAIN-SUFFIX,adchina.com,REJECT
+DOMAIN-SUFFIX,adcome.cn,REJECT
+DOMAIN-SUFFIX,adinfuse.com,REJECT
+DOMAIN-SUFFIX,admaster.com.cn,REJECT
+DOMAIN-SUFFIX,admob.com,REJECT
+DOMAIN-SUFFIX,adnxs.com,REJECT
+DOMAIN-SUFFIX,ads.yahoo.com,REJECT
+DOMAIN-SUFFIX,adsage.cn,REJECT
+DOMAIN-SUFFIX,adsage.com,REJECT
+DOMAIN-SUFFIX,adsame.com,REJECT
+DOMAIN-SUFFIX,adsmogo.org,REJECT
+DOMAIN-SUFFIX,aduu.cn,REJECT
+DOMAIN-SUFFIX,advertising.com,REJECT
+DOMAIN-SUFFIX,adview.cn,REJECT
+DOMAIN-SUFFIX,adwhirl.com,REJECT
+DOMAIN-SUFFIX,adwo.com,REJECT
+DOMAIN-SUFFIX,adxmi.com,REJECT
+DOMAIN-SUFFIX,adzerk.net,REJECT
+DOMAIN-SUFFIX,allyes.com,REJECT
+DOMAIN-SUFFIX,anquan.org,REJECT
+DOMAIN-SUFFIX,appads.com,REJECT
+DOMAIN-SUFFIX,appboy.com,REJECT
+DOMAIN-SUFFIX,applifier.com,REJECT
+DOMAIN-SUFFIX,applovin.com,REJECT
+DOMAIN-SUFFIX,appsflyer.com,REJECT
+DOMAIN-SUFFIX,aty.sohu.com,REJECT
+DOMAIN-SUFFIX,baifendian.com,REJECT
+DOMAIN-SUFFIX,biddingx.com,REJECT
+DOMAIN-SUFFIX,chance-ad.com,REJECT
+DOMAIN-SUFFIX,chartboost.com,REJECT
+DOMAIN-SUFFIX,clicktracks.com,REJECT
+DOMAIN-SUFFIX,clickzs.com,REJECT
+DOMAIN-SUFFIX,domob.cn,REJECT
+DOMAIN-SUFFIX,domob.com.cn,REJECT
+DOMAIN-SUFFIX,domob.org,REJECT
+DOMAIN-SUFFIX,duomeng.cn,REJECT
+DOMAIN-SUFFIX,duomeng.net,REJECT
+DOMAIN-SUFFIX,duomeng.org,REJECT
+DOMAIN-SUFFIX,guohead.com,REJECT
+DOMAIN-SUFFIX,guomob.com,REJECT
+DOMAIN-SUFFIX,happyelements.cn,REJECT
+DOMAIN-SUFFIX,immob.cn,REJECT
+DOMAIN-SUFFIX,inmobi.com,REJECT
+DOMAIN-SUFFIX,intely.cn,REJECT
+DOMAIN-SUFFIX,ipinyou.com,REJECT
+DOMAIN-SUFFIX,istreamsche.com,REJECT
+DOMAIN-SUFFIX,kejet.net,REJECT
+#DOMAIN-SUFFIX,localytics.com,REJECT
+DOMAIN-SUFFIX,mediav.com,REJECT
+DOMAIN-SUFFIX,miaozhen.com,REJECT
+DOMAIN-SUFFIX,miidi.net,REJECT
+DOMAIN-SUFFIX,mobclix.com,REJECT
+DOMAIN-SUFFIX,mobfox.com,REJECT
+DOMAIN-SUFFIX,mobisage.cn,REJECT
+DOMAIN-SUFFIX,o2omobi.com,REJECT
+DOMAIN-SUFFIX,oadz.com,REJECT
+DOMAIN-SUFFIX,optaim.com,REJECT
+DOMAIN-SUFFIX,optimix.asia,REJECT
+DOMAIN-SUFFIX,pubmatic.com,REJECT
+DOMAIN-SUFFIX,qtmojo.cn,REJECT
+DOMAIN-SUFFIX,qtmojo.com,REJECT
+DOMAIN-SUFFIX,quantserve.com,REJECT
+DOMAIN-SUFFIX,reachmax.cn,REJECT
+DOMAIN-SUFFIX,responsys.net,REJECT
+#DOMAIN-SUFFIX,scorecardresearch.com,REJECT
+DOMAIN-SUFFIX,serving-sys.com,REJECT
+DOMAIN-SUFFIX,smartmad.com,REJECT
+DOMAIN-SUFFIX,smartadserver.com,REJECT
+DOMAIN-SUFFIX,sponsorpay.com,REJECT
+DOMAIN-SUFFIX,switchadhub.com,REJECT
+DOMAIN-SUFFIX,tanx.com,REJECT
+DOMAIN-SUFFIX,tapjoyads.com,REJECT
+DOMAIN-SUFFIX,thoughtleadr.com,REJECT
+DOMAIN-SUFFIX,tiqcdn.com,REJECT
+DOMAIN-SUFFIX,umeng.co,REJECT
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,umeng.net,REJECT
+DOMAIN-SUFFIX,unimhk.com,REJECT
+DOMAIN-SUFFIX,unlitui.com,REJECT
+DOMAIN-SUFFIX,uyunad.com,REJECT
+DOMAIN-SUFFIX,vamaker.com,REJECT
+DOMAIN-SUFFIX,vpon.com,REJECT
+DOMAIN-SUFFIX,waps.cn,REJECT
+DOMAIN-SUFFIX,wiyun.com,REJECT
+DOMAIN-SUFFIX,wooboo.com.cn,REJECT
+DOMAIN-SUFFIX,wqmobile.com,REJECT
+DOMAIN-SUFFIX,xibao100.com,REJECT
+DOMAIN-SUFFIX,youmi.net,REJECT
+DOMAIN-SUFFIX,zhiziyun.com,REJECT
+
+## QQ
+DOMAIN,lives.l.qq.com,REJECT
+DOMAIN,monitor.uu.qq.com,REJECT
+DOMAIN,omgmta.qq.com,REJECT
+DOMAIN,pingjs.qq.com,REJECT
+#DOMAIN,pingma.qq.com,REJECT
+DOMAIN,tajs.qq.com,REJECT
+DOMAIN,tcss.qq.com,REJECT
+DOMAIN-SUFFIX,beacon.qq.com,REJECT
+DOMAIN-SUFFIX,pingtcss.qq.com,REJECT
+DOMAIN-SUFFIX,report.qq.com,REJECT
+DOMAIN-SUFFIX,gtimg.com,DIRECT
+DOMAIN-SUFFIX,qq.com,DIRECT
+
+# 163
+DOMAIN,dsp.youdao.com,REJECT
+DOMAIN,analytics.163.com,REJECT
+DOMAIN,g.163.com,REJECT
+DOMAIN,temp.163.com,REJECT
+DOMAIN-SUFFIX,stat.ws.126.net,REJECT
+DOMAIN-SUFFIX,union.youdao.com,REJECT
+DOMAIN-SUFFIX,126.net,DIRECT
+DOMAIN-SUFFIX,163.com,DIRECT
+DOMAIN-SUFFIX,netease.com,DIRECT
+
+# Baidu/iqiyi
+DOMAIN,cbjs.baidu.com,REJECT
+DOMAIN,cpro.baidu.com,REJECT
+DOMAIN,eclick.baidu.com,REJECT
+DOMAIN,entry.baidu.com,REJECT
+DOMAIN,hm.baidu.com,REJECT
+DOMAIN,hmma.baidu.com,REJECT
+DOMAIN,mobads-logs.baidu.com,REJECT
+DOMAIN,mobads.baidu.com,REJECT
+DOMAIN,msg.71.am,REJECT
+DOMAIN,mtj.baidu.com,REJECT
+DOMAIN,nsclick.baidu.com,REJECT
+DOMAIN,spcode.baidu.com,REJECT
+DOMAIN,static.tieba.baidu.com,REJECT
+DOMAIN,ucstat.baidu.com,REJECT
+DOMAIN,union.baidu.com,REJECT
+DOMAIN-SUFFIX,baidustatic.com,REJECT
+DOMAIN-SUFFIX,pos.baidu.com,REJECT
+DOMAIN-SUFFIX,baidu.com,DIRECT
+DOMAIN-SUFFIX,bdstatic.com,DIRECT
+DOMAIN-SUFFIX,yunjiasu-cdn.net,DIRECT
+
+# 360buy
+#DOMAIN,stat.m.jd.com,REJECT
+DOMAIN,union.m.jd.com,REJECT
+#DOMAIN,venus.jd.com,REJECT
+DOMAIN-SUFFIX,360buyimg.com,DIRECT
+DOMAIN-SUFFIX,jd.com,DIRECT
+
+# Alibaba
+DOMAIN,acjs.aliyun.com,REJECT
+#DOMAIN,adash.m.taobao.com,REJECT
+DOMAIN,hydra.alibaba.com,REJECT
+DOMAIN-SUFFIX,simaba.taobao.com,REJECT
+DOMAIN-KEYWORD,alipay,DIRECT
+DOMAIN-SUFFIX,alicdn.com,DIRECT
+
+# Sina
+DOMAIN,sax.sina.cn,REJECT
+DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
+
+# Youku/Tudou
+DOMAIN,ad.api.3g.youku.com,REJECT
+DOMAIN-SUFFIX,atm.youku.com,REJECT
+DOMAIN,ad.api.3g.tudou.com,REJECT
+DOMAIN,adcontrol.tudou.com,REJECT
+DOMAIN,adplay.tudou.com,REJECT
+DOMAIN,stat.tudou.com,REJECT
+DOMAIN,stats.tudou.com,REJECT
+DOMAIN-SUFFIX,tudou.com,DIRECT
+DOMAIN-SUFFIX,youku.com,DIRECT
+
+# Didi
+DOMAIN,static.diditaxi.com.cn,REJECT
+
+# Apple
+#DOMAIN,iadsdk.apple.com,REJECT
+DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,itunes.apple.com,Proxy
+
+# Dropbox
+DOMAIN,d.dropbox.com,REJECT
+DOMAIN,dl-debug.dropbox.com,REJECT
+DOMAIN-KEYWORD,dropbox,Proxy
+
+# Spotify
+DOMAIN-SUFFIX,scdn.co,DIRECT
+DOMAIN-SUFFIX,spotify.com,Proxy
+DOMAIN-SUFFIX,spotilocal.com,DIRECT
+
+# China CDNs
+DOMAIN-KEYWORD,ccgslb,DIRECT
+DOMAIN-KEYWORD,chinacache,DIRECT
+DOMAIN-SUFFIX,8686c.com,DIRECT
+DOMAIN-SUFFIX,ourdvs.com,DIRECT
+
+# Accelerate most visited sites
+DOMAIN-KEYWORD,steam,DIRECT
+DOMAIN-KEYWORD,vimeo,Proxy,force-remote-dns
+DOMAIN-SUFFIX,cloudfront.net,Proxy
+DOMAIN-SUFFIX,cn,DIRECT
+DOMAIN-SUFFIX,fastly.net,Proxy
+DOMAIN-SUFFIX,omnigroup.com,Proxy
+DOMAIN-SUFFIX,sstatic.net,Proxy
+DOMAIN-SUFFIX,zkcdn.net,Proxy
+
+# Akamai
+DOMAIN-KEYWORD,aka,Proxy
+DOMAIN-SUFFIX,edgekey.net,Proxy
+
+# Streaming services, comment out if you don't need
+DOMAIN-KEYWORD,qiyi,DIRECT
+DOMAIN-KEYWORD,sohu,DIRECT
+
+# Amazon
+DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+DOMAIN-SUFFIX,amazonaws.com,Proxy
+DOMAIN-SUFFIX,images-amazon.com,Proxy
+DOMAIN-SUFFIX,ssl-images-amazon.com,Proxy
+# Amazon EC2
+IP-CIDR,52.0.0.0/11,Proxy
+IP-CIDR,52.192.0.0/11,Proxy
+IP-CIDR,52.32.0.0/11,Proxy
+IP-CIDR,52.64.0.0/12,Proxy
+IP-CIDR,52.84.0.0/14,Proxy
+IP-CIDR,52.88.0.0/13,Proxy
+IP-CIDR,54.160.0.0/12,Proxy
+IP-CIDR,54.176.0.0/12,Proxy
+IP-CIDR,54.192.0.0/12,Proxy
+IP-CIDR,54.208.0.0/13,Proxy
+IP-CIDR,54.216.0.0/14,Proxy
+IP-CIDR,54.220.0.0/15,Proxy
+IP-CIDR,54.224.0.0/12,Proxy
+IP-CIDR,54.240.0.0/12,Proxy
+IP-CIDR,54.64.0.0/13,Proxy
+IP-CIDR,54.72.0.0/13,Proxy
+IP-CIDR,54.80.0.0/12,Proxy
+IP-CIDR,72.44.32.0/19,Proxy
+IP-CIDR,107.20.0.0/14,Proxy
+IP-CIDR,174.129.0.0/16,Proxy
+IP-CIDR,184.72.0.0/15,Proxy
+IP-CIDR,204.236.128.0/17,Proxy
+IP-CIDR,75.101.128.0/17,Proxy
+IP-CIDR,216.182.224.0/20,Proxy
+IP-CIDR,23.20.0.0/14,Proxy
+IP-CIDR,50.16.0.0/14,Proxy
+IP-CIDR,67.202.0.0/18,Proxy
+
+# Instagram
+#DOMAIN,logger.instagram.com,REJECT
+DOMAIN-KEYWORD,instagram,Proxy,force-remote-dns
+
+# Telegram
+IP-CIDR,91.108.56.0/22,Proxy,no-resolve
+IP-CIDR,91.108.4.0/22,Proxy,no-resolve
+IP-CIDR,109.239.140.0/24,Proxy,no-resolve
+IP-CIDR,149.154.160.0/20,Proxy,no-resolve
+
+# LAN, debugging rules should place above this line
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+
+# Detect local network
+GEOIP,CN,DIRECT
+
+# Use proxy for all others
+FINAL,Proxy
