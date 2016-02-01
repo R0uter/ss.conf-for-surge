@@ -10,6 +10,7 @@ White list come from https://goo.gl/bKy0gP.
 
 ##Anti ads
 Ad's list from https://goo.gl/gqgGD9.
+Now can update by itself!
 
 ##How-to-use
 Just use gfwlist-ss.conf or whitelist-ss.conf directly.
@@ -23,8 +24,8 @@ Make sure edit ssconf.py,change your ss server config,like server ip,server port
     #Your SS IP or Domain here
     server = '127.0.0.1'
     #Your SS port
-    port = '8388'
+    port = '1080'
     #Your SS method
     method = 'aes-256-cfb'
     #Your SS password
-    passwd = '1233211234567'
+    passwd = 'your_password_here'

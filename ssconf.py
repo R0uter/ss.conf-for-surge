@@ -15,11 +15,14 @@ import shutil
 #Your SS IP or Domain here
 server = '127.0.0.1'
 #Your SS port
-port = '8388'
+port = '1080'
 #Your SS method
 method = 'aes-256-cfb'
 #Your SS password
-passwd = '1233211234567'
+passwd = 'your_password_here'
+
+
+#---------------------------
 
 def whiteListCheck():
     whitelist = './whitelist'
@@ -49,7 +52,7 @@ def whiteListCheck():
 baseurl = 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt'
 # match comments/title/whitelist/ip address
 comment_pattern = '^\!|\[|^@@|^\d+\.\d+\.\d+\.\d+'
-domain_pattern = '([\w\-\_]+\.[\w\.\-\_]+)[\/\*]*' 
+domain_pattern = '([\w\-\_]+\.[\w\.\-\_]+)[\/\*]*'
 tmpfile = './tmp'
 outfile = './gfwlist.txt'
 
@@ -59,7 +62,7 @@ fs.write('// SS config file for surge with gfw list \n')
 fs.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
 fs.write('\n')
  
-print 'Fetching list...'
+print 'Fetching gfw list...'
 try:
     content = urllib2.urlopen(baseurl, timeout=10).read().decode('base64')
      
@@ -96,6 +99,60 @@ for line in tfs.readlines():
 
 tfs.close()
 fs.close()
+
+# get list to block most of ads .
+# the url of  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a
+outfile = './adlist.txt'
+tmpfile = './adtmp'
+baseurl = 'https://gist.githubusercontent.com/raw/2e27c124af2f7a4f0d5a/main.conf'
+
+comment_pattern = '^\!|\[|^@@|\/|http|\#|\*|\?|\_|^\.|^\d+\.\d+\.\d+\.\d+'
+domain_pattern = '(\#?[\w\-\_]+\,[\/\w\.\-\_]+\,REJECT)[\/\*]*'
+
+fs =  file(outfile, 'w')
+fs.write('// thx  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a \n')
+fs.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
+fs.write('\n')
+
+print 'Fetching ad list...'
+try:
+    content = urllib2.urlopen(baseurl, timeout=10).read()
+    
+    # write the content to file then read line by line
+    tfs = open(tmpfile, 'w')
+    tfs.write(content)
+    tfs.close()
+    tfs = open(tmpfile, 'r')
+    print 'adlist fetched, writing...'
+except:
+    tfs = open(tmpfile, 'r')
+    print 'adlist fetch failed, use adtmp instead...'
+# Store all domains, deduplicate records
+domainlist = []
+
+# Write list
+for line in tfs.readlines():
+    
+    if re.findall(comment_pattern, line):
+        continue
+    else:
+        domain = re.findall(domain_pattern, line)
+        if domain:
+            try:
+                found = domainlist.index(domain[0])
+            except ValueError:
+                domainlist.append(domain[0])
+                fs.write(domain[0] + '\n')
+        else:
+            continue
+
+tfs.close()
+fs.close()
+
+
+
+
+
 print 'Generate config file: gfwlist-ss.conf'
 cfs = open('ss_gfwlist_conf', 'r')
 gfwlist = open('gfwlist.txt', 'r')
