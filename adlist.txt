@@ -1,5 +1,5 @@
 // thx  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a 
-// updated on 2016-02-02 02:01:09
+// updated on 2016-02-04 14:11:03
 
 DOMAIN,syndication.twitter.com,REJECT
 DOMAIN,adlog.flurry.com,REJECT

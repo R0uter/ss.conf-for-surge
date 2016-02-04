@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2016-02-02 02:01:05
+// updated on 2016-02-04 14:10:48
 
 DOMAIN-SUFFIX,85.17.73.31,Proxy,force-remote-dns
 DOMAIN-SUFFIX,agnesb.fr,Proxy,force-remote-dns
