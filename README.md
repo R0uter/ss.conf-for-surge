@@ -10,7 +10,7 @@ Proxy list was generated from gfwlist, all marked with `force-remote-dns`.
 White list come from https://goo.gl/bKy0gP.
 
 ##Anti ads
-Ad's list from https://goo.gl/gqgGD9.
+Ad's list from https://goo.gl/70DG6i.
 
 Now can update by itself!
 
