@@ -25,9 +25,9 @@ passwd = 'your_password_here'
 #---------------------------
 
 def whiteListCheck():
-    whitelist = './whitelist'
+    whitelist = './list/whitelist'
     wtfs = open(whitelist,'r')
-    wfs = open('./whitelist.txt','w')
+    wfs = open('./list/whitelist.txt','w')
     
     domain_pattern = '([\w\-\_]+\.[\w\.\-\_]+)[\/\*]*'
     
@@ -53,8 +53,8 @@ baseurl = 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt'
 # match comments/title/whitelist/ip address
 comment_pattern = '^\!|\[|^@@|^\d+\.\d+\.\d+\.\d+'
 domain_pattern = '([\w\-\_]+\.[\w\.\-\_]+)[\/\*]*'
-tmpfile = './tmp'
-outfile = './gfwlist.txt'
+tmpfile = './list/tmp'
+outfile = './list/gfwlist.txt'
 
  
 fs =  file(outfile, 'w')
@@ -102,8 +102,8 @@ fs.close()
 
 # get list to block most of ads .
 # the url of  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a
-outfile = './adlist.txt'
-tmpfile = './adtmp'
+outfile = './list/adlist.txt'
+tmpfile = './list/adtmp'
 baseurl = 'https://gist.githubusercontent.com/raw/2e27c124af2f7a4f0d5a/main.conf'
 
 comment_pattern = '^\!|\[|^@@|\/|http|\#|\*|\?|\_|^\.|^\d+\.\d+\.\d+\.\d+'
@@ -154,9 +154,9 @@ fs.close()
 
 
 print 'Generate config file: gfwlist-ss.conf'
-cfs = open('ss_gfwlist_conf', 'r')
-gfwlist = open('gfwlist.txt', 'r')
-adlist = open('adlist.txt', 'r')
+cfs = open('template/ss_gfwlist_conf', 'r')
+gfwlist = open('list/gfwlist.txt', 'r')
+adlist = open('list/adlist.txt', 'r')
 file_content = cfs.read()
 adlist_buffer = adlist.read()
 gfwlist_buffer = gfwlist.read()
@@ -171,15 +171,15 @@ file_content = file_content.replace('__PORT__', port)
 file_content = file_content.replace('__METHOD__', method)
 file_content = file_content.replace('__PASSWORD__', passwd)
 
-confs = open('gfwlist-ss.conf', 'w')
+confs = open('ss.conf/gfwlist-ss.conf', 'w')
 confs.write(file_content)
 confs.close()
 # whitelist config
 print 'Generate config file: whitelist_ss.conf'
 whiteListCheck()
-cfs = open('ss_whitelist_conf', 'r')
-gfwlist = open('whitelist.txt', 'r')
-adlist = open('adlist.txt', 'r')
+cfs = open('template/ss_whitelist_conf', 'r')
+gfwlist = open('list/whitelist.txt', 'r')
+adlist = open('list/adlist.txt', 'r')
 file_content = cfs.read()
 adlist_buffer = adlist.read()
 gfwlist_buffer = gfwlist.read()
@@ -194,7 +194,7 @@ file_content = file_content.replace('__PORT__', port)
 file_content = file_content.replace('__METHOD__', method)
 file_content = file_content.replace('__PASSWORD__', passwd)
 
-confs = open('whitelist_ss.conf', 'w')
+confs = open('ss.conf/whitelist_ss.conf', 'w')
 confs.write(file_content)
 confs.close()
 
