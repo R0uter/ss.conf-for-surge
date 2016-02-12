@@ -171,7 +171,7 @@ file_content = file_content.replace('__PORT__', port)
 file_content = file_content.replace('__METHOD__', method)
 file_content = file_content.replace('__PASSWORD__', passwd)
 
-confs = open('ss.conf/gfwlist-ss.conf', 'w')
+confs = open('ss.conf/gfwlist_ss.conf', 'w')
 confs.write(file_content)
 confs.close()
 # whitelist config
