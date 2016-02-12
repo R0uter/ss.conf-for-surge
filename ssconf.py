@@ -104,7 +104,7 @@ fs.close()
 # the url of  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a
 outfile = './list/adlist.txt'
 tmpfile = './list/adtmp'
-baseurl = 'https://gist.githubusercontent.com/raw/2e27c124af2f7a4f0d5a/main.conf'
+baseurl = 'https://gist.githubusercontent.com/iyee/2e27c124af2f7a4f0d5a/raw/6000aa7ad6189a5cc210f9653e11f1be6f637f4d/main.conf'
 
 comment_pattern = '^\!|\[|^@@|\/|http|\#|\*|\?|\_|^\.|^\d+\.\d+\.\d+\.\d+'
 domain_pattern = '(\#?[\w\-\_]+\,[\/\w\.\-\_]+\,REJECT)[\/\*]*'
@@ -153,7 +153,7 @@ fs.close()
 
 
 
-print 'Generate config file: gfwlist-ss.conf'
+print 'Generate config file: gfwlist_ss.conf'
 cfs = open('template/ss_gfwlist_conf', 'r')
 gfwlist = open('list/gfwlist.txt', 'r')
 adlist = open('list/adlist.txt', 'r')
