@@ -322,6 +322,9 @@ DOMAIN-SUFFIX,edgekey.net,Proxy
 DOMAIN-KEYWORD,qiyi,DIRECT
 DOMAIN-KEYWORD,sohu,DIRECT
 
+# PlayStation
+DOMAIN-SUFFIX,playstation.net,Proxy
+
 # Amazon
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,amazonaws.com,Proxy
