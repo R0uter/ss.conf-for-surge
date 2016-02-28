@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 4GtdkrG4+aXR4vSUAqTl2w
+! Checksum: p2UeUdkEogr1j+4ghfNLhA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Thu, 18 Feb 2016 14:26:12 +0800
+! Last Modified: Mon, 22 Feb 2016 09:36:38 +0800
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -66,6 +66,7 @@
 ||javlibrary.com
 ||juliepost.com
 ||kawaiikawaii.jp
+||longtoes.com
 |http://www.m-sport.co.uk
 ||macgamestore.com
 ||madonna-av.com
@@ -226,6 +227,7 @@ china-mmm.jp.net
 ||12vpn.com
 ||12vpn.net
 141hongkong.com/forum
+.141tube.com
 .1688.com.au
 .173ng.com
 ||173ng.com
@@ -443,6 +445,7 @@ artsy.net
 .asahichinese.com
 ||asahichinese.com
 asdfg.jp/dabr
+asg.to
 |http://japanfirst.asianfreeforum.com/
 .asiaharvest.org
 ||asiaharvest.org
@@ -1354,8 +1357,11 @@ fangeming.com
 ||fanswong.com
 .fanyue.info
 .farwestchina.com
+
 !--||fastly.net
 en.favotter.net
+||rnw.global.ssl.fastly.net
+
 ||faststone.org
 favstar.fm
 ||favstar.fm
@@ -1462,6 +1468,7 @@ kineox.free.fr
 ||puttycm.free.fr
 ||freealim.com
 whitebear.freebearblog.org
+||freebrowser.org
 .freechal.com
 .freedomchina.info
 ||freedomchina.info
@@ -3112,6 +3119,8 @@ picturesocial.com
 ||playboy.com
 .playboyplus.com
 ||playboyplus.com
+.playno1.com
+||playno1.com
 ||playpcesor.com
 plays.com.tw
 ||m.plixi.com
@@ -3411,7 +3420,6 @@ sacom.hk
 ||salvation.org.hk
 .samair.ru/proxy/type-01
 .sambhota.org
-sammyjs.org
 ||sankaizok.com
 .sanmin.com.tw
 sapikachu.net
@@ -3425,6 +3433,8 @@ savetibet.ru
 savevid.com
 ||say2.info
 |http://www.sciencemag.org/content/344/6187/953
+.sciencenets.com
+||scihub.org
 .scmp.com
 .scmpchinese.com
 .scribd.com
@@ -3628,7 +3638,7 @@ sokamonline.com
 soundofhope.org
 ||soundofhope.org
 ||soupofmedia.com
-.sourceforge.net
+!--.sourceforge.net
 !-|http://sourceforge.net
 |http://sourceforge.net/p*/shadowsocksgui/
 .sourcewadio.com
@@ -4346,6 +4356,7 @@ vermonttibet.org
 ||verybs.com
 .vft.com.tw
 .viber.com
+.vica.info
 .victimsofcommunism.org
 |http://victimsofcommunism.org
 ||vid.me
