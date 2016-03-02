@@ -47,6 +47,15 @@ def whiteListCheck():
     wtfs.close()
     wfs.close()
 
+def subConfigGen(configName,file_content):
+    content = file_content
+    content = content.replace('__CONFIG__',configName)
+    content = content.replace('__SERVER__', server)
+    content = content.replace('__PORT__', port)
+    content = content.replace('__METHOD__', method)
+    content = content.replace('__PASSWORD__', passwd)
+    return content
+
 
 # the url of gfwlist
 baseurl = 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt'
@@ -126,7 +135,7 @@ try:
     print 'adlist fetched, writing...'
 except:
     tfs = open(tmpfile, 'r')
-    print 'adlist fetch failed, use adtmp instead...'
+    print 'adlist fetch failed, use tmpfile instead...'
 # Store all domains, deduplicate records
 domainlist = []
 
@@ -153,7 +162,7 @@ fs.close()
 
 
 
-print 'Generate config file: gfwlist_ss.conf'
+print 'Generate config file: gfwlist_main.conf'
 cfs = open('template/ss_gfwlist_conf', 'r')
 gfwlist = open('list/gfwlist.txt', 'r')
 adlist = open('list/adlist.txt', 'r')
@@ -171,11 +180,11 @@ file_content = file_content.replace('__PORT__', port)
 file_content = file_content.replace('__METHOD__', method)
 file_content = file_content.replace('__PASSWORD__', passwd)
 
-confs = open('ss.conf/gfwlist_ss.conf', 'w')
+confs = open('ss.conf/gfwlist_main.conf', 'w')
 confs.write(file_content)
 confs.close()
 # whitelist config
-print 'Generate config file: whitelist_ss.conf'
+print 'Generate config file: whitelist_main.conf'
 whiteListCheck()
 cfs = open('template/ss_whitelist_conf', 'r')
 gfwlist = open('list/whitelist.txt', 'r')
@@ -194,9 +203,22 @@ file_content = file_content.replace('__PORT__', port)
 file_content = file_content.replace('__METHOD__', method)
 file_content = file_content.replace('__PASSWORD__', passwd)
 
-confs = open('ss.conf/whitelist_ss.conf', 'w')
+confs = open('ss.conf/whitelist_main.conf', 'w')
 confs.write(file_content)
 confs.close()
+
+print 'Generate sub-config file for whitelist_main.conf and gfwlist_main.conf'
+
+fs = open('template/sub_conf', 'r')
+sub_config = fs.read()
+fs.close()
+fs = open('ss.conf/whitelist_server.conf', 'w')
+fs.write(subConfigGen('whitelist_main.conf',sub_config))
+fs.close()
+fs = open('ss.conf/gfwlist_server.conf', 'w')
+fs.write(subConfigGen('gfwlist_main.conf',sub_config))
+fs.close()
+
 
 
 

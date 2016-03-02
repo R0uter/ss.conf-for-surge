@@ -1,0 +1,5 @@
+#!PROXY-OVERRIDE:__CONFIG__
+
+[Proxy]
+Proxy = custom,__SERVER__,__PORT__,__METHOD__,__PASSWORD__,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+
