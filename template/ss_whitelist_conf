@@ -8,6 +8,8 @@ loglevel = notify
 Proxy = custom,__SERVER__,__PORT__,__METHOD__,__PASSWORD__,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
 
 [Rule]
+// For cn domains
+DOMAIN-SUFFIX,cn,DIRECT
 
 // AD Block
 __ADBLOCK__
@@ -28,5 +30,4 @@ IP-CIDR,127.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/12,DIRECT
 IP-CIDR,192.168.0.0/16,DIRECT
 
-GEOIP,CN,DIRECT
 FINAL,Proxy
