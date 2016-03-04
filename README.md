@@ -15,7 +15,7 @@ Ad's list from https://goo.gl/70DG6i.
 
 
 ##How-to-use
-Just use `gfwlist-main.conf` or `whitelist-main.conf` directly. Both in `ss.conf` directory!
+Just use `gfwlist-main.conf` or `whitelist-main.conf` directly. Both in `configFileHere` directory!
 
 >Or use `ssconf.py` to generate config file.
 
@@ -23,14 +23,14 @@ Once you generated the config,you can use sub-config to add more server config.
 
 For example:
 
-    usnote.conf:
+    US-Node4.conf:
 
     #!PROXY-OVERRIDE:gfwlist-main.conf
 
     [Proxy]
     Proxy = custom,127.0.0.1,1080,rc4-your_password_here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
 
-So next time you can just update `gfwlist-main.conf` or `whitelist-main.conf` instead of update all config!
+So next time you can just update `gfwlist-main.conf` or `whitelist-main.conf` instead of update all config file!
 
 ###Note:
 Make sure edit `ssconf.py` or config file first!
