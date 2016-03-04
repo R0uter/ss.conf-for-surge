@@ -180,7 +180,7 @@ file_content = file_content.replace('__PORT__', port)
 file_content = file_content.replace('__METHOD__', method)
 file_content = file_content.replace('__PASSWORD__', passwd)
 
-confs = open('ss.conf/gfwlist_main.conf', 'w')
+confs = open('configFileHere/gfwlist_main.conf', 'w')
 confs.write(file_content)
 confs.close()
 # whitelist config
@@ -203,7 +203,7 @@ file_content = file_content.replace('__PORT__', port)
 file_content = file_content.replace('__METHOD__', method)
 file_content = file_content.replace('__PASSWORD__', passwd)
 
-confs = open('ss.conf/whitelist_main.conf', 'w')
+confs = open('configFileHere/whitelist_main.conf', 'w')
 confs.write(file_content)
 confs.close()
 
@@ -212,10 +212,10 @@ print 'Generate sub-config file for whitelist_main.conf and gfwlist_main.conf'
 fs = open('template/sub_conf', 'r')
 sub_config = fs.read()
 fs.close()
-fs = open('ss.conf/whitelist_server.conf', 'w')
+fs = open('configFileHere/whitelist_server.conf', 'w')
 fs.write(subConfigGen('whitelist_main.conf',sub_config))
 fs.close()
-fs = open('ss.conf/gfwlist_server.conf', 'w')
+fs = open('configFileHere/gfwlist_server.conf', 'w')
 fs.write(subConfigGen('gfwlist_main.conf',sub_config))
 fs.close()
 
