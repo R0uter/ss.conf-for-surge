@@ -11,6 +11,8 @@ Proxy = custom,__SERVER__,__PORT__,__METHOD__,__PASSWORD__,https://github.com/R0
 //for Google blogspot 
 DOMAIN-KEYWORD,google,Proxy,force-remote-dns
 DOMAIN-KEYWORD,blogspot,Proxy,force-remote-dns
+//for BBC 
+DOMAIN-KEYWORD,bbc,Proxy,force-remote-dns
 
 // AD Block
 __ADBLOCK__
