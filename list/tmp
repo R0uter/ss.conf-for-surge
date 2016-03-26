@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: p2UeUdkEogr1j+4ghfNLhA
+! Checksum: 1Ui7+t8PjvuyzBPccb0Thg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Mon, 22 Feb 2016 09:36:38 +0800
+! Last Modified: Thu, 24 Mar 2016 09:45:04 +0800
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -203,6 +203,7 @@ china-mmm.jp.net
 ||youtube.com
 ||youtube-nocookie.com
 ||ytimg.com
+||zynamics.com
 
 !!---NaughtyAmerica---
 ||naughtyamerica.com
@@ -386,6 +387,7 @@ ameblo.jp
 www1.american.edu/ted/ice/tibet
 ||americangreencard.com
 ||amiblockedornot.com
+.amigobbs.net
 .amnesty.org
 ||amnesty.org
 .amnesty.tw
@@ -521,6 +523,7 @@ newsforums.bbc.co.uk
 .bbsdigest.com/thread
 ||bbsfeed.com
 bbsland.com
+.bbsmo.com
 .bbsone.com
 .bcc.com.tw/board
 .bcchinese.net
@@ -667,6 +670,7 @@ brucewang.net
 |http://btdigg.org
 .btku.me
 ||btku.me
+||btku.org
 .btspread.com
 .budaedu.org
 ||budaedu.org
@@ -905,6 +909,8 @@ chuizi.net
 ||christiantimes.org.hk
 .chrlawyers.hk
 |http://chrlawyers.hk
+.churchinhongkong.org/b5/index.php
+|http://churchinhongkong.org/b5/index.php
 .cipfg.org
 ||circlethebayfortibet.org
 |http://citizenlab.org
@@ -1266,6 +1272,7 @@ erabaru.net
 ||ernestmandel.org
 ||erodoujinworld.com
 .eslite.com/product
+.eslite.com/Search_BW.aspx?q
 wiki.esu.im/%E8%9B%A4%E8%9B%A4%E8%AF%AD%E5%BD%95
 .etaa.org.au
 etaiwannews.com
@@ -1278,6 +1285,8 @@ etvonline.hk
 eeas.europa.eu/delegations/china/press_corner/all_news/news/2015/20150716_zh
 eeas.europa.eu/statements-eeas/2015/151022
 eventful.com
+.evschool.net
+|http://evschool.net
 ||exblog.jp
 ||blog.exblog.co.jp
 @@||www.exblog.jp
@@ -1319,7 +1328,7 @@ eyevio.jp
 .fakku.net
 falun-co.org
 falunart.org
-||falunasia.info
+|falunasia.info
 falundafa.org
 falundafa-dc.org
 ||falundafa-florida.org
@@ -1362,6 +1371,7 @@ fangeming.com
 en.favotter.net
 ||rnw.global.ssl.fastly.net
 
+||fastssh.com
 ||faststone.org
 favstar.fm
 ||favstar.fm
@@ -1389,6 +1399,9 @@ feer.com
 ||feministteacher.com
 .fengzhenghu.com
 ||fengzhenghu.com
+.fengzhenghu.net
+||fengzhenghu.net
+.fevernet.com
 |http://ff.im
 fflick.com
 fgmtv.net
@@ -1426,6 +1439,7 @@ fleshbot.com
 ||staticflickr.com
 
 flickrhivemind.net
+||flipkart.com
 yuming.flnet.org
 |http://cn.fmnnow.com
 fofldfradio.org
@@ -1517,6 +1531,7 @@ friends-of-tibet.org
 freechina.net
 |http://www.zensur.freerk.com/
 freevpn.nl
+hk.frienddy.com/hk
 |http://adult.friendfinder.com/
 .fring.com
 ||fring.com
@@ -1682,8 +1697,10 @@ greatfirewall.biz
 ||greatfirewallofchina.net
 .greatfirewallofchina.org
 ||greatfirewallofchina.org
+||greenfieldbookstore.com.hk
 .greenparty.org.tw
 ||greenpeace.org
+.greenreadings.com/forum
 great-firewall.com
 great-roc.org
 greatroc.org
@@ -2074,6 +2091,8 @@ hkbc.net
 .hkbookcity.com
 ||hkbookcity.com
 .hkchurch.org
+.hkcmi.edu
+||hkcoc.com
 hkday.net
 .hkdailynews.com.hk/china.php
 hkdf.org
@@ -2081,6 +2100,7 @@ hkdf.org
 .hkepc.com/forum/viewthread.php?tid=1153322
 global.hkepc.com*forum
 china.hket.com
+hkfreezone.com
 hkfront.org
 hkgolden.com
 .hkgreenradio.org/home
@@ -2172,8 +2192,9 @@ hxwq.org
 .i-cable.com
 .i-part.com.tw
 ||i1.hk
-||i2p2.de/
+||i2p2.de
 ||i2runner.com
+||i818hk.com
 iask.ca
 ||iask.ca
 iask.bz
@@ -2254,7 +2275,10 @@ info-graf.fr
 .inmediahk.net
 ||inmediahk.net
 ||innermongolia.org
+|http://blog.inoreader.com
 .inote.tw
+.insecam.org
+|http://insecam.org
 .instagram.com
 ||instagram.com
 ||interfaceaddiction.com
@@ -2270,6 +2294,7 @@ ipalter.com
 ||ipcf.org.tw
 ||iphone4hongkong.com
 ||iphonehacks.com
+||iphonetaiwan.org
 ||iphonix.fr
 ||ipicture.ru
 !--ipobar.com
@@ -2278,8 +2303,6 @@ ipalter.com
 ||ippotv.com
 .ipredator.se
 ||ipredator.se
-|https://*.iptorrents.com
-|https://iptorrents.com
 ||ipvanish.com
 iredmail.org
 chinese.irib.ir
@@ -2691,12 +2714,14 @@ mingjingnews.com
 .mingpao.com
 .mingpaocanada.com
 .mingpaomonthly.com
+|http://mingpaomonthly.com
 mingpaonews.com
 .mingpaony.com
 .mingpaosf.com
 .mingpaotor.com
 .mingpaovan.com
 .mingshengbao.com
+.miniforum.org
 .ministrybooks.org
 .minzhuhua.net
 ||minzhuhua.net
@@ -2782,6 +2807,7 @@ mymediarom.com/files/box
 ||mypopescu.com
 .my-private-network.co.uk
 ||my-private-network.co.uk
+myradio.hk/podcast
 mysinablog.com
 .myspace.com
 !--.blogs.myspace.com
@@ -2793,6 +2819,7 @@ mysinablog.com
 ||naacoalition.org
 old.nabble.com
 ||naitik.net
+.nakuz.com/bbs
 ||namsisi.com
 nanyang.com
 ||nanyang.com
@@ -2803,7 +2830,6 @@ nanyang.com
 ||jpl.nasa.gov
 ||pds.nasa.gov
 /^https?:\/\/[^\/]+line\.naver\.jp/
-||navicat.com
 .nakido.com
 ||nakido.com
 .naol.ca
@@ -2865,6 +2891,7 @@ nexttv.com.tw
 ||nga.mil
 ngensis.com
 .nhentai.net
+|http://nhentai.net
 .nicovideo.jp/watch
 !--||nicovideo.jp
 ||nighost.org
@@ -2893,6 +2920,7 @@ nordvpn.com
 ||nordvpn.com
 ||novelasia.com
 |http://news.now.com/home*
+news.now.com%2Fhome
 ||nownews.com
 .nowtorrents.com
 .noypf.com
@@ -3076,6 +3104,7 @@ peacehall.com
 .pekingduck.org
 ||pekingduck.org
 .pemulihan.or.id
+|http://pemulihan.or.id
 ||pen.io
 penchinese.com
 ||penchinese.net
@@ -3083,6 +3112,8 @@ penchinese.com
 pengyulong.com
 ||blog.pentalogic.net
 .penthouse.com
+.pentoy.hk/%E4%B8%AD%E5%9C%8B
+.pentoy.hk/%E6%99%82%E4%BA%8B
 .peoplenews.tw
 ||peoplenews.tw
 .peopo.org
@@ -3234,6 +3265,8 @@ proxy.org
 ||proxypy.net
 proxyroad.com
 .proxytunnel.net
+!--403 maybe
+||proyectoclubes.com
 prozz.net
 psblog.name
 ||psblog.name
@@ -3241,6 +3274,7 @@ psblog.name
 .ptt.cc
 .puffstore.com
 ||pullfolio.com
+.punyu.com/puny
 ||pureconcepts.net
 ||pureinsight.org
 ||purepdf.com
@@ -3367,8 +3401,7 @@ riku.me/
 ||rlwlw.com
 .rmjdw.com
 .rmjdw132.info
-chinese.rnw.nl
-.rnw.nl
+|https://rnw*.global.ssl.fastly.net/
 .roadshow.hk
 robtex.com
 ||robustnessiskey.com
@@ -3420,7 +3453,6 @@ sacom.hk
 ||salvation.org.hk
 .samair.ru/proxy/type-01
 .sambhota.org
-||sankaizok.com
 .sanmin.com.tw
 sapikachu.net
 savemedia.com
@@ -3656,10 +3688,13 @@ spem.at
 .spike.com
 spinejs.com
 .spring4u.info
+|http://spring4u.info
 ||sproutcore.com
 ||sproxy.info
 squarespace.com
 ||ssh91.com
+.sspro.ml
+|http://sspro.ml
 !--|http://cdn.sstatic.net/
 www.stackfile.com/freedur
 |http://stackoverflow.com/users/895245
@@ -3708,13 +3743,14 @@ summify.com
 sun1911.com
 .sunporno.com
 ||sunporno.com
+.sunskyforum.com
 .sunvpn.net
 .suprememastertv.com
 |http://suprememastertv.com
 .surfeasy.com
 ||surfeasy.com
 .suyangg.com
-|http://suyangg.com/
+|http://suyangg.com
 .suoluo.org
 api.supertweet.net
 www.supertweet.net
@@ -3761,8 +3797,8 @@ tahr.org.tw
 ||taipeisociety.org
 .taiwanbible.com
 .taiwandaily.net
-||taiwantt.org.tw
 ||taiwandaily.net
+.taiwandc.org
 .taiwanjustice.com
 taiwankiss.com
 taiwannation.com
@@ -3771,6 +3807,7 @@ taiwannation.com.tw
 |http://www.taiwanonline.cc/
 ||taiwantoday.tw
 taiwantp.net
+||taiwantt.org.tw
 taiwanus.net
 taiwanyes.com
 taiwan-sex.com
@@ -3820,6 +3857,7 @@ tchrd.org
 teensinasia.com
 .telecomspace.com
 ||telegram.org
+.telegramdownload.com
 ||telegraph.co.uk
 .tenacy.com
 .tew.org
@@ -4019,6 +4057,7 @@ trendsmap.com
 ||tripod.com
 @@||www.tripod.com
 .trouw.nl
+|http://trouw.nl
 .trt.net.tr
 trtc.com.tw
 .truebuddha-md.org
@@ -4055,7 +4094,8 @@ tuidang.net
 tuidang.org
 .tuidang.se
 bbs.tuitui.info
-||tumutanzi.com
+.tumutanzi.com
+|http://tumutanzi.com
 .tunein.com
 |http://tunein.com
 ||tunnelbear.com
@@ -4222,6 +4262,7 @@ twtrland.com
 twurl.nl
 .twyac.org
 ||twyac.org
+.txxx.com
 .tycool.com
 ||tycool.com
 ||tzangms.com
@@ -4474,6 +4515,7 @@ washeng.net
 .wdf5.com
 .wearn.com
 ||wearn.com
+|http://hkcoc.weather.com.hk
 ||hudatoriq.web.id
 ||web2project.net
 webbang.net
