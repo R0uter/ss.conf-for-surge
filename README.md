@@ -1,51 +1,41 @@
 ##ss.conf for Surge!
 This is a conf file for Surge!
 
-In order to use shad0ws0cks in Surge.
+In order to use Shadowsocks in Surge.
 
-> `ssconf.py` can generate both gfwlist and whitelist, and auto update the gfwlist and adlist, whitelist's auto update function is not implement yet.
+> `ssconf.py` can generate both gfwlist and whitelist, 
+and auto update the gfwlist and adlist, 
+whitelist's auto update function is not implement yet.
 
 ##Proxy list 
-Proxy list was generated from gfwlist, all marked with `force-remote-dns`.
+Proxy list is generate from gfwlist, all marked with `force-remote-dns`.
 
-White list come from https://goo.gl/tBixve.
+White list come from [GFW Domain White List](https://goo.gl/tBixve).
 
 ##Anti ads
-Ad's list from https://goo.gl/70DG6i.
+Ad's list come from [iyee/main.conf](https://goo.gl/70DG6i).
 
 
-##How-to-use
-Just use `gfwlist-main.conf` or `whitelist-main.conf` directly. Both in `configFileHere` directory!
+##How to use
+Just use `gfwlist.conf` or `whitelist.conf` directly. Both in `configFileHere` directory!
 
 >Or use `ssconf.py` to generate config file.
 
-Once you generated the config,you can use sub-config to add more server config.
-
-For example:
-
-    US-Node4.conf:
-
-    #!PROXY-OVERRIDE:gfwlist-main.conf
-
-    [Proxy]
-    Proxy = custom,127.0.0.1,1080,rc4-your_password_here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
-
-So next time you can just update `gfwlist-main.conf` or `whitelist-main.conf` instead of update all config file!
 
 ###Note:
-Make sure edit `ssconf.py` or config file first!
+Make sure edit your `gfwlist.conf` or `whitelist.conf` to add your server infomation!
 
 change your ss server config, like server ip, server port, and your password.
 
-
-    #Your SS IP or Domain here
-    server = '127.0.0.1'
-    #Your SS port
-    port = '1080'
-    #Your SS method
-    method = 'aes-256-cfb'
-    #Your SS password
-    passwd = 'your_password_here'
+    [Proxy]
+    💊DIRECT = direct
+    🇭🇰HK = custom,your-server-here,your-port-here,aes-256-cfb,your-password-here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+    🇸🇬SG = custom,your-server-here,your-port-here,aes-256-cfb,your-password-here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+    🇯🇵JP = custom,your-server-here,your-port-here,aes-256-cfb,your-password-here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+    🇺🇸US = custom,your-server-here,your-port-here,aes-256-cfb,your-password-here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+    
+    [Proxy Group]
+    Proxy = select,💊DIRECT,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
 
 ##MIT License (MIT)
 
