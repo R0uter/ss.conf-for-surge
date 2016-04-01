@@ -35,7 +35,7 @@ IP-CIDR,192.168.0.0/16,DIRECT
 
 FINAL,DIRECT
 
-// [URL Rewrite]
-// ^http://www.google.cn http://www.google.com.hk
-// ^http://m.baidu.com/s\?from=1099b&word= http://google.com/search\?q=
-// ^http://www.baidu.com/s\?wd= http://google.com/search\?q=
+ [URL Rewrite]
+ ^http://www.google.cn http://www.google.com.hk
+ ^http://m.baidu.com/s\?from=1099b&word= http://google.com/search\?q=
+ ^http://www.baidu.com/s\?wd= http://google.com/search\?q=

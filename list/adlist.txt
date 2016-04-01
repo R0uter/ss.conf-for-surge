@@ -1,5 +1,5 @@
 // thx  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a 
-// updated on 2016-03-26 22:02:55
+// updated on 2016-04-01 19:35:42
 
 DOMAIN,syndication.twitter.com,REJECT
 DOMAIN,adlog.flurry.com,REJECT
@@ -165,7 +165,6 @@ DOMAIN,ucstat.baidu.com,REJECT
 DOMAIN,union.baidu.com,REJECT
 DOMAIN-SUFFIX,baidustatic.com,REJECT
 DOMAIN-SUFFIX,pos.baidu.com,REJECT
-DOMAIN,union.m.jd.com,REJECT
 DOMAIN,acjs.aliyun.com,REJECT
 DOMAIN,hydra.alibaba.com,REJECT
 DOMAIN-SUFFIX,simaba.taobao.com,REJECT

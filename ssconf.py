@@ -4,12 +4,13 @@
 #
 #
 
-import urllib2 
+import urllib3
 import re
-import os
 import datetime
-import base64
-import shutil
+import certifi
+import codecs
+
+
 
 
 #Your SS IP or Domain here
@@ -65,34 +66,39 @@ domain_pattern = '([\w\-\_]+\.[\w\.\-\_]+)[\/\*]*'
 tmpfile = './list/tmp'
 outfile = './list/gfwlist.txt'
 
- 
-fs =  file(outfile, 'w')
+
+fs =  codecs.open(outfile, 'w','utf-8')
 fs.write('// SS config file for surge with gfw list \n')
 fs.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
 fs.write('\n')
- 
-print 'Fetching gfw list...'
+
+print ('Fetching gfw list...')
 try:
-    content = urllib2.urlopen(baseurl, timeout=10).read().decode('base64')
-     
+    http = urllib3.PoolManager(
+        cert_reqs='CERT_REQUIRED',  # Force certificate check.
+        ca_certs=certifi.where(),  # Path to the Certifi bundle.
+        )
+
+    data = http.request('GET',baseurl, timeout=10).data
+
+    content = codecs.decode(data,'base64_codec').decode('utf-8')
+
     # write the decoded content to file then read line by line
-    tfs = open(tmpfile, 'w')
+    tfs = codecs.open(tmpfile, 'w','utf-8')
     tfs.write(content)
     tfs.close()
-    tfs = open(tmpfile, 'r')
-    print 'GFW list fetched, writing...'
+    print ('GFW list fetched, writing...')
 except:
-    tfs = open(tmpfile, 'r')
-    print 'GFW list fetch failed, use tmp instead...'
- 
+    print ('GFW list fetch failed, use tmp instead...')
 
- 
+tfs = codecs.open(tmpfile, 'r','utf-8')
+
 # Store all domains, deduplicate records
 domainlist = []
 
 # Write list
 for line in tfs.readlines():
-    
+
     if re.findall(comment_pattern, line):
         continue
     else:
@@ -113,33 +119,35 @@ fs.close()
 # the url of  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a
 outfile = './list/adlist.txt'
 tmpfile = './list/adtmp'
-baseurl = 'https://gist.githubusercontent.com/iyee/2e27c124af2f7a4f0d5a/raw/6000aa7ad6189a5cc210f9653e11f1be6f637f4d/main.conf'
+baseurl = 'https://gist.githubusercontent.com/raw/2e27c124af2f7a4f0d5a/main.conf'
 
 comment_pattern = '^\!|\[|^@@|\/|http|\#|\*|\?|\_|^\.|^\d+\.\d+\.\d+\.\d+'
 domain_pattern = '(\#?[\w\-\_]+\,[\/\w\.\-\_]+\,REJECT)[\/\*]*'
 
-fs =  file(outfile, 'w')
+fs =  codecs.open(outfile, 'w','utf-8')
 fs.write('// thx  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a \n')
 fs.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
 fs.write('\n')
 
-print 'Fetching ad list...'
+print ('Fetching ad list...')
 try:
-    content = urllib2.urlopen(baseurl, timeout=10).read()
-    
+    http = urllib3.PoolManager(cert_reqs='CERT_REQUIRED', ca_certs=certifi.where())
+
+    content = http.request('GET',baseurl, timeout=10).data.decode('utf-8')
+
     # write the content to file then read line by line
-    tfs = open(tmpfile, 'w')
+    tfs = codecs.open(tmpfile, 'w','utf-8')
     tfs.write(content)
     tfs.close()
-    tfs = open(tmpfile, 'r')
-    print 'adlist fetched, writing...'
+    print ('adlist fetched, writing...')
 except:
-    tfs = open(tmpfile, 'r')
-    print 'adlist fetch failed, use tmpfile instead...'
+
+    print ('adlist fetch failed, use tmpfile instead...')
 # Store all domains, deduplicate records
 domainlist = []
 
 # Write list
+tfs = codecs.open(tmpfile, 'r','utf-8')
 for line in tfs.readlines():
     
     if re.findall(comment_pattern, line):
@@ -162,7 +170,7 @@ fs.close()
 
 
 
-print 'Generate config file: gfwlist_main.conf'
+print ('Generate config file: gfwlist_main.conf')
 cfs = open('template/ss_gfwlist_conf', 'r')
 gfwlist = open('list/gfwlist.txt', 'r')
 adlist = open('list/adlist.txt', 'r')
@@ -184,7 +192,7 @@ confs = open('configFileHere/gfwlist_main.conf', 'w')
 confs.write(file_content)
 confs.close()
 # whitelist config
-print 'Generate config file: whitelist_main.conf'
+print ('Generate config file: whitelist_main.conf')
 whiteListCheck()
 cfs = open('template/ss_whitelist_conf', 'r')
 gfwlist = open('list/whitelist.txt', 'r')
@@ -207,7 +215,7 @@ confs = open('configFileHere/whitelist_main.conf', 'w')
 confs.write(file_content)
 confs.close()
 
-print 'Generate sub-config file for whitelist_main.conf and gfwlist_main.conf'
+print ('Generate sub-config file for whitelist_main.conf and gfwlist_main.conf')
 
 fs = open('template/sub_conf', 'r')
 sub_config = fs.read()
@@ -222,4 +230,4 @@ fs.close()
 
 
 
-print 'All done!'
+print ('All done!')
