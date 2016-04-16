@@ -1,8 +1,8 @@
-#!/usr/bin/env python  
+#!/usr/bin/env python3
 #coding=utf-8
-#  https://www.logcg.com
 #
 #
+#https://www.logcg.com
 
 import urllib3
 import re
@@ -10,30 +10,6 @@ import datetime
 import certifi
 import codecs
 
-
-
-def whiteListCheck():
-    domainList = []
-    whitelist = codecs.open('./list/whitelist','r','utf-8')
-    whitelistTxt = codecs.open('./list/whitelist.txt','w','utf-8')
-    
-    domain_pattern = '([\w\-\_]+\.[\w\.\-\_]+)[\/\*]*'
-    
-    # Write list
-    for line in whitelist.readlines():
-        
-        domain = re.findall(domain_pattern, line)
-        if domain:
-            try:
-                found = domainList.index(domain[0])
-            except ValueError:
-                domainList.append(domain[0])
-                whitelistTxt.write('DOMAIN-SUFFIX,%s,DIRECT\n'%(domain[0]))
-        else:
-            continue
-
-    whitelist.close()
-    whitelistTxt.close()
 
 def getList(listUrl):
     http = urllib3.PoolManager(
@@ -43,6 +19,37 @@ def getList(listUrl):
 
     data = http.request('GET', listUrl, timeout=10).data
     return data
+
+def whiteListCheck():
+    dnsmasq_china_list = 'https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf'
+    try:
+        print('Getting white list...')
+        content = getList(dnsmasq_china_list)
+        content = content.decode('utf-8')
+        f = codecs.open('./list/whitelist', 'w', 'utf-8')
+        f.write(content)
+        f.close()
+    except:
+        print('Get list update failed,use cache to update instead.')
+
+
+    # domainList = []
+    whitelist = codecs.open('./list/whitelist','r','utf-8')
+    whitelistTxt = codecs.open('./list/whitelist.txt','w','utf-8')
+    whitelistTxt.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    # Write list
+    for line in whitelist.readlines():
+        
+        domain = re.findall(r'\w+\.\w+', line)
+        if len(domain) > 0:
+        # domainList.append(domain[0])
+            whitelistTxt.write('DOMAIN-SUFFIX,%s,DIRECT\n'%(domain[0]))
+
+
+    whitelist.close()
+    whitelistTxt.close()
+
+
 
 def getGfwList():
     # the url of gfwlist
@@ -151,15 +158,19 @@ def genGfwConf():
     f = codecs.open('template/ss_gfwlist_conf', 'r','utf-8')
     gfwlist = codecs.open('list/gfwlist.txt', 'r','utf-8')
     adlist = codecs.open('list/adlist.txt', 'r','utf-8')
+    proxy = codecs.open('ServerConfig.txt', 'r', 'utf8')
     file_content = f.read()
     adlist_buffer = adlist.read()
     gfwlist_buffer = gfwlist.read()
+    proxy_buffer = proxy.read()
     gfwlist.close()
     adlist.close()
     f.close()
+    proxy.close()
 
     file_content = file_content.replace('__ADBLOCK__', adlist_buffer)
     file_content = file_content.replace('__GFWLIST__', gfwlist_buffer)
+    file_content = file_content.replace('__Proxy__', proxy_buffer)
 
     confs = codecs.open('configFileHere/gfwlist.conf', 'w','utf-8')
     confs.write(file_content)
@@ -171,15 +182,19 @@ def genWhiteConf():
     cfs = codecs.open('template/ss_whitelist_conf', 'r','utf-8')
     gfwlist = codecs.open('list/whitelist.txt', 'r','utf-8')
     adlist = codecs.open('list/adlist.txt', 'r','utf-8')
+    proxy = codecs.open('ServerConfig.txt','r','utf8')
     file_content = cfs.read()
     adlist_buffer = adlist.read()
     gfwlist_buffer = gfwlist.read()
+    proxy_buffer = proxy.read()
     gfwlist.close()
     adlist.close()
     cfs.close()
+    proxy.close()
 
     file_content = file_content.replace('__ADBLOCK__', adlist_buffer)
     file_content = file_content.replace('__GFWWHITELIST__', gfwlist_buffer)
+    file_content = file_content.replace('__Proxy__', proxy_buffer)
 
     confs = codecs.open('configFileHere/whitelist.conf', 'w','utf-8')
     confs.write(file_content)

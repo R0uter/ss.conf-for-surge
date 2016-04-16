@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2016-04-14 20:15:43
+// updated on 2016-04-16 15:52:08
 
 DOMAIN-SUFFIX,85.17.73.31,Proxy,force-remote-dns
 DOMAIN-SUFFIX,adorama.com,Proxy,force-remote-dns

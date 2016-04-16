@@ -4,8 +4,8 @@ This is a conf file for Surge!
 In order to use Shadowsocks in Surge.
 
 > `ssconf.py` can generate both gfwlist and whitelist, 
-and auto update the gfwlist and adlist, 
-whitelist's auto update function is not implement yet.
+and auto update, 
+whitelist is too long for iOS now, only Surge Mac can read.
 
 ##Proxy list 
 Proxy list is generate from gfwlist, all marked with `force-remote-dns`.
@@ -23,7 +23,7 @@ Just use `gfwlist.conf` or `whitelist.conf` directly. Both in `configFileHere` d
 
 
 ###Note:
-Make sure edit your `gfwlist.conf` or `whitelist.conf` to add your server infomation!
+Make sure edit `ServerConfig.txt` first to add your server infomation!
 
 change your ss server config, like server ip, server port, and your password.
 
