@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: zHIHCbYHs5M9bLZUyMYxww
+! Checksum: u4E5rczMQ8qM5Ju0mQ+1HQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Thu, 14 Apr 2016 11:41:58 +0800
+! Last Modified: Thu, 21 Apr 2016 12:38:59 +0800
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -28,6 +28,7 @@
 ||azubu.tv
 ||barracuda.com
 ||beeg.com
+||bloombergview.com
 ||boysmaster.com
 ||carfax.com
 ||centauro.com.br
@@ -103,6 +104,8 @@
 ||slacker.com
 ||spotify.com
 ||springboardplatform.com
+||sprite.org
+@@|http://store.sprite.org
 ||switch1.jp
 ||tapanwap.com
 ||target.com
@@ -204,6 +207,7 @@ china-mmm.jp.net
 ||registry.google
 |http://sipml5.org/
 !--||www.google
+||webmproject.org
 ||withgoogle.com
 ||youtu.be
 .youtube.com
@@ -327,6 +331,7 @@ a5.com.ru
 ||aboluowang.com
 .aboutgfw.com
 .abs.edu
+.accim.org
 .acevpn.com
 ||acevpn.com
 ||acgkj.com
@@ -582,6 +587,8 @@ bigfools.com
 |http://billypan.com/wiki
 ||billywr.com
 bipic.net
+.bit.do
+|http://bit.do
 .bit.ly
 |http://bit.ly
 !--||bitbucket.org
@@ -814,7 +821,7 @@ cdpwu.org
 .cgst.edu
 ||chandoo.org
 .change.org
-|http://change.org
+||change.org
 .changp.com
 ||changp.com
 .chapm25.com
@@ -1154,7 +1161,7 @@ dongtaiwang.com
 ||dotsub.com
 ||dougscripts.com
 dowei.org
-||doxygen.org
+!--||doxygen.org
 dphk.org
 dpp.org.tw
 ||dpp.org.tw
@@ -1172,6 +1179,7 @@ drsunacademy.com
 ||dtiblog.com
 ||dtic.mil
 dtiserv2.com
+.dtwang.org
 .duckdns.org
 |http://duckdns.org
 .duckduckgo.com
@@ -1307,7 +1315,6 @@ etvonline.hk
 .eulam.com
 eeas.europa.eu/delegations/china/press_corner/all_news/news/2015/20150716_zh
 eeas.europa.eu/statements-eeas/2015/151022
-eventful.com
 .evschool.net
 |http://evschool.net
 ||exblog.jp
@@ -1514,6 +1521,7 @@ whitebear.freebearblog.org
 ||freedomhouse.org
 .freedomsherald.org
 ||freedomsherald.org
+.freefq.com
 .freefuckvids.com
 .freegao.com
 ||freegao.com
@@ -1658,7 +1666,6 @@ gfw.org.ua
 |http://tw.gigacircle.com
 |http://cn.giganews.com/
 gigporno.ru
-||gimpshop.com
 ||girlbanker.com
 |http://softwaredownload.gitbooks.io
 .github.com
@@ -2029,6 +2036,8 @@ have8.com
 @@||haygo.com
 ||hdtvb.net
 ||heartyit.com
+.hec.su
+|http://hec.su
 .hecaitou.net
 ||hecaitou.net
 .hechaji.com
@@ -2184,6 +2193,7 @@ hotpot.hk
 hrweb.org
 ||hsjp.net
 ||hsselite.com
+|http://hst.net.tw
 .hstt.net
 .htkou.net
 ||htkou.net
@@ -2505,6 +2515,7 @@ killwall.com
 ||koolsolutions.com
 .koornk.com
 ||koornk.com
+||koranmandarin.com
 |http://gojet.krtco.com.tw
 .ksnews.com.tw
 .kui.name/event
@@ -2673,6 +2684,7 @@ mail-archive.com
 ||marines.mil
 markmail.org*message
 ||martau.com
+|http://blog.martinoei.com
 .martsangkagyuofficial.org
 |http://martsangkagyuofficial.org
 maruta.be/forget
@@ -2693,6 +2705,8 @@ mcfog.com
 mcreasite.com
 .md-t.org
 ||md-t.org
+.mediachinese.com
+||mediachinese.com
 .mediafire.com/?
 .mediafire.com/download
 .mediafreakcity.com
@@ -2833,7 +2847,8 @@ myactimes.com
 .mychinamyhome.com
 .mychinanews.com
 ||mychinanews.com
-||www.mycould.com
+||mycnnews.com
+mycould.com/discuz
 ||myeclipseide.com
 .myforum.com.hk
 ||myforum.com.hk
@@ -2861,7 +2876,7 @@ old.nabble.com
 ||nalandabodhi.org
 ||nalandawest.org
 ||namsisi.com
-nanyang.com
+.nanyang.com
 ||nanyang.com
 .nanyangpost.com
 ||nanyangpost.com
@@ -2886,13 +2901,12 @@ nccwatch.org.tw
 .ndr.de
 .ned.org
 ||nekoslovakia.net
-t.neolee.cn
 !--bbsnew.netbig.com
 bbs.netbig.com
 .netbirds.com
 netcolony.com
 bolin.netfirms.com
-netme.cc
+||netme.cc
 netsneak.com
 .network54.com
 networkedblogs.com
@@ -3027,7 +3041,6 @@ showbiz.omy.sg
 ||onedrive.live.com
 |http://www.onion.city
 ||onlineyoutube.com
-.onlylady.cn
 onmoon.net
 onmoon.com
 !--Sorry but we are confused as well
@@ -3093,10 +3106,6 @@ bbs.ozchinese.com
 .padmanet.com
 page2rss.com
 ||pagodabox.com
-
-!--Godaddy Free Hosting
-||paint.net
-||coveringweb.com
 .palacemoon.com
 forum.palmislife.com
 ||eriversoft.com
@@ -4191,6 +4200,7 @@ news.tvbs.com.tw
 .tvboxnow.com
 |http://tvboxnow.com/
 tvider.com
+.tvmost.com.hk
 ||tvunetworks.com
 .tw-npo.org
 twapperkeeper.com
@@ -4282,8 +4292,8 @@ twitoaster.com
 .twitvid.com
 ||twitvid.com
 199.59.148.20
-||t.co
 .t.co
+||t.co
 |http://twt.tl
 twittbot.net
 .twitter.com
@@ -4372,7 +4382,6 @@ uncyclomedia.org
 |http://uncyclopedia.tw
 ||unholyknight.com
 .uni.cc
-unicode.org
 .unification.org.tw
 .uniteddaily.com.my/index.php?
 .unitedsocialpress.com
@@ -4573,12 +4582,14 @@ washeng.net
 ||hudatoriq.web.id
 ||web2project.net
 webbang.net
+.webfreer.com
 weblagu.com
-||webmproject.org
 webs-tv.net
 !--webshots.com
 websitepulse.com/help/testtools.china-test.html
 |http://www.websnapr.com
+.webwarper.net
+|http://webwarper.net
 webworkerdaily.com
 .weekmag.info
 ||wefightcensorship.org
@@ -4618,7 +4629,7 @@ wezhiyong.org
 ||whatblocked.com
 ||wheelockslatin.com
 .whippedass.com
-|http://who.is/
+!--|http://who.is/
 whylover.com
 ||whyx.org
 |http://evchk.wikia.com
@@ -4821,7 +4832,7 @@ s.xiaod.in
 xiezhua.com
 forum.xinbao.de/forum
 .xing.com
-||xing.com
+|http://xing.com
 .xinmiao.com.hk
 ||xinmiao.com.hk
 xinsheng.net
@@ -4951,7 +4962,7 @@ yx51.net
 ||yyii.org
 ||yymaya.com
 .yzzk.com
-||yzzk.com
+|http://yzzk.com
 
 !--------------------ZZ-------------------------
 zacebook.com
@@ -4995,7 +5006,8 @@ zinio.com
 ||ziplib.com
 .zkaip.com
 ||zkaip.com
-||zlib.net/
+realforum.zkiz.com
+!--||zlib.net/
 zmw.cn
 zomobo.net
 .zonaeuropa.com
@@ -5218,7 +5230,7 @@ taipei.gov.tw
 @@||chinaso.com
 @@|http://nrch.culture.tw/
 !--@@||dl.google.com
-!--@@||fonts.googleapis.com
+@@||fonts.googleapis.com
 @@||cn.gravatar.com
 @@||csi.gstatic.com
 @@||fonts.gstatic.com

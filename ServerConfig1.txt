@@ -1,0 +1,13 @@
+[Proxy]
+💊DIRECT = direct
+🇺🇸Wallpass US 6 = custom,s6.usssh.com,45020,rc4-md5,YJharlWt8CUF,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+🇺🇸Wallpass US 8 = custom,s8.usssh.com,45020,rc4-md5,YJharlWt8CUF,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+🇭🇰Wallpass HK 5 = custom,s5.usssh.com,45020,rc4-md5,YJharlWt8CUF,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+🇯🇵Wallpass JP fs3 = custom,fs3.usssh.com,45020,rc4-md5,YJharlWt8CUF,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+🇭🇰Newgreen HK 01 = custom,hk-node01.newgreen.me,10009,aes-256-cfb,yzssWyMnBq,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+🇸🇬Newgreen HK 02 = custom,hk-node02.newgreen.me,10009,aes-256-cfb,yzssWyMnBq,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+🇯🇵Newgreen JP 01 = custom,jp-node01.newgreen.me,10009,aes-256-cfb,yzssWyMnBq,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+🇺🇸Newgreen US 01 = custom,us-node01.newgreen.me,10009,aes-256-cfb,yzssWyMnBq,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+
+[Proxy Group]
+Proxy = select,💊DIRECT,🇺🇸Wallpass US 6,🇺🇸Wallpass US 8,🇭🇰Wallpass HK 5,🇯🇵Wallpass JP fs3,🇭🇰Newgreen HK 01,🇸🇬Newgreen HK 02,🇯🇵Newgreen JP 01,🇺🇸Newgreen US 01

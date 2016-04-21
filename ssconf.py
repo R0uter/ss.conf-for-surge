@@ -124,6 +124,8 @@ def getAdList():
         content = getList(baseurl).decode('utf-8')
 
         # write the content to file then read line by line
+        if len(content) < 100:
+            raise FileNotFoundError
         tfs = codecs.open(tmpfile, 'w', 'utf-8')
         tfs.write(content)
         tfs.close()
