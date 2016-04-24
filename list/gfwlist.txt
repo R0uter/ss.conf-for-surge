@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2016-04-21 15:39:24
+// updated on 2016-04-24 23:18:35
 
 DOMAIN-SUFFIX,85.17.73.31,Proxy,force-remote-dns
 DOMAIN-SUFFIX,adorama.com,Proxy,force-remote-dns
@@ -1059,7 +1059,7 @@ DOMAIN-SUFFIX,fanswong.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fanyue.info,Proxy,force-remote-dns
 DOMAIN-SUFFIX,farwestchina.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,en.favotter.net,Proxy,force-remote-dns
-DOMAIN-SUFFIX,rnw.global.ssl.fastly.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,global.ssl.fastly.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fastssh.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,faststone.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,favstar.fm,Proxy,force-remote-dns
@@ -2529,7 +2529,6 @@ DOMAIN-SUFFIX,ritouki.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,rlwlw.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,rmjdw.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,rmjdw132.info,Proxy,force-remote-dns
-DOMAIN-SUFFIX,global.ssl.fastly.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,roadshow.hk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,robtex.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,robustnessiskey.com,Proxy,force-remote-dns
@@ -3288,7 +3287,7 @@ DOMAIN-SUFFIX,uyghurpress.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,uygur.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,uymaarip.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,dns.v2ex.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,vaayoo.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,v2ray.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,van001.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,van698.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vanemu.cn,Proxy,force-remote-dns

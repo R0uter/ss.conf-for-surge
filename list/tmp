@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: u4E5rczMQ8qM5Ju0mQ+1HQ
+! Checksum: ak1FaGFBKewNHdfQtmDY/A
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Thu, 21 Apr 2016 12:38:59 +0800
+! Last Modified: Thu, 21 Apr 2016 19:33:59 +0800
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -1398,9 +1398,10 @@ fangeming.com
 .fanyue.info
 .farwestchina.com
 
-!--||fastly.net
+!--Fastly
 en.favotter.net
-||rnw.global.ssl.fastly.net
+!--||rnw.global.ssl.fastly.net
+|https://*global.ssl.fastly.net/
 
 ||fastssh.com
 ||faststone.org
@@ -4441,7 +4442,8 @@ uygur.org
 !--|http://v2ex.com
 !--|http://www.v2ex.com
 dns.v2ex.com
-||vaayoo.com
+.v2ray.com
+|http://v2ray.com
 .van001.com
 .van698.com
 .vanemu.cn
