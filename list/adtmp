@@ -1,43 +1,38 @@
-# Required Surge 1.2.0 Build 478 or above
-# Add below line to merge a basic configuration file
-#!PROXY-OVERRIDE:main.conf
-
-# Surge will support updating conf sometime in the future
+#Required Surge 1.2.3 or above
 #!UPDATE-URL:https://gist.githubusercontent.com/raw/2e27c124af2f7a4f0d5a/main.conf
 
 [General]
-skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.0.0.0/8, localhost, *.local, e.crashlytics.com
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local, ::ffff:0:0/96
 bypass-tun = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
-# dns-server = 119.29.29.29,223.5.5.5,114.114.114.114
-# warning, notify, info, verbose
 loglevel = notify
 
 [Proxy]
 # ShadowSocks配置格式 Proxy = custom, 1.2.3.4, 443, rc4-md5, password, http://foo.bar/SSEncrypt.module
 # Proxy = http/https/socks/custom,服务器地址,端口,帐号,密码
 S1 = http,null,1234
+S2 = http,null,1234
+S3 = http,null,1234
 💊Wastelands = direct
 
 [Proxy Group]
-Proxy = select,S1,💊Wastelands
+AutoGroup = url-test, S1, S2, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5
+Proxy = select, AutoGroup, S3, 💊Wastelands
 
 [Rule]
-# Cert
+DOMAIN-KEYWORD,analytics,REJECT
+DOMAIN-KEYWORD,syndication,REJECT
+
 DOMAIN-SUFFIX,digicert.com,Proxy
 DOMAIN-SUFFIX,symcb.com,Proxy
 
-# block trackers by keyword
-#DOMAIN-KEYWORD,analytics,REJECT
-#DOMAIN-KEYWORD,syndication,REJECT
-
 # Google
-#DOMAIN,csi.gstatic.com,REJECT
+DOMAIN,csi.gstatic.com,REJECT
+DOMAIN,static.googleadsserving.cn,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,googleadservices.com,REJECT
+DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN,g.co,Proxy
 DOMAIN,goo.gl,Proxy
-#DOMAIN,static.googleadsserving.cn,REJECT
-#DOMAIN-SUFFIX,doubleclick.net,REJECT
-#DOMAIN-SUFFIX,googleadservices.com,REJECT
-#DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-KEYWORD,blogspot,Proxy
 DOMAIN-KEYWORD,google,Proxy,force-remote-dns
 DOMAIN-KEYWORD,youtube,Proxy,force-remote-dns
@@ -48,7 +43,6 @@ DOMAIN-SUFFIX,gstatic.com,Proxy
 DOMAIN-SUFFIX,ytimg.com,Proxy
 
 # Twitter
-DOMAIN,syndication.twitter.com,REJECT
 DOMAIN,t.co,Proxy
 DOMAIN-KEYWORD,twitter,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twimg.com,Proxy,force-remote-dns
@@ -57,47 +51,43 @@ DOMAIN-SUFFIX,twimg.com,Proxy,force-remote-dns
 DOMAIN-KEYWORD,facebook,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,Proxy,force-remote-dns
 
-# Block privacy trackers
 DOMAIN,adlog.flurry.com,REJECT
 DOMAIN,ads.flurry.com,REJECT
 DOMAIN,alexa.links.cn,REJECT
-#DOMAIN,api.amplitude.com,REJECT
+DOMAIN,api.amplitude.com,REJECT
 DOMAIN,api.instabug.com,REJECT
-#DOMAIN,api.mixpanel.com,REJECT
+DOMAIN,api.mixpanel.com,REJECT
 DOMAIN,api.segment.io,REJECT
+DOMAIN,app.roximity.com,REJECT
 DOMAIN,app.sysdigcloud.com,REJECT
 DOMAIN,bam.nr-data.net,REJECT
 DOMAIN,bi-collector.oneapm.com,REJECT
 DOMAIN,cdn.mxpnl.com,REJECT
 DOMAIN,collector.githubapp.com,REJECT
 DOMAIN,counter.kingsoft.com,REJECT
-#DOMAIN,data.flurry.com,REJECT
-#DOMAIN,engine.mobileapptracking.com,REJECT
+DOMAIN,data.flurry.com,REJECT
+DOMAIN,engine.mobileapptracking.com,REJECT
 DOMAIN,js-agent.newrelic.com,REJECT
 DOMAIN,log.cmbchina.com,REJECT
-#DOMAIN,log.tapatalk.com,REJECT
-#DOMAIN,log.umsns.com,REJECT
-#DOMAIN,pixel.redditmedia.com,REJECT
+DOMAIN,log.tapatalk.com,REJECT
+DOMAIN,log.umsns.com,REJECT
 DOMAIN,pageviewp.icbc.com.cn,REJECT
 DOMAIN,pixel.wp.com,REJECT
 DOMAIN,sfsapi.micloud.xiaomi.net,REJECT
-#DOMAIN,stat.api.dianping.com,REJECT
-DOMAIN,zhihu-analytics.zhihu.com,REJECT
+DOMAIN,stat.api.dianping.com,REJECT
 DOMAIN-KEYWORD,cnzz,REJECT
 DOMAIN-KEYWORD,tongji,REJECT
 DOMAIN-KEYWORD,trace,REJECT
 DOMAIN-KEYWORD,track,REJECT
-DOMAIN-KEYWORD,traffic,REJECT
 DOMAIN-KEYWORD,usage,REJECT
 DOMAIN-SUFFIX,51.la,REJECT
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,adjust.io,REJECT
-#DOMAIN-SUFFIX,alipaylog.com,REJECT
+DOMAIN-SUFFIX,alipaylog.com,REJECT
 DOMAIN-SUFFIX,beacon.tingyun.com,REJECT
 DOMAIN-SUFFIX,cmcore.com,REJECT
 DOMAIN-SUFFIX,coremetrics.com,REJECT
-#DOMAIN-SUFFIX,flurry.com,REJECT
-#DOMAIN-SUFFIX,irs01.com,REJECT
+DOMAIN-SUFFIX,irs01.com,REJECT
 DOMAIN-SUFFIX,madmini.com,REJECT
 DOMAIN-SUFFIX,mmstat.com,REJECT
 DOMAIN-SUFFIX,optimizelyapis.com,REJECT
@@ -105,14 +95,11 @@ DOMAIN-SUFFIX,segment.com,REJECT
 DOMAIN-SUFFIX,sitemeter.com,REJECT
 DOMAIN-SUFFIX,statcounter.com,REJECT
 DOMAIN-SUFFIX,wrating.com,REJECT
-
-# Block Ads servers
 DOMAIN,ads.mopub.com,REJECT
 DOMAIN,api.adform.com,REJECT
-#DOMAIN,api.tapstream.com,REJECT
+DOMAIN,api.tapstream.com,REJECT
 DOMAIN,ark.letv.com,REJECT
 DOMAIN,e.apsalar.com,REJECT
-DOMAIN,syndication.streamads.yahoo.com,REJECT
 DOMAIN-KEYWORD,openx,REJECT
 DOMAIN-SUFFIX,99click.com,REJECT
 DOMAIN-SUFFIX,acs86.com,REJECT
@@ -163,7 +150,7 @@ DOMAIN-SUFFIX,intely.cn,REJECT
 DOMAIN-SUFFIX,ipinyou.com,REJECT
 DOMAIN-SUFFIX,istreamsche.com,REJECT
 DOMAIN-SUFFIX,kejet.net,REJECT
-#DOMAIN-SUFFIX,localytics.com,REJECT
+DOMAIN-SUFFIX,localytics.com,REJECT
 DOMAIN-SUFFIX,mediav.com,REJECT
 DOMAIN-SUFFIX,miaozhen.com,REJECT
 DOMAIN-SUFFIX,miidi.net,REJECT
@@ -180,7 +167,7 @@ DOMAIN-SUFFIX,qtmojo.com,REJECT
 DOMAIN-SUFFIX,quantserve.com,REJECT
 DOMAIN-SUFFIX,reachmax.cn,REJECT
 DOMAIN-SUFFIX,responsys.net,REJECT
-#DOMAIN-SUFFIX,scorecardresearch.com,REJECT
+DOMAIN-SUFFIX,scorecardresearch.com,REJECT
 DOMAIN-SUFFIX,serving-sys.com,REJECT
 DOMAIN-SUFFIX,smartmad.com,REJECT
 DOMAIN-SUFFIX,smartadserver.com,REJECT
@@ -206,12 +193,12 @@ DOMAIN-SUFFIX,xibao100.com,REJECT
 DOMAIN-SUFFIX,youmi.net,REJECT
 DOMAIN-SUFFIX,zhiziyun.com,REJECT
 
-## QQ
+# QQ
 DOMAIN,lives.l.qq.com,REJECT
 DOMAIN,monitor.uu.qq.com,REJECT
 DOMAIN,omgmta.qq.com,REJECT
 DOMAIN,pingjs.qq.com,REJECT
-#DOMAIN,pingma.qq.com,REJECT
+DOMAIN,pingma.qq.com,REJECT
 DOMAIN,tajs.qq.com,REJECT
 DOMAIN,tcss.qq.com,REJECT
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
@@ -222,7 +209,6 @@ DOMAIN-SUFFIX,qq.com,DIRECT
 
 # 163
 DOMAIN,dsp.youdao.com,REJECT
-DOMAIN,analytics.163.com,REJECT
 DOMAIN,g.163.com,REJECT
 DOMAIN,temp.163.com,REJECT
 DOMAIN-SUFFIX,stat.ws.126.net,REJECT
@@ -231,7 +217,8 @@ DOMAIN-SUFFIX,126.net,DIRECT
 DOMAIN-SUFFIX,163.com,DIRECT
 DOMAIN-SUFFIX,netease.com,DIRECT
 
-# Baidu/iqiyi
+# Baidu
+DOMAIN,baichuan.baidu.com,REJECT
 DOMAIN,cbjs.baidu.com,REJECT
 DOMAIN,cpro.baidu.com,REJECT
 DOMAIN,eclick.baidu.com,REJECT
@@ -253,25 +240,16 @@ DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN-SUFFIX,bdstatic.com,DIRECT
 DOMAIN-SUFFIX,yunjiasu-cdn.net,DIRECT
 
-# 360buy
-#DOMAIN,stat.m.jd.com,REJECT
-#DOMAIN,venus.jd.com,REJECT
 DOMAIN-SUFFIX,360buyimg.com,DIRECT
 DOMAIN-SUFFIX,jd.com,DIRECT
-
-# Alibaba
 DOMAIN,acjs.aliyun.com,REJECT
-#DOMAIN,adash.m.taobao.com,REJECT
+DOMAIN,adash.m.taobao.com,REJECT
 DOMAIN,hydra.alibaba.com,REJECT
 DOMAIN-SUFFIX,simaba.taobao.com,REJECT
 DOMAIN-KEYWORD,alipay,DIRECT
 DOMAIN-SUFFIX,alicdn.com,DIRECT
-
-# Sina
 DOMAIN,sax.sina.cn,REJECT
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
-
-# Youku/Tudou
 DOMAIN,ad.api.3g.youku.com,REJECT
 DOMAIN-SUFFIX,atm.youku.com,REJECT
 DOMAIN,ad.api.3g.tudou.com,REJECT
@@ -282,13 +260,17 @@ DOMAIN,stats.tudou.com,REJECT
 DOMAIN-SUFFIX,tudou.com,DIRECT
 DOMAIN-SUFFIX,youku.com,DIRECT
 
-# Didi
-DOMAIN,static.diditaxi.com.cn,REJECT
-
 # Apple
-#DOMAIN,iadsdk.apple.com,REJECT
-DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,apple.co,Proxy
+DOMAIN-SUFFIX,icloud.com,Proxy
+DOMAIN-SUFFIX,itunes.com,Proxy
+DOMAIN,aod.itunes.apple.com,Proxy,force-remote-dns
+DOMAIN,streamingaudio.itunes.apple.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,itunes.apple.com,Proxy
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,icloud-content.com,DIRECT
+DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,mzstatic.com,DIRECT
 
 # Dropbox
 DOMAIN,d.dropbox.com,REJECT
@@ -300,32 +282,42 @@ DOMAIN-SUFFIX,scdn.co,DIRECT
 DOMAIN-SUFFIX,spotify.com,Proxy
 DOMAIN-SUFFIX,spotilocal.com,DIRECT
 
-# China CDNs
-DOMAIN-KEYWORD,ccgslb,DIRECT
+# Banks
+DOMAIN-SUFFIX,cmbchina.com,DIRECT
+DOMAIN-SUFFIX,ecitic.com,DIRECT
+
 DOMAIN-KEYWORD,chinacache,DIRECT
 DOMAIN-SUFFIX,8686c.com,DIRECT
-DOMAIN-SUFFIX,ourdvs.com,DIRECT
-
-# Accelerate most visited sites
 DOMAIN-KEYWORD,steam,DIRECT
 DOMAIN-KEYWORD,vimeo,Proxy,force-remote-dns
 DOMAIN-SUFFIX,cloudfront.net,Proxy
+DOMAIN-KEYWORD,-cn,DIRECT
 DOMAIN-SUFFIX,cn,DIRECT
+DOMAIN-SUFFIX,ccgslb.com,DIRECT
+DOMAIN-SUFFIX,ccgslb.net,DIRECT
+DOMAIN-SUFFIX,ourdvs.com,DIRECT
 DOMAIN-SUFFIX,fastly.net,Proxy
 DOMAIN-SUFFIX,omnigroup.com,Proxy
 DOMAIN-SUFFIX,sstatic.net,Proxy
 DOMAIN-SUFFIX,zkcdn.net,Proxy
-
-# Akamai
 DOMAIN-KEYWORD,aka,Proxy
 DOMAIN-SUFFIX,edgekey.net,Proxy
-
-# Streaming services, comment out if you don't need
 DOMAIN-KEYWORD,qiyi,DIRECT
 DOMAIN-KEYWORD,sohu,DIRECT
 
+DOMAIN-SUFFIX,disqus.com,DIRECT
+DOMAIN-SUFFIX,disquscdn.com,DIRECT
+DOMAIN-SUFFIX,gravatar.com,Proxy
+
 # PlayStation
 DOMAIN-SUFFIX,playstation.net,Proxy
+DOMAIN-KEYWORD,playstation,DIRECT
+DOMAIN-KEYWORD,sonynetworkentertainment,DIRECT
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com,DIRECT
+
+# Instagram
+DOMAIN,logger.instagram.com,REJECT
+DOMAIN-KEYWORD,instagram,Proxy,force-remote-dns
 
 # Amazon
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
@@ -361,9 +353,8 @@ IP-CIDR,23.20.0.0/14,Proxy
 IP-CIDR,50.16.0.0/14,Proxy
 IP-CIDR,67.202.0.0/18,Proxy
 
-# Instagram
-#DOMAIN,logger.instagram.com,REJECT
-DOMAIN-KEYWORD,instagram,Proxy,force-remote-dns
+# Azure
+DOMAIN-SUFFIX,azurewebsites.net,Proxy
 
 # Telegram
 IP-CIDR,91.108.56.0/22,Proxy,no-resolve
@@ -371,16 +362,13 @@ IP-CIDR,91.108.4.0/22,Proxy,no-resolve
 IP-CIDR,109.239.140.0/24,Proxy,no-resolve
 IP-CIDR,149.154.160.0/20,Proxy,no-resolve
 
-# LAN, debugging rules should place above this line
+# LAN
 IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/12,DIRECT
 IP-CIDR,127.0.0.0/8,DIRECT
 
-# Detect local network
 GEOIP,CN,DIRECT
-
-# Use proxy for all others
 FINAL,Proxy
 
 [URL Rewrite]
