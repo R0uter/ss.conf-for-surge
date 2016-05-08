@@ -36,14 +36,14 @@ def whiteListCheck():
     # domainList = []
     whitelist = codecs.open('./list/whitelist','r','utf-8')
     whitelistTxt = codecs.open('./list/whitelist.txt','w','utf-8')
-    whitelistTxt.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    whitelistTxt.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S" + '\n'))
     # Write list
     for line in whitelist.readlines():
         
         domain = re.findall(r'\w+\.\w+', line)
         if len(domain) > 0:
         # domainList.append(domain[0])
-            whitelistTxt.write('DOMAIN-SUFFIX,%s,DIRECT\n'%(domain[0]))
+            whitelistTxt.write('DOMAIN-SUFFIX,%s,ChinaProxy\n'%(domain[0]))
 
 
     whitelist.close()
