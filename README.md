@@ -21,6 +21,8 @@ Just use `gfwlist.conf` or `whitelist.conf` directly. Both in `configFileHere` d
 
 >Or use `ssconf.py` to generate config file.
 
+This config file has two proxy groups, `Proxy` group is your proxy, `ChinaProxy` allow you choose proxy or direct to china domain, if proxy too, you will engage almost globally proxy.
+
 
 ###Note:
 Make sure edit `ServerConfig.txt` first to add your server infomation!
@@ -29,13 +31,19 @@ change your ss server config, like server ip, server port, and your password.
 
     [Proxy]
     💊DIRECT = direct
-    🇭🇰HK = custom,your-server-here,your-port-here,aes-256-cfb,your-password-here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
-    🇸🇬SG = custom,your-server-here,your-port-here,aes-256-cfb,your-password-here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
-    🇯🇵JP = custom,your-server-here,your-port-here,aes-256-cfb,your-password-here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
-    🇺🇸US = custom,your-server-here,your-port-here,aes-256-cfb,your-password-here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+    🇭🇰HK = custom,your_server_here,your_port_here,aes-256-cfb,your_password_here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+    🇸🇬SG = custom,your_server_here,your_port_here,aes-256-cfb,your_password_here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+    🇯🇵JP = custom,your_server_here,your_port_here,aes-256-cfb,your_password_here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
+    🇺🇸US = custom,your_server_here,your_port_here,aes-256-cfb,your_password_here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
     
+    
+###Surge Mac:
+To use for Surge Mac, you need edit proxy group to enable auto speed test function.
+
     [Proxy Group]
-    Proxy = select,💊DIRECT,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
+        ChinaProxy = select,💊DIRECT,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
+        Proxy = select,💊DIRECT,@Auto,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
+        @Auto = url-test,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US,url=http://www.gstatic.com/generate_204
 
 ##MIT License (MIT)
 

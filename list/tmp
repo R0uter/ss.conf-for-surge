@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: rnNsKeXdk5VHpKSrql8JDA
+! Checksum: EW2Pl2AWtbWRrfnzpJifkA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Wed, 04 May 2016 23:04:09 +0800
+! Last Modified: Sat, 07 May 2016 12:58:14 +0800
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -76,6 +76,7 @@
 ||javlibrary.com
 ||juliepost.com
 ||kawaiikawaii.jp
+||khatrimaza.org
 ||longtoes.com
 |http://www.m-sport.co.uk
 ||macgamestore.com
@@ -172,9 +173,10 @@ china-mmm.sa.com
 
 !!---DtDNS---
 .4irc.com
+.chatnook.com
 .deaftone.com
 .effers.com
-t2.etowns.org
+.etowns.org
 .flnet.org
 .gotgeeks.com
 .slyip.com
@@ -198,6 +200,7 @@ t2.etowns.org
 ||chromecast.com
 ||chromeexperiments.com
 ||chromercise.com
+||chromium.org
 ||com.google
 ||data-vocabulary.org
 ||deja.com
@@ -212,7 +215,7 @@ t2.etowns.org
 ||gmodules.com
 ||goo.gl
 .google.com
-/^https?:\/\/([^\/]+\.)*google\.(ac|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cat|cd|cf|cg|ch|ci|cl|cm|co.ao|co.bw|co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|co.mz|co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hk|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|org|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws)\/.*/
+/^https?:\/\/([^\/]+\.)*google\.(ac|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cat|cd|cf|cg|ch|ci|cl|cm|co.ao|co.bw|co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|co.mz|co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hk|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|mx|ne|nl|no|nr|nu|org|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws)\/.*/
 !--||google-analytics.com
 !--||googleadservices.com
 ||googleapis.com
@@ -319,6 +322,7 @@ zhao.1984.city
 .1bao.org
 |http://1bao.org
 .1eew.com
+.1mobile.com
 ||1pondo.tv
 .2-hand.info
 .2000fun.com/bbs
@@ -736,6 +740,7 @@ boxunblog.com
 .boxunclub.com
 .boyfriendtv.com
 ||br.st
+.brainyquote.com/quotes/authors/d/dalai_lama
 ||brandonhutchinson.com
 ||braumeister.org
 .bravotube.net
@@ -832,6 +837,7 @@ caochangqing.com
 .cap.org.hk
 ||cap.org.hk
 cardinalkungfoundation.org
+.casadeltibetbcn.org
 .casatibet.org.mx
 casinobellini.com
 cari.com.my
@@ -1000,11 +1006,12 @@ chithu.org
 chn.chosun.com
 .chrdnet.com
 |http://chrdnet.com
+.christianfreedom.org
+|http://christianfreedom.org
 christianstudy.com
 ||christianstudy.com
 christusrex.org/www1/sdc
 ||chromeadblock.com
-||chromium.org
 chubun.com
 chuizi.net
 ||christiantimes.org.hk
@@ -1248,6 +1255,7 @@ doctorvoice.org
 ||dolf.org.hk
 ||dollf.com
 .domain.club.tw
+.domaintoday.com.au
 dongtaiwang.com
 ||dongtaiwang.com
 .dongtaiwang.net
@@ -1714,6 +1722,7 @@ fzh999.net
 ||galenwu.com
 ||game735.com
 gamebase.com.tw
+gamejolt.com
 |http://wiki.gamerp.jp
 ||gamer.com.tw
 .gamer.com.tw
@@ -2423,6 +2432,8 @@ ifjc.org
 imageshack.us
 ||imagevenue.com
 ||imagezilla.net
+.imb.org
+|http://imb.org
 
 !--IMDB
 |http://www.imdb.com/name/nm0482730
@@ -2754,6 +2765,7 @@ livestream.com
 ||livingstream.com
 ||livevideo.com
 .livevideo.com
+.liwangyang.com
 lizhizhuangbi.com
 lkcn.net
 .localdomain.ws
@@ -2865,6 +2877,7 @@ megavideo.com
 ||megurineluka.com
 meirixiaochao.com
 ||melon-peach.com
+.meltoday.com
 .memehk.com
 ||memehk.com
 memorybbs.com
@@ -2967,6 +2980,7 @@ mpfinance.com
 mpinews.com
 mrtweet.com
 ||mrtweet.com
+news.hk.msn.com
 news.msn.com.tw
 msguancha.com
 .mswe1.org
@@ -3039,6 +3053,9 @@ uighur.narod.ru
 cyberghost.natado.com
 ||national-lottery.co.uk
 .nationsonline.org/oneworld/tibet
+||navyfamily.navy.mil
+||navyreserve.navy.mil
+||nko.navy.mil
 ||usno.navy.mil
 nccwatch.org.tw
 .nch.com.tw
@@ -3093,6 +3110,7 @@ newyorktimes.com
 
 ||nexton-net.jp
 nexttv.com.tw
+||co.ng.mil
 ||nga.mil
 ngensis.com
 .nhentai.net
@@ -3550,10 +3568,7 @@ ranyunfei.com
 ||ranyunfei.com
 .rapbull.net
 |http://rapidgator.net/
-!-.rapidshare.com
-!-|http://rapidshare.com
-||rapidshare8.com
-.rapidsharedata.com
+||rapidmoviez.com
 rapidvpn.com
 ||rapidvpn.com
 .raremovie.cc
@@ -3754,6 +3769,7 @@ shenyunperformingarts.org
 shenzhoufilm.com
 ||shenzhoufilm.com
 ||sherabgyaltsen.com
+.shiatv.net
 .shicheng.org
 shinychan.com
 .shitaotv.org
@@ -3762,6 +3778,7 @@ shinychan.com
 shizhao.org
 shkspr.mobi/dabr
 ||shodanhq.com
+.shop2000.com.tw
 .shopping.com
 .showtime.jp
 ch.shvoong.com
@@ -3933,6 +3950,7 @@ usinfo.state.gov
 ||startpage.com
 .state168.com
 ||steel-storm.com
+.stepchina.com
 ||stepmania.com
 ny.stgloballink.com
 sthoo.com
@@ -4087,6 +4105,7 @@ teensinasia.com
 ||telegraph.co.uk
 .tenacy.com
 .tew.org
+.thaicn.com
 ||theatrum-belli.com
 ||thebodyshop-usa.com
 theblemish.com
@@ -4221,6 +4240,8 @@ tibetsites.com
 .tibetsociety.com
 ||tibetsociety.com
 .tibetsun.com
+.tibetsupportgroup.org
+|http://tibetsupportgroup.org
 tibettimes.net
 ||tibetwrites.org
 .ticket.com.tw
@@ -5014,6 +5035,7 @@ s.xiaod.in
 ||xiaoma.org
 ||xiaohexie.com
 xiezhua.com
+.xihua.es
 forum.xinbao.de/forum
 .xing.com
 |http://xing.com
