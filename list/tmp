@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: EW2Pl2AWtbWRrfnzpJifkA
+! Checksum: lGPRC+qgjyX34g7E0vbSfw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 07 May 2016 12:58:14 +0800
+! Last Modified: Fri, 13 May 2016 20:31:36 +0800
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -83,6 +83,8 @@
 ||madonna-av.com
 ||mangafox.com
 ||mangafox.me
+||matome-plus.com
+||matome-plus.net
 ||mattwilcox.net
 ||metarthunter.com
 ||mfxmedia.com
@@ -135,6 +137,7 @@
 ||wheretowatch.com
 ||wingamestore.com
 ||wizcrafts.net
+||xfinity.com
 ||zattoo.com
 ||zozotown.com
 
@@ -200,6 +203,7 @@ china-mmm.sa.com
 ||chromecast.com
 ||chromeexperiments.com
 ||chromercise.com
+||chromestatus.com
 ||chromium.org
 ||com.google
 ||data-vocabulary.org
@@ -442,6 +446,8 @@ voa-11.akacast.akamaistream.net
 ||akiba-online.com
 ||al-qimmah.net
 ||alabout.com
+.alanhou.com
+|http://alanhou.com
 ||alasbarricadas.org
 alexlur.org
 ||alforattv.net
@@ -602,7 +608,10 @@ bannedbook.org
 bayvoice.net
 ||bayvoice.net
 dajusha.baywords.com
+||bbchat.tv
+||bb-chat.tv
 .bbc.co.uk*chinese
+.bbc.co.uk/news/world-asia-china
 .bbc.co.uk/tv
 .bbc.co*zhongwen
 news.bbc.co.uk/onthisday*newsid_2496000/2496277
@@ -634,6 +643,7 @@ beric.me
 .bestforchina.org
 ||bestforchina.org
 ||bestvpn.com
+.bestvpnserver.com
 .bestvpnservice.com
 .bestvpnusa.com
 ||bet365.com
@@ -1130,6 +1140,7 @@ cts.com.tw
 ||cusu.hk
 .cw.com.tw
 |http://forum.cyberctm.com
+cyberghostvpn.com
 ||cyberghostvpn.com
 ||cynscribe.com
 cytode.us
@@ -1206,7 +1217,8 @@ packages.debian.org/zh-cn/lenny/gpass
 delicious.com/GFWbookmark
 .democrats.org
 ||democrats.org
-||desc.se/
+||desc.se
+||dessci.com
 .destroy-china.jp
 ||deutsche-welle.de
 !--||deviantart.com
@@ -1372,6 +1384,7 @@ electionsmeter.com
 ||elpais.com
 .eltondisney.com
 ||emacsblog.org
+.emaga.com/info/3407
 emilylau.org.hk
 .empfil.com
 .emule-ed2k.com
@@ -1572,6 +1585,8 @@ finler.net
 .falsefire.com
 ||falsefire.com
 fleshbot.com
+.fleursdeslettres.com
+|http://fleursdeslettres.com
 ||flgg.us
 
 !--||farm6.staticflickr.com
@@ -1693,7 +1708,9 @@ hk.frienddy.com/hk
 .frontlinedefenders.org
 ||fscked.org
 .fsurf.com
+.ftchinese.com/story/001042272
 .ftchinese.com/story/001054103
+www.ftchinese.com/story/001067479
 .ftchinese.com/*video
 .ftchinese.com/comments
 fucd.com
@@ -2165,6 +2182,8 @@ bbs.hasi.wang
 have8.com
 @@||haygo.com
 ||hdtvb.net
+.hdzog.com
+|http://hdzog.com
 ||heartyit.com
 .hec.su
 |http://hec.su
@@ -2354,13 +2373,13 @@ humanrightsbriefing.org
 ||hung-ya.com
 ||hungerstrikeforaids.org
 ||huping.net
+.hurriyet.com.tr
 ||hutianyi.net
 hutong9.net
 ||hwayue.org.tw
 ||hwinfo.com
 |http://fang-lizhi.hxwk.org/
 hxwq.org
-||hypeshell.com
 ||hyperrate.com
 
 !--------------------II-------------------------
@@ -2420,6 +2439,7 @@ ifjc.org
 ||ignitedetroit.net
 ||igvita.com
 ||ihakka.net
+.ihao.org/dz5
 ||iicns.com
 ||illusionfactory.com
 ||ilove80.be
@@ -2545,6 +2565,7 @@ iyouport.com
 blog.jackjia.com
 .jamyangnorbu.com
 |http://jamyangnorbu.com
+||janwongphoto.com
 ||japan-whores.com
 .jav68.tv
 .javhip.com
@@ -2579,6 +2600,7 @@ jinbushe.org
 zhao.jinhai.de
 jingpin.org
 ||jingpin.org
+jinpianwang.com
 ac.jiruan.net
 ||jitouch.com
 .jizzthis.com
@@ -2892,6 +2914,7 @@ meshrep.com
 .metacafe.com
 ||meteorshowersonline.com
 |http://www.metro.taipei/
+.metrohk.com.hk/?cmd=detail&categoryID=2
 ||metrolife.ca
 .metroradio.com.hk
 |http://metroradio.com.hk
@@ -3007,6 +3030,7 @@ myactimes.com
 .mychinanews.com
 ||mychinanews.com
 ||mycnnews.com
+||mykomica.org
 mycould.com/discuz
 ||myeclipseide.com
 .myforum.com.hk
@@ -4711,6 +4735,8 @@ vocn.tv
 ||vot.org
 www.voy.com
 .vpn4all.com
+.vpnaccount.org
+|http://vpnaccount.org
 ||www.vpncup.com
 vpnbook.com
 .vpnfan.com
@@ -4720,6 +4746,7 @@ vpnfire.com
 ||vpngate.jp
 .vpngate.net
 ||vpngate.net
+.vpngratis.net
 vpnhq.com
 .vpnmaster.com
 ||vpnmaster.com
@@ -5098,6 +5125,7 @@ video.yahoo.com
 ||yakbutterblues.com
 yam.com
 ||yam.com
+||yam.org.tw
 .yanghengjun.com
 yangjianli.com
 .yasni.co.uk
@@ -5188,6 +5216,7 @@ zacebook.com
 ||zeutch.com
 !--www.zfreet.com/post/usejump-browns.html
 .zfreet.com
+.zgsddh.com
 zgzcjj.net
 .zhanbin.net
 ||zhanbin.net

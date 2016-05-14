@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2016-05-08 14:09:37
+// updated on 2016-05-14 23:04:59
 
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,85.17.73.31,Proxy,force-remote-dns
@@ -62,6 +62,8 @@ DOMAIN-SUFFIX,macgamestore.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,madonna-av.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mangafox.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mangafox.me,Proxy,force-remote-dns
+DOMAIN-SUFFIX,matome-plus.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,matome-plus.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mattwilcox.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,metarthunter.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mfxmedia.com,Proxy,force-remote-dns
@@ -110,6 +112,7 @@ DOMAIN-SUFFIX,wanz-factory.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,wheretowatch.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,wingamestore.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,wizcrafts.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,xfinity.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,zattoo.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,zozotown.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,xn--4gq171p.com,Proxy,force-remote-dns
@@ -147,6 +150,7 @@ DOMAIN-SUFFIX,chrome.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,chromecast.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,chromeexperiments.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,chromercise.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,chromestatus.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,chromium.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,com.google,Proxy,force-remote-dns
 DOMAIN-SUFFIX,data-vocabulary.org,Proxy,force-remote-dns
@@ -322,6 +326,7 @@ DOMAIN-SUFFIX,akademiye.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,akiba-online.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,al-qimmah.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,alabout.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,alanhou.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,alasbarricadas.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,alexlur.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,alforattv.net,Proxy,force-remote-dns
@@ -444,6 +449,8 @@ DOMAIN-SUFFIX,barenakedislam.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,barnabu.co.uk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bayvoice.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,dajusha.baywords.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,bbchat.tv,Proxy,force-remote-dns
+DOMAIN-SUFFIX,bb-chat.tv,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bbc.co.uk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bbc.co,Proxy,force-remote-dns
 DOMAIN-SUFFIX,news.bbc.co.uk,Proxy,force-remote-dns
@@ -469,6 +476,7 @@ DOMAIN-SUFFIX,beric.me,Proxy,force-remote-dns
 DOMAIN-SUFFIX,berlintwitterwall.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bestforchina.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bestvpn.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,bestvpnserver.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bestvpnservice.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bestvpnusa.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bet365.com,Proxy,force-remote-dns
@@ -887,6 +895,7 @@ DOMAIN-SUFFIX,delcamp.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,delicious.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,democrats.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,desc.se,Proxy,force-remote-dns
+DOMAIN-SUFFIX,dessci.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,destroy-china.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,deutsche-welle.de,Proxy,force-remote-dns
 DOMAIN-SUFFIX,devio.us,Proxy,force-remote-dns
@@ -1017,6 +1026,7 @@ DOMAIN-SUFFIX,elgoog.im,Proxy,force-remote-dns
 DOMAIN-SUFFIX,elpais.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,eltondisney.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,emacsblog.org,Proxy,force-remote-dns
+DOMAIN-SUFFIX,emaga.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,emilylau.org.hk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,empfil.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,emule-ed2k.com,Proxy,force-remote-dns
@@ -1168,6 +1178,7 @@ DOMAIN-SUFFIX,finler.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fireofliberty.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,falsefire.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fleshbot.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,fleursdeslettres.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,flgg.us,Proxy,force-remote-dns
 DOMAIN-SUFFIX,flickr.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,staticflickr.com,Proxy,force-remote-dns
@@ -1261,6 +1272,7 @@ DOMAIN-SUFFIX,frontlinedefenders.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fscked.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fsurf.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ftchinese.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,www.ftchinese.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fucd.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fuckcnnic.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fuckgfw.org,Proxy,force-remote-dns
@@ -1465,6 +1477,7 @@ DOMAIN-SUFFIX,hasaowall.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bbs.hasi.wang,Proxy,force-remote-dns
 DOMAIN-SUFFIX,have8.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hdtvb.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,hdzog.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,heartyit.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hec.su,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hecaitou.net,Proxy,force-remote-dns
@@ -1619,13 +1632,13 @@ DOMAIN-SUFFIX,humanrightsbriefing.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hung-ya.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hungerstrikeforaids.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,huping.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,hurriyet.com.tr,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hutianyi.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hutong9.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hwayue.org.tw,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hwinfo.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fang-lizhi.hxwk.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hxwq.org,Proxy,force-remote-dns
-DOMAIN-SUFFIX,hypeshell.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hyperrate.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,i-cable.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,i-part.com.tw,Proxy,force-remote-dns
@@ -1671,6 +1684,7 @@ DOMAIN-SUFFIX,igfw.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ignitedetroit.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,igvita.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ihakka.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,ihao.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,iicns.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,illusionfactory.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ilove80.be,Proxy,force-remote-dns
@@ -1767,6 +1781,7 @@ DOMAIN-SUFFIX,izles.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,j.mp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,blog.jackjia.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,jamyangnorbu.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,janwongphoto.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,japan-whores.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,jav68.tv,Proxy,force-remote-dns
 DOMAIN-SUFFIX,javhip.com,Proxy,force-remote-dns
@@ -1796,6 +1811,7 @@ DOMAIN-SUFFIX,jinbushe.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,jingsim.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,zhao.jinhai.de,Proxy,force-remote-dns
 DOMAIN-SUFFIX,jingpin.org,Proxy,force-remote-dns
+DOMAIN-SUFFIX,jinpianwang.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ac.jiruan.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,jitouch.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,jizzthis.com,Proxy,force-remote-dns
@@ -2045,6 +2061,7 @@ DOMAIN-SUFFIX,mesotw.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,metacafe.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,meteorshowersonline.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,www.metro.taipei,Proxy,force-remote-dns
+DOMAIN-SUFFIX,metrohk.com.hk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,metrolife.ca,Proxy,force-remote-dns
 DOMAIN-SUFFIX,metroradio.com.hk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,meyou.jp,Proxy,force-remote-dns
@@ -2142,6 +2159,7 @@ DOMAIN-SUFFIX,bbs.mychat.to,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mychinamyhome.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mychinanews.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mycnnews.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,mykomica.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mycould.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,myeclipseide.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,myforum.com.hk,Proxy,force-remote-dns
@@ -3472,6 +3490,7 @@ DOMAIN-SUFFIX,vocn.tv,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vot.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,www.voy.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vpn4all.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,vpnaccount.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,www.vpncup.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vpnbook.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vpnfan.com,Proxy,force-remote-dns
@@ -3479,6 +3498,7 @@ DOMAIN-SUFFIX,vpnfire.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vpnforgame.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vpngate.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vpngate.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,vpngratis.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vpnhq.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vpnmaster.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vpninja.net,Proxy,force-remote-dns
@@ -3720,6 +3740,7 @@ DOMAIN-SUFFIX,video.yahoo.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yahoo.com.hk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yakbutterblues.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yam.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,yam.org.tw,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yanghengjun.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yangjianli.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yasni.co.uk,Proxy,force-remote-dns
@@ -3787,6 +3808,7 @@ DOMAIN-SUFFIX,zdnet.com.tw,Proxy,force-remote-dns
 DOMAIN-SUFFIX,zengjinyan.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,zeutch.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,zfreet.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,zgsddh.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,zgzcjj.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,zhanbin.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,zhangboli.net,Proxy,force-remote-dns
