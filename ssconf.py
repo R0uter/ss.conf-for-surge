@@ -21,7 +21,7 @@ def getList(listUrl):
     return data
 
 def whiteListCheck():
-    dnsmasq_china_list = 'https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf'
+    dnsmasq_china_list = 'https://github.com/R0uter/gfw_domain_whitelist/raw/master/whitelistCache'
     try:
         print('Getting white list...')
         content = getList(dnsmasq_china_list)
