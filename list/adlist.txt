@@ -1,5 +1,5 @@
 // thx  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a 
-// updated on 2016-05-14 23:05:17
+// updated on 2016-05-22 13:32:04
 
 DOMAIN-KEYWORD,analytics,REJECT
 DOMAIN-KEYWORD,syndication,REJECT
