@@ -10,6 +10,5 @@ ChinaProxy = select,💊DIRECT,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
 Proxy = select,💊DIRECT,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
 
 
-//If you use list for surge mac, uncomment this lines to enable speed test function.
-//Proxy = select,💊DIRECT,@Auto,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
-//@Auto = url-test,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US,url=http://www.gstatic.com/generate_204
+@Auto = url-test,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US,url=http://www.gstatic.com/generate_204
+Proxy = select,💊DIRECT,@Auto,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
