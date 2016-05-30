@@ -37,8 +37,7 @@ change your ss server config, like server ip, server port, and your password.
     🇺🇸US = custom,your_server_here,your_port_here,aes-256-cfb,your_password_here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
     
     
-###Surge Mac:
-To use for Surge Mac, you need edit proxy group to enable auto speed test function.
+Then you need to edit proxy group for auto speed test function.
 
     [Proxy Group]
         ChinaProxy = select,💊DIRECT,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
