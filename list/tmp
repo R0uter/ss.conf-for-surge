@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 01bKckbcD+8EqmBd17GXTA
+! Checksum: m5TH582pntAQLNqruET63g
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Fri, 27 May 2016 08:34:40 +0800
+! Last Modified: Thu, 02 Jun 2016 08:58:08 +0800
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -32,6 +32,8 @@
 ||bloombergview.com
 ||boysmaster.com
 ||carfax.com
+.casinobellini.com
+||casinobellini.com
 ||centauro.com.br
 ||crossfire.co.kr
 ||darpa.mil
@@ -41,6 +43,10 @@
 ||share.dmhy.org
 ||dmm.co.jp
 !--||dmm.com
+.expekt.com
+||expekt.com
+.extmatrix.com
+||extmatrix.com
 ||fakku.net
 ||fastpic.ru
 ||financetwitter.com
@@ -553,6 +559,7 @@ apk-dl.com
 apkdler.com/apk/view
 .appdownloader.net/Android
 apkpure.com
+||apkpure.com
 !--||appannie.com
 appledaily.com
 ||appsocks.net
@@ -566,6 +573,7 @@ archive.is
 ||arethusa.su
 ||arlingtoncemetery.mil
 ||army.mil
+||arstechnica.com
 .art4tibet1998.org
 artsy.net
 ||asacp.org
@@ -762,12 +770,14 @@ blogtd.net
 bloomberg.de
 ||bloomberg.de
 ||bloomfortune.com
+blueangellive.com
 .bmfinn.com
 ||bnrmetal.com
 boardreader.com/thread
 ||boardreader.com
 .bod.asia
 |http://bod.asia
+.bodog88.com
 .bolehvpn.net
 ||bolehvpn.net
 bonbonme.com
@@ -793,6 +803,7 @@ boxunblog.com
 ||boxunblog.com
 .boxunclub.com
 .boyfriendtv.com
+.boysfood.com
 ||br.st
 .brainyquote.com/quotes/authors/d/dalai_lama
 ||brandonhutchinson.com
@@ -826,12 +837,16 @@ brucewang.net
 .btspread.com
 .budaedu.org
 ||budaedu.org
+.buddhistchannel.tv
 .buffered.com
 |http://buffered.com
 .bullog.org
 ||bullog.org
 .bullogger.com
 ||bullogger.com
+bunbunhk.com
+.busayari.com
+|http://busayari.com
 .businessinsider.com/bing-could-be-censoring-search-results-2014
 .businessinsider.com/china-banks-preparing-for-debt-implosion-2014
 .businessinsider.com/hong-kong-activists-defy-police-tear-gas-as-protests-continue-overnight-2014
@@ -844,6 +859,7 @@ brucewang.net
 .businessweek.com
 .busu.org/news
 |http://busu.org/news
+busytrade.com
 .buugaa.com
 .buzzhand.com
 .buzzhand.net
@@ -892,12 +908,17 @@ caochangqing.com
 ||caochangqing.com
 .cap.org.hk
 ||cap.org.hk
+.carabinasypistolas.com
 cardinalkungfoundation.org
+carmotorshow.com
+.cartoonmovement.com
 .casadeltibetbcn.org
 .casatibet.org.mx
-casinobellini.com
+|http://casatibet.org.mx
 cari.com.my
 ||caribbeancom.com
+.casinoking.com
+.casinoriva.com
 ||catch22.net
 ||catfightpayperview.xxx
 .catholic.org.hk
@@ -1062,6 +1083,8 @@ chinese-memorial.org
 .chinesetalks.net/ch
 .chingcheong.com
 ||chingcheong.com
+.chinman.net
+|http://chinman.net
 chithu.org
 chn.chosun.com
 .chrdnet.com
@@ -1079,6 +1102,7 @@ chuizi.net
 |http://chrlawyers.hk
 .churchinhongkong.org/b5/index.php
 |http://churchinhongkong.org/b5/index.php
+.cineastentreff.de
 .cipfg.org
 ||circlethebayfortibet.org
 |http://citizenlab.org
@@ -1094,7 +1118,9 @@ city9x.com
 ||civicparty.hk
 civilhrfront.org
 ||civilhrfront.org
+.civiliangunner.com
 .civilmedia.tw
+||civilmedia.tw
 psiphon.civisec.org
 ||vpn.cjb.net
 .ck101.com
@@ -1104,6 +1130,7 @@ psiphon.civisec.org
 .clb.org.hk
 clearharmony.net
 clearwisdom.net
+clinica-tibet.ru
 .clipfish.de
 cloakpoint.com
 ||club1069.com
@@ -1140,6 +1167,7 @@ news.cnyes.com
 |http://tosh.comedycentral.com
 comefromchina.com
 ||comefromchina.com
+commandarms.com
 ||commentshk.com
 .communistcrimes.org
 ||communistcrimes.org
@@ -1256,6 +1284,7 @@ dalianmeng.org
 .danwei.org
 daolan.net
 darktoy.net
+||dastrassi.org
 .david-kilgour.com
 |http://david-kilgour.com
 daxa.cn
@@ -1265,6 +1294,7 @@ cn.dayabook.com
 ||db.tt
 .dbc.hk/main
 ||dcard.tw
+dcmilitary.com
 .ddc.com.tw
 ddns.net
 ||de-sci.org
@@ -1369,6 +1399,8 @@ dtiserv2.com
 ||duckduckgo.com
 .duckload.com/download
 ||duckmylife.com
+.duga.jp
+|http://duga.jp
 .duihua.org
 ||duihua.org
 ||duihuahrjournal.org
@@ -1421,6 +1453,9 @@ eastern-ark.com
 .eastturkistancc.org
 .eastturkistangovernmentinexile.us
 ||eastturkistangovernmentinexile.us
+.easyca.ca
+.easypic.com
+.ebony-beauty.com
 ebookbrowse.com
 ebookee.com
 ecministry.net
@@ -1438,6 +1473,8 @@ edoors.com
 .edupro.org
 ||eevpn.com
 efcc.org.hk
+.efukt.com
+|http://efukt.com
 ||eic-av.com
 .eisbb.com
 .eksisozluk.com
@@ -1456,9 +1493,13 @@ emilylau.org.hk
 |http://emulefans.com
 .emuparadise.me
 ||enewstree.com
+.enfal.de
 chinese.engadget.com
+englishforeveryone.org
 ||englishfromengland.co.uk
 ||entermap.com
+.entnt.com
+|http://entnt.com
 .episcopalchurch.org
 .epochhk.com
 |http://epochhk.com
@@ -1484,7 +1525,9 @@ epochtimestr.com
 .epochweek.com
 ||epochweek.com
 ||epochweekly.com
+.equinenow.com
 erabaru.net
+.eraysoft.com.tr
 .erepublik.com
 .erights.net
 ||erights.net
@@ -1495,6 +1538,7 @@ erabaru.net
 ||erodoujinworld.com
 ||eromanga-kingdom.com
 ||eromangadouzin.com
+.eroticsaloon.net
 .eslite.com/product
 .eslite.com/Search_BW.aspx?q
 wiki.esu.im/%E8%9B%A4%E8%9B%A4%E8%AF%AD%E5%BD%95
@@ -1506,6 +1550,7 @@ etaiwannews.com
 etvonline.hk
 .eu.org
 ||eu.org
+.eucasino.com
 .eulam.com
 eeas.europa.eu/delegations/china/press_corner/all_news/news/2015/20150716_zh
 eeas.europa.eu/statements-eeas/2015/151022
@@ -1519,6 +1564,7 @@ eeas.europa.eu/statements-eeas/2015/151022
 |http://blog.excite.co.jp
 ||exmormon.org
 ||expatshield.com
+experts-univers.com
 ||exploader.net
 .expressvpn.com
 .extremetube.com
@@ -1533,7 +1579,7 @@ eyevio.jp
 ||facebook.br
 .facebook.com
 ||facebook.com
-/^https?:\/\/[^\/]+facebook\.com/
+!--/^https?:\/\/[^\/]+facebook\.com/
 @@||*v6.facebook.com
 ||connect.facebook.net
 ||facebook.hu
@@ -1553,6 +1599,8 @@ eyevio.jp
 
 ||faiththedog.info
 .fakku.net
+.falsefire.com
+||falsefire.com
 falun-co.org
 falunart.org
 |falunasia.info
@@ -1629,28 +1677,31 @@ feer.com
 ||fengzhenghu.net
 .fevernet.com
 |http://ff.im
+fffff.at
 fflick.com
 fgmtv.net
 .fgmtv.org
 .fhreports.net
 |http://fhreports.net
+.fileflyer.com
+||fileflyer.com
 |http://feeds.fileforum.com
 .files2me.com
-|http://files2me.com
 .fileserve.com/file
 fillthesquare.org
 filmingfortibet.org
+.filthdump.com
 ||finalion.jp
 .finchvpn.com
 ||finchvpn.com
 !--findbook.tw
+findmespot.com
 .fingerdaily.com
 finler.net
 .fireofliberty.org
 ||fireofliberty.org
 !--||flagfox.net
-.falsefire.com
-||falsefire.com
+.flagsonline.it
 fleshbot.com
 .fleursdeslettres.com
 |http://fleursdeslettres.com
@@ -1767,10 +1818,12 @@ friends-of-tibet.org
 freechina.net
 |http://www.zensur.freerk.com/
 freevpn.nl
+freeyellow.com
 hk.frienddy.com/hk
 |http://adult.friendfinder.com/
 .fring.com
 ||fring.com
+.fromchinatousa.net
 ||frommel.net
 .frontlinedefenders.org
 ||fscked.org
@@ -1857,6 +1910,7 @@ funp.com
 ||fw.cm
 fzh999.com
 fzh999.net
+fzlm.com
 
 !--------------------GG-------------------------
 ||gabocorp.com
@@ -1871,6 +1925,7 @@ gamejolt.com
 .gamer.com.tw
 .gamez.com.tw
 ||gamez.com.tw
+.gamousa.com
 .gaoming.net
 ||gaoming.net
 ganges.com
@@ -1939,6 +1994,8 @@ gfw.org.ua
 |http://cn.giganews.com/
 gigporno.ru
 ||girlbanker.com
+.git.io
+||git.io
 |http://softwaredownload.gitbooks.io
 
 .github.com
@@ -1952,11 +2009,13 @@ gigporno.ru
 .gjczz.com
 ||glennhilton.com
 globaljihad.net
+globalmediaoutreach.com
 globalmuseumoncommunism.org
 ||globalrescue.net
 .globaltm.org
 .globalvoicesonline.org
 ||globalvoicesonline.org
+.glock.com
 gluckman.com/DalaiLama
 gmbd.cn
 ||gmhz.org
@@ -1970,10 +2029,13 @@ go-pki.com
 gobet.cc
 godfootsteps.org
 ||godfootsteps.org
+godsdirectcontact.co.uk
 .godsdirectcontact.org
 godsdirectcontact.org.tw
+.godsimmediatecontact.com
 ||gohappy.com.tw
 .gokbayrak.com
+.goldbet.com
 ||goldbetsports.com
 .goldenfrog.com
 ||goldenfrog.com
@@ -2502,6 +2564,7 @@ humanrightsbriefing.org
 ||hungerstrikeforaids.org
 ||huping.net
 .hurriyet.com.tr
+.hut2.ru
 ||hutianyi.net
 hutong9.net
 ||hwayue.org.tw
@@ -3174,6 +3237,7 @@ mycould.com/discuz
 .myfreshnet.com
 forum.mymaji.com
 mymediarom.com/files/box
+||mymusic.net.tw
 ||myparagliding.com
 ||mypopescu.com
 .my-private-network.co.uk
@@ -4526,7 +4590,10 @@ bbs.tuitui.info
 |http://tunein.com
 ||tunnelbear.com
 .tuo8.cc
+.tuo8.club
 .tuo8.hk
+.tuo8.in
+.tuo8.ninja
 .tuo8.org
 ||tuo8.org
 .tuo8.pw
@@ -5207,6 +5274,7 @@ xinhuanet.org
 xizang-zhiye.org
 xjp.cc
 ||xjp.cc
+||xjtravelguide.com
 xlfmtalk.com
 ||xlfmwz.info
 ||xml-training-guide.com
