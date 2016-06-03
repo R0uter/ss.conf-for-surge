@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: m5TH582pntAQLNqruET63g
+! Checksum: juyQzsv/MGneP31W7eZnDw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Thu, 02 Jun 2016 08:58:08 +0800
+! Last Modified: Fri, 03 Jun 2016 12:20:21 +0800
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -76,6 +76,7 @@
 |http://imgmega.com/*.jpg.html
 |http://imgmega.com/*.jpeg.html
 |http://imgmega.com/*.png.html
+|http://imgur.com/upload
 ||javhub.net
 ||javhuge.com
 .javlibrary.com
@@ -1060,7 +1061,7 @@ chinasocialdemocraticparty.com
 chinasoul.org
 ||chinasoul.org
 .chinasucks.net
-chinatimes.com
+.chinatimes.com/realtimenews/260409/
 ||chinatopsex.com
 .chinatown.com.au
 chinatweeps.com
@@ -1353,7 +1354,11 @@ djangosnippets.org
 ||dns2go.com
 ||dnssec.net
 doctorvoice.org
+
+!--DogFartNetwork
 .dogfartnetwork.com/tour
+gloryhole.com
+
 .dojin.com
 .dok-forum.net
 ||dolc.de
@@ -1888,6 +1893,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001067435
 www.ftchinese.com/story/001067479
 .ftchinese.com/story/001067545
+.ftchinese.com/story/001067648
 .ftchinese.com/story/001067650
 .ftchinese.com/video/1437
 .ftchinese.com/comments
@@ -2085,7 +2091,9 @@ greatzhonghua.org
 gs-discuss.com
 ||gtricks.com
 guancha.org
+.guardster.com
 .gun-world.net
+gunsandammo.com
 ||gutteruncensored.com
 ||gvm.com.tw
 .gzm.tv
@@ -2381,6 +2389,7 @@ have8.com
 .hechaji.com
 ||hechaji.com
 ||heeact.edu.tw
+.hegre-art.com
 ||cdn.helixstudios.net
 ||helplinfen.com
 ||helloandroid.com
@@ -2393,6 +2402,8 @@ hellotxt.com
 ||helpeachpeople.com
 ||helpster.de
 .helpzhuling.org
+hentaitube.tv
+.hentaivideoworld.com
 
 !###########--Heroku--##########
 ||date.fm
@@ -2433,6 +2444,8 @@ hidden-advent.org
 ||hidden-advent.org
 hidecloud.com/blog/2008/07/29/fuck-beijing-olympics.html
 ||hide.me
+.hideipvpn.com
+||hideipvpn.com
 .hideman.net
 ||hideman.net
 hideme.nl
@@ -2440,7 +2453,6 @@ hideme.nl
 ||hidemyass.com
 hidemycomp.com
 ||hidemycomp.com
-||hideipvpn.com
 .hihiforum.com
 |http://hihiforum.com
 ||hihistory.net
@@ -2449,11 +2461,17 @@ highpeakspureearth.com
 ||highrockmedia.com
 ||hiitch.com
 ||hikinggfw.org
+.hilive.tv
+
 .himalayan-foundation.org
+himalayanglacier.com
 .himemix.com
 ||himemix.com
 .himemix.net
 times.hinet.net
+hizbuttahrir.org
+hizb-ut-tahrir.info
+hizb-ut-tahrir.org
 .hjclub.info
 .hk-pub.com/forum
 |http://hk-pub.com
@@ -2508,6 +2526,7 @@ hnjhj.com
 holyspiritspeaks.org
 ||holyspiritspeaks.org
 ||derekhsu.homeip.net
+.homeperversion.com
 |http://homeservershow.com
 |http://old.honeynet.org/scans/scan31/sub/doug_eric/spam_translation.html
 .hongkongfp.com
@@ -2519,15 +2538,20 @@ hootsuite.com
 .hopto.org
 .hornygamer.com
 .hotav.tv
+hotfrog.com.tw
+hotgoo.com
 .hotpornshow.com
 hotpot.hk
 .hotshame.com
 ||hotspotshield.com
+.hotvpn.com
+||hotvpn.com
 ||hougaige.com
 ||howtoforge.com
 .hqcdp.org
 ||hqcdp.org
 ||hqjapanesesex.com
+hqmovies.com
 .hrcir.com
 .hrcchina.org
 .hrea.org
@@ -2539,6 +2563,7 @@ hrweb.org
 ||hsjp.net
 ||hsselite.com
 |http://hst.net.tw
+.hstern.net
 .hstt.net
 .htkou.net
 ||htkou.net
@@ -2567,6 +2592,7 @@ humanrightsbriefing.org
 .hut2.ru
 ||hutianyi.net
 hutong9.net
+huyandex.com
 ||hwayue.org.tw
 ||hwinfo.com
 |http://fang-lizhi.hxwk.org/
@@ -2574,22 +2600,24 @@ hxwq.org
 ||hyperrate.com
 
 !--------------------II-------------------------
-.i-cable.com
-.i-part.com.tw
 ||i1.hk
 ||i2p2.de
 ||i2runner.com
 ||i818hk.com
+.i-cable.com
+.i-part.com.tw
 iask.ca
 ||iask.ca
 iask.bz
 ||iask.bz
 ibiblio.org/pub/packages/ccic
+.iblist.com
 ||iblogserv-f.net
 ibros.org
 |http://cn.ibtimes.com
 .ibvpn.com
 ||ibvpn.com
+icams.com
 blogs.icerocket.com/tag
 .icij.org
 ||icij.org
@@ -2597,8 +2625,10 @@ blogs.icerocket.com/tag
 .icoco.com
 ||icoco.com
 
-!--http://furbo.org/2015/01/28/grass-mud-horse/
-||iconfactory.com
+!--38.103.165.50
+||furbo.org
+!--||iconfactory.com
+||warbler.iconfactory.net
 
 ||iconpaper.org
 !-- Google Pages
@@ -2626,8 +2656,11 @@ ifjc.org
 |http://ift.tt
 ||ifreewares.com
 ||igcd.net
+.igfw.net
 ||igfw.net
+.igmg.de
 ||ignitedetroit.net
+.igotmail.com.tw
 ||igvita.com
 ||ihakka.net
 .ihao.org/dz5
@@ -2655,9 +2688,14 @@ imageshack.us
 .imkev.com
 ||imkev.com
 .imlive.com
+.immoral.jp
+impact.org.au
 impp.mn
 |http://tech2.in.com/video/
 in99.org
+in-disguise.com
+.incloak.com
+||incloak.com
 ||incredibox.fr
 ||indiandefensenews.in
 timesofindia.indiatimes.com*dalai
@@ -2666,6 +2704,7 @@ timesofindia.indiatimes.com*dalai
 info-graf.fr
 website.informer.com
 .initiativesforchina.org
+.inkui.com
 .inmediahk.net
 ||inmediahk.net
 ||innermongolia.org
@@ -2675,6 +2714,7 @@ website.informer.com
 |http://insecam.org
 .instagram.com
 ||instagram.com
+.institut-tibetain.org
 ||interfaceaddiction.com
 ||internationalrivers.org
 |http://internet.org/
@@ -2691,12 +2731,15 @@ ipalter.com
 ||iphonetaiwan.org
 ||iphonix.fr
 ||ipicture.ru
+.ipjetable.net
+||ipjetable.net
 !--ipobar.com
 .iportal.me
 |http://iportal.me
 ||ippotv.com
 .ipredator.se
 ||ipredator.se
+.iptv.com.tw
 ||ipvanish.com
 iredmail.org
 chinese.irib.ir
@@ -2710,7 +2753,10 @@ forum.iset.com.tw
 .islam.org.hk
 |http://islam.org.hk
 .islamawareness.net/Asia/China
+.islamhouse.com
+||islamhouse.com
 .islamicity.com
+.islamtoday.net
 .isaacmao.com
 ||isaacmao.com
 ||isgreat.org
@@ -2750,10 +2796,12 @@ iyouport.com
 .izaobao.us
 ||gmozomg.izihost.org
 .izles.net
+.izlesem.org
 
 !--------------------JJ-------------------------
 ||j.mp
 blog.jackjia.com
+jamaat.org
 .jamyangnorbu.com
 |http://jamyangnorbu.com
 ||janwongphoto.com
@@ -2796,6 +2844,8 @@ ac.jiruan.net
 ||jitouch.com
 .jizzthis.com
 jjgirls.com
+.jkb.cc
+|http://jkb.cc
 jkforum.net
 ||jma.go.jp
 research.jmsc.hku.hk/social
@@ -2803,6 +2853,7 @@ weiboscope.jmsc.hku.hk
 ||joachims.org
 ||jobso.tv
 ||joeedelman.com
+.journalchretien.net
 ||journalofdemocracy.org
 jpopforum.net
 !--Doamin parking
@@ -2836,11 +2887,13 @@ juziyue.com
 ||kanshifang.com
 kanzhongguo.com
 kanzhongguo.eu
+.kaotic.com
 ||karayou.com
 karkhung.com
 .karmapa.org
 .karmapa-teachings.org
 .kba-tx.org
+.kcoolonline.com
 ||kcsoftwares.com
 .kebrum.com
 ||kebrum.com
@@ -2884,6 +2937,7 @@ killwall.com
 ||koranmandarin.com
 |http://gojet.krtco.com.tw
 .ksnews.com.tw
+||ktzhk.com
 .kui.name/event
 kun.im
 .kurashsultan.com
@@ -2918,6 +2972,8 @@ laomiu.com
 .laqingdan.net
 ||laqingdan.net
 ||larsgeorge.com
+.lastcombat.com
+|http://lastcombat.com
 ||lastfm.es
 latelinenews.com
 .latibet.org
@@ -4412,6 +4468,7 @@ tibetan-alliance.org
 .tibetanarts.org
 .tibetanbuddhistinstitute.org
 |http://tibetanbuddhistinstitute.org
+.tibetanlanguage.org
 .tibetanliberation.org
 ||tibetanliberation.org
 .tibetcollection.com
@@ -4745,6 +4802,7 @@ twitterfeed.com
 .twitterkr.com
 ||twitterkr.com
 ||twittermail.com
+||twitterrific.com
 twittertim.es
 ||twittertim.es
 twitthat.com
