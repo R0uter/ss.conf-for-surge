@@ -13,7 +13,7 @@ Proxy list is generate from gfwlist, all marked with `force-remote-dns`.
 White list come from [GFW Domain White List](https://goo.gl/tBixve).
 
 ##Anti ads
-Ad's list come from [iyee/main.conf](https://goo.gl/70DG6i).
+Ad's list come from [iyee/main.conf](https://goo.gl/70DG6i)(dead :( ).
 
 
 ##How to use

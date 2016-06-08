@@ -108,30 +108,31 @@ def getAdList():
     # the url of  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a
     outfile = './list/adlist.txt'
     tmpfile = './list/adtmp'
-    baseurl = 'https://gist.githubusercontent.com/raw/2e27c124af2f7a4f0d5a/main.conf'
+    # baseurl = 'https://gist.githubusercontent.com/raw/2e27c124af2f7a4f0d5a/main.conf'
 
     comment_pattern = '^\!|\[|^@@|\/|http|\#|\*|\?|\_|^\.|^\d+\.\d+\.\d+\.\d+'
     domain_pattern = '(\#?[\w\-\_]+\,[\/\w\.\-\_]+\,REJECT)[\/\*]*'
 
     fs = codecs.open(outfile, 'w', 'utf-8')
-    fs.write('// thx  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a \n')
-    fs.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
+    # fs.write('// thx  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a \n')
+    fs.write('// This AD list is not update anymore... \n')
+    # fs.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
     fs.write('\n')
 
 
-    try:
-
-        content = getList(baseurl).decode('utf-8')
-
-        # write the content to file then read line by line
-        if len(content) < 100:
-            raise FileNotFoundError
-        tfs = codecs.open(tmpfile, 'w', 'utf-8')
-        tfs.write(content)
-        tfs.close()
-        print('adlist fetched, writing...')
-    except:
-        print('adlist fetch failed, use tmpfile instead...')
+    # try:
+    #
+    #     content = getList(baseurl).decode('utf-8')
+    #
+    #     # write the content to file then read line by line
+    #     if len(content) < 100:
+    #         raise FileNotFoundError
+    #     tfs = codecs.open(tmpfile, 'w', 'utf-8')
+    #     tfs.write(content)
+    #     tfs.close()
+    #     print('adlist fetched, writing...')
+    # except:
+    print('adlist fetch failed, use tmpfile instead...')
     # Store all domains, deduplicate records
     domainlist = []
 
