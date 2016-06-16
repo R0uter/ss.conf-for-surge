@@ -1,5 +1,4 @@
-// thx  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a 
-// updated on 2016-05-30 02:24:41
+// This AD list is not update anymore... 
 
 DOMAIN-KEYWORD,analytics,REJECT
 DOMAIN-KEYWORD,syndication,REJECT

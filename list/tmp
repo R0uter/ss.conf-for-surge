@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: juyQzsv/MGneP31W7eZnDw
+! Checksum: L0zNrMIB1T4jTz+nvuCzrg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Fri, 03 Jun 2016 12:20:21 +0800
+! Last Modified: Thu, 16 Jun 2016 14:51:38 +0800
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -181,6 +181,9 @@ china-mmm.sa.com
 .javzoo.com
 |http://javzoo.com
 
+!!---CloudFront---
+||d3rhr7kgmtrq1v.cloudfront.net
+
 !!---DtDNS---
 .4irc.com
 .b0ne.com
@@ -272,7 +275,9 @@ china-mmm.sa.com
 |http://sipml5.org/
 ||tensorflow.org
 !--||www.google
+||waveprotocol.org
 ||webmproject.org
+||webrtc.org
 ||whatbrowser.org
 ||withgoogle.com
 ||youtu.be
@@ -783,6 +788,7 @@ boardreader.com/thread
 ||bolehvpn.net
 bonbonme.com
 .bonbonsex.com
+.bongacams.com
 ||boobstagram.com
 ||book.com.tw
 bookepub.com
@@ -1158,6 +1164,7 @@ wiki.cnitter.com
 .cnproxy.com
 blog.cnyes.com
 news.cnyes.com
+||coat.co.jp
 .cochina.co
 ||cochina.co
 ||cochina.org
@@ -1651,6 +1658,7 @@ fangeming.com
 en.favotter.net
 !--||rnw.global.ssl.fastly.net
 |https://*global.ssl.fastly.net/
+||fast.wistia.com
 
 ||fastssh.com
 ||faststone.org
@@ -1922,6 +1930,7 @@ fzlm.com
 ||gabocorp.com
 .gaeproxy.com
 .gaforum.org
+.galaxymacau.com
 ||galenwu.com
 ||game735.com
 gamebase.com.tw
@@ -3027,6 +3036,7 @@ listorious.com
 ||liujianshu.com
 liuxiaotong.com
 ||liuxiaotong.com
+.livedoor.jp
 .liveleak.com
 ||liveleak.com
 .livestation.com
@@ -3039,6 +3049,7 @@ livestream.com
 .liwangyang.com
 lizhizhuangbi.com
 lkcn.net
+.load.to
 .lobsangwangyal.com
 .localdomain.ws
 ||localdomain.ws
@@ -3057,6 +3068,7 @@ longmusic.com
 ||lookingglasstheatre.org
 ||lookpic.com
 .looktoronto.com
+|http://looktoronto.com
 .lotsawahouse.org/tibetan-masters/fourteenth-dalai-lama
 .lotuslight.org.hk
 .lotuslight.org.tw
@@ -3084,9 +3096,12 @@ lsforum.net
 .lupm.org
 ||lupm.org
 ||lushstories.com
+luxebc.com
 lvhai.org
 ||lvhai.org
 ||lvv2.com
+.lyfhk.net
+|http://lyfhk.net
 
 !--------------------MM-------------------------
 m-team.cc/forum
@@ -3108,6 +3123,10 @@ maskedip.com
 mail-archive.com
 .malaysiakini.com
 ||makemymood.com
+.maniash.com
+|http://maniash.com
+.mansion.com
+.mansionpoker.com
 !--||marines.mil
 markmail.org*message
 ||martau.com
@@ -3331,6 +3350,7 @@ old.nabble.com
 uighur.narod.ru
 cyberghost.natado.com
 ||national-lottery.co.uk
+news.nationalgeographic.com/news/2014/06/140603-tiananmen-square
 .nationsonline.org/oneworld/tibet
 ||navyfamily.navy.mil
 ||navyreserve.navy.mil
@@ -3456,7 +3476,7 @@ nuzcom.com
 ||nyaa.eu
 ||nyaa.se
 .nydus.ca
-||nyt.com
+!--||nyt.com
 ||nytco.com
 |http://nyti.ms/
 .nytimes.com
