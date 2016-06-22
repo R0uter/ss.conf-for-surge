@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: L0zNrMIB1T4jTz+nvuCzrg
+! Checksum: CydtadRx79UnDoKt/m1zdg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Thu, 16 Jun 2016 14:51:38 +0800
+! Last Modified: Wed, 22 Jun 2016 13:16:08 +0800
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -236,6 +236,7 @@ china-mmm.sa.com
 !--||google-analytics.com
 !--||googleadservices.com
 ||googleapis.com
+||googleapps.com
 ||googleartproject.com
 ||googleblog.com
 ||googlecode.com
@@ -669,6 +670,7 @@ newsforums.bbc.co.uk
 ||bbcchinese.com
 |http://bbc.in
 .bbg.gov
+.bbnradio.org
 bbs-tw.com
 .bbsdigest.com/thread
 ||bbsfeed.com
@@ -1579,6 +1581,7 @@ eeas.europa.eu/statements-eeas/2015/151022
 experts-univers.com
 ||exploader.net
 .expressvpn.com
+|http://expressvpn.com
 .extremetube.com
 eyevio.jp
 ||eyevio.jp
@@ -1713,6 +1716,8 @@ findmespot.com
 finler.net
 .fireofliberty.org
 ||fireofliberty.org
+.firetweet.io
+||firetweet.io
 !--||flagfox.net
 .flagsonline.it
 fleshbot.com
@@ -1927,6 +1932,8 @@ fzh999.net
 fzlm.com
 
 !--------------------GG-------------------------
+.g6hentai.com
+|http://g6hentai.com
 ||gabocorp.com
 .gaeproxy.com
 .gaforum.org
@@ -2530,6 +2537,7 @@ hkptu.org
 ||hkzone.org
 hnjhj.com
 ||hnjhj.com
+.hnntube.com
 ||hola.com
 ||hola.org
 holyspiritspeaks.org
@@ -2703,6 +2711,7 @@ impp.mn
 |http://tech2.in.com/video/
 in99.org
 in-disguise.com
+.incapdns.net
 .incloak.com
 ||incloak.com
 ||incredibox.fr
@@ -3115,6 +3124,8 @@ my.mail.ru
 .maiplus.com
 |http://maiplus.com
 manicur4ik.ru
+.maplew.com
+|http://maplew.com
 ||marc.info
 marguerite.su
 ||martincartoons.com
@@ -3198,7 +3209,11 @@ mhradio.org
 ||michaelmarketl.com
 middle-way.net
 .mihk.hk/forum
+.mihr.com
 mihua.org
+.milph.net
+|http://milph.net
+.milsurps.com
 .mimivip.com
 .mimivv.com
 .mindrolling.org
@@ -3224,6 +3239,7 @@ mingpaonews.com
 .mingpaotor.com
 .mingpaovan.com
 .mingshengbao.com
+.minhhue.net
 .miniforum.org
 .ministrybooks.org
 .minzhuhua.net
@@ -3250,9 +3266,9 @@ plurktop.mmdays.com
 ||mobileways.de
 .mobypicture.com
 |http://moby.to
-||mrdoob.com
 ||moeerolibrary.com
 wiki.moegirl.org
+.mofos.com
 ||mog.com
 molihua.org
 ||mondex.org
@@ -3266,9 +3282,14 @@ bbs.morbell.com
 ||moroneta.com
 .motherless.com
 |http://motherless.com
+motor4ik.ru
+.mousebreaker.com
 !--||movabletype.com
+.movements.org
+||movements.org
 ||moviefap.com
 ||www.moztw.org
+.mp3buscador.com
 mp3ye.eu
 ||mpettis.com
 mpfinance.com
@@ -3281,11 +3302,16 @@ msguancha.com
 .mswe1.org
 |http://mswe1.org
 ||mthruf.com
+muchosucko.com
 ||multiply.com
 multiproxy.org
 multiupload.com
 .mullvad.net
 ||mullvad.net
+.mummysgold.com
+.murmur.tw
+|http://murmur.tw
+.musicade.net
 ||muzi.com
 ||muzi.net
 ||mx981.com
@@ -3296,6 +3322,7 @@ myactimes.com
 .myaudiocast.com
 ||myaudiocast.com
 .myav.com.tw/bbs
+.myca168.com
 ||bbs.mychat.to
 ||mychinamyhome.com
 .mychinamyhome.com
@@ -3305,10 +3332,12 @@ myactimes.com
 ||mycnnews.com
 ||mykomica.org
 mycould.com/discuz
+.myeasytv.com
 ||myeclipseide.com
 .myforum.com.hk
 ||myforum.com.hk
 ||myforum.com.uk
+.myfreepaysite.com
 .myfreshnet.com
 forum.mymaji.com
 mymediarom.com/files/box
@@ -3384,7 +3413,9 @@ newcenturynews.com
 ||newchen.com
 .newchen.com
 .newgrounds.com
+newipnow.com
 .newlandmagazine.com.au
+.newnews.ca
 news100.com.tw
 .newscn.org
 ||newscn.org
@@ -3401,6 +3432,7 @@ newtalk.tw
 ||newtalk.tw
 newyorktimes.com
 ||nexon.com
+.next11.co.jp
 .nextmag.com.tw
 
 !--hk*.nextmedia.com
@@ -3415,12 +3447,13 @@ nexttv.com.tw
 ngensis.com
 .nhentai.net
 |http://nhentai.net
-!--.nicovideo.jp/watch
+.nicovideo.jp/watch
 !--||nicovideo.jp
 ||nighost.org
 av.nightlife141.com
 ninecommentaries.com
 .ninjacloak.com
+||ninjaproxy.ninja
 nintendium.com
 taiwanyes.ning.com
 usmgtcg.ning.com/forum
@@ -3639,6 +3672,7 @@ penisbot.com
 .penthouse.com
 .pentoy.hk/%E4%B8%AD%E5%9C%8B
 .pentoy.hk/%E6%99%82%E4%BA%8B
+.peoplebookcafe.com
 .peoplenews.tw
 ||peoplenews.tw
 .peopo.org
@@ -3700,6 +3734,7 @@ popyard.com
 ||popyard.org
 .porn.com
 .porn2.com
+.porn5.com
 .pornbase.org
 ||pornhd.com
 .pornhost.com
