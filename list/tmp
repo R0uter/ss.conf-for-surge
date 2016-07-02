@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: CydtadRx79UnDoKt/m1zdg
+! Checksum: LDtWfzgCLZGjbPnvh6fCpg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Wed, 22 Jun 2016 13:16:08 +0800
+! Last Modified: Fri, 01 Jul 2016 19:09:35 +0800
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -15,7 +15,7 @@
 ! or suggestion / enhancement at issue tracker:
 ! https://github.com/gfwlist/gfwlist/issues/.
 
-!---------403 Forbidden & URL Redirects---------
+!---------403/451 & URL Redirects---------
 ||4tern.com
 !--ehentai
 |http://85.17.73.31/
@@ -40,9 +40,10 @@
 ||desipro.de
 ||dish.com
 |http://img.dlsite.jp/
-||share.dmhy.org
+!--||share.dmhy.org
 ||dmm.co.jp
 !--||dmm.com
+||eesti.ee
 .expekt.com
 ||expekt.com
 .extmatrix.com
@@ -56,6 +57,7 @@
 ||fxnetworks.com
 ||gettyimages.com
 ||getuploader.com
+|https://github.com/programthink/zhao
 ||glass8.eu
 ||glype.com
 ||go141.com
@@ -139,6 +141,8 @@
 ||twerkingbutt.com
 ||vegasred.com
 ||vevo.com
+|http://viu.tv/ch/
+|http://viu.tv/encore/
 |http://ecsm.vs.com/
 ||wanz-factory.com
 ||wheretowatch.com
@@ -220,11 +224,13 @@ china-mmm.sa.com
 ||chromium.org
 ||com.google
 ||data-vocabulary.org
+||deepmind.com
 ||deja.com
 ||digisfera.com
 ||domains.google
 ||feedburner.com
 ||g.co
+||gcr.io
 ||get.how
 ||getmdl.io
 ||ggpht.com
@@ -460,6 +466,7 @@ adultkeep.net/peepshow/members/main.htm
 ai-wen.net
 .aiph.net
 ||aiph.net
+||airconsole.com
 |http://download.aircrack-ng.org
 .airvpn.org
 ||airvpn.org
@@ -693,6 +700,7 @@ bdsmvideos.net
 beijingspring.com
 ||beijingspring.com
 .belamionline.com
+bemywife.cc
 beric.me
 .berlintwitterwall.com
 ||berlintwitterwall.com
@@ -1049,6 +1057,7 @@ chinagfw.org
 .chinahush.com
 chinalaborwatch.org
 chinalawtranslate.com
+.chinapost.com.tw/taiwan/national/national-news
 chinaxchina.com/howto
 .chinainperspective.com
 chinainperspective.net/ArtShow.aspx?
@@ -1177,6 +1186,7 @@ news.cnyes.com
 |http://tosh.comedycentral.com
 comefromchina.com
 ||comefromchina.com
+.comic-mega.me
 commandarms.com
 ||commentshk.com
 .communistcrimes.org
@@ -1511,6 +1521,7 @@ emilylau.org.hk
 chinese.engadget.com
 englishforeveryone.org
 ||englishfromengland.co.uk
+.enlighten.org.tw
 ||entermap.com
 .entnt.com
 |http://entnt.com
@@ -1552,6 +1563,7 @@ erabaru.net
 ||erodoujinworld.com
 ||eromanga-kingdom.com
 ||eromangadouzin.com
+.eroprofile.com
 .eroticsaloon.net
 .eslite.com/product
 .eslite.com/Search_BW.aspx?q
@@ -1606,6 +1618,8 @@ eyevio.jp
 ||faceless.me
 |http://facesoftibetanselfimmolators.info
 ||facesofnyfw.com
+.faith100.org
+|http://faith100.org
 
 !--Enhancement:
 !--http://faithfuleye.com.detail.website/
@@ -1823,6 +1837,8 @@ free4u.com.ar
 ||freetibet.org
 .freetibetanheroes.org
 |http://freetibetanheroes.org
+.freevpn.me
+|http://freevpn.me
 ||freewallpaper4.me
 .freewebs.com
 ||freeweibo.com
@@ -1902,6 +1918,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001062794
 .ftchinese.com/story/001063160
 .ftchinese.com/story/001065287
+.ftchinese.com/story/001066465
 .ftchinese.com/story/001066959
 .ftchinese.com/story/001067435
 www.ftchinese.com/story/001067479
@@ -1925,6 +1942,7 @@ funp.com
 ||futuremessage.org
 .fux.com
 .fuyin.net
+.fuyindiantai.org
 .fuyu.org.tw
 ||fw.cm
 fzh999.com
@@ -1934,6 +1952,7 @@ fzlm.com
 !--------------------GG-------------------------
 .g6hentai.com
 |http://g6hentai.com
+||g-queen.com
 ||gabocorp.com
 .gaeproxy.com
 .gaforum.org
@@ -2000,6 +2019,7 @@ geocities.jp
 getiton.com
 .getsocialscope.com
 gfbv.de
+.gfgold.com.hk
 .gfsale.com
 ||gfsale.com
 gfw.org.ua
@@ -2605,6 +2625,7 @@ humanrightsbriefing.org
 ||hung-ya.com
 ||hungerstrikeforaids.org
 ||huping.net
+hurgokbayrak.com
 .hurriyet.com.tr
 .hut2.ru
 ||hutianyi.net
@@ -2627,6 +2648,7 @@ iask.ca
 ||iask.ca
 iask.bz
 ||iask.bz
+.iav19.com
 ibiblio.org/pub/packages/ccic
 .iblist.com
 ||iblogserv-f.net
@@ -2751,7 +2773,7 @@ ipalter.com
 ||ipicture.ru
 .ipjetable.net
 ||ipjetable.net
-!--ipobar.com
+.ipobar.com/read.php?
 .iportal.me
 |http://iportal.me
 ||ippotv.com
@@ -3294,6 +3316,7 @@ mp3ye.eu
 ||mpettis.com
 mpfinance.com
 mpinews.com
+mponline.hk
 mrtweet.com
 ||mrtweet.com
 news.hk.msn.com
@@ -3509,6 +3532,8 @@ nuzcom.com
 ||nyaa.eu
 ||nyaa.se
 .nydus.ca
+nylon-angel.com
+nylonstockingsonline.com
 !--||nyt.com
 ||nytco.com
 |http://nyti.ms/
@@ -3522,8 +3547,10 @@ nysingtao.com
 
 !--------------------OO-------------------------
 observechina.net
+.obutu.com
 ocaspro.com
 oclp.hk
+.ocreampies.com
 ||october-review.org
 offbeatchina.com
 officeoftibet.com
@@ -3534,6 +3561,8 @@ www2.ohchr.org/english/bodies/cat/docs/ngos/II_China_41.pdf
 .oiktv.com
 oizoblog.com
 .okayfreedom.com
+||okayfreedom.com
+okk.tw
 old-cat.net
 ||olumpo.com
 .olympicwatch.org
@@ -3617,6 +3646,7 @@ forum.palmislife.com
 ||eriversoft.com
 .paldengyal.com
 paljorpublications.com
+.paltalk.com
 ||panacom.co.jp
 paper.li
 paperb.us
@@ -4130,7 +4160,7 @@ home.sina.com
 ||magazines.sina.com.tw
 news.sina.com.hk
 news.sina.com.tw
-|http://news.sinchew.com.my
+news.sinchew.com.my
 .sinchew.com.my/node/
 .sinchew.com.my/taxonomy/term
 .singaporepools.com.sg
@@ -4209,6 +4239,7 @@ sohcradio.com
 ||sohcradio.com
 ||www.somee.com
 ||sorting-algorithms.com
+.sostibet.org
 .soumo.info
 ||soup.io/
 @@||static.soup.io
@@ -4279,6 +4310,7 @@ usinfo.state.gov
 .startpage.com
 ||startpage.com
 .state168.com
+||stc.com.sa
 ||steel-storm.com
 .stepchina.com
 ||stepmania.com
@@ -4372,6 +4404,7 @@ tahr.org.tw
 .taipeisociety.org
 ||taipeisociety.org
 .taiwanbible.com
+.taiwancon.com
 .taiwandaily.net
 ||taiwandaily.net
 .taiwandc.org
@@ -4491,6 +4524,7 @@ tiananmenmother.org
 ||tiandixing.org
 .tianhuayuan.com
 .tianlawoffice.com
+||tianti.io
 tiantibooks.org
 .tianzhu.org
 .tibet.at
@@ -4558,6 +4592,7 @@ tibethouse.org
 ||tibethouse.us
 .tibetinfonet.net
 .tibetjustice.org
+.tibetkomite.dk
 |http://tibetmuseum.org
 tibetnetwork.org
 ||tibetnetwork.org
@@ -4640,6 +4675,7 @@ torrentprivacy.com
 ||torrenty.org
 ||torrentz.eu
 ||torvpn.com
+||totalvpn.com
 ||toutfr.com
 towngain.com
 .tparents.org
@@ -4724,23 +4760,23 @@ tuitwit.com
 |http://tw01.org
 
 !---Tumblr---
+.tumblr.com
 ||tumblr.com
 !--@@||assets.tumblr.com
 !--@@||data.tumblr.com
 !--@@||media.tumblr.com
 !--@@||static.tumblr.com
 !--@@||www.tumblr.com
-blockedonweibo.tumblr.com
-||fqrouter.tumblr.com
-fanqiangkan.tumblr.com
-fubaichina.tumblr.com
+!--blockedonweibo.tumblr.com
+!--||fqrouter.tumblr.com
+!--fanqiangkan.tumblr.com
+!--fubaichina.tumblr.com
 
 .tv.com
-||www.tv.com
 |http://tv.com
 ||tv-intros.com
 tvants.com
-forum.tvb.com/
+forum.tvb.com
 news.tvb.com/list/world
 news.tvb.com/local
 news.tvbs.com.tw
@@ -5019,6 +5055,7 @@ vermonttibet.org
 .victimsofcommunism.org
 |http://victimsofcommunism.org
 ||vid.me
+||vidble.com
 videobam.com
 ||videobam.com
 .videomega.tv
@@ -5534,11 +5571,13 @@ zgzcjj.net
 .zhanbin.net
 ||zhanbin.net
 .zhangboli.net
-zhenghui.org
 ||zhangtianliang.com
+zhenghui.org
 zhengwunet.org
 zhenlibu.info
 ||zhenlibu.info
+.zhenlibu1984.com
+|http://zhenlibu1984.com
 |http://zhenxiang.biz
 .zhinengluyou.com
 zhongguo.ca
