@@ -2,7 +2,7 @@
 bypass-system = true
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
-dns-server = 115.29.49.136
+dns-server = 119.29.29.29
 loglevel = notify
 
 __Proxy__
