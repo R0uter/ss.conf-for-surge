@@ -8,7 +8,8 @@ loglevel = notify
 __Proxy__
 
 [Rule]
-//for Google blogspot 
+//for Google blogspot
+DOMAIN-SUFFIX,google.cn,DIRECT
 DOMAIN-KEYWORD,google,Proxy,force-remote-dns
 DOMAIN-KEYWORD,blogspot,Proxy,force-remote-dns
 //for BBC 
