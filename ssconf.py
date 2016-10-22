@@ -161,7 +161,7 @@ def genGfwConf():
     f = codecs.open('template/ss_gfwlist_conf', 'r','utf-8')
     gfwlist = codecs.open('list/gfwlist.txt', 'r','utf-8')
     adlist = codecs.open('list/adlist.txt', 'r','utf-8')
-    proxy = codecs.open('ServerConfig.txt', 'r', 'utf8')
+    proxy = codecs.open('ServerConfig.txt', 'r', 'utf-8-sig')
     file_content = f.read()
     adlist_buffer = adlist.read()
     gfwlist_buffer = gfwlist.read()
