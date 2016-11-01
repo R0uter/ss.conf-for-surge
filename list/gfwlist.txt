@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2016-10-19 19:00:49
+// updated on 2016-11-01 16:14:58
 
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,85.17.73.31,Proxy,force-remote-dns
@@ -4171,6 +4171,7 @@ DOMAIN-SUFFIX,vpntunnel.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vpnuk.info,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vpnvip.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vporn.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,vpser.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vraiesagesse.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vtunnel.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vuku.cc,Proxy,force-remote-dns
