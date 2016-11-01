@@ -14,6 +14,8 @@ DOMAIN-KEYWORD,google,Proxy,force-remote-dns
 DOMAIN-KEYWORD,blogspot,Proxy,force-remote-dns
 //for BBC 
 DOMAIN-KEYWORD,bbc,Proxy,force-remote-dns
+//for Facebook
+DOMAIN-KEYWORD,facebook,Proxy,force-remote-dns
 
 // AD Block
 __ADBLOCK__
