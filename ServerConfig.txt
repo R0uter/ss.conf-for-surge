@@ -7,8 +7,7 @@
 
 [Proxy Group]
 ChinaProxy = select,💊DIRECT,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
-Proxy = select,💊DIRECT,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
-
+Proxy = select,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US,💊DIRECT
 
 @Auto = url-test,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US,url=http://www.gstatic.com/generate_204
-Proxy = select,💊DIRECT,@Auto,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
+Proxy = select,@Auto,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US,💊DIRECT
