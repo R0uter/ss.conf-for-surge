@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: CixQz0zCA0snuVl6VwG9NA
+! Checksum: 5eb96ux2p03a4lXfMVZpJw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Mon, 24 Oct 2016 09:28:42 +0200
+! Last Modified: Wed, 23 Nov 2016 06:33:16 +0100
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -43,7 +43,6 @@
 ||desipro.de
 ||dish.com
 |http://img.dlsite.jp/
-||dm530.net
 !--||share.dmhy.org
 ||dmm.co.jp
 !--||dmm.com
@@ -391,6 +390,7 @@ d1c37gjwa26taa.cloudfront.net
 ||facebook.com
 !--/^https?:\/\/[^\/]+facebook\.com/
 @@||*v6.facebook.com
+||facebook.design
 ||connect.facebook.net
 ||facebook.hu
 ||facebook.in
@@ -639,6 +639,7 @@ zhao.1984.city
 ||4shared.com
 taiwannation.50webs.com
 ||51.ca
+||51jav.org
 .51luoben.com
 ||51luoben.com
 5aimiku.com
@@ -1027,6 +1028,7 @@ bitsnoop.com
 bizhat.com
 ||bl-doujinsouko.com
 .bjnewlife.org
+.bjs.org
 bjzc.org
 ||bjzc.org
 .blacklogic.com
@@ -3133,6 +3135,8 @@ chinese.irib.ir
 ||ismprofessional.net
 isohunt.com
 ||israbox.com
+.issuu.com
+||issuu.com
 .istars.co.nz
 oversea.istarshine.com
 ||oversea.istarshine.com
@@ -4496,6 +4500,7 @@ sesawe.net
 ||sesawe.net
 .sesawe.org
 ||sethwklein.net
+.setn.com
 forum.setty.com.tw
 .sevenload.com
 ||sevenload.com
@@ -5372,6 +5377,7 @@ twitoaster.com
 ||t.co
 |http://twt.tl
 twittbot.net
+||ads-twitter.com
 .twitter.com
 ||twitter.com
 ||twitter.jp
@@ -5763,7 +5769,7 @@ zh.uncyclopedia.wikia.com
 ||wikileaks.eu
 ||wikileaks.lu
 .wikileaks.org
-!--||wikileaks.org
+||wikileaks.org
 ||wikileaks.pl
 .wikileaks-forum.com
 wildammo.com
@@ -6046,6 +6052,7 @@ yong.hu
 .youjizz.com
 ||youjizz.com
 youmaker.com
+youngspiration.hk
 .youpai.org
 ||youpai.org
 .your-freedom.net
@@ -6277,6 +6284,7 @@ taipei.gov.tw
 !--@@||bing.com
 @@||bt.byr.cn
 @@||chinaso.com
+@@||chinaz.com
 @@|http://nrch.culture.tw/
 !--ISP cache works sometimes, verified at drpeng + gehua.
 !--@@||dl.google.com

@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2016-11-01 16:14:58
+// updated on 2016-11-24 00:48:19
 
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,85.17.73.31,Proxy,force-remote-dns
@@ -26,7 +26,6 @@ DOMAIN-SUFFIX,darpa.mil,Proxy,force-remote-dns
 DOMAIN-SUFFIX,desipro.de,Proxy,force-remote-dns
 DOMAIN-SUFFIX,dish.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,img.dlsite.jp,Proxy,force-remote-dns
-DOMAIN-SUFFIX,dm530.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,dmm.co.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,eesti.ee,Proxy,force-remote-dns
 DOMAIN-SUFFIX,expekt.com,Proxy,force-remote-dns
@@ -325,6 +324,7 @@ DOMAIN-SUFFIX,slyip.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,suroot.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,facebook.br,Proxy,force-remote-dns
 DOMAIN-SUFFIX,facebook.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,facebook.design,Proxy,force-remote-dns
 DOMAIN-SUFFIX,connect.facebook.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,facebook.hu,Proxy,force-remote-dns
 DOMAIN-SUFFIX,facebook.in,Proxy,force-remote-dns
@@ -523,6 +523,7 @@ DOMAIN-SUFFIX,4rbtv.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,4shared.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,taiwannation.50webs.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,51.ca,Proxy,force-remote-dns
+DOMAIN-SUFFIX,51jav.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,51luoben.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,5aimiku.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,5i01.com,Proxy,force-remote-dns
@@ -821,6 +822,7 @@ DOMAIN-SUFFIX,bitsnoop.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bizhat.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bl-doujinsouko.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bjnewlife.org,Proxy,force-remote-dns
+DOMAIN-SUFFIX,bjs.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bjzc.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,blacklogic.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,blackvpn.com,Proxy,force-remote-dns
@@ -2206,6 +2208,7 @@ DOMAIN-SUFFIX,ismalltits.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ismprofessional.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,isohunt.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,israbox.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,issuu.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,istars.co.nz,Proxy,force-remote-dns
 DOMAIN-SUFFIX,oversea.istarshine.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,blog.istef.info,Proxy,force-remote-dns
@@ -3297,6 +3300,7 @@ DOMAIN-SUFFIX,tweets.seraph.me,Proxy,force-remote-dns
 DOMAIN-SUFFIX,sesawe.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,sesawe.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,sethwklein.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,setn.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,forum.setty.com.tw,Proxy,force-remote-dns
 DOMAIN-SUFFIX,sevenload.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,sex.com,Proxy,force-remote-dns
@@ -3964,6 +3968,7 @@ DOMAIN-SUFFIX,twitvid.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,t.co,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twt.tl,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twittbot.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,ads-twitter.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twitter.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twitter.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twttr.com,Proxy,force-remote-dns
@@ -4456,6 +4461,7 @@ DOMAIN-SUFFIX,yorkbbs.ca,Proxy,force-remote-dns
 DOMAIN-SUFFIX,youxu.info,Proxy,force-remote-dns
 DOMAIN-SUFFIX,youjizz.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,youmaker.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,youngspiration.hk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,youpai.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,your-freedom.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yourepeat.com,Proxy,force-remote-dns
