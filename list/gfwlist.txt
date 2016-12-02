@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2016-11-24 00:48:19
+// updated on 2016-12-02 22:20:55
 
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,85.17.73.31,Proxy,force-remote-dns
@@ -437,6 +437,7 @@ DOMAIN-SUFFIX,igoogle.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,itasoftware.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,like.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,madewithcode.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,material.io,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nic.google,Proxy,force-remote-dns
 DOMAIN-SUFFIX,on2.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,panoramio.com,Proxy,force-remote-dns
@@ -2527,6 +2528,7 @@ DOMAIN-SUFFIX,mediachinese.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mediafire.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mediafreakcity.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,medium.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,meetav.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,meetup.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mefeedia.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,megaporn.com,Proxy,force-remote-dns
@@ -3287,7 +3289,6 @@ DOMAIN-SUFFIX,domainhelp.search.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,searchtruth.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,secretchina.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,secretgarden.no,Proxy,force-remote-dns
-DOMAIN-SUFFIX,default.secureserver.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,secretsline.biz,Proxy,force-remote-dns
 DOMAIN-SUFFIX,securetunnel.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,securitykiss.com,Proxy,force-remote-dns
