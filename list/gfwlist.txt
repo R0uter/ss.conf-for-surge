@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2016-12-10 18:31:51
+// updated on 2016-12-15 00:33:55
 
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,85.17.73.31,Proxy,force-remote-dns
@@ -133,6 +133,7 @@ DOMAIN-SUFFIX,wheretowatch.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,wingamestore.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,wizcrafts.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,xfinity.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,ytn.co.kr,Proxy,force-remote-dns
 DOMAIN-SUFFIX,zattoo.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,zozotown.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,xn--4gq171p.com,Proxy,force-remote-dns

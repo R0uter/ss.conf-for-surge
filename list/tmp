@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: YCV+XP85A/5r2frNmwJH4w
+! Checksum: 62BIagZMgByvv9yThsXQNA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Tue, 06 Dec 2016 14:02:06 +0100
+! Last Modified: Wed, 14 Dec 2016 02:51:31 +0100
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -163,6 +163,7 @@
 ||wingamestore.com
 ||wizcrafts.net
 ||xfinity.com
+||ytn.co.kr
 ||zattoo.com
 ||zozotown.com
 
