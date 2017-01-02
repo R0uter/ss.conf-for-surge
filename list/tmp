@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 62BIagZMgByvv9yThsXQNA
+! Checksum: 8pDkGxGAA48u0HitEHIgdw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Wed, 14 Dec 2016 02:51:31 +0100
+! Last Modified: Sun, 01 Jan 2017 06:37:28 +0100
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -1169,6 +1169,8 @@ busytrade.com
 .buugaa.com
 .buzzhand.com
 .buzzhand.net
+.buzzorange.com
+||buzzorange.com
 bwsj.hk
 ||bx.tl
 holz.byethost8.com
@@ -1719,6 +1721,7 @@ dpp.org.tw
 .drmingxia.org
 |http://drmingxia.org
 ||dropbox.com
+||api.dropboxapi.com
 ||dropboxusercontent.com
 drsunacademy.com
 .drtuber.com
@@ -3846,6 +3849,7 @@ nexttv.com.tw
 ngensis.com
 .nhentai.net
 |http://nhentai.net
+.nhk-ondemand.jp
 .nicovideo.jp/watch
 !--||nicovideo.jp
 ||nighost.org
@@ -3987,7 +3991,7 @@ openid.net
 openvpn.net
 ||openvpn.net
 ||openwebster.com
-|http://help.opera.com
+.openwrt.org.cn
 my.opera.com/dahema
 ||demo.opera-mini.net
 www.orchidbbs.com
@@ -4905,6 +4909,8 @@ tangben.com
 |http://taoism.net
 .taolun.info
 ||taolun.info
+.tapatalk.com
+||tapatalk.com
 blog.taragana.com
 .tascn.com.au
 ||taup.net
@@ -4968,6 +4974,7 @@ thehousenews.com
 ||theinitium.com
 ||thelifeyoucansave.com
 .thenewslens.com
+||thenewslens.com
 .thepiratebay.org
 ||thepiratebay.org
 !--||thepiratebay.se
@@ -6292,7 +6299,6 @@ taipei.gov.tw
 @@||aliyun.com
 @@||baidu.com
 !--@@||bing.com
-@@||bt.byr.cn
 @@||chinaso.com
 @@||chinaz.com
 @@|http://nrch.culture.tw/
@@ -6309,7 +6315,6 @@ taipei.gov.tw
 @@|http://www.google.cn/maps
 @@||http2.golang.org
 @@||gov.cn
-@@||bt.neu6.edu.cn
 @@||qq.com
 @@||sina.cn
 @@||sina.com.cn

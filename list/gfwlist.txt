@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2016-12-15 00:33:55
+// updated on 2017-01-02 15:09:44
 
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,85.17.73.31,Proxy,force-remote-dns
@@ -919,6 +919,7 @@ DOMAIN-SUFFIX,busytrade.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,buugaa.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,buzzhand.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,buzzhand.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,buzzorange.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bwsj.hk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bx.tl,Proxy,force-remote-dns
 DOMAIN-SUFFIX,holz.byethost8.com,Proxy,force-remote-dns
@@ -1330,6 +1331,7 @@ DOMAIN-SUFFIX,drepung.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,drgan.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,drmingxia.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,dropbox.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,api.dropboxapi.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,dropboxusercontent.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,drsunacademy.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,drtuber.com,Proxy,force-remote-dns
@@ -2773,6 +2775,7 @@ DOMAIN-SUFFIX,co.ng.mil,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nga.mil,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ngensis.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nhentai.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,nhk-ondemand.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nicovideo.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nighost.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,av.nightlife141.com,Proxy,force-remote-dns
@@ -2886,7 +2889,7 @@ DOMAIN-SUFFIX,openid.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,openleaks.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,openvpn.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,openwebster.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,help.opera.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,openwrt.org.cn,Proxy,force-remote-dns
 DOMAIN-SUFFIX,my.opera.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,demo.opera-mini.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,www.orchidbbs.com,Proxy,force-remote-dns
@@ -3616,6 +3619,7 @@ DOMAIN-SUFFIX,tangben.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tangren.us,Proxy,force-remote-dns
 DOMAIN-SUFFIX,taoism.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,taolun.info,Proxy,force-remote-dns
+DOMAIN-SUFFIX,tapatalk.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,blog.taragana.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tascn.com.au,Proxy,force-remote-dns
 DOMAIN-SUFFIX,taup.net,Proxy,force-remote-dns
