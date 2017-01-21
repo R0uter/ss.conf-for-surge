@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 8pDkGxGAA48u0HitEHIgdw
+! Checksum: ogVbrJOs8W6iTlbDDSlVEg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sun, 01 Jan 2017 06:37:28 +0100
+! Last Modified: Fri, 20 Jan 2017 08:07:09 +0100
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -45,7 +45,7 @@
 |http://img.dlsite.jp/
 !--||share.dmhy.org
 ||dmm.co.jp
-!--||dmm.com
+|http://www.dmm.com/netgame
 ||eesti.ee
 .expekt.com
 ||expekt.com
@@ -106,12 +106,14 @@
 ||mattwilcox.net
 ||metarthunter.com
 ||mfxmedia.com
+||kb.monitorware.com
 ||monster.com
 ||moodyz.com
 ||muzu.tv
 ||mvg.jp
 ||nationwide.com
 |http://www.nbc.com/live
+||neo-miracle.com
 ||netflix.com
 |http://mo.nightlife141.com
 ||nordstrom.com
@@ -123,6 +125,7 @@
 ||nusatrip.com
 ||nuuvem.com
 ||omni7.jp
+||onapp.com
 !--We are confused as well
 ||ontrac.com
 @@|http://blog.ontrac.com
@@ -140,6 +143,7 @@
 |http://cdn*.search.xxx/
 ||shutterstock.com
 ||slacker.com
+||sm-miracle.com
 ||spotify.com
 ||springboardplatform.com
 ||sprite.org
@@ -445,6 +449,9 @@ blogspot.com
 .google.ae
 .google.as
 .google.am
+.google.at
+.google.az
+.google.ba
 .google.cat
 .google.cd
 .google.ci
@@ -462,6 +469,7 @@ blogspot.com
 .google.fm
 .google.fr
 .google.gg
+.google.gl
 .google.ie
 .google.is
 .google.it
@@ -472,8 +480,10 @@ blogspot.com
 .google.no
 .google.ro
 .google.sc
+.google.sh
 .google.sk
 .google.sm
+.google.sn
 .google.tk
 .google.to
 .google.tt
@@ -482,6 +492,7 @@ blogspot.com
 /^https?:\/\/([^\/]+\.)*google\.(ac|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cat|cd|cf|cg|ch|ci|cl|cm|co.ao|co.bw|co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|co.mz|co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hk|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|mx|ne|nl|no|nr|nu|org|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|us|vg|vn|vu|ws)\/.*/
 !--||google-analytics.com
 !--||googleadservices.com
+||googleapis.cn
 ||googleapis.com
 ||googleapps.com
 ||googleartproject.com
@@ -537,6 +548,7 @@ blogspot.com
 ||tiltbrush.com
 !--||www.google
 ||waveprotocol.org
+||waymo.com
 ||webmproject.org
 ||webrtc.org
 ||whatbrowser.org
@@ -646,6 +658,7 @@ taiwannation.50webs.com
 ||51jav.org
 .51luoben.com
 ||51luoben.com
+.5278.cc
 5aimiku.com
 5i01.com
 .5isotoi5.org
@@ -818,6 +831,7 @@ anontext.com
 .answering-islam.org
 |http://www.antd.org
 ||anthonycalzadilla.com
+.anti1984.com
 .antiwave.net
 |http://antiwave.net
 .anysex.com
@@ -1084,6 +1098,7 @@ boardreader.com/thread
 ||bolehvpn.net
 bonbonme.com
 .bonbonsex.com
+.bonfoundation.org
 .bongacams.com
 ||boobstagram.com
 ||book.com.tw
@@ -1260,7 +1275,7 @@ ccue.com
 .cgdepot.org
 |http://cgdepot.org
 ||cdbook.org
-||cdd.me
+.cdcparty.com
 .cdef.org
 ||cdef.org
 ||cdig.info
@@ -1344,21 +1359,18 @@ chinachannel.hk
 chinageeks.org
 chinagfw.org
 ||chinagfw.org
+.chinagonet.com
 .chinagreenparty.org
 ||chinagreenparty.org
 .chinahorizon.org
 ||chinahorizon.org
 .chinahush.com
+.chinainperspective.com
+||chinainterimgov.org
 chinalaborwatch.org
 chinalawtranslate.com
 .chinapost.com.tw/taiwan/national/national-news
 chinaxchina.com/howto
-.chinainperspective.com
-chinainperspective.net/ArtShow.aspx?
-||chinainperspective.net
-.chinainperspective.org
-||chinainperspective.org
-||chinainterimgov.org
 chinalawandpolicy.com
 .chinamule.com
 ||chinamule.com
@@ -1399,7 +1411,7 @@ chinese-memorial.org
 .chinman.net
 |http://chinman.net
 chithu.org
-chn.chosun.com
+cnnews.chosun.com/client/news/viw.asp?cate=C01&mcate
 .chrdnet.com
 |http://chrdnet.com
 .christianfreedom.org
@@ -1550,6 +1562,8 @@ cytode.us
 ||nic.cz.cc
 
 !--------------------DD-------------------------
+.d-fukyu.com
+|http://d-fukyu.com
 cl.d0z.net
 .d100.net
 .d2bay.com
@@ -1890,6 +1904,7 @@ erabaru.net
 .eslite.com/Search_BW.aspx?q
 wiki.esu.im/%E8%9B%A4%E8%9B%A4%E8%AF%AD%E5%BD%95
 .etaa.org.au
+.etadult.com
 etaiwannews.com
 ||etizer.org
 ||etokki.com
@@ -2159,6 +2174,9 @@ free4u.com.ar
 |http://freevpn.me
 ||freewallpaper4.me
 .freewebs.com
+.freewechat.com
+||freewechat.com
+freeweibo.com
 ||freeweibo.com
 .freexinwen.com
 .freeyoutubeproxy.net
@@ -2363,7 +2381,7 @@ gfw.org.ua
 ||ghostpath.com
 ||ghut.org
 ||giga-web.jp
-|http://tw.gigacircle.com
+|tw.gigacircle.com
 |http://cn.giganews.com/
 gigporno.ru
 ||girlbanker.com
@@ -2425,6 +2443,8 @@ gongminliliang.com
 .gongwt.com
 |http://gongwt.com
 blog.goo.ne.jp/duck-tail_2009
+.gooday.xyz
+|http://gooday.xyz
 .goodreads.com
 ||goodreads.com
 .goodreaders.com
@@ -2717,6 +2737,7 @@ guruonline.hk
 .gyatsostudio.com
 
 !--------------------HH-------------------------
+.h528.com
 .h5dm.com
 .h5galgame.me
 ||h-china.org
@@ -2732,11 +2753,14 @@ h1n1china.org
 .hacg.red
 |http://hacg.red
 .hacken.cc/bbs
+.hacker.org
 ||hackthatphone.net
 hahlo.com
 ||hakkatv.org.tw
+.handcraftedsoftware.org
 |http://bbs.hanminzu.org/
 .hanunyi.com
+.hao.news/news
 |http://ae.hao123.com
 |http://ar.hao123.com
 |http://br.hao123.com
@@ -2944,6 +2968,7 @@ huaglad.com
 .huangyiyu.com
 .huaren.us
 ||huaren.us
+bbs.huasing.org
 huaxia-news.com
 huaxiabao.org
 huaxin.ph
@@ -3114,6 +3139,7 @@ ipalter.com
 .ipjetable.net
 ||ipjetable.net
 .ipobar.com/read.php?
+ipoock.com/img
 .iportal.me
 |http://iportal.me
 ||ippotv.com
@@ -3188,6 +3214,7 @@ jamaat.org
 ||janwongphoto.com
 ||japan-whores.com
 .jav68.tv
+.javhd.com
 .javhip.com
 .javakiba.org
 |http://javakiba.org
@@ -3238,6 +3265,8 @@ weiboscope.jmsc.hku.hk
 ||journalofdemocracy.org
 .joymiihub.com
 jpopforum.net
+.jubushoushen.com
+||jubushoushen.com
 !--Doamin parking
 .juhuaren.com
 ||juliereyc.com
@@ -3245,6 +3274,9 @@ jpopforum.net
 .june4commemoration.org
 .junefourth-20.net
 ||junefourth-20.net
+||bbs.junglobal.net
+.juoaa.com
+|http://juoaa.com
 justfreevpn.com
 .justicefortenzin.org
 justpaste.it
@@ -3320,7 +3352,9 @@ killwall.com
 .koornk.com
 ||koornk.com
 ||koranmandarin.com
+.korenan2.com
 |http://gojet.krtco.com.tw
+.ksdl.org
 .ksnews.com.tw
 ||ktzhk.com
 .kui.name/event
@@ -3328,9 +3362,9 @@ kun.im
 .kurashsultan.com
 ||kurtmunger.com
 kusocity.com
-||kusos.com
 ||kwcg.ca
 kwongwah.com.my
+.kyofun.com
 kyohk.net
 ||kyoyue.com
 .kzeng.info
@@ -3724,6 +3758,7 @@ myactimes.com
 .mychinanet.com
 .mychinanews.com
 ||mychinanews.com
+.mychinese.news
 ||mycnnews.com
 ||mykomica.org
 mycould.com/discuz
@@ -3737,6 +3772,7 @@ mycould.com/discuz
 .myfreshnet.com
 forum.mymaji.com
 mymediarom.com/files/box
+||mymoe.moe
 ||mymusic.net.tw
 ||myparagliding.com
 ||mypopescu.com
@@ -3772,15 +3808,16 @@ namgyalmonastery.org
 ||jpl.nasa.gov
 ||pds.nasa.gov
 ||solarsystem.nasa.gov
-/^https?:\/\/[^\/]+line\.naver\.jp/
 .nakido.com
 ||nakido.com
 .naol.ca
+.naol.cc
 uighur.narod.ru
 cyberghost.natado.com
 ||national-lottery.co.uk
 news.nationalgeographic.com/news/2014/06/140603-tiananmen-square
 .nationsonline.org/oneworld/tibet
+||line.naver.jp
 ||navyfamily.navy.mil
 ||navyreserve.navy.mil
 ||nko.navy.mil
@@ -3819,9 +3856,9 @@ newipnow.com
 .newlandmagazine.com.au
 .newnews.ca
 news100.com.tw
+newschinacomment.org
 .newscn.org
 ||newscn.org
-||newsminer.com
 newspeak.cc/story
 .newsancai.com
 ||newsancai.com
@@ -4401,7 +4438,7 @@ rfaweb.org
 .rfi.fr
 ||rfi.fr
 |http://rfi.my/
-.rhcloud.com
+!--.rhcloud.com
 !--Edgecast
 |http://vds.rightster.com/
 .rigpa.org
@@ -4591,6 +4628,7 @@ ch.shvoong.com
 .sidelinessportseatery.com
 .sijihuisuo.club
 .sijihuisuo.com
+.silkbook.com
 simplecd.org
 ||simplecd.org
 @@||simplecd.me
@@ -4731,12 +4769,10 @@ soundofhope.org
 !--.sourceforge.net
 !-|http://sourceforge.net
 |http://sourceforge.net/p*/shadowsocksgui/
-|http://nchc.dl.sourceforge.net
 .sourcewadio.com
 southnews.com.tw
 sowers.org.hk
 ||wlx.sowiki.net
-||space-scape.com
 ||spankbang.com
 .spankwire.com
 ||spb.com
@@ -4939,6 +4975,8 @@ tbswd.org
 .tcewf.org
 tchrd.org
 tcnynj.org
+.tcsofbc.org
+.tcsovi.org
 teamamericany.com
 ||techlifeweb.com
 !--technorati.com
@@ -5236,6 +5274,7 @@ tuidang.org
 bbs.tuitui.info
 .tumutanzi.com
 |http://tumutanzi.com
+||tumview.com
 .tunein.com
 |http://tunein.com
 ||tunnelbear.com
@@ -5250,6 +5289,7 @@ bbs.tuitui.info
 ||tuo8.org
 .tuo8.pw
 |http://tuo8.pw
+.tuo8.space
 tuitwit.com
 .turansam.org
 .turbobit.net
@@ -5275,14 +5315,9 @@ tuitwit.com
 !--@@||media.tumblr.com
 !--@@||static.tumblr.com
 !--@@||www.tumblr.com
-!--blockedonweibo.tumblr.com
-!--||fqrouter.tumblr.com
-!--fanqiangkan.tumblr.com
-!--fubaichina.tumblr.com
 
 .tv.com
 |http://tv.com
-||tv-intros.com
 tvants.com
 forum.tvb.com
 news.tvb.com/list/world
@@ -5421,6 +5456,7 @@ twiyia.com
 |http://twtkr.com
 ||twimg.com
 .twnorth.org.tw
+twskype.com
 twtrland.com
 twurl.nl
 .twyac.org
@@ -5657,6 +5693,7 @@ vpnhq.com
 ||vpnmaster.com
 .vpninja.net
 ||vpninja.net
+||vpnintouch.net
 .vpnpick.com
 ||vpnpick.com
 ||vpnpop.com
@@ -5739,6 +5776,7 @@ webworkerdaily.com
 ||wefightcensorship.org
 .wefong.com
 weiboleak.com
+.weihuo.org
 weijingsheng.org
 .weiming.info
 ||weiming.info
@@ -5845,6 +5883,11 @@ zh.m.wikipedia.org
 |https://zh.m.wikipedia.org
 !--@@||m.wikipedia.org
 |https://zh.wikipedia.org
+!--Other Languages of Wikipedia
+wuu.wikipedia.org
+|https://wuu.wikipedia.org
+zh-yue.wikipedia.org
+|https://zh-yue.wikipedia.org
 
 ||wikiwiki.jp
 ||casino.williamhill.com
@@ -6014,6 +6057,8 @@ hk.search.yahoo.com/search
 hk.video.news.yahoo.com/video
 meme.yahoo.com
 !--tw.yahoo.com
+tw.answers.yahoo.com
+|https://tw.answers.yahoo.com
 ||tw.knowledge.yahoo.com
 ||tw.mall.yahoo.com
 tw.yahoo.com
@@ -6304,6 +6349,7 @@ taipei.gov.tw
 @@|http://nrch.culture.tw/
 !--ISP cache works sometimes, verified at drpeng + gehua.
 @@||dl.google.com
+@@||kh.google.com
 @@||fonts.googleapis.com
 @@||cn.gravatar.com
 @@||csi.gstatic.com
