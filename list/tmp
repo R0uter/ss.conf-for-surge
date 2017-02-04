@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: ogVbrJOs8W6iTlbDDSlVEg
+! Checksum: J95zvypkXQI5dTQw4SmKBw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Fri, 20 Jan 2017 08:07:09 +0100
+! Last Modified: Fri, 03 Feb 2017 11:20:47 +0100
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -16,6 +16,7 @@
 ! https://github.com/gfwlist/gfwlist/issues/.
 
 !---------403/451/520 & URL Redirects---------
+||2dbook.com
 ||4tern.com
 !--ehentai
 |http://85.17.73.31/
@@ -90,9 +91,11 @@
 .javlibrary.com
 ||javlibrary.com
 ||jcpenney.com
+||jims.net
 ||juliepost.com
 ||kawaiikawaii.jp
 ||khatrimaza.org
+||kkbox.com
 ||leisurepro.com
 ||longtoes.com
 ||lovetvshow.com
@@ -189,6 +192,9 @@ china-mmm.jp.net
 china-mmm.sa.com
 
 !---------------------Groups--------------------
+!!---Afraid FreeDNS---
+.now.im
+
 !!---Amazon---
 .amazon.com/Dalai-Lama
 s3-ap-northeast-1.amazonaws.com
@@ -414,6 +420,7 @@ d1c37gjwa26taa.cloudfront.net
 ||1e100.net
 ||abc.xyz
 ||admob.com
+||adsense.com
 ||agoogleaday.com
 ||ampproject.org
 ||android.com
@@ -422,6 +429,8 @@ d1c37gjwa26taa.cloudfront.net
 ||appspot.com
 blogspot.com
 /^https?:\/\/[^\/]+blogspot\.(.*)/
+.blogspot.hk
+.blogspot.jp
 ||certificate-transparency.org
 ||chrome.com
 ||chromecast.com
@@ -470,21 +479,27 @@ blogspot.com
 .google.fr
 .google.gg
 .google.gl
+.google.gr
 .google.ie
 .google.is
 .google.it
 .google.jo
+.google.kz
+.google.mn
 .google.ms
 .google.nl
 .google.nu
 .google.no
 .google.ro
+.google.ru
+.google.rw
 .google.sc
 .google.sh
 .google.sk
 .google.sm
 .google.sn
 .google.tk
+.google.tm
 .google.to
 .google.tt
 .google.vu
@@ -512,7 +527,7 @@ blogspot.com
 ||googleplay.com
 ||googleplus.com
 ||googlesource.com
-!--||googlesyndication.com
+||googlesyndication.com
 !--||googletagmanager.com
 !--||googletagservices.com
 ||googleusercontent.com
@@ -584,6 +599,7 @@ blogspot.com
 @@|http://www.v2ex.com
 
 !------------------Numerics---------------------
+.030buy.com
 .0rz.tw
 |http://0rz.tw
 ||0to255.com
@@ -786,6 +802,7 @@ alliance.org.hk
 ||allmovie.com
 .alphaporno.com
 ||alternate-tools.com
+alternativeto.net/software
 alvinalexander.com
 alwaysdata.com
 ||alwaysdata.com
@@ -1060,6 +1077,7 @@ blinw.com
 ||blip.tv/
 .blockcn.com
 ||blockcn.com
+||blockless.com
 ||blog.de
 .blog.jp
 |http://blog.jp
@@ -1420,9 +1438,10 @@ christianstudy.com
 ||christianstudy.com
 christusrex.org/www1/sdc
 ||chromeadblock.com
+.chubold.com
 chubun.com
 chuizi.net
-||christiantimes.org.hk
+christiantimes.org.hk
 .chrlawyers.hk
 |http://chrlawyers.hk
 .churchinhongkong.org/b5/index.php
@@ -1466,6 +1485,8 @@ hkupop.hku.hk
 ||cmule.com
 ||cmule.org
 ||cms.gov
+|http://vpn.cmu.edu
+|http://vpn.sv.cmu.edu
 .cn6.eu
 .cna.com.tw
 ||cna.com.tw
@@ -1518,7 +1539,9 @@ corumcollege.com
 ||couchdbwiki.com
 ||cotweet.com
 cpj.org
-||cpj.org/
+||cpj.org
+.cq99.us
+|http://cq99.us
 crackle.com
 ||crackle.com
 ||crchina.org
@@ -1720,6 +1743,7 @@ dongtaiwang.com
 ||dotplane.com
 ||dotsub.com
 ||dougscripts.com
+||douhokanko.net
 ||doujincafe.com
 dowei.org
 !--||doxygen.org
@@ -1734,6 +1758,7 @@ dpp.org.tw
 ||drgan.net
 .drmingxia.org
 |http://drmingxia.org
+||dropbooks.tv
 ||dropbox.com
 ||api.dropboxapi.com
 ||dropboxusercontent.com
@@ -1790,6 +1815,8 @@ xys.dxiong.com
 .e-gold.com
 ||g.e-hentai.org
 ||lofi.e-hentai.org
+.e-hentaidb.com
+|http://e-hentaidb.com
 e-info.org.tw
 .e-traderland.net/board
 .e-zone.com.hk/discuz
@@ -1893,6 +1920,7 @@ erabaru.net
 |http://erktv.com
 ||ernestmandel.org
 ||erodaizensyu.com
+||erodoujinlog.com
 ||erodoujinworld.com
 ||eromanga-kingdom.com
 ||eromangadouzin.com
@@ -2273,7 +2301,9 @@ www.ftchinese.com/story/001067479
 .ftchinese.com/story/001068483
 .ftchinese.com/story/001069373
 .ftchinese.com/story/001069516
+.ftchinese.com/story/001071106
 .ftchinese.com/video/1437
+.ftchinese.com/video/1882
 .ftchinese.com/comments
 fucd.com
 .fuckcnnic.net
@@ -2874,6 +2904,7 @@ hkbc.net
 ||hkbookcity.com
 .hkchurch.org
 .hkcmi.edu
+||hkcnews.com
 ||hkcoc.com
 hkday.net
 .hkdailynews.com.hk/china.php
@@ -3289,6 +3320,7 @@ juziyue.com
 .jyxf.net
 
 !--------------------KK-------------------------
+||k-doujin.net
 ||ka-wai.com
 .kagyuoffice.org
 ||kagyuoffice.org
@@ -3298,6 +3330,7 @@ juziyue.com
 ||kakao.com
 .kankan.today
 .kannewyork.com
+||kannewyork.com
 .kanshifang.com
 ||kanshifang.com
 kanzhongguo.com
@@ -3439,6 +3472,8 @@ abitno.linpie.com/use-ipv6-to-fuck-gfw
 ||line.me
 .linglingfa.com
 ||lingvodics.com
+.link-o-rama.com
+|http://link-o-rama.com
 .linkideo.com
 ||api.linksalpha.com
 ||apidocs.linksalpha.com
@@ -3684,9 +3719,9 @@ mixpod.com
 .mk5000.com
 .mlcool.com
 ||mmaaxx.com
-plurktop.mmdays.com
 .mmmca.com
 ||mobatek.net
+|http://mobile01.com
 .mobile01.com
 ||mobileways.de
 .mobypicture.com
@@ -4151,6 +4186,7 @@ penisbot.com
 .perfectgirls.net
 perfectvpn.net
 .persecutionblog.com
+.persiankitty.com
 pfd.org.hk
 phapluan.org
 phayul.com
@@ -4522,10 +4558,10 @@ savevid.com
 ||say2.info
 .sbme.me
 |http://sbme.me
+.sbs.com.au/yourlanguage
 .scasino.com
 |http://www.sciencemag.org/content/344/6187/953
 .sciencenets.com
-||scihub.org
 .scmp.com
 .scmpchinese.com
 ||scramble.io
@@ -4689,6 +4725,7 @@ bbs.skykiwi.com
 m.slandr.net
 ||slavasoft.com
 .slaytizle.com
+.sleazydream.com
 ||slheng.com
 .slideshare.net
 forum.slime.com.tw
@@ -4774,6 +4811,7 @@ southnews.com.tw
 sowers.org.hk
 ||wlx.sowiki.net
 ||spankbang.com
+.spankingtube.com
 .spankwire.com
 ||spb.com
 ||speakerdeck.com
@@ -4781,7 +4819,6 @@ spem.at
 ||spencertipping.com
 ||spicevpn.com
 .spike.com
-spinejs.com
 .spotflux.com
 ||spotflux.com
 .spring4u.info
@@ -4790,6 +4827,8 @@ spinejs.com
 ||sproxy.info
 squarespace.com
 ||srocket.us
+.ss-link.com
+||ss-link.com
 ||ssh91.com
 .sspro.ml
 |http://sspro.ml
@@ -4873,8 +4912,6 @@ sun1911.com
 ||surrenderat20.net
 .suyangg.com
 |http://suyangg.com
-||svwind.com
-||sweux.com
 .swissvpn.net
 ||swissvpn.net
 switchvpn.net
@@ -4883,7 +4920,6 @@ switchvpn.net
 .sydneytoday.com
 .sylfoundation.org
 ||syncback.com
-||sysadmin1138.net
 sysresccd.org
 .sytes.net
 blog.syx86.com/2009/09/puff
@@ -4895,7 +4931,6 @@ blog.syx86.cn/2009/09/puff
 .t35.com
 .t66y.com
 ||t66y.com
-||t88.ca
 .taa-usa.org
 |http://taa-usa.org
 .taaze.tw
@@ -4905,7 +4940,6 @@ tabtter.jp
 .tacem.org
 .taconet.com.tw
 ||taedp.org.tw
-||tafaward.com
 .tafm.org
 .tagwa.org.au
 tagwalk.com
@@ -4960,6 +4994,7 @@ blog.taragana.com
 .tbjyt.org
 ||tbpic.info
 tbs-rainbow.org
+.tbsec.org
 ||tbsec.org
 tbskkinabalu.page.tl
 .tbsmalaysia.org
@@ -4978,8 +5013,6 @@ tcnynj.org
 .tcsofbc.org
 .tcsovi.org
 teamamericany.com
-||techlifeweb.com
-!--technorati.com
 ||teck.in
 .teeniefuck.net
 teensinasia.com
@@ -5002,7 +5035,6 @@ theblemish.com
 |http://thedalailamamovie.com
 ||thedw.us
 thefrontier.hk/tf
-!--||thegatesnotes.com
 |http://thegioitinhoc.vn/
 .thegly.com
 .thehots.info
@@ -5034,6 +5066,7 @@ thevivekspot.com
 |http://thisav.com
 .thlib.org
 ||thomasbernhard.org
+.thongdreams.com
 threatchaos.com
 ||throughnightsfire.com
 .thumbzilla.com
@@ -5209,7 +5242,6 @@ torrentprivacy.com
 ||torrentz.eu
 ||torvpn.com
 ||totalvpn.com
-||toutfr.com
 towngain.com
 toypark.in
 toytractorshow.com
@@ -5217,17 +5249,13 @@ toytractorshow.com
 .tpi.org.tw
 ||tpi.org.tw
 traffichaus.com
-||transgressionism.org
 ||transparency.org
-||travelinlocal.com
 ||treemall.com.tw
 trendsmap.com
 ||trendsmap.com
 .trialofccp.org
 ||trialofccp.org
 .trimondi.de/SDLE
-||tripod.com
-@@||www.tripod.com
 .trouw.nl
 |http://trouw.nl
 .trt.net.tr
@@ -5301,7 +5329,6 @@ tuitwit.com
 |http://tushycash.com
 .tuvpn.com
 ||tuvpn.com
-||tuxtraining.com
 |http://tuzaijidi.com
 |http://*.tuzaijidi.com
 .tw01.org
