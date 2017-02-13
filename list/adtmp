@@ -19,11 +19,13 @@ AutoGroup = url-test, S1, S2, url = http://www.gstatic.com/generate_204, interva
 Proxy = select, AutoGroup, S3, 💊Wastelands
 
 [Rule]
-DOMAIN-KEYWORD,analytics,REJECT
+
 DOMAIN-KEYWORD,syndication,REJECT
 
 DOMAIN-SUFFIX,digicert.com,Proxy
 DOMAIN-SUFFIX,symcb.com,Proxy
+#added by r0uter
+DOMAIN,afpssp.alimama.com,REJECT
 
 # Google
 DOMAIN,csi.gstatic.com,REJECT
