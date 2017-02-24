@@ -1,31 +1,10 @@
-#Required Surge 1.2.3 or above
-#!UPDATE-URL:https://gist.githubusercontent.com/raw/2e27c124af2f7a4f0d5a/main.conf
-
-[General]
-skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local, ::ffff:0:0/96
-bypass-tun = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
-loglevel = notify
-
-[Proxy]
-# ShadowSocks配置格式 Proxy = custom, 1.2.3.4, 443, rc4-md5, password, http://foo.bar/SSEncrypt.module
-# Proxy = http/https/socks/custom,服务器地址,端口,帐号,密码
-S1 = http,null,1234
-S2 = http,null,1234
-S3 = http,null,1234
-💊Wastelands = direct
-
-[Proxy Group]
-AutoGroup = url-test, S1, S2, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5
-Proxy = select, AutoGroup, S3, 💊Wastelands
-
-[Rule]
-
 DOMAIN-KEYWORD,syndication,REJECT
 
-DOMAIN-SUFFIX,digicert.com,Proxy
-DOMAIN-SUFFIX,symcb.com,Proxy
 #added by r0uter
 DOMAIN,afpssp.alimama.com,REJECT
+DOMAIN,ifzq.gtimg.cn,REJECT
+DOMAIN,sqt.gtimg.cn,REJECT
+DOMAIN,message.finance.qq.com,REJECT
 
 # Google
 DOMAIN,csi.gstatic.com,REJECT
@@ -33,25 +12,8 @@ DOMAIN,static.googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
-DOMAIN,g.co,Proxy
-DOMAIN,goo.gl,Proxy
-DOMAIN-KEYWORD,blogspot,Proxy
-DOMAIN-KEYWORD,google,Proxy,force-remote-dns
-DOMAIN-KEYWORD,youtube,Proxy,force-remote-dns
-DOMAIN-KEYWORD,gmail,Proxy,force-remote-dns
-DOMAIN-SUFFIX,appspot.com,Proxy
-DOMAIN-SUFFIX,ggpht.com,Proxy
-DOMAIN-SUFFIX,gstatic.com,Proxy
-DOMAIN-SUFFIX,ytimg.com,Proxy
 
-# Twitter
-DOMAIN,t.co,Proxy
-DOMAIN-KEYWORD,twitter,Proxy,force-remote-dns
-DOMAIN-SUFFIX,twimg.com,Proxy,force-remote-dns
 
-# Facebook
-DOMAIN-KEYWORD,facebook,Proxy,force-remote-dns
-DOMAIN-SUFFIX,fbcdn.net,Proxy,force-remote-dns
 
 DOMAIN,adlog.flurry.com,REJECT
 DOMAIN,ads.flurry.com,REJECT
@@ -259,121 +221,14 @@ DOMAIN,adcontrol.tudou.com,REJECT
 DOMAIN,adplay.tudou.com,REJECT
 DOMAIN,stat.tudou.com,REJECT
 DOMAIN,stats.tudou.com,REJECT
-DOMAIN-SUFFIX,tudou.com,DIRECT
-DOMAIN-SUFFIX,youku.com,DIRECT
 
-# Apple
-DOMAIN-SUFFIX,apple.co,Proxy
-DOMAIN-SUFFIX,icloud.com,Proxy
-DOMAIN-SUFFIX,itunes.com,Proxy
-DOMAIN,aod.itunes.apple.com,Proxy,force-remote-dns
-DOMAIN,streamingaudio.itunes.apple.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,itunes.apple.com,Proxy
-DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,DIRECT
-DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-DOMAIN-SUFFIX,mzstatic.com,DIRECT
 
-# Dropbox
-DOMAIN,d.dropbox.com,REJECT
-DOMAIN,dl-debug.dropbox.com,REJECT
-DOMAIN-KEYWORD,dropbox,Proxy
 
-# Spotify
-DOMAIN-SUFFIX,scdn.co,DIRECT
-DOMAIN-SUFFIX,spotify.com,Proxy
-DOMAIN-SUFFIX,spotilocal.com,DIRECT
-
-# Banks
-DOMAIN-SUFFIX,cmbchina.com,DIRECT
-DOMAIN-SUFFIX,ecitic.com,DIRECT
-
-DOMAIN-KEYWORD,chinacache,DIRECT
-DOMAIN-SUFFIX,8686c.com,DIRECT
-DOMAIN-KEYWORD,steam,DIRECT
-DOMAIN-KEYWORD,vimeo,Proxy,force-remote-dns
-DOMAIN-SUFFIX,cloudfront.net,Proxy
-DOMAIN-KEYWORD,-cn,DIRECT
-DOMAIN-SUFFIX,cn,DIRECT
-DOMAIN-SUFFIX,ccgslb.com,DIRECT
-DOMAIN-SUFFIX,ccgslb.net,DIRECT
-DOMAIN-SUFFIX,ourdvs.com,DIRECT
-DOMAIN-SUFFIX,fastly.net,Proxy
-DOMAIN-SUFFIX,omnigroup.com,Proxy
-DOMAIN-SUFFIX,sstatic.net,Proxy
-DOMAIN-SUFFIX,zkcdn.net,Proxy
-DOMAIN-KEYWORD,aka,Proxy
-DOMAIN-SUFFIX,edgekey.net,Proxy
-DOMAIN-KEYWORD,qiyi,DIRECT
-DOMAIN-KEYWORD,sohu,DIRECT
-
-DOMAIN-SUFFIX,disqus.com,DIRECT
-DOMAIN-SUFFIX,disquscdn.com,DIRECT
-DOMAIN-SUFFIX,gravatar.com,Proxy
-
-# PlayStation
-DOMAIN-SUFFIX,playstation.net,Proxy
-DOMAIN-KEYWORD,playstation,DIRECT
-DOMAIN-KEYWORD,sonynetworkentertainment,DIRECT
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com,DIRECT
 
 # Instagram
 DOMAIN,logger.instagram.com,REJECT
-DOMAIN-KEYWORD,instagram,Proxy,force-remote-dns
 
 # Amazon
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
-DOMAIN-SUFFIX,amazonaws.com,Proxy
-DOMAIN-SUFFIX,images-amazon.com,Proxy
-DOMAIN-SUFFIX,ssl-images-amazon.com,Proxy
-# Amazon EC2
-IP-CIDR,52.0.0.0/11,Proxy
-IP-CIDR,52.192.0.0/11,Proxy
-IP-CIDR,52.32.0.0/11,Proxy
-IP-CIDR,52.64.0.0/12,Proxy
-IP-CIDR,52.84.0.0/14,Proxy
-IP-CIDR,52.88.0.0/13,Proxy
-IP-CIDR,54.160.0.0/12,Proxy
-IP-CIDR,54.176.0.0/12,Proxy
-IP-CIDR,54.192.0.0/12,Proxy
-IP-CIDR,54.208.0.0/13,Proxy
-IP-CIDR,54.216.0.0/14,Proxy
-IP-CIDR,54.220.0.0/15,Proxy
-IP-CIDR,54.224.0.0/12,Proxy
-IP-CIDR,54.240.0.0/12,Proxy
-IP-CIDR,54.64.0.0/13,Proxy
-IP-CIDR,54.72.0.0/13,Proxy
-IP-CIDR,54.80.0.0/12,Proxy
-IP-CIDR,72.44.32.0/19,Proxy
-IP-CIDR,107.20.0.0/14,Proxy
-IP-CIDR,174.129.0.0/16,Proxy
-IP-CIDR,184.72.0.0/15,Proxy
-IP-CIDR,204.236.128.0/17,Proxy
-IP-CIDR,75.101.128.0/17,Proxy
-IP-CIDR,216.182.224.0/20,Proxy
-IP-CIDR,23.20.0.0/14,Proxy
-IP-CIDR,50.16.0.0/14,Proxy
-IP-CIDR,67.202.0.0/18,Proxy
 
-# Azure
-DOMAIN-SUFFIX,azurewebsites.net,Proxy
 
-# Telegram
-IP-CIDR,91.108.56.0/22,Proxy,no-resolve
-IP-CIDR,91.108.4.0/22,Proxy,no-resolve
-IP-CIDR,109.239.140.0/24,Proxy,no-resolve
-IP-CIDR,149.154.160.0/20,Proxy,no-resolve
-
-# LAN
-IP-CIDR,192.168.0.0/16,DIRECT
-IP-CIDR,10.0.0.0/8,DIRECT
-IP-CIDR,172.16.0.0/12,DIRECT
-IP-CIDR,127.0.0.0/8,DIRECT
-
-GEOIP,CN,DIRECT
-FINAL,Proxy
-
-[URL Rewrite]
-^http://www.google.cn http://www.google.com.hk
-^http://m.baidu.com/s\?from=1099b&word= http://google.com/search\?q=
-^http://www.baidu.com/s\?wd= http://google.com/search\?q=

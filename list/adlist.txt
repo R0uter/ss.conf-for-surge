@@ -2,6 +2,9 @@
 
 DOMAIN-KEYWORD,syndication,REJECT
 DOMAIN,afpssp.alimama.com,REJECT
+DOMAIN,ifzq.gtimg.cn,REJECT
+DOMAIN,sqt.gtimg.cn,REJECT
+DOMAIN,message.finance.qq.com,REJECT
 DOMAIN,csi.gstatic.com,REJECT
 DOMAIN,static.googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
@@ -194,7 +197,5 @@ DOMAIN,adcontrol.tudou.com,REJECT
 DOMAIN,adplay.tudou.com,REJECT
 DOMAIN,stat.tudou.com,REJECT
 DOMAIN,stats.tudou.com,REJECT
-DOMAIN,d.dropbox.com,REJECT
-DOMAIN,dl-debug.dropbox.com,REJECT
 DOMAIN,logger.instagram.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT

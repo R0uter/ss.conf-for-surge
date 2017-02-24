@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: vK8rJwHa4M8s/Pnx0Pwaig
+! Checksum: pNGrM1YWz95Xuit9zkRuCg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Mon, 20 Feb 2017 00:54:35 +0100
+! Last Modified: Wed, 22 Feb 2017 06:13:39 +0100
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -4721,6 +4721,7 @@ sexinsex.net
 ||shadeyouvpn.com
 shadow.ma
 .shadowsky.xyz
+.shadowsocks.asia
 ||www.shadowsocks.com
 .shadowsocks.com
 .shadowsocks.org
@@ -4928,6 +4929,8 @@ sowers.org.hk
 spem.at
 ||spencertipping.com
 ||spicevpn.com
+.spideroak.com
+||spideroak.com
 .spike.com
 .spotflux.com
 ||spotflux.com
@@ -4935,7 +4938,6 @@ spem.at
 |http://spring4u.info
 ||sproutcore.com
 ||sproxy.info
-squarespace.com
 ||srocket.us
 .ss-link.com
 ||ss-link.com
@@ -4958,7 +4960,6 @@ usinfo.state.gov
 ||starp2p.com
 .startpage.com
 ||startpage.com
-.state168.com
 ||static-economist.com
 ||stc.com.sa
 steamcommunity.com/groups/LibetTibet
