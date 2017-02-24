@@ -119,19 +119,6 @@ def getAdList():
     # fs.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
     fs.write('\n')
 
-
-    # try:
-    #
-    #     content = getList(baseurl).decode('utf-8')
-    #
-    #     # write the content to file then read line by line
-    #     if len(content) < 100:
-    #         raise FileNotFoundError
-    #     tfs = codecs.open(tmpfile, 'w', 'utf-8')
-    #     tfs.write(content)
-    #     tfs.close()
-    #     print('adlist fetched, writing...')
-    # except:
     print('adlist fetch failed, use tmpfile instead...')
     # Store all domains, deduplicate records
     domainlist = []
