@@ -10,12 +10,13 @@ __Proxy__
 [Rule]
 // For apple inc
 IP-CIDR, 17.0.0.0/8, DIRECT, no-resolve
-// For cn domains
-DOMAIN-SUFFIX,cn,ChinaProxy
+
 
 // AD Block
 __ADBLOCK__
 
+// For cn domains
+DOMAIN-SUFFIX,cn,ChinaProxy
 
 // white list from dnsmasq_china_list!
 __GFWWHITELIST__
