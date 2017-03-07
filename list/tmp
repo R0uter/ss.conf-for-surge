@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: pNGrM1YWz95Xuit9zkRuCg
+! Checksum: xGJx+7memZV3OT1zeqGSMw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Wed, 22 Feb 2017 06:13:39 +0100
+! Last Modified: Wed, 01 Mar 2017 04:31:27 +0100
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -29,7 +29,7 @@
 ||asianspiss.com
 ||athenaeizou.com
 ||azubu.tv
-||barracuda.com
+!--||barracuda.com
 ||beeg.com
 ||bloombergview.com
 ||boysmaster.com
@@ -385,6 +385,7 @@ d1c37gjwa26taa.cloudfront.net
 ||d3rhr7kgmtrq1v.cloudfront.net
 
 !!---DtDNS---
+!###https://www.dtdns.com/dtsite/faq
 .3d-game.com
 .4irc.com
 .b0ne.com
@@ -401,6 +402,12 @@ d1c37gjwa26taa.cloudfront.net
 .slyip.com
 .slyip.net
 .suroot.com
+
+!!---DynDNS---
+!###https://help.dyn.com/list-of-dyn-dns-pro-remote-access-domain-names/
+.dyndns.org
+.dyndns-pics.com
+.is-a-hunter.com
 
 !!---Facebook---
 ||facebook.br
@@ -750,6 +757,7 @@ a5.com.ru
 |http://acg18.me
 ||acgkj.com
 .acnw.com.au
+actfortibet.org
 actimes.com.au
 activpn.com
 ||activpn.com
@@ -1006,6 +1014,7 @@ dajusha.baywords.com
 .bbc.co.uk/zhongwen
 .bbc.com/ukchina
 .bbc.com/zhongwen
+.bbc.com%2Fzhongwen
 news.bbc.co.uk/onthisday*newsid_2496000/2496277
 newsforums.bbc.co.uk
 .bbcchinese.com
@@ -1051,6 +1060,7 @@ beric.me
 .bestvpnusa.com
 ||bet365.com
 .betfair.com
+||betternet.co
 .bettervpn.com
 ||bettervpn.com
 .bettween.com
@@ -1472,6 +1482,7 @@ christiantimes.org.hk
 |http://chrlawyers.hk
 .churchinhongkong.org/b5/index.php
 |http://churchinhongkong.org/b5/index.php
+.chushigangdrug.ch
 .cienen.com
 .cineastentreff.de
 .cipfg.org
@@ -1774,18 +1785,18 @@ dongtaiwang.com
 .dotplane.com
 ||dotplane.com
 ||dotsub.com
+.doub.io
+||doub.io
 ||dougscripts.com
 ||douhokanko.net
 ||doujincafe.com
 dowei.org
-!--||doxygen.org
 dphk.org
 dpp.org.tw
 ||dpp.org.tw
 ||dpr.info
 ||dragonsprings.org
-||draw.io
-||dreammask.org
+!--||draw.io
 .drepung.org
 ||drgan.net
 .drmingxia.org
@@ -1802,7 +1813,6 @@ drsunacademy.com
 |http://dstk.dk
 ||dtiblog.com
 ||dtic.mil
-dtiserv2.com
 .dtwang.org
 .duanzhihu.com
 .duckdns.org
@@ -1838,7 +1848,6 @@ dwnews.net
 ||dwnews.net
 xys.dxiong.com
 ||dynawebinc.com
-.dyndns.org
 .dzze.com
 
 !--------------------EE-------------------------
@@ -1897,6 +1906,7 @@ efcc.org.hk
 ||eksisozluk.com
 electionsmeter.com
 ||elgoog.im
+.elpais.com
 ||elpais.com
 .eltondisney.com
 .emaga.com/info/3407
@@ -2025,6 +2035,7 @@ eyevio.jp
 falun-co.org
 falunart.org
 ||falunasia.info
+|http://falunau.org
 falundafa.org
 falundafa-dc.org
 ||falundafa-florida.org
@@ -2135,6 +2146,7 @@ fleshbot.com
 .fleursdeslettres.com
 |http://fleursdeslettres.com
 ||flgg.us
+||flgjustice.org
 
 !--||farm6.staticflickr.com
 !--.flickr.com/photos/46231077@N06
@@ -2354,6 +2366,7 @@ www.ftchinese.com/story/001067479
 .ftchinese.com/story/001071106
 .ftchinese.com/story/001071181
 .ftchinese.com/story/001071208
+.ftchinese.com/story/001071238
 .ftchinese.com/video/1437
 .ftchinese.com/video/1882
 .ftchinese.com/comments
@@ -4760,6 +4773,7 @@ shipcamouflage.com
 shizhao.org
 shkspr.mobi/dabr
 ||shodanhq.com
+||shooshtime.com
 .shop2000.com.tw
 .shopping.com
 .showhaotu.com
@@ -4809,15 +4823,15 @@ sinomontreal.ca
 .sinoants.com
 ||sinoants.com
 .sinoquebec.com
+.sierrafriendsoftibet.org
+sis.xxx
+||sis001.com
+sis001.us
 ||site90.net
 .sitebro.tw
 ||sitekreator.com
 ||siteks.uk.to
 ||sitemaps.org
-sitetag.us
-sis.xxx
-||sis001.com
-sis001.us
 .sjrt.org
 |http://sjrt.org
 ||sjum.cn
@@ -4893,6 +4907,7 @@ sohfrance.org
 ||sohfrance.org
 chinese.soifind.com
 sokamonline.com
+.solidaritetibet.org
 ||somee.com
 .songjianjun.com
 ||songjianjun.com
@@ -5246,6 +5261,7 @@ tibetanfeministcollective.org
 .tibetanphotoproject.com
 .tibetanpoliticalreview.org
 .tibetanreview.net
+|http://tibetansports.org
 .tibetanwomen.org
 |http://tibetanwomen.org
 .tibetanyouth.org
@@ -5880,6 +5896,7 @@ lists.w3.org/archives/public
 .wahas.com
 .waigaobu.com
 waikeung.org/php_wind
+.wailaike.net
 .waiwaier.com
 |http://waiwaier.com
 wallornot.org
@@ -6086,7 +6103,10 @@ worldjournal.com
 
 .wordpress.com
 |http://*.wordpress.com
+||cnbbnews.wordpress.com
 ||chenshan20042005.wordpress.com
+||jobnewera.wordpress.com
+||sujiatun.wordpress.com
 ||wp.com
 
 !-||wormsculptor.com
@@ -6204,6 +6224,8 @@ xyy69.info
 
 !--------------------YY-------------------------
 page.bid.yahoo.com
+tw.bid.yahoo.com
+|https://tw.bid.yahoo.com
 blogs.yahoo.co.jp
 buy.yahoo.com.tw/gdsale
 hk.yahoo.com
