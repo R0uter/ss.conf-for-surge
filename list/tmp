@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: xGJx+7memZV3OT1zeqGSMw
+! Checksum: V2R8/qXPCFhn1aARkMtnKg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Wed, 01 Mar 2017 04:31:27 +0100
+! Last Modified: Wed, 08 Mar 2017 21:45:14 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -571,6 +571,7 @@ blogspot.com
 ||redhotlabs.com
 ||registry.google
 ||schema.org
+||shattered.io
 |http://sipml5.org/
 ||stories.google
 ||synergyse.com
@@ -2535,6 +2536,7 @@ godsdirectcontact.org.tw
 .gokbayrak.com
 .goldbet.com
 ||goldbetsports.com
+||goldeneyevault.com
 .goldenfrog.com
 ||goldenfrog.com
 .goldstep.net
@@ -2927,6 +2929,7 @@ hentaitube.tv
 
 heqinglian.net
 ||heungkongdiscuss.com
+.hexieshe.com
 !--Google employee within Google IP
 ||hexxeh.net
 app.heywire.com
@@ -4169,6 +4172,7 @@ openvpn.net
 ||openvpn.net
 ||openwebster.com
 .openwrt.org.cn
+@@||openwrt.org.cn
 my.opera.com/dahema
 ||demo.opera-mini.net
 www.orchidbbs.com
@@ -4310,7 +4314,10 @@ picturesocial.com
 ||pin6.com
 .ping.fm
 ||ping.fm
+||pinimg.com
 ||pinoy-n.com
+.pinterest.com
+||pinterest.com
 .piposay.com
 piraattilahti.org
 .piring.com
@@ -4573,6 +4580,8 @@ renminbao.com
 |http://certificate.revocationcheck.com
 subacme.rerouted.org
 .reuters.com
+||reuters.com
+||reutersmedia.net
 .revleft.com
 retweetist.com
 ||retweetrank.com
@@ -4978,6 +4987,7 @@ usinfo.state.gov
 ||static-economist.com
 ||stc.com.sa
 steamcommunity.com/groups/LibetTibet
+steamcommunity.com/groups/zhonggong
 steamcommunity.com/id/CJT_Jackton
 ||steel-storm.com
 .steganos.com
