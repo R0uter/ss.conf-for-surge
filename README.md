@@ -31,7 +31,7 @@ Make sure edit `ServerConfig.txt` first to add your server infomation!
 
 change your ss server config, like server ip, server port, and your password.
 
-```toml
+```ini
 [Proxy]
 💊DIRECT = direct
 🇭🇰HK = custom,your_server_here,your_port_here,aes-256-cfb,your_password_here,https://github.com/R0uter/ss.conf-for-surge/raw/master/ss.module
@@ -42,7 +42,7 @@ change your ss server config, like server ip, server port, and your password.
     
 Then you need to edit proxy group for auto speed test function.
 
-```toml
+```ini
 [Proxy Group]
 ChinaProxy = select,💊DIRECT,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
 Proxy = select,💊DIRECT,@Auto,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
