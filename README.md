@@ -15,7 +15,7 @@ White list come from [GFW Domain White List](https://goo.gl/tBixve).
 
 ## Anti ads
 
-Ad's list come from [iyee/main.conf](https://goo.gl/70DG6i)(dead :( ).
+Ad's list come from [lhie1/Surge](https://github.com/lhie1/Surge).
 
 ## How to use
 

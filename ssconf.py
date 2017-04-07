@@ -23,7 +23,7 @@ def getList(listUrl):
 def whiteListCheck():
     dnsmasq_china_list = 'https://github.com/R0uter/gfw_domain_whitelist/raw/master/whitelistCache'
     try:
-        print('Getting white list...')
+
         content = getList(dnsmasq_china_list)
         content = content.decode('utf-8')
         f = codecs.open('./list/whitelist', 'w', 'utf-8')
@@ -32,8 +32,6 @@ def whiteListCheck():
     except:
         print('Get list update failed,use cache to update instead.')
 
-
-    # domainList = []
     whitelist = codecs.open('./list/whitelist','r','utf-8')
     whitelistTxt = codecs.open('./list/whitelist.txt','w','utf-8')
     whitelistTxt.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S" + '\n'))
@@ -42,9 +40,7 @@ def whiteListCheck():
         
         domain = re.findall(r'\w+\.\w+', line)
         if len(domain) > 0:
-        # domainList.append(domain[0])
             whitelistTxt.write('DOMAIN-SUFFIX,%s,ChinaProxy\n'%(domain[0]))
-
 
     whitelist.close()
     whitelistTxt.close()
@@ -105,21 +101,31 @@ def getGfwList():
 
 def getAdList():
     # get list to block most of ads .
-    # the url of  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a
+    # the url of  https://github.com/lhie1/Surge
     outfile = './list/adlist.txt'
     tmpfile = './list/adtmp'
-    # baseurl = 'https://gist.githubusercontent.com/raw/2e27c124af2f7a4f0d5a/main.conf'
+    baseurl = 'https://github.com/lhie1/Surge/raw/master/Surge.conf'
 
     comment_pattern = '^\!|\[|^@@|\/|http|\#|\*|\?|\_|^\.|^\d+\.\d+\.\d+\.\d+'
     domain_pattern = '(\#?[\w\-\_]+\,[\/\w\.\-\_]+\,REJECT)[\/\*]*'
 
     fs = codecs.open(outfile, 'w', 'utf-8')
-    # fs.write('// thx  https://gist.github.com/iyee/2e27c124af2f7a4f0d5a \n')
-    fs.write('// This AD list is not update anymore... \n')
-    # fs.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
+    fs.write('// thx  https://github.com/lhie1/Surge \n')
+    fs.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
     fs.write('\n')
+    try:
 
-    print('adlist fetch failed, use tmpfile instead...')
+        data = getList(baseurl)
+
+        content = data.decode('utf-8')
+
+        # write the decoded content to file then read line by line
+        tfs = codecs.open(tmpfile, 'w', 'utf-8')
+        tfs.write(content)
+        tfs.close()
+        print('adlist fetched, writing...')
+    except:
+        print('adlist fetch failed, use tmpfile instead...')
     # Store all domains, deduplicate records
     domainlist = []
 
@@ -168,7 +174,6 @@ def genGfwConf():
 
 
 def genWhiteConf():
-    whiteListCheck()
     cfs = codecs.open('template/ss_whitelist_conf', 'r','utf-8')
     gfwlist = codecs.open('list/whitelist.txt', 'r','utf-8')
     adlist = codecs.open('list/adlist.txt', 'r','utf-8')
@@ -191,11 +196,12 @@ def genWhiteConf():
     confs.close()
 
 def main():
-    print('Getting gfw list...')
+    print('Getting GFW list...')
     getGfwList()
     print('Getting AD list...')
     getAdList()
-
+    print('Getting white list...')
+    whiteListCheck()
     print ('Generate config file: gfwlist.conf')
     genGfwConf()
     print ('Generate config file: whitelist.conf')
