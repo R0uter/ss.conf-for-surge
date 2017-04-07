@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: zCCNfRC2esEetsQhBgrang
+! Checksum: +wC75tciGwzvwEKuR5SgdA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 25 Mar 2017 08:27:21 -0400
+! Last Modified: Thu, 06 Apr 2017 21:47:18 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -110,6 +110,7 @@ share.dmhy.org
 ||madonna-av.com
 ||mangafox.com
 ||mangafox.me
+||manta.com
 ||matome-plus.com
 ||matome-plus.net
 ||mattwilcox.net
@@ -640,7 +641,6 @@ blogspot.com
 .030buy.com
 .0rz.tw
 |http://0rz.tw
-||0to255.com
 1-apple.com.tw
 ||1-apple.com.tw
 .100ke.org
@@ -1163,6 +1163,8 @@ bloomberg.de
 ||bloomfortune.com
 blueangellive.com
 .bmfinn.com
+.bnews.co
+||bnews.co
 ||bnrmetal.com
 boardreader.com/thread
 ||boardreader.com
@@ -2124,6 +2126,8 @@ fc2.com
 fc2blog.net
 |http://uygur.fc2web.com/
 video.fdbox.com
+.fdc64.de
+.fdc64.org
 .fdc89.jp
 ||fourface.nodesnoop.com
 !--feedbooks.mobi
@@ -3107,7 +3111,8 @@ hrweb.org
 ||htkou.net
 ||htmldog.com
 .hua-yue.net
-huaglad.com
+.huaglad.com
+||huaglad.com
 .huanghuagang.org
 ||huanghuagang.org
 .huangyiyu.com
@@ -4360,6 +4365,7 @@ picturesocial.com
 .ping.fm
 ||ping.fm
 ||pinimg.com
+.pinkrod.com
 ||pinoy-n.com
 .pinterest.com
 ||pinterest.com
@@ -6595,6 +6601,7 @@ taipei.gov.tw
 @@||dl.google.com
 @@||kh.google.com
 @@||fonts.googleapis.com
+@@||storage.googleapis.com
 @@||cn.gravatar.com
 @@||csi.gstatic.com
 @@||fonts.gstatic.com

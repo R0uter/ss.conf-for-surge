@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2017-03-28 01:06:39
+// updated on 2017-04-08 01:05:58
 
 DOMAIN-SUFFIX,2dbook.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
@@ -85,6 +85,7 @@ DOMAIN-SUFFIX,macgamestore.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,madonna-av.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mangafox.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mangafox.me,Proxy,force-remote-dns
+DOMAIN-SUFFIX,manta.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,matome-plus.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,matome-plus.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mattwilcox.net,Proxy,force-remote-dns
@@ -529,7 +530,6 @@ DOMAIN-SUFFIX,naughtyamerica.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,v2ex.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,030buy.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,0rz.tw,Proxy,force-remote-dns
-DOMAIN-SUFFIX,0to255.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,1-apple.com.tw,Proxy,force-remote-dns
 DOMAIN-SUFFIX,100ke.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,1000giri.net,Proxy,force-remote-dns
@@ -931,6 +931,7 @@ DOMAIN-SUFFIX,bloomberg.de,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bloomfortune.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,blueangellive.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bmfinn.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,bnews.co,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bnrmetal.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,boardreader.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bod.asia,Proxy,force-remote-dns
@@ -1645,6 +1646,8 @@ DOMAIN-SUFFIX,fc2cn.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fc2blog.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,uygur.fc2web.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,video.fdbox.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,fdc64.de,Proxy,force-remote-dns
+DOMAIN-SUFFIX,fdc64.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fdc89.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fourface.nodesnoop.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,feelssh.com,Proxy,force-remote-dns
@@ -3173,6 +3176,7 @@ DOMAIN-SUFFIX,picturesocial.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,pin6.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ping.fm,Proxy,force-remote-dns
 DOMAIN-SUFFIX,pinimg.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,pinkrod.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,pinoy-n.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,pinterest.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,piposay.com,Proxy,force-remote-dns
