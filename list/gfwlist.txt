@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2017-04-08 01:05:58
+// updated on 2017-04-23 22:32:48
 
 DOMAIN-SUFFIX,2dbook.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,deezer.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,desipro.de,Proxy,force-remote-dns
 DOMAIN-SUFFIX,dish.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,img.dlsite.jp,Proxy,force-remote-dns
+DOMAIN-SUFFIX,dm530.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,share.dmhy.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,dmm.co.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,www.dmm.com,Proxy,force-remote-dns
@@ -72,6 +73,7 @@ DOMAIN-SUFFIX,javhuge.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,javlibrary.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,jcpenney.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,jims.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,jukujo-club.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,juliepost.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,kawaiikawaii.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,kendatire.com,Proxy,force-remote-dns
@@ -150,6 +152,7 @@ DOMAIN-SUFFIX,vip-enterprise.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,viu.tv,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ecsm.vs.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,wanz-factory.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,ssl.webpack.de,Proxy,force-remote-dns
 DOMAIN-SUFFIX,wheretowatch.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,wingamestore.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,wizcrafts.net,Proxy,force-remote-dns
@@ -329,6 +332,7 @@ DOMAIN-SUFFIX,zyns.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,zzux.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,d1b183sg0nvnuh.cloudfront.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,d1c37gjwa26taa.cloudfront.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,d3c33hcgiwev3.cloudfront.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,d3rhr7kgmtrq1v.cloudfront.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,3d-game.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,4irc.com,Proxy,force-remote-dns
@@ -794,6 +798,7 @@ DOMAIN-SUFFIX,atdmt.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,atnext.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ice.audionow.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,avaaz.org,Proxy,force-remote-dns
+DOMAIN-SUFFIX,avbody.tv,Proxy,force-remote-dns
 DOMAIN-SUFFIX,avcity.tv,Proxy,force-remote-dns
 DOMAIN-SUFFIX,avcool.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,avdb.in,Proxy,force-remote-dns
@@ -882,6 +887,7 @@ DOMAIN-SUFFIX,beyondfirewall.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bfnn.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bfsh.hk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,bgvpn.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,bianlei.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,biantailajiao.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,biantailajiao.in,Proxy,force-remote-dns
 DOMAIN-SUFFIX,biblesforamerica.org,Proxy,force-remote-dns
@@ -1601,6 +1607,7 @@ DOMAIN-SUFFIX,falundafa-dc.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,falundafa-florida.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,falundafa-nc.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,falundafa-pa.net,Proxy,force-remote-dns
+DOMAIN-SUFFIX,falundafa-sacramento.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,falun-ny.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,falundafaindia.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,falundafamuseum.org,Proxy,force-remote-dns
@@ -2457,6 +2464,7 @@ DOMAIN-SUFFIX,kagyuoffice.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,kagyuoffice.org.tw,Proxy,force-remote-dns
 DOMAIN-SUFFIX,kaiyuan.de,Proxy,force-remote-dns
 DOMAIN-SUFFIX,kakao.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,kalachakralugano.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,kankan.today,Proxy,force-remote-dns
 DOMAIN-SUFFIX,kannewyork.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,kanshifang.com,Proxy,force-remote-dns
@@ -3688,6 +3696,7 @@ DOMAIN-SUFFIX,sproutcore.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,sproxy.info,Proxy,force-remote-dns
 DOMAIN-SUFFIX,srocket.us,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ss-link.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,ssglobal.me,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ssh91.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,sspro.ml,Proxy,force-remote-dns
 DOMAIN-SUFFIX,sss.camp,Proxy,force-remote-dns

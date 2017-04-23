@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: +wC75tciGwzvwEKuR5SgdA
+! Checksum: cz6wl8mVrDcX6FT5m0MWMw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Thu, 06 Apr 2017 21:47:18 -0400
+! Last Modified: Thu, 13 Apr 2017 23:49:36 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -47,6 +47,7 @@
 ||desipro.de
 ||dish.com
 |http://img.dlsite.jp/
+||dm530.net
 share.dmhy.org
 ||dmm.co.jp
 |http://www.dmm.com/netgame
@@ -97,6 +98,7 @@ share.dmhy.org
 ||javlibrary.com
 ||jcpenney.com
 ||jims.net
+||jukujo-club.com
 ||juliepost.com
 ||kawaiikawaii.jp
 ||kendatire.com
@@ -180,6 +182,7 @@ share.dmhy.org
 |http://viu.tv/encore/
 |http://ecsm.vs.com/
 ||wanz-factory.com
+||ssl.webpack.de
 ||wheretowatch.com
 ||wingamestore.com
 ||wizcrafts.net
@@ -394,6 +397,8 @@ d1b183sg0nvnuh.cloudfront.net
 |https://d1b183sg0nvnuh.cloudfront.net
 d1c37gjwa26taa.cloudfront.net
 |https://d1c37gjwa26taa.cloudfront.net
+d3c33hcgiwev3.cloudfront.net
+|https://d3c33hcgiwev3.cloudfront.net
 ||d3rhr7kgmtrq1v.cloudfront.net
 
 !!---DtDNS---
@@ -980,6 +985,7 @@ ice.audionow.com
 avaaz.org
 ||avaaz.org
 !--||avast.com
+.avbody.tv
 .avcity.tv
 .avcool.com
 .avdb.in
@@ -1095,6 +1101,8 @@ beric.me
 ||bfsh.hk
 .bgvpn.com
 ||bgvpn.com
+.bianlei.com
+@@||bianlei.com
 biantailajiao.com
 biantailajiao.in
 .biblesforamerica.org
@@ -2069,6 +2077,7 @@ falundafa-dc.org
 ||falundafa-florida.org
 ||falundafa-nc.org
 ||falundafa-pa.net
+||falundafa-sacramento.org
 falun-ny.net
 ||falundafaindia.org
 falundafamuseum.org
@@ -3466,6 +3475,7 @@ juziyue.com
 .kaiyuan.de
 .kakao.com
 ||kakao.com
+.kalachakralugano.org
 .kankan.today
 .kannewyork.com
 ||kannewyork.com
@@ -3859,7 +3869,8 @@ minzhuzhongguo.org
 mirrorbooks.com
 thecenter.mit.edu
 .mitao.com.tw
-mitbbs.com
+.mitbbs.com
+||mitbbs.com
 .mixero.com
 ||mixero.com
 mixpod.com
@@ -5019,6 +5030,7 @@ spem.at
 ||srocket.us
 .ss-link.com
 ||ss-link.com
+.ssglobal.me
 ||ssh91.com
 .sspro.ml
 |http://sspro.ml
