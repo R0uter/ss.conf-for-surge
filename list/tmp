@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: cz6wl8mVrDcX6FT5m0MWMw
+! Checksum: qmYGFnFgEN88i6XS1snBYA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Thu, 13 Apr 2017 23:49:36 -0400
+! Last Modified: Fri, 28 Apr 2017 00:13:35 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -154,6 +154,7 @@ share.dmhy.org
 ||ramcity.com.au
 ||rd.com
 ||rdio.com
+|https://riseup.net
 ||sadistic-v.com
 |http://cdn*.search.xxx/
 ||shutterstock.com
@@ -496,6 +497,8 @@ blogspot.com
 .google.at
 .google.az
 .google.ba
+.google.be
+.google.bg
 .google.cat
 .google.cd
 .google.ci
@@ -540,7 +543,7 @@ blogspot.com
 .google.tt
 .google.vu
 .google.ws
-/^https?:\/\/([^\/]+\.)*google\.(ac|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cat|cd|cf|cg|ch|ci|cl|cm|co.ao|co.bw|co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|co.mz|co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hk|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|mx|ne|nl|no|nr|nu|org|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|us|vg|vn|vu|ws)\/.*/
+/^https?:\/\/([^\/]+\.)*google\.(ac|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cat|cd|cf|cg|ch|ci|cl|cm|co.ao|co.bw|co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|co.mz|co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw|cv|cz|de|dj|dk|dm|dz|ee|es|eu|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hk|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|mx|ne|nl|no|nr|nu|org|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|us|vg|vn|vu|ws)\/.*/
 !--||google-analytics.com
 !--||googleadservices.com
 ||googleapis.cn
@@ -738,6 +741,8 @@ taiwannation.50webs.com
 .8-d.com
 |http://8-d.com
 85cc.net
+.85cc.us
+|http://85cc.us
 |http://85st.com
 .881903.com/page/zh-tw/
 ||881903.com
@@ -894,6 +899,7 @@ animecrazy.net
 aniscartujo.com
 ||aniscartujo.com
 ||anobii.com
+anonymise.us
 .anonymitynetwork.com
 .anonymizer.com
 anontext.com
@@ -2120,6 +2126,8 @@ fangeming.com
 en.favotter.net
 !--||rnw.global.ssl.fastly.net
 !--|https://*global.ssl.fastly.net/
+nytimes.map.fastly.net
+||nytimes.map.fastly.net
 ||fast.wistia.com
 
 ||fastssh.com
@@ -2486,6 +2494,8 @@ gdzf.org
 geekerhome.com/2010/03/xixiang-project-cross-gfw
 ||geekheart.info
 ||geekmanuals.com
+.gekikame.com
+|http://gekikame.com
 .gelbooru.com
 |http://gelbooru.com
 !--||genuitec.com
@@ -2708,7 +2718,6 @@ echofon.com
 !-J
 !-||blog.jangmt.com
 !-||blog.jayfields.com
-!-||t.jiecii.com
 !-||blog.joint.net
 !-||blog.jsquaredjavascript.com
 !-||blog.jtbworld.com
@@ -3086,6 +3095,8 @@ hongmeimei.com
 ||hongzhi.li
 hootsuite.com
 ||hootsuite.com
+.hopedialogue.org
+|http://hopedialogue.org
 .hopto.org
 .hornygamer.com
 .hotav.tv
@@ -3534,6 +3545,7 @@ killwall.com
 ||kompozer.net
 .konachan.com
 |http://konachan.com
+.kone.com
 ||koolsolutions.com
 .koornk.com
 ||koornk.com
@@ -4154,6 +4166,7 @@ ntdtvla.com
 ||nuexpo.com
 .nukistream.com
 ||nurgo-software.com
+||nutaku.net
 .nuvid.com
 nuzcom.com
 .nvquan.org
@@ -4164,8 +4177,12 @@ nuzcom.com
 nylon-angel.com
 nylonstockingsonline.com
 !--nysingtao.com
-!--||nyt.com
-.nytchina.com
+||a1.nyt.com
+||int.nyt.com
+static01.nyt.com
+||static01.nyt.com
+||typeface.nyt.com
+nytchina.com
 nytcn.me
 ||nytco.com
 |http://nyti.ms/
@@ -5036,6 +5053,7 @@ spem.at
 |http://sspro.ml
 ||sss.camp
 !--|http://cdn.sstatic.net/
+||sstmlt.moe
 sstmlt.net
 ||sstmlt.net
 |http://stackoverflow.com/users/895245
@@ -5111,6 +5129,7 @@ sun1911.com
 .suoluo.org
 .supervpn.net
 ||supervpn.net
+.suppig.net
 .suprememastertv.com
 |http://suprememastertv.com
 .surfeasy.com
@@ -5290,6 +5309,7 @@ tiananmenmother.org
 .tianlawoffice.com
 ||tianti.io
 tiantibooks.org
+||tiantibooks.org
 .tianzhu.org
 .tibet.at
 tibet.ca
@@ -6067,6 +6087,7 @@ whotalking.com
 whylover.com
 ||whyx.org
 |http://evchk.wikia.com
+fq.wikia.com
 cn.uncyclopedia.wikia.com
 zh.uncyclopedia.wikia.com
 ||wikileaks.ch
@@ -6168,6 +6189,7 @@ winwhispers.info
 |http://wokar.org
 wolfax.com
 ||wolfax.com
+||woolyss.com
 woopie.jp
 ||woopie.jp
 woopie.tv
