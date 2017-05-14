@@ -1,4 +1,4 @@
-// updated on 2017-05-11 03:57:53
+// updated on 2017-05-15 01:26:21
 DOMAIN-SUFFIX,6.com,ChinaProxy
 DOMAIN-SUFFIX,gold.net,ChinaProxy
 DOMAIN-SUFFIX,00.net,ChinaProxy
