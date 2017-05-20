@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: qmYGFnFgEN88i6XS1snBYA
+! Checksum: 3kGlzvmfGJhghkBnvhCKPg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Fri, 28 Apr 2017 00:13:35 -0400
+! Last Modified: Tue, 16 May 2017 04:12:05 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -1960,6 +1960,7 @@ emilylau.org.hk
 .emulefans.com
 |http://emulefans.com
 .emuparadise.me
+.enanyang.my/news/20170502/%E7%BE%8E%E5%9B%BD%E4%B9%8B%E9%9F%B3%E5%A4%A7%E5%9C%B0%E9%9C%87%E3%80%8A%E8%8B%B9%E6%9E%9C%E3%80%8B%E7%8B%AC%E5%AE%B6
 ||enewstree.com
 .enfal.de
 chinese.engadget.com
@@ -2512,6 +2513,8 @@ geocities.jp
 ||getfoxyproxy.org
 .getfreedur.com
 ||getgom.com
+.geti2p.net
+||geti2p.net
 .getlantern.org
 ||getlantern.org
 .getjetso.com/forum
@@ -3077,6 +3080,8 @@ hkptu.org
 .hkvwet.com
 .hkwcc.org.hk
 ||hkzone.org
+.hmonghot.com
+|http://hmonghot.com
 hnjhj.com
 ||hnjhj.com
 .hnntube.com
@@ -4170,6 +4175,8 @@ ntdtvla.com
 .nuvid.com
 nuzcom.com
 .nvquan.org
+.nvtongzhisheng.org
+|http://nvtongzhisheng.org
 .nwtca.org
 ||nyaa.eu
 ||nyaa.se
@@ -4184,6 +4191,7 @@ static01.nyt.com
 ||typeface.nyt.com
 nytchina.com
 nytcn.me
+||nytcn.me
 ||nytco.com
 |http://nyti.ms/
 .nytimes.com

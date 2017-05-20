@@ -43,22 +43,6 @@ replica = false
 
 🏃 Auto = url-test,🇺🇸 US,🇭🇰 HK,🇯🇵 JP ,🇸🇬 SG,url = http://www.gstatic.com/generate_204,interval = 1200
 
-[Host]
-// Host
-
-localhost = 127.0.0.1
-
-bbs.pcbeta.com = 218.93.127.136
-cdn.pcbeta.attachment.inimc.com = 218.93.127.136
-cdn.pcbeta.css.inimc.com = 218.93.127.136
-cdn.pcbeta.img.inimc.com = 218.93.127.136
-cdn.pcbeta.static.inimc.com = 218.93.127.136
-i.pcbeta.com = 218.93.127.136
-mac.pcbeta.com = 218.93.127.136
-static.template.pcbeta.com = 218.93.127.136
-uc.pcbeta.com = 218.93.127.136
-www.pcbeta.com = 218.93.127.136
-
 [Rule]
 // Custom
 
@@ -67,25 +51,25 @@ www.pcbeta.com = 218.93.127.136
 DOMAIN,support.apple.com,🍎 Proxy
 DOMAIN,smp-device-content.apple.com,🍎 Proxy
 DOMAIN,osxapps.itunes.apple.com,🍎 Proxy
-DOMAIN,metrics.apple.com,🍎 Proxy // Apple Web Site
+DOMAIN,metrics.apple.com,🍎 Proxy
 DOMAIN,iosapps.itunes.apple.com,🍎 Proxy
 DOMAIN,init.itunes.apple.com,🍎 Proxy
 DOMAIN,images.apple.com,🍎 Proxy
-DOMAIN,idmsa.apple.com,🍎 Proxy // Apple ID
+DOMAIN,idmsa.apple.com,🍎 Proxy
 DOMAIN,guzzoni.apple.com,🍎 Proxy
 DOMAIN,configuration.apple.com,🍎 Proxy
 DOMAIN,appleiphonecell.com,🍎 Proxy
 DOMAIN,appleid.apple.com,🍎 Proxy
-DOMAIN,swscan.apple.com,🍎 Proxy // Software Update
-DOMAIN,swdist.apple.com,🍎 Proxy // Software Update
-DOMAIN,swquery.apple.com,🍎 Proxy // Software Update
-DOMAIN,swdownload.apple.com,🍎 Proxy // Software Update
-DOMAIN,swcdn.apple.com,🍎 Proxy // Software Update
+DOMAIN,swscan.apple.com,🍎 Proxy
+DOMAIN,swdist.apple.com,🍎 Proxy
+DOMAIN,swquery.apple.com,🍎 Proxy
+DOMAIN,swdownload.apple.com,🍎 Proxy
+DOMAIN,swcdn.apple.com,🍎 Proxy
 DOMAIN-SUFFIX,akadns.net,🍎 Proxy
 DOMAIN-SUFFIX,cdn-apple.com,🍎 Proxy
 DOMAIN-SUFFIX,ess.apple.com,🍎 Proxy
-DOMAIN-SUFFIX,lookup-api.apple.com,🍎 Proxy,enhanced-mode // Dictionary
-DOMAIN-SUFFIX,ls.apple.com,🍎 Proxy // Maps
+DOMAIN-SUFFIX,lookup-api.apple.com,🍎 Proxy,enhanced-mode
+DOMAIN-SUFFIX,ls.apple.com,🍎 Proxy
 DOMAIN-SUFFIX,mzstatic.com,🍎 Proxy
 DOMAIN-SUFFIX,push.apple.com,🍎 Proxy
 DOMAIN-SUFFIX,siri.apple.com,🍎 Proxy
@@ -100,8 +84,8 @@ DOMAIN-SUFFIX,itunes.apple.com,🍎 Proxy
 DOMAIN-SUFFIX,itunes.com,🍎 Proxy
 DOMAIN-SUFFIX,me.com,🍎 Proxy,force-remote-dns,enhanced-mode
 
-USER-AGENT,%E5%9C%B0%E5%9B%BE*,🍎 Proxy // Maps
-USER-AGENT,%E8%AE%BE%E7%BD%AE*,🍎 Proxy // Settings
+USER-AGENT,%E5%9C%B0%E5%9B%BE*,🍎 Proxy
+USER-AGENT,%E8%AE%BE%E7%BD%AE*,🍎 Proxy
 USER-AGENT,AppStore*,🍎 Proxy
 USER-AGENT,?loud*,🍎 Proxy
 USER-AGENT,com.apple.appstored*,🍎 Proxy
@@ -145,14 +129,8 @@ DOMAIN-SUFFIX,gamecenter.iqiyi.com,REJECT
 DOMAIN-SUFFIX,hotchat-im.iqiyi.com,REJECT
 DOMAIN-SUFFIX,ifacelog.iqiyi.com,REJECT
 DOMAIN-SUFFIX,mbdlog.iqiyi.com,REJECT
-DOMAIN-SUFFIX,paopao.iqiyi.com,REJECT
-DOMAIN-SUFFIX,paopao0.qiyipic.com,REJECT
-DOMAIN-SUFFIX,paopao1.qiyipic.com,REJECT
-DOMAIN-SUFFIX,paopao2.qiyipic.com,REJECT
-DOMAIN-SUFFIX,paopao3.qiyipic.com,REJECT
 DOMAIN-SUFFIX,policy.video.iqiyi.com,REJECT
 DOMAIN-SUFFIX,rcd.iqiyi.com,REJECT
-IP-CIDR,101.227.200.0/24,REJECT,no-resolve
 IP-CIDR,117.139.18.141/24,REJECT,no-resolve
 IP-CIDR,183.221.247.189/24,REJECT,no-resolve
 
@@ -272,8 +250,6 @@ DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
 DOMAIN-SUFFIX,m-78.jp,REJECT
 DOMAIN-SUFFIX,nichibenren.or.jp,REJECT
 DOMAIN-SUFFIX,nicorette.co.kr,REJECT
-DOMAIN-SUFFIX,s.youtube.com,REJECT
-DOMAIN-SUFFIX,s2.youtube.com,REJECT
 DOMAIN-SUFFIX,ssl-youtube.2cnt.net,REJECT
 DOMAIN-SUFFIX,youtube.112.2o7.net,REJECT
 DOMAIN-SUFFIX,youtube.2cnt.net,REJECT
@@ -601,7 +577,6 @@ DOMAIN-SUFFIX,simba.m.taobao.com,REJECT
 DOMAIN-SUFFIX,srd.simba.taobao.com,REJECT
 DOMAIN-SUFFIX,stats.ipinyou.com,REJECT
 DOMAIN-SUFFIX,strip.taobaocdn.com,REJECT
-DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN-SUFFIX,tanxlog.istreamsche.com,REJECT
 DOMAIN-SUFFIX,tejia.taobao.com,REJECT
 DOMAIN-SUFFIX,temai.taobao.com,REJECT
@@ -2184,6 +2159,7 @@ DOMAIN-SUFFIX,xanga.com,☁️ Proxy
 DOMAIN-SUFFIX,xda-developers.com,☁️ Proxy
 DOMAIN-SUFFIX,xeeno.com,☁️ Proxy
 DOMAIN-SUFFIX,xiti.com,☁️ Proxy
+DOMAIN-SUFFIX,xn--h5qa749zx5h.com,☁️ Proxy
 DOMAIN-SUFFIX,xuite.net,☁️ Proxy
 DOMAIN-SUFFIX,yahoo.com,☁️ Proxy
 DOMAIN-SUFFIX,yasni.co.uk,☁️ Proxy
@@ -2646,9 +2622,29 @@ FINAL,☁️ Proxy
 ^https?://static.m.ttkvod.com/static_cahce/index/index.txt http://ogtre5vp0.bkt.clouddn.com/Static/TXT/index.txt header
 ^https?://v.17173.com/api/Allyes/ - reject
 ^https?://wmedia-track.uc.cn - reject
+^https?://www.dnvod.tv/images/LoadTest.aspx - reject
 ^https?://www.inoreader.com/adv/ - reject
 ^https?://www.iqshw.com/d/js/m http://rewrite.websocket.site:10/Other/Static/JS/Package.js? header
 ^https?://www.lianbijr.com/adPage/ - reject
+
+[Host]
+// Host
+
+localhost = 127.0.0.1
+
+bbs.pcbeta.com = 218.93.127.136
+cdn.pcbeta.attachment.inimc.com = 218.93.127.136
+cdn.pcbeta.css.inimc.com = 218.93.127.136
+cdn.pcbeta.img.inimc.com = 218.93.127.136
+cdn.pcbeta.static.inimc.com = 218.93.127.136
+i.pcbeta.com = 218.93.127.136
+mac.pcbeta.com = 218.93.127.136
+static.template.pcbeta.com = 218.93.127.136
+uc.pcbeta.com = 218.93.127.136
+www.pcbeta.com = 218.93.127.136
+
+xn--h5qa749zx5h.com = 45.76.96.147
+
 
 [SSID Setting]
 // SSID

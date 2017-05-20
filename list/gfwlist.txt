@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2017-05-15 01:26:12
+// updated on 2017-05-21 00:41:10
 
 DOMAIN-SUFFIX,2dbook.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
@@ -1522,6 +1522,7 @@ DOMAIN-SUFFIX,empfil.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,emule-ed2k.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,emulefans.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,emuparadise.me,Proxy,force-remote-dns
+DOMAIN-SUFFIX,enanyang.my,Proxy,force-remote-dns
 DOMAIN-SUFFIX,enewstree.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,enfal.de,Proxy,force-remote-dns
 DOMAIN-SUFFIX,chinese.engadget.com,Proxy,force-remote-dns
@@ -1876,6 +1877,7 @@ DOMAIN-SUFFIX,getcloak.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,getfoxyproxy.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,getfreedur.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,getgom.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,geti2p.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,getlantern.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,getjetso.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,getiton.com,Proxy,force-remote-dns
@@ -2149,6 +2151,7 @@ DOMAIN-SUFFIX,hkusu.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hkvwet.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hkwcc.org.hk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hkzone.org,Proxy,force-remote-dns
+DOMAIN-SUFFIX,hmonghot.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hnjhj.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hnntube.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,hola.com,Proxy,force-remote-dns
@@ -3010,6 +3013,7 @@ DOMAIN-SUFFIX,nutaku.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nuvid.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nuzcom.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nvquan.org,Proxy,force-remote-dns
+DOMAIN-SUFFIX,nvtongzhisheng.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nwtca.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nyaa.eu,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nyaa.se,Proxy,force-remote-dns

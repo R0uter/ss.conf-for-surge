@@ -1,5 +1,5 @@
 // thx  https://github.com/lhie1/Surge 
-// updated on 2017-05-15 01:26:13
+// updated on 2017-05-21 00:41:11
 
 DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
 DOMAIN-SUFFIX,afp.qiyi.com,REJECT
@@ -13,11 +13,6 @@ DOMAIN-SUFFIX,gamecenter.iqiyi.com,REJECT
 DOMAIN-SUFFIX,hotchat-im.iqiyi.com,REJECT
 DOMAIN-SUFFIX,ifacelog.iqiyi.com,REJECT
 DOMAIN-SUFFIX,mbdlog.iqiyi.com,REJECT
-DOMAIN-SUFFIX,paopao.iqiyi.com,REJECT
-DOMAIN-SUFFIX,paopao0.qiyipic.com,REJECT
-DOMAIN-SUFFIX,paopao1.qiyipic.com,REJECT
-DOMAIN-SUFFIX,paopao2.qiyipic.com,REJECT
-DOMAIN-SUFFIX,paopao3.qiyipic.com,REJECT
 DOMAIN-SUFFIX,policy.video.iqiyi.com,REJECT
 DOMAIN-SUFFIX,rcd.iqiyi.com,REJECT
 DOMAIN-SUFFIX,api.game.letvstore.com,REJECT
@@ -129,8 +124,6 @@ DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
 DOMAIN-SUFFIX,m-78.jp,REJECT
 DOMAIN-SUFFIX,nichibenren.or.jp,REJECT
 DOMAIN-SUFFIX,nicorette.co.kr,REJECT
-DOMAIN-SUFFIX,s.youtube.com,REJECT
-DOMAIN-SUFFIX,s2.youtube.com,REJECT
 DOMAIN-SUFFIX,ssl-youtube.2cnt.net,REJECT
 DOMAIN-SUFFIX,youtube.112.2o7.net,REJECT
 DOMAIN-SUFFIX,youtube.2cnt.net,REJECT
@@ -434,7 +427,6 @@ DOMAIN-SUFFIX,simba.m.taobao.com,REJECT
 DOMAIN-SUFFIX,srd.simba.taobao.com,REJECT
 DOMAIN-SUFFIX,stats.ipinyou.com,REJECT
 DOMAIN-SUFFIX,strip.taobaocdn.com,REJECT
-DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN-SUFFIX,tanxlog.istreamsche.com,REJECT
 DOMAIN-SUFFIX,tejia.taobao.com,REJECT
 DOMAIN-SUFFIX,temai.taobao.com,REJECT
