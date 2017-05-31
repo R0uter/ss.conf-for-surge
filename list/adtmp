@@ -2,7 +2,7 @@
 
 // Auto
 loglevel = notify
-dns-server = system,223.5.5.5,223.6.6.6,119.29.29.29,114.114.114.114
+dns-server = system,223.5.5.5,223.6.6.6,119.29.29.29,208.67.222.222,208.67.220.220
 skip-proxy = 127.0.0.1,192.168.0.0/16,193.168.0.0/24,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com
 
 // iOS
@@ -17,7 +17,8 @@ socks-port = 8889
 
 // Off：On | "true" or "false"
 allow-wifi-access = true
-enhanced-mode-by-rule = true
+collapse-policy-group-items = false
+enhanced-mode-by-rule = false
 exclude-simple-hostnames = true
 ipv6 = true
 replica = false
@@ -45,7 +46,6 @@ replica = false
 
 [Rule]
 // Custom
-
 # Apple
 
 DOMAIN,support.apple.com,🍎 Proxy
@@ -68,7 +68,7 @@ DOMAIN,swcdn.apple.com,🍎 Proxy
 DOMAIN-SUFFIX,akadns.net,🍎 Proxy
 DOMAIN-SUFFIX,cdn-apple.com,🍎 Proxy
 DOMAIN-SUFFIX,ess.apple.com,🍎 Proxy
-DOMAIN-SUFFIX,lookup-api.apple.com,🍎 Proxy,enhanced-mode
+DOMAIN-SUFFIX,lookup-api.apple.com,🍎 Proxy
 DOMAIN-SUFFIX,ls.apple.com,🍎 Proxy
 DOMAIN-SUFFIX,mzstatic.com,🍎 Proxy
 DOMAIN-SUFFIX,push.apple.com,🍎 Proxy
@@ -82,7 +82,7 @@ DOMAIN-SUFFIX,icloud-content.com,🍎 Proxy
 DOMAIN-SUFFIX,icloud.com,🍎 Proxy
 DOMAIN-SUFFIX,itunes.apple.com,🍎 Proxy
 DOMAIN-SUFFIX,itunes.com,🍎 Proxy
-DOMAIN-SUFFIX,me.com,🍎 Proxy,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,me.com,🍎 Proxy,force-remote-dns
 
 USER-AGENT,%E5%9C%B0%E5%9B%BE*,🍎 Proxy
 USER-AGENT,%E8%AE%BE%E7%BD%AE*,🍎 Proxy
@@ -121,7 +121,6 @@ DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
 DOMAIN-SUFFIX,afp.qiyi.com,REJECT
 DOMAIN-SUFFIX,api.cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,c.uaa.iqiyi.com,REJECT
-DOMAIN-SUFFIX,ckm.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cloudpush.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cm.passport.iqiyi.com,REJECT
 DOMAIN-SUFFIX,emoticon.sns.iqiyi.com,REJECT
@@ -131,8 +130,11 @@ DOMAIN-SUFFIX,ifacelog.iqiyi.com,REJECT
 DOMAIN-SUFFIX,mbdlog.iqiyi.com,REJECT
 DOMAIN-SUFFIX,policy.video.iqiyi.com,REJECT
 DOMAIN-SUFFIX,rcd.iqiyi.com,REJECT
-IP-CIDR,117.139.18.141/24,REJECT,no-resolve
-IP-CIDR,183.221.247.189/24,REJECT,no-resolve
+IP-CIDR,101.227.200.0/22,REJECT,no-resolve
+IP-CIDR,112.13.64.5/22,REJECT,no-resolve
+IP-CIDR,117.139.18.141/22,REJECT,no-resolve
+IP-CIDR,123.125.117.0/22,REJECT,no-resolve
+IP-CIDR,183.221.247.189/22,REJECT,no-resolve
 
 // letv
 DOMAIN-SUFFIX,api.game.letvstore.com,REJECT
@@ -496,7 +498,6 @@ DOMAIN-SUFFIX,track.58.com,REJECT
 // Ali
 DOMAIN-SUFFIX,a.alimama.cn,REJECT
 DOMAIN-SUFFIX,acjs.aliyun.com,REJECT
-DOMAIN-SUFFIX,acs4baichuan.m.taobao.com,REJECT
 DOMAIN-SUFFIX,adash.m.taobao.com,REJECT
 DOMAIN-SUFFIX,adashbc.m.taobao.com,REJECT
 DOMAIN-SUFFIX,adash-c.ut.taobao.com,REJECT
@@ -844,7 +845,6 @@ DOMAIN-SUFFIX,googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,google-analytics.com,REJECT
 DOMAIN-SUFFIX,googlecommerce.com,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
-DOMAIN-SUFFIX,googletagmanager.com, REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,mobileads.google.com,REJECT
@@ -1144,6 +1144,11 @@ DOMAIN-SUFFIX,ios-dc.51y5.net,REJECT
 DOMAIN-SUFFIX,news-img.51y5.net,REJECT
 DOMAIN-SUFFIX,wkanc.com,REJECT
 
+// WPS
+DOMAIN-SUFFIX,ios-informationplatform.wps.cn,REJECT
+DOMAIN-SUFFIX,minfo.wps.cn,REJECT
+DOMAIN-SUFFIX,mo.res.wpscdn.cn,REJECT
+
 // Ximalaya
 DOMAIN-SUFFIX,ad.test.ximalaya.com,REJECT
 DOMAIN-SUFFIX,ad.ximalaya.com,REJECT
@@ -1331,7 +1336,6 @@ DOMAIN-SUFFIX,krux.net,REJECT
 DOMAIN-SUFFIX,lnk8z.com,REJECT
 DOMAIN-SUFFIX,localytics.com,REJECT
 DOMAIN-SUFFIX,log.outbrain.com,REJECT
-DOMAIN-SUFFIX,log.umsns.com,REJECT
 DOMAIN-SUFFIX,lotuseed.com,REJECT
 DOMAIN-SUFFIX,lufax.com,REJECT
 DOMAIN-SUFFIX,madmini.com,REJECT
@@ -1343,7 +1347,6 @@ DOMAIN-SUFFIX,mixpanel.com,REJECT
 DOMAIN-SUFFIX,mng-ads.com,REJECT
 DOMAIN-SUFFIX,mnxtu.com,REJECT
 DOMAIN-SUFFIX,moatads.com,REJECT
-DOMAIN-SUFFIX,mob.com,REJECT
 DOMAIN-SUFFIX,mobclix.com,REJECT
 DOMAIN-SUFFIX,mobfox.com,REJECT
 DOMAIN-SUFFIX,mobisage.cn,REJECT
@@ -1374,6 +1377,7 @@ DOMAIN-SUFFIX,qtmojo.com,REJECT
 DOMAIN-SUFFIX,quantserve.com,REJECT
 DOMAIN-SUFFIX,qxxys.com,REJECT
 DOMAIN-SUFFIX,reachmax.cn,REJECT
+DOMAIN-SUFFIX,realtime.monitor.ppweb.com.cn,REJECT
 DOMAIN-SUFFIX,resetgey.com,REJECT
 DOMAIN-SUFFIX,responsys.net,REJECT
 DOMAIN-SUFFIX,revsci.net,REJECT
@@ -1436,14 +1440,6 @@ DOMAIN-SUFFIX,zzsx8.com,REJECT
 
 # direct ／ proxy
 
-// Sony
-DOMAIN-SUFFIX,playstation.com,🔰 Proxy
-DOMAIN-SUFFIX,playstation.net,🔰 Proxy
-DOMAIN-SUFFIX,playstationnetwork.com,🔰 Proxy
-DOMAIN-SUFFIX,sony.com,🔰 Proxy
-DOMAIN-SUFFIX,sony.net,🔰 Proxy
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🔰 Proxy
-
 // Accelerate direct sites
 DOMAIN-KEYWORD,-cn,🔰 Proxy
 
@@ -1468,6 +1464,7 @@ DOMAIN-SUFFIX,aixifan.com,🔰 Proxy
 DOMAIN-SUFFIX,alicdn.com,🔰 Proxy
 DOMAIN-SUFFIX,alipay.com,🔰 Proxy
 DOMAIN-SUFFIX,alipayobjects.com,🔰 Proxy
+DOMAIN-SUFFIX,aliyun.com,🔰 Proxy
 DOMAIN-SUFFIX,amap.com,🔰 Proxy
 DOMAIN-SUFFIX,appstore.com,🔰 Proxy
 DOMAIN-SUFFIX,autonavi.com,🔰 Proxy
@@ -1489,7 +1486,6 @@ DOMAIN-SUFFIX,clouddn.com,🔰 Proxy
 DOMAIN-SUFFIX,cmfu.com,🔰 Proxy
 DOMAIN-SUFFIX,cnbeta.com,🔰 Proxy
 DOMAIN-SUFFIX,cnbetacdn.com,🔰 Proxy
-DOMAIN-SUFFIX,crashlytics.com,🔰 Proxy
 DOMAIN-SUFFIX,culturedcode.com,🔰 Proxy
 DOMAIN-SUFFIX,didialift.com,🔰 Proxy
 DOMAIN-SUFFIX,douban.com,🔰 Proxy
@@ -1548,7 +1544,7 @@ DOMAIN-SUFFIX,netease.com,🔰 Proxy
 DOMAIN-SUFFIX,nuomi.com,🔰 Proxy
 DOMAIN-SUFFIX,ourdvs.com,🔰 Proxy
 DOMAIN-SUFFIX,overcast.fm,🔰 Proxy
-DOMAIN-SUFFIX,piaotian.net,🔰 Proxy
+DOMAIN-SUFFIX,pixiv.net,🔰 Proxy
 DOMAIN-SUFFIX,pstatp.com,🔰 Proxy
 DOMAIN-SUFFIX,qbox.me,🔰 Proxy
 DOMAIN-SUFFIX,qcloud.com,🔰 Proxy
@@ -1565,7 +1561,6 @@ DOMAIN-SUFFIX,qiyipic.com,🔰 Proxy
 DOMAIN-SUFFIX,qq.com,🔰 Proxy
 DOMAIN-SUFFIX,qqurl.com,🔰 Proxy
 DOMAIN-SUFFIX,rarbg.to,🔰 Proxy
-DOMAIN-SUFFIX,rime.im,🔰 Proxy
 DOMAIN-SUFFIX,rrmj.tv,🔰 Proxy
 DOMAIN-SUFFIX,ruguoapp.com,🔰 Proxy
 DOMAIN-SUFFIX,sandai.net,🔰 Proxy
@@ -1586,7 +1581,6 @@ DOMAIN-SUFFIX,tenpay.com,🔰 Proxy
 DOMAIN-SUFFIX,tietuku.com,🔰 Proxy
 DOMAIN-SUFFIX,tmall.com,🔰 Proxy
 DOMAIN-SUFFIX,tudou.com,🔰 Proxy
-DOMAIN-SUFFIX,twitch.tv,🔰 Proxy
 DOMAIN-SUFFIX,udache.com,🔰 Proxy
 DOMAIN-SUFFIX,upaiyun.com,🔰 Proxy
 DOMAIN-SUFFIX,upyun.com,🔰 Proxy
@@ -1700,7 +1694,7 @@ DOMAIN-SUFFIX,azureedge.net,☁️ Proxy
 DOMAIN-SUFFIX,azurewebsites.net,☁️ Proxy
 DOMAIN-SUFFIX,bbtoystore.com,☁️ Proxy
 DOMAIN-SUFFIX,bigsound.org,☁️ Proxy
-DOMAIN-SUFFIX,bintray.com,☁️ Proxy,enhanced-mode
+DOMAIN-SUFFIX,bintray.com,☁️ Proxy
 DOMAIN-SUFFIX,bit.com,☁️ Proxy
 DOMAIN-SUFFIX,bit.do,☁️ Proxy
 DOMAIN-SUFFIX,bit.ly,☁️ Proxy
@@ -1813,7 +1807,7 @@ DOMAIN-SUFFIX,gfx.ms,☁️ Proxy
 DOMAIN-SUFFIX,ggpht.com,☁️ Proxy
 DOMAIN-SUFFIX,ghostnoteapp.com,☁️ Proxy
 DOMAIN-SUFFIX,git.io,☁️ Proxy
-DOMAIN-SUFFIX,github.com,☁️ Proxy,enhanced-mode
+DOMAIN-SUFFIX,github.com,☁️ Proxy
 DOMAIN-SUFFIX,github.io,☁️ Proxy
 DOMAIN-SUFFIX,githubapp.com,☁️ Proxy
 DOMAIN-SUFFIX,githubusercontent.com,☁️ Proxy
@@ -1850,6 +1844,7 @@ DOMAIN-SUFFIX,imgur.com,☁️ Proxy
 DOMAIN-SUFFIX,imore.com,☁️ Proxy
 DOMAIN-SUFFIX,instapaper.com,☁️ Proxy
 DOMAIN-SUFFIX,instructables.com,☁️ Proxy
+DOMAIN-SUFFIX,io.io,☁️ Proxy
 DOMAIN-SUFFIX,ipn.li,☁️ Proxy
 DOMAIN-SUFFIX,is.gd,☁️ Proxy
 DOMAIN-SUFFIX,issuu.com,☁️ Proxy
@@ -1924,7 +1919,6 @@ DOMAIN-SUFFIX,optimizely.com,☁️ Proxy
 DOMAIN-SUFFIX,orkut.com,☁️ Proxy
 DOMAIN-SUFFIX,osha.gov,☁️ Proxy
 DOMAIN-SUFFIX,osxdaily.com,☁️ Proxy
-DOMAIN-SUFFIX,outlook.com,☁️ Proxy
 DOMAIN-SUFFIX,outlook.com,☁️ Proxy,force-remote-dns
 DOMAIN-SUFFIX,ow.ly,☁️ Proxy
 DOMAIN-SUFFIX,paddleapi.com,☁️ Proxy
@@ -2183,7 +2177,6 @@ DOMAIN-SUFFIX,zeutch.com,☁️ Proxy
 DOMAIN-SUFFIX,zynamics.com,☁️ Proxy
 
 // Force some domains which are fucked by GFW while resolving DNS,or don't respect the system Proxy
-DOMAIN,accounts.google.com,☁️ Proxy,force-remote-dns,enhanced-mode
 DOMAIN-SUFFIX,appspot.com,☁️ Proxy,force-remote-dns
 DOMAIN-SUFFIX,cdninstagram.com,☁️ Proxy,force-remote-dns
 DOMAIN-SUFFIX,facebook.com,☁️ Proxy,force-remote-dns
@@ -2191,7 +2184,7 @@ DOMAIN-SUFFIX,fb.com,☁️ Proxy,force-remote-dns
 DOMAIN-SUFFIX,fb.me,☁️ Proxy,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,☁️ Proxy,force-remote-dns
 DOMAIN-SUFFIX,gmail.com,☁️ Proxy,force-remote-dns
-DOMAIN-SUFFIX,googleapis.com,☁️ Proxy,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,googleapis.com,☁️ Proxy,force-remote-dns
 DOMAIN-SUFFIX,instagram.com,☁️ Proxy,force-remote-dns
 DOMAIN-SUFFIX,scdn.co,☁️ Proxy,force-remote-dns
 DOMAIN-SUFFIX,t.co,☁️ Proxy,force-remote-dns
@@ -2276,6 +2269,8 @@ IP-CIDR,61.191.12.74/32,REJECT,no-resolve
 IP-CIDR,61.191.206.4/32,REJECT,no-resolve
 // Zhejiang Telecom Float
 IP-CIDR,60.191.124.196/32,REJECT,no-resolve
+IP-CIDR,61.160.200.242/32,REJECT,no-resolve
+IP-CIDR,61.174.50.167/32,REJECT,no-resolve
 
 // Mobile
 IP-CIDR,211.137.132.89/32,REJECT,no-resolve
@@ -2328,10 +2323,6 @@ FINAL,☁️ Proxy
 [URL Rewrite]
 // URL
 
-// Cydia_BigBoss
-^https?://apt.thebigboss.org/developer-packages.php http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://moreinfo.thebigboss.org/moreinfo/depiction.php http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-
 // Google_Service_HTTPS_Jump
 ^https?://(www.)?g.cn https://www.google.com 302
 ^https?://(www.)?google.cn https://www.google.com 302
@@ -2343,30 +2334,30 @@ FINAL,☁️ Proxy
 ^https?://uplus7.win/ https://async.be/ 302
 
 // Anti_ISP_JavaScript_Injection
-^https?://101.251.211.235 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://103.249.254.113 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://106.75.65.92 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://120.132.57.41 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://120.132.63.203 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://120.26.151.246 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://120.55.199.139 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://120.76.189.132 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://122.226.223.163 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://139.196.239.52 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://180.76.155.58 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://183.131.79.30 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://211.155.94.198 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://223.6.255.99 http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://c.minisplat.cn/ http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://c1.minisplat.cn/ http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://cache.changjingyi.cn/ http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://cache.gclick.cn/ http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
+^https?://101.251.211.235 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://103.249.254.113 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://106.75.65.92 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://120.132.57.41 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://120.132.63.203 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://120.26.151.246 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://120.55.199.139 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://120.76.189.132 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://122.226.223.163 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://139.196.239.52 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://180.76.155.58 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://183.131.79.30 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://211.155.94.198 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://223.6.255.99 http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://c.minisplat.cn/ http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://c1.minisplat.cn/ http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://cache.changjingyi.cn/ http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://cache.gclick.cn/ http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
 
 // Anti_ISP_Safari_Baidu_CPM_Hijack
-^https?://m.coolaiy.com/b.php http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& 302
-^https?://www.babyye.com/b.php http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& 302
-^https?://www.gwv7.com/b.php http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& 302
-^https?://www.likeji.net/b.php http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& 302
+^https?://m.coolaiy.com/b.php http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& 302
+^https?://www.babyye.com/b.php http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& 302
+^https?://www.gwv7.com/b.php http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& 302
+^https?://www.likeji.net/b.php http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& 302
 
 // Anti_ISP_JD_Hijack
 ^https?://union.click.jd.com/sem.php? http://union.click.jd.com/sem.php?adblock= header
@@ -2392,7 +2383,8 @@ FINAL,☁️ Proxy
 ^https?://baichuan.baidu.com/rs/adpmobile/launch.* - reject
 ^https?://c.tieba.baidu.com/c/p/img\?src= - reject
 ^https?://c.tieba.baidu.com/c/s/logtogether\?cmd=.* - reject
-^https?://fanyi-app.baidu.com/transapp/agent.php http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& 302
+^https?://fanyi-app.baidu.com/transapp/agent.php http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& 302
+^https?://gss0.bdstatic.com/5bd1bjqh_Q23odCf/static/wiseindex/img/bd_red_packet.png - reject
 ^https?://imgsrc.baidu.com\/forum\/pic\/item/.* _ reject
 ^https?://issuecdn.baidupcs.com/issue/netdisk/guanggao/ http://ogtre5vp0.bkt.clouddn.com/background.png? header
 ^https?://issuecdn.baidupcs.com/issue/netdisk/guanggao/ http://rewrite.websocket.site:10/Other/Static/Images/background.png? header
@@ -2447,23 +2439,23 @@ FINAL,☁️ Proxy
 ^https?://api.appsdk.soku.com/tag/r - reject
 ^https?://api.k.sohu.com/api/channel/ad/ - reject
 ^https?://api.mobile.youku.com/adv/ - reject
-^https?://api.mobile.youku.com/initial? http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& 302
+^https?://api.mobile.youku.com/initial? http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& 302
 ^https?://api.mobile.youku.com/layout/search/hot/word - reject
 ^https?://appsdk.soku.com/bg/r? - reject
 ^https?://atm.youku.com - reject
-^https?://burpsuite.applinzi.com/common/v5/play http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
-^https?://d.m6.cms.mobile.youku.com/player/domain_name? http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
+^https?://burpsuite.applinzi.com/common/v5/play http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
+^https?://d.m6.cms.mobile.youku.com/player/domain_name? http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
 ^https?://hd.api.mobile.youku.com/common/v3/hudong/new - reject
 ^https?://hd.mobile.youku.com/common/v3/hudong/new - reject
-^https?://home.mobile.youku.com/layout/iphone/v5/home/page? http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
+^https?://home.mobile.youku.com/layout/iphone/v5/home/page? http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]& header
 ^https?://i.gtimg.cn/ https://i.gtimg.cn/ 302
-^https?://i-play.mobile.youku.com/common/v5/play? http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>&dev=true& header
+^https?://i-play.mobile.youku.com/common/v5/play? http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]&dev=true& header
 ^https?://l.youku.com - reject
 ^https?://m.youku.com/video/libs/iwt.js - reject
 ^https?://pic.k.sohu.com/img8/wb/tj/ - reject
 ^https?://pl.youku.com - reject
 ^https?://r.l.youku.com/rec_at_click - reject
-^https://ups.youku.com/ups/get.json? http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>&dev=true& 302
+^https://ups.youku.com/ups/get.json? http://burpsuite.applinzi.com/Interface?AuthKey=[TOKEN]&dev=true& 302
 
 // ZhuiShu
 ^https?://api.zhuishushenqi.com/advert?platform=ios&position=all - reject
@@ -2497,15 +2489,14 @@ FINAL,☁️ Proxy
 
 // 163 music
 ^.*163\.com\/madr\?app=\b.*platform=\b.*uid.* - reject
-^https?://p3.music.126.net/+/(\d).jpg?res=(\d) - reject
+^https?://p\d{1}.music.126.net/+/(\d).jpg?res=(\d) - reject
+^https?://p\d{1}.music.126.net/pIHT_uK7ifNRjvpYs_UygA==/18541064581111020.jpg - reject
 
 // Douyu
-^https://capi.douyucdn.cn/lapi/sign/appapi/getinfo?aid=.* - reject
-^https://capi.douyucdn.cn\/.*\/appapi\/getinfo\?.* - reject
-^https://staticlive.douyucdn\.cn/.*\/getStartSend\?.* - reject
+^https?://capi.douyucdn.cn\/.*\/appapi\/getinfo\?.* - reject
 ^https?://douyucdn\.cn\/.*\/appapi\/getinfo\?.* - reject
-^https?://staticlive.douyucdn.cn/upload/signs/ - reject
 ^https?://staticlive.douyucdn\.cn/.*\/getStartSend\?.* - reject
+^https?://staticlive.douyucdn.cn/upload/signs/ - reject
 
 // ele
 ^https?://elemecdn\.com\/.*\/sitemap.* - reject
@@ -2546,7 +2537,10 @@ FINAL,☁️ Proxy
 ^https?://wbapp.mobile.sina.cn/interface/f/ttt/v3/freshguidad.php - reject
 ^https?://wbapp.mobile.sina.cn/interface/win/winad.php - reject
 ^https?://wbapp.mobile.sina.cn/wbapplua/wbpullad.lua - reject
-^https?://wbapp.mobile.sina.cn\/wbapplua\/wbpullad.lua\?wm=.* - reject 
+^https?://wbapp.mobile.sina.cn\/wbapplua\/wbpullad.lua\?wm=.* - reject
+
+// Xianyu
+^https?://gw.alicdn.com\/mt\/.* - reject
 
 // Ximalaya
 ^.*adse.*\.com\/[a-z]{4}\/loading\?appid=.* - reject
@@ -2565,6 +2559,9 @@ FINAL,☁️ Proxy
 ^https?://fdfs.xmcdn.com/group24/M03/E6/09/ - reject
 ^https?://fdfs.xmcdn.com/group24/M07/C4/3D/ - reject
 ^https?://fdfs.xmcdn.com/group25/M05/92/D1/ - reject
+
+// Zhangyue
+^https?://book.img.ireader.com/group6/M00 - reject
 
 // Youdao
 ^https?://gorgon.youdao.com\/gorgon\/request\.s\?v=.* - reject
@@ -2622,7 +2619,7 @@ FINAL,☁️ Proxy
 ^https?://static.m.ttkvod.com/static_cahce/index/index.txt http://ogtre5vp0.bkt.clouddn.com/Static/TXT/index.txt header
 ^https?://v.17173.com/api/Allyes/ - reject
 ^https?://wmedia-track.uc.cn - reject
-^https?://www.dnvod.tv/images/LoadTest.aspx - reject
+^https?://www.dnvod.tv/images/LoadTest - reject
 ^https?://www.inoreader.com/adv/ - reject
 ^https?://www.iqshw.com/d/js/m http://rewrite.websocket.site:10/Other/Static/JS/Package.js? header
 ^https?://www.lianbijr.com/adPage/ - reject
@@ -2642,9 +2639,6 @@ mac.pcbeta.com = 218.93.127.136
 static.template.pcbeta.com = 218.93.127.136
 uc.pcbeta.com = 218.93.127.136
 www.pcbeta.com = 218.93.127.136
-
-xn--h5qa749zx5h.com = 45.76.96.147
-
 
 [SSID Setting]
 // SSID

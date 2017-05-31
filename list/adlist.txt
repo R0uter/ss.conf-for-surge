@@ -1,11 +1,10 @@
 // thx  https://github.com/lhie1/Surge 
-// updated on 2017-05-21 00:41:11
+// updated on 2017-05-31 17:01:36
 
 DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
 DOMAIN-SUFFIX,afp.qiyi.com,REJECT
 DOMAIN-SUFFIX,api.cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,c.uaa.iqiyi.com,REJECT
-DOMAIN-SUFFIX,ckm.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cloudpush.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cm.passport.iqiyi.com,REJECT
 DOMAIN-SUFFIX,emoticon.sns.iqiyi.com,REJECT
@@ -346,7 +345,6 @@ DOMAIN-SUFFIX,stat.xgo.com.cn,REJECT
 DOMAIN-SUFFIX,track.58.com,REJECT
 DOMAIN-SUFFIX,a.alimama.cn,REJECT
 DOMAIN-SUFFIX,acjs.aliyun.com,REJECT
-DOMAIN-SUFFIX,acs4baichuan.m.taobao.com,REJECT
 DOMAIN-SUFFIX,adash.m.taobao.com,REJECT
 DOMAIN-SUFFIX,adashbc.m.taobao.com,REJECT
 DOMAIN-SUFFIX,adash-c.ut.taobao.com,REJECT
@@ -931,6 +929,9 @@ DOMAIN-SUFFIX,cds.51y5.net,REJECT
 DOMAIN-SUFFIX,ios-dc.51y5.net,REJECT
 DOMAIN-SUFFIX,news-img.51y5.net,REJECT
 DOMAIN-SUFFIX,wkanc.com,REJECT
+DOMAIN-SUFFIX,ios-informationplatform.wps.cn,REJECT
+DOMAIN-SUFFIX,minfo.wps.cn,REJECT
+DOMAIN-SUFFIX,mo.res.wpscdn.cn,REJECT
 DOMAIN-SUFFIX,ad.test.ximalaya.com,REJECT
 DOMAIN-SUFFIX,ad.ximalaya.com,REJECT
 DOMAIN-SUFFIX,adse.test.ximalaya.com,REJECT
@@ -1110,7 +1111,6 @@ DOMAIN-SUFFIX,krux.net,REJECT
 DOMAIN-SUFFIX,lnk8z.com,REJECT
 DOMAIN-SUFFIX,localytics.com,REJECT
 DOMAIN-SUFFIX,log.outbrain.com,REJECT
-DOMAIN-SUFFIX,log.umsns.com,REJECT
 DOMAIN-SUFFIX,lotuseed.com,REJECT
 DOMAIN-SUFFIX,lufax.com,REJECT
 DOMAIN-SUFFIX,madmini.com,REJECT
@@ -1122,7 +1122,6 @@ DOMAIN-SUFFIX,mixpanel.com,REJECT
 DOMAIN-SUFFIX,mng-ads.com,REJECT
 DOMAIN-SUFFIX,mnxtu.com,REJECT
 DOMAIN-SUFFIX,moatads.com,REJECT
-DOMAIN-SUFFIX,mob.com,REJECT
 DOMAIN-SUFFIX,mobclix.com,REJECT
 DOMAIN-SUFFIX,mobfox.com,REJECT
 DOMAIN-SUFFIX,mobisage.cn,REJECT
@@ -1153,6 +1152,7 @@ DOMAIN-SUFFIX,qtmojo.com,REJECT
 DOMAIN-SUFFIX,quantserve.com,REJECT
 DOMAIN-SUFFIX,qxxys.com,REJECT
 DOMAIN-SUFFIX,reachmax.cn,REJECT
+DOMAIN-SUFFIX,realtime.monitor.ppweb.com.cn,REJECT
 DOMAIN-SUFFIX,resetgey.com,REJECT
 DOMAIN-SUFFIX,responsys.net,REJECT
 DOMAIN-SUFFIX,revsci.net,REJECT
