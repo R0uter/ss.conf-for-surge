@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2017-06-10 23:21:37
+// updated on 2017-06-15 01:02:14
 
 DOMAIN-SUFFIX,2dbook.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
@@ -380,6 +380,7 @@ DOMAIN-SUFFIX,ampproject.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,android.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,androidify.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,appspot.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,blog.google,Proxy,force-remote-dns
 DOMAIN-SUFFIX,blogspot.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,blogspot.hk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,blogspot.jp,Proxy,force-remote-dns
@@ -397,6 +398,7 @@ DOMAIN-SUFFIX,deepmind.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,deja.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,digisfera.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,domains.google,Proxy,force-remote-dns
+DOMAIN-SUFFIX,environment.google,Proxy,force-remote-dns
 DOMAIN-SUFFIX,feedburner.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,g.co,Proxy,force-remote-dns
 DOMAIN-SUFFIX,gcr.io,Proxy,force-remote-dns
@@ -764,6 +766,7 @@ DOMAIN-SUFFIX,apkpure.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,aplusvpn.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,appdownloader.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,appledaily.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,appshopper.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,appsocks.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,appsto.re,Proxy,force-remote-dns
 DOMAIN-SUFFIX,archives.gov,Proxy,force-remote-dns
@@ -4125,6 +4128,7 @@ DOMAIN-SUFFIX,tvider.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tvmost.com.hk,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tvplayvideos.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tvunetworks.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,tw-blog.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tw-npo.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twaitter.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twapperkeeper.com,Proxy,force-remote-dns

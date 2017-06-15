@@ -525,8 +525,6 @@ DOMAIN-SUFFIX,afp.adchina.com,REJECT
 DOMAIN-SUFFIX,afp.alicdn.com,REJECT
 DOMAIN-SUFFIX,agoodm.m.taobao.com,REJECT
 DOMAIN-SUFFIX,agoodm.wapa.taobao.com,REJECT
-DOMAIN-SUFFIX,ai.m.taobao.com,REJECT
-DOMAIN-SUFFIX,ai.taobao.com,REJECT
 DOMAIN-SUFFIX,alipaylog.com,REJECT
 DOMAIN-SUFFIX,amdc.alipay.com,REJECT
 DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
@@ -1144,7 +1142,6 @@ DOMAIN-SUFFIX,ucsec1.ucweb.com,REJECT
 DOMAIN-SUFFIX,aoodoo.feng.com,REJECT
 DOMAIN-SUFFIX,bbsanalytics.weiphone.net,REJECT
 DOMAIN-SUFFIX,fengbuy.com,REJECT
-DOMAIN-SUFFIX,tutuapp.com,REJECT
 DOMAIN-SUFFIX,we.tm,REJECT
 DOMAIN-SUFFIX,yes1.feng.com,REJECT
 
@@ -1204,8 +1201,8 @@ DOMAIN-KEYWORD,uedas,REJECT
 DOMAIN-KEYWORD,umeng,REJECT
 DOMAIN-KEYWORD,usage,REJECT
 DOMAIN-KEYWORD,wlmonitor,REJECT
-
 DOMAIN-KEYWORD,zjtoolbar,REJECT
+
 DOMAIN-SUFFIX,10up.com,REJECT
 DOMAIN-SUFFIX,111cn.net,REJECT
 DOMAIN-SUFFIX,114la.com,REJECT
@@ -1219,6 +1216,7 @@ DOMAIN-SUFFIX,a.applovin.com,REJECT
 DOMAIN-SUFFIX,a.visualrevenue.com,REJECT
 DOMAIN-SUFFIX,a1.itc.cn,REJECT
 DOMAIN-SUFFIX,acs86.com,REJECT
+DOMAIN-SUFFIX,ad.10010.com,REJECT
 DOMAIN-SUFFIX,ad.12306.cn,REJECT
 DOMAIN-SUFFIX,ad.3.cn,REJECT
 DOMAIN-SUFFIX,ad.360yield.com,REJECT
@@ -1287,7 +1285,6 @@ DOMAIN-SUFFIX,appads.com,REJECT
 DOMAIN-SUFFIX,appboy.com,REJECT
 DOMAIN-SUFFIX,applifier.com,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
-DOMAIN-SUFFIX,app-measurement.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,atdmt.com,REJECT
 DOMAIN-SUFFIX,audience.network,REJECT
@@ -1462,7 +1459,6 @@ DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN-SUFFIX,tapjoyads.com,REJECT
 DOMAIN-SUFFIX,th7.cn,REJECT
 DOMAIN-SUFFIX,tiqcdn.com,REJECT
-DOMAIN-SUFFIX,tongbu.com,REJECT
 DOMAIN-SUFFIX,tracker.yhd.com,REJECT
 DOMAIN-SUFFIX,trafficmp.com,REJECT
 DOMAIN-SUFFIX,ugvip.com,REJECT
@@ -1632,6 +1628,7 @@ DOMAIN-SUFFIX,ruguoapp.com,🔰 Proxy
 DOMAIN-SUFFIX,sandai.net,🔰 Proxy
 DOMAIN-SUFFIX,sinaapp.com,🔰 Proxy
 DOMAIN-SUFFIX,sinaimg.com,🔰 Proxy
+DOMAIN-SUFFIX,smzdm.com,🔰 Proxy
 DOMAIN-SUFFIX,snwx.com,🔰 Proxy
 DOMAIN-SUFFIX,so.com,🔰 Proxy
 DOMAIN-SUFFIX,sogou.com,🔰 Proxy
@@ -1680,6 +1677,7 @@ DOMAIN-SUFFIX,youku.com,🔰 Proxy
 DOMAIN-SUFFIX,yunjiasu-cdn.net,🔰 Proxy
 DOMAIN-SUFFIX,zealer.com,🔰 Proxy
 DOMAIN-SUFFIX,zgslb.net,🔰 Proxy
+DOMAIN-SUFFIX,zimuzu.tv,🔰 Proxy
 DOMAIN-SUFFIX,zhihu.com,🔰 Proxy
 DOMAIN-SUFFIX,zhimg.com,🔰 Proxy
 
@@ -2281,7 +2279,6 @@ PROCESS-NAME,Telegram,☁️ Proxy
 PROCESS-NAME,Tweetbot,☁️ Proxy
 PROCESS-NAME,WhatsApp,☁️ Proxy
 
-USER-AGENT,Speedtest*,☁️ Proxy
 USER-AGENT,Instagram*,☁️ Proxy
 
 USER-AGENT,%E5%8D%B3%E5%88%BB*,🔰 Proxy
@@ -2519,6 +2516,7 @@ FINAL,☁️ Proxy
 
 // jd
 ^.*m.360buyimg.com\/mobilecms\/s640x1136_jfs\/.* - reject
+^https?://img\d{1}.360buyimg.com - reject
 
 // Moji
 ^https?://ad.api.moji.com/ad/log/stat - reject
@@ -2601,6 +2599,9 @@ FINAL,☁️ Proxy
 // 163 music
 ^.*163\.com\/madr\?app=\b.*platform=\b.*uid.* - reject
 ^https?://p\d{1}.music.126.net/+/(\d).jpg?res=(\d) - reject
+
+// Douban
+^https?://img\d{1}.doubanio.com/view/dale-online/dale_ad - reject
 
 // Douyu
 ^https?://capi.douyucdn.cn\/.*\/appapi\/getinfo\?.* - reject

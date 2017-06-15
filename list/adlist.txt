@@ -1,5 +1,5 @@
 // thx  https://github.com/lhie1/Surge 
-// updated on 2017-06-10 23:21:41
+// updated on 2017-06-15 01:02:25
 
 DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
 DOMAIN-SUFFIX,afp.iqiyi.com,REJECT
@@ -358,8 +358,6 @@ DOMAIN-SUFFIX,afp.adchina.com,REJECT
 DOMAIN-SUFFIX,afp.alicdn.com,REJECT
 DOMAIN-SUFFIX,agoodm.m.taobao.com,REJECT
 DOMAIN-SUFFIX,agoodm.wapa.taobao.com,REJECT
-DOMAIN-SUFFIX,ai.m.taobao.com,REJECT
-DOMAIN-SUFFIX,ai.taobao.com,REJECT
 DOMAIN-SUFFIX,alipaylog.com,REJECT
 DOMAIN-SUFFIX,amdc.alipay.com,REJECT
 DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
@@ -919,7 +917,6 @@ DOMAIN-SUFFIX,ucsec1.ucweb.com,REJECT
 DOMAIN-SUFFIX,aoodoo.feng.com,REJECT
 DOMAIN-SUFFIX,bbsanalytics.weiphone.net,REJECT
 DOMAIN-SUFFIX,fengbuy.com,REJECT
-DOMAIN-SUFFIX,tutuapp.com,REJECT
 DOMAIN-SUFFIX,we.tm,REJECT
 DOMAIN-SUFFIX,yes1.feng.com,REJECT
 DOMAIN,wifiapi01.51y5.net,REJECT
@@ -983,6 +980,7 @@ DOMAIN-SUFFIX,a.applovin.com,REJECT
 DOMAIN-SUFFIX,a.visualrevenue.com,REJECT
 DOMAIN-SUFFIX,a1.itc.cn,REJECT
 DOMAIN-SUFFIX,acs86.com,REJECT
+DOMAIN-SUFFIX,ad.10010.com,REJECT
 DOMAIN-SUFFIX,ad.12306.cn,REJECT
 DOMAIN-SUFFIX,ad.3.cn,REJECT
 DOMAIN-SUFFIX,ad.360yield.com,REJECT
@@ -1051,7 +1049,6 @@ DOMAIN-SUFFIX,appads.com,REJECT
 DOMAIN-SUFFIX,appboy.com,REJECT
 DOMAIN-SUFFIX,applifier.com,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
-DOMAIN-SUFFIX,app-measurement.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,atdmt.com,REJECT
 DOMAIN-SUFFIX,audience.network,REJECT
@@ -1226,7 +1223,6 @@ DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN-SUFFIX,tapjoyads.com,REJECT
 DOMAIN-SUFFIX,th7.cn,REJECT
 DOMAIN-SUFFIX,tiqcdn.com,REJECT
-DOMAIN-SUFFIX,tongbu.com,REJECT
 DOMAIN-SUFFIX,tracker.yhd.com,REJECT
 DOMAIN-SUFFIX,trafficmp.com,REJECT
 DOMAIN-SUFFIX,ugvip.com,REJECT

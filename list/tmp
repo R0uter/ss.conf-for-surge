@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 3kGlzvmfGJhghkBnvhCKPg
+! Checksum: mhSDxWNkfa/5hnJhxI50eA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Tue, 16 May 2017 04:12:05 -0400
+! Last Modified: Sat, 10 Jun 2017 23:00:50 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -462,6 +462,7 @@ d3c33hcgiwev3.cloudfront.net
 ||androidify.com
 .appspot.com
 ||appspot.com
+||blog.google
 blogspot.com
 /^https?:\/\/[^\/]+blogspot\.(.*)/
 .blogspot.hk
@@ -480,6 +481,7 @@ blogspot.com
 ||deja.com
 ||digisfera.com
 ||domains.google
+||environment.google
 ||feedburner.com
 ||g.co
 ||gcr.io
@@ -941,6 +943,8 @@ apkpure.com
 !--||appannie.com
 .appdownloader.net/Android
 appledaily.com
+.appshopper.com
+|http://appshopper.com
 ||appsocks.net
 ||appsto.re
 ||archives.gov
@@ -1314,7 +1318,7 @@ canadameet.com
 |http://bbs.cantonese.asia/
 !--http://www.cantonese.asia/action-bbs.html
 .canyu.org
-|http://canyu.org
+||canyu.org
 .cao.im
 .caobian.info
 ||caobian.info
@@ -5593,6 +5597,8 @@ tvider.com
 .tvmost.com.hk
 .tvplayvideos.com
 ||tvunetworks.com
+.tw-blog.com
+|https://tw-blog.com
 .tw-npo.org
 .twaitter.com
 twapperkeeper.com
