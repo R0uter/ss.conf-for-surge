@@ -1,5 +1,5 @@
 // thx  https://github.com/lhie1/Surge 
-// updated on 2017-06-15 01:02:25
+// updated on 2017-06-25 15:28:06
 
 DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
 DOMAIN-SUFFIX,afp.iqiyi.com,REJECT
@@ -287,6 +287,9 @@ DOMAIN-SUFFIX,tb104x.corp.youdao.com,REJECT
 DOMAIN-SUFFIX,union.youdao.com,REJECT
 DOMAIN-SUFFIX,wanproxy.127.net,REJECT
 DOMAIN-SUFFIX,wr.da.netease.com,REJECT
+DOMAIN-SUFFIX,www.qchannel01.cn,REJECT
+DOMAIN-SUFFIX,www.qchannel02.cn,REJECT
+DOMAIN-SUFFIX,www.qchannel03.cn,REJECT
 DOMAIN-SUFFIX,www.qchannel04.cn,REJECT
 DOMAIN-SUFFIX,ydpushserver.youdao.com,REJECT
 DOMAIN-SUFFIX,cvda.17173.com,REJECT
@@ -685,8 +688,6 @@ DOMAIN-SUFFIX,du.jd.com,REJECT
 DOMAIN-SUFFIX,jrclick.jd.com,REJECT
 DOMAIN-SUFFIX,jzt.jd.com,REJECT
 DOMAIN-SUFFIX,policy.jd.com,REJECT
-DOMAIN-SUFFIX,re.jd.com,REJECT
-DOMAIN-SUFFIX,re.m.jd.com,REJECT
 DOMAIN-SUFFIX,stat.m.jd.com,REJECT
 DOMAIN-SUFFIX,x.jd.com,REJECT
 DOMAIN-SUFFIX,ads.service.kugou.com,REJECT
@@ -761,7 +762,6 @@ DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,ios.bugly.qq.com,REJECT
 DOMAIN-SUFFIX,monitor.uu.qq.com,REJECT
 DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
-DOMAIN-SUFFIX,pingjs.qq.com,REJECT
 DOMAIN-SUFFIX,pingma.qq.com,REJECT
 DOMAIN-SUFFIX,pingtcss.qq.com,REJECT
 DOMAIN-SUFFIX,report.qq.com,REJECT
@@ -785,17 +785,6 @@ DOMAIN-SUFFIX,cdn.innity.net,REJECT
 DOMAIN-SUFFIX,cdn.media.innity.net,REJECT
 DOMAIN-SUFFIX,click.uve.mobile.sina.cn,REJECT
 DOMAIN-SUFFIX,cre.dp.sina.cn,REJECT
-DOMAIN-SUFFIX,d0.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d00.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d1.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d2.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d3.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d4.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d5.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d6.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d7.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d8.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d9.sina.com.cn,REJECT
 DOMAIN-SUFFIX,dcads.sina.com.cn,REJECT
 DOMAIN-SUFFIX,dd.iask.cn,REJECT
 DOMAIN-SUFFIX,dd.iaskgo.com,REJECT
@@ -813,6 +802,7 @@ DOMAIN-SUFFIX,log.weico.cc,REJECT
 DOMAIN-SUFFIX,m.game.weibo.cn,REJECT
 DOMAIN-SUFFIX,m.iask.sina.com.cn,REJECT
 DOMAIN-SUFFIX,mg.games.sina.com.cn,REJECT
+DOMAIN-SUFFIX,mobileads.dx.cn,REJECT
 DOMAIN-SUFFIX,motu.p4p.sina.com.cn,REJECT
 DOMAIN-SUFFIX,newspush.sinajs.cn,REJECT
 DOMAIN-SUFFIX,ota.pay.mobile.sina.cn,REJECT
@@ -828,6 +818,7 @@ DOMAIN-SUFFIX,s.alitui.weibo.com,REJECT
 DOMAIN-SUFFIX,sax.sina.cn,REJECT
 DOMAIN-SUFFIX,sax.sina.com.cn,REJECT
 DOMAIN-SUFFIX,sdkapp.mobile.sina.cn,REJECT
+DOMAIN-SUFFIX,sdkapp.uve.weibo.com,REJECT
 DOMAIN-SUFFIX,sdkclick.mobile.sina.cn,REJECT
 DOMAIN-SUFFIX,slog.sina.cn,REJECT
 DOMAIN-SUFFIX,slog.sina.com.cn,REJECT
@@ -837,10 +828,11 @@ DOMAIN-SUFFIX,sscm3.mipujia.com,REJECT
 DOMAIN-SUFFIX,ssl-cdn.media.innity.net,REJECT
 DOMAIN-SUFFIX,tjs.sjs.sinajs.cn,REJECT
 DOMAIN-SUFFIX,trends.mobile.sina.cn,REJECT
-DOMAIN-SUFFIX,u1.img.mobile.sina.cn,REJECT
+DOMAIN-SUFFIX,tui.weibo.com,REJECT
 DOMAIN-SUFFIX,wapwbclick.mobile.sina.cn,REJECT
 DOMAIN-SUFFIX,wax.weibo.com,REJECT
 DOMAIN-SUFFIX,wbapp.mobile.sina.cn,REJECT
+DOMAIN-SUFFIX,wbapp.uve.weibo.com,REJECT
 DOMAIN-SUFFIX,wbclick.mobile.sina.cn,REJECT
 DOMAIN-SUFFIX,wbpctips.mobile.sina.cn,REJECT
 DOMAIN-SUFFIX,whn.star-media.cn,REJECT
@@ -873,7 +865,6 @@ DOMAIN-SUFFIX,808.tianya.cn,REJECT
 DOMAIN-SUFFIX,bdj.tianya.cn,REJECT
 DOMAIN-SUFFIX,click.tianyaui.com,REJECT
 DOMAIN-SUFFIX,dol.tianya.cn,REJECT
-DOMAIN-SUFFIX,adm.10jqka.com.cn,REJECT
 DOMAIN-SUFFIX,ad.toutiao.com,REJECT
 DOMAIN-SUFFIX,d.toutiao.com,REJECT
 DOMAIN-SUFFIX,dm.toutiao.com,REJECT
@@ -980,7 +971,6 @@ DOMAIN-SUFFIX,a.applovin.com,REJECT
 DOMAIN-SUFFIX,a.visualrevenue.com,REJECT
 DOMAIN-SUFFIX,a1.itc.cn,REJECT
 DOMAIN-SUFFIX,acs86.com,REJECT
-DOMAIN-SUFFIX,ad.10010.com,REJECT
 DOMAIN-SUFFIX,ad.12306.cn,REJECT
 DOMAIN-SUFFIX,ad.3.cn,REJECT
 DOMAIN-SUFFIX,ad.360yield.com,REJECT
@@ -1146,7 +1136,6 @@ DOMAIN-SUFFIX,mediav.com,REJECT
 DOMAIN-SUFFIX,megajoy.com,REJECT
 DOMAIN-SUFFIX,miidi.net,REJECT
 DOMAIN-SUFFIX,mixpanel.com,REJECT
-DOMAIN-SUFFIX,mmstat.com,REJECT
 DOMAIN-SUFFIX,mng-ads.com,REJECT
 DOMAIN-SUFFIX,mnxtu.com,REJECT
 DOMAIN-SUFFIX,moatads.com,REJECT
@@ -1219,7 +1208,6 @@ DOMAIN-SUFFIX,sysdig.com,REJECT
 DOMAIN-SUFFIX,t.appsflyer.com,REJECT
 DOMAIN-SUFFIX,t1.visualrevenue.com,REJECT
 DOMAIN-SUFFIX,tag.yoc-adserver.com,REJECT
-DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN-SUFFIX,tapjoyads.com,REJECT
 DOMAIN-SUFFIX,th7.cn,REJECT
 DOMAIN-SUFFIX,tiqcdn.com,REJECT

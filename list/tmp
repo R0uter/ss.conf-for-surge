@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: mhSDxWNkfa/5hnJhxI50eA
+! Checksum: qHB1h1PV/FZRAx1NMeYOqA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 10 Jun 2017 23:00:50 -0400
+! Last Modified: Fri, 23 Jun 2017 06:53:11 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -448,6 +448,7 @@ d3c33hcgiwev3.cloudfront.net
 ||m.me
 ||messenger.com
 ||oculus.com
+||rocksdb.org
 
 !!---Google---
 !###https://www.google.com/supported_domains###
@@ -479,6 +480,7 @@ blogspot.com
 ||data-vocabulary.org
 ||deepmind.com
 ||deja.com
+||design.google
 ||digisfera.com
 ||domains.google
 ||environment.google
@@ -2624,6 +2626,7 @@ blog.goo.ne.jp/duck-tail_2009
 grandtrial.org
 .graphis.ne.jp
 ||graphis.ne.jp
+||graphql.org
 !--||s.gravatar.com
 greatfirewall.biz
 ||greatfirewallofchina.net
@@ -3228,7 +3231,6 @@ forum.idsam.com
 .ienergy1.com
 |http://if.ttt/
 ifanqiang.com
-.ifanr.com/857
 .ifcss.org
 ||ifcss.org
 ifjc.org
@@ -5545,6 +5547,8 @@ bbs.tuitui.info
 .tunein.com
 |http://tunein.com
 ||tunnelbear.com
+.tuo8.blue
+||tuo8.blue
 .tuo8.cc
 .tuo8.club
 ||tuo8.club

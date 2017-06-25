@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2017-06-15 01:02:14
+// updated on 2017-06-25 15:28:03
 
 DOMAIN-SUFFIX,2dbook.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
@@ -371,6 +371,7 @@ DOMAIN-SUFFIX,fb.me,Proxy,force-remote-dns
 DOMAIN-SUFFIX,m.me,Proxy,force-remote-dns
 DOMAIN-SUFFIX,messenger.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,oculus.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,rocksdb.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,1e100.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,abc.xyz,Proxy,force-remote-dns
 DOMAIN-SUFFIX,admob.com,Proxy,force-remote-dns
@@ -396,6 +397,7 @@ DOMAIN-SUFFIX,creativelab5.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,data-vocabulary.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,deepmind.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,deja.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,design.google,Proxy,force-remote-dns
 DOMAIN-SUFFIX,digisfera.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,domains.google,Proxy,force-remote-dns
 DOMAIN-SUFFIX,environment.google,Proxy,force-remote-dns
@@ -1962,6 +1964,7 @@ DOMAIN-SUFFIX,gotw.ca,Proxy,force-remote-dns
 DOMAIN-SUFFIX,grammaly.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,grandtrial.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,graphis.ne.jp,Proxy,force-remote-dns
+DOMAIN-SUFFIX,graphql.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,greatfirewall.biz,Proxy,force-remote-dns
 DOMAIN-SUFFIX,greatfirewallofchina.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,greatfirewallofchina.org,Proxy,force-remote-dns
@@ -2269,7 +2272,6 @@ DOMAIN-SUFFIX,ied2k.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ienergy1.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,if.ttt,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ifanqiang.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,ifanr.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ifcss.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ifjc.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,ift.tt,Proxy,force-remote-dns
@@ -4098,6 +4100,7 @@ DOMAIN-SUFFIX,tumutanzi.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tumview.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tunein.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tunnelbear.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,tuo8.blue,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tuo8.cc,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tuo8.club,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tuo8.fit,Proxy,force-remote-dns

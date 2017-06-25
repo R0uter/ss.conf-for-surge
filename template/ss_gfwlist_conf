@@ -18,6 +18,8 @@ DOMAIN-KEYWORD,bbc,Proxy,force-remote-dns
 DOMAIN-KEYWORD,facebook,Proxy,force-remote-dns
 //for tw
 DOMAIN-SUFFIX,tw,Proxy,force-remote-dns
+//for ios 11 app store
+DOMAIN, apps.mzstatic.com ,Proxy,force-remote-dns
 
 // AD Block
 __ADBLOCK__
