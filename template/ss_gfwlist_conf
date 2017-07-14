@@ -28,11 +28,28 @@ __ADBLOCK__
 // proxy list from gfwlist!
 __GFWLIST__
 
+// LINE
+IP-CIDR,103.2.28.0/22,Proxy,no-resolve
+IP-CIDR,119.235.224.0/21,Proxy,no-resolve
+IP-CIDR,119.235.232.0/23,Proxy,no-resolve
+IP-CIDR,119.235.235.0/24,Proxy,no-resolve
+IP-CIDR,119.235.236.0/23,Proxy,no-resolve
+IP-CIDR,125.6.146.0/24,Proxy,no-resolve
+IP-CIDR,125.6.149.0/24,Proxy,no-resolve
+IP-CIDR,125.6.190.0/24,Proxy,no-resolve
+IP-CIDR,203.104.103.0/24,Proxy,no-resolve
+IP-CIDR,203.104.128.0/20,Proxy,no-resolve
+IP-CIDR,203.174.66.64/26,Proxy,no-resolve
+IP-CIDR,203.174.77.0/24,Proxy,no-resolve
+
 // Telegram
+IP-CIDR,109.239.140.0/24,Proxy,no-resolve
+IP-CIDR,149.154.160.0/22,Proxy,no-resolve
+IP-CIDR,149.154.164.0/22,Proxy,no-resolve
+IP-CIDR,149.154.168.0/22,Proxy,no-resolve
+IP-CIDR,149.154.172.0/22,Proxy,no-resolve
 IP-CIDR,91.108.4.0/22,Proxy,no-resolve
 IP-CIDR,91.108.56.0/22,Proxy,no-resolve
-IP-CIDR,109.239.140.0/24,Proxy,no-resolve
-IP-CIDR,149.154.160.0/20,Proxy,no-resolve
 
 # Amazon EC2
 IP-CIDR,52.0.0.0/11,Proxy

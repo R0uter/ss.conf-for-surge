@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: qHB1h1PV/FZRAx1NMeYOqA
+! Checksum: MDMg9oupPncqQ3xENrwknQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Fri, 23 Jun 2017 06:53:11 -0400
+! Last Modified: Wed, 12 Jul 2017 22:45:42 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -1272,8 +1272,8 @@ bunbunhk.com
 .businessinsider.com/internet-outages-reported-in-north-korea-2014
 .businessinsider.com/iphone-6-is-approved-for-sale-in-china-2014
 .businessinsider.com/nfl-announcers-surface-tablets-2014
+.businessinsider.com/panama-papers
 .businessinsider.com/umbrella-man-hong-kong-2014
-|http://static*.businessinsider.com/
 |http://www.businessinsider.com.au/*
 .businessweek.com
 .busu.org/news
@@ -2532,7 +2532,7 @@ gfbv.de
 ||gfsale.com
 gfw.org.ua
 .gfw.press
-|http://gfw.press
+||gfw.press
 .ggssl.com
 ||ggssl.com
 ||ghost.org
@@ -3038,6 +3038,7 @@ hizb-ut-tahrir.org
 .hk-pub.com/forum
 |http://hk-pub.com
 .hk01.com
+||hk01.com
 .hk32168.com
 ||hk32168.com
 ||hkacg.com
@@ -6491,7 +6492,8 @@ zhongguotese.net
 ||zhongguotese.net
 ||zhongmeng.org
 ||zhreader.com
-zhuangbi.me/account/login/url-Lw==
+.zhuangbi.me
+||zhuangbi.me
 .zhuanxing.cn
 ||zhuatieba.com
 zhuichaguoji.org
