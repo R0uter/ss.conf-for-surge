@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: ri1luPAJLREg6i/dQDHUOA
+! Checksum: f8BwvxUROyyha0eb2p7+Gg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sun, 23 Jul 2017 22:47:48 -0400
+! Last Modified: Wed, 26 Jul 2017 23:27:10 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -1105,6 +1105,7 @@ beric.me
 .berm.co.nz
 .bestforchina.org
 ||bestforchina.org
+.bestgore.com
 ||bestvpn.com
 .bestvpnserver.com
 .bestvpnservice.com
@@ -4209,6 +4210,7 @@ ntdtvla.com
 ||nurgo-software.com
 ||nutaku.net
 .nuvid.com
+||nvdst.com
 nuzcom.com
 .nvquan.org
 .nvtongzhisheng.org
