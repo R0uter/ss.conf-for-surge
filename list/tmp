@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: f8BwvxUROyyha0eb2p7+Gg
+! Checksum: SDvoDAVgoZi9a06Ugg+u9A
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Wed, 26 Jul 2017 23:27:10 -0400
+! Last Modified: Thu, 03 Aug 2017 23:28:09 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -27,6 +27,7 @@
 ||altrec.com
 ||arena.taipei
 ||asianspiss.com
+||assimp.org
 ||athenaeizou.com
 ||azubu.tv
 ||banorte.com
@@ -44,6 +45,7 @@
 ||crossfire.co.kr
 ||d2pass.com
 ||darpa.mil
+||dawangidc.com
 ||deezer.com
 ||desipro.de
 ||dish.com
@@ -196,6 +198,7 @@ share.dmhy.org
 ||wheretowatch.com
 ||wingamestore.com
 ||wizcrafts.net
+||vod.wwe.com
 ||xfinity.com
 ||ytn.co.kr
 ||zattoo.com
@@ -203,6 +206,8 @@ share.dmhy.org
 
 !##############General List Start###############
 !-------------------Pure IP---------------------
+14.102.250.18
+14.102.250.19
 50.7.31.230:8898
 174.142.105.153
 69.65.19.160
@@ -487,6 +492,7 @@ blogspot.com
 ||com.google
 ||creativelab5.com
 ||data-vocabulary.org
+||debug.com
 ||deepmind.com
 ||deja.com
 ||design.google
@@ -683,7 +689,10 @@ blogspot.com
 ||173ng.com
 .177pic.info
 .17t17p.com
+||18board.com
+||18board.info
 18onlygirls.com
+.18p2p.com
 .18virginsex.com
 .1949er.org
 zhao.1984.city
@@ -1659,6 +1668,7 @@ creaders.net
 csdparty.com
 ||csdparty.com
 ||csuchen.de
+.csw.org.uk
 .ctao.org
 .ctfriend.net
 .ctitv.com.tw
@@ -1984,6 +1994,7 @@ emilylau.org.hk
 ||enewstree.com
 .enfal.de
 chinese.engadget.com
+||engagedaily.org
 englishforeveryone.org
 ||englishfromengland.co.uk
 englishpen.org
@@ -2273,11 +2284,10 @@ fqok.org
 |http://freakshare.com
 ||free4u.com.ar
 free-gate.org
+.free-hada-now.org
+free-proxy.cz
 .free.fr/adsl
-||allonlinux.free.fr
-||dimitrik.free.fr
 kineox.free.fr
-||puttycm.free.fr
 ||freealim.com
 whitebear.freebearblog.org
 ||freebrowser.org
@@ -2292,7 +2302,6 @@ whitebear.freebearblog.org
 .freefuckvids.com
 .freegao.com
 ||freegao.com
-.free-hada-now.org
 freeilhamtohti.org
 .freekwonpyong.org
 ||saveliuxiaobo.com
@@ -3271,6 +3280,7 @@ ifjc.org
 ||ihakka.net
 .ihao.org/dz5
 ||iicns.com
+.ikstar.com
 ||illusionfactory.com
 ||ilove80.be
 ||im.tv
@@ -3354,6 +3364,7 @@ ipoock.com/img
 .ipredator.se
 ||ipredator.se
 .iptv.com.tw
+||iptvbin.com
 ||ipvanish.com
 iredmail.org
 chinese.irib.ir
@@ -5646,6 +5657,7 @@ twapperkeeper.com
 ||twapperkeeper.com
 ||twaud.io
 .twaud.io
+.twavi.com
 .twbbs.net.tw
 twbbs.org
 twbbs.tw
@@ -5659,6 +5671,8 @@ tweetboard.com
 ||tweetboard.com
 .tweetboner.biz
 ||tweetboner.biz
+.tweetcs.com
+|http://tweetcs.com
 .tweetdeck.com
 ||tweetdeck.com
 |http://deck.ly
