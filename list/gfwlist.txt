@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2017-08-17 23:08:32
+// updated on 2017-08-19 23:38:17
 
 DOMAIN-SUFFIX,2dbook.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
@@ -148,6 +148,7 @@ DOMAIN-SUFFIX,sm-miracle.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,spotify.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,springboardplatform.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,sprite.org,Proxy,force-remote-dns
+DOMAIN-SUFFIX,superokayama.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,superpages.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,swagbucks.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,switch1.jp,Proxy,force-remote-dns
@@ -3070,6 +3071,7 @@ DOMAIN-SUFFIX,nylon-angel.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nylonstockingsonline.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,a1.nyt.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,int.nyt.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,s1.nyt.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,static01.nyt.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,typeface.nyt.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,nytchina.com,Proxy,force-remote-dns
@@ -3740,6 +3742,7 @@ DOMAIN-SUFFIX,sohfrance.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,chinese.soifind.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,sokamonline.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,solidaritetibet.org,Proxy,force-remote-dns
+DOMAIN-SUFFIX,solidfiles.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,somee.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,songjianjun.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,sonicbbs.cc,Proxy,force-remote-dns
@@ -4784,6 +4787,7 @@ DOMAIN-SUFFIX,xa.yimg.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yingsuoss.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yipub.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yinlei.org,Proxy,force-remote-dns
+DOMAIN-SUFFIX,yizhihongxing.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yobt.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yogichen.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,yong.hu,Proxy,force-remote-dns

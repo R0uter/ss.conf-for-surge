@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 5YnPTrbQu4x3WaV77jQ3SQ
+! Checksum: 3023ku4EucVidRLAFKovCw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Tue, 15 Aug 2017 03:17:03 -0400
+! Last Modified: Sat, 19 Aug 2017 02:24:24 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -177,6 +177,7 @@ share.dmhy.org
 ||springboardplatform.com
 ||sprite.org
 @@|http://store.sprite.org
+||superokayama.com
 ||superpages.com
 ||swagbucks.com
 ||switch1.jp
@@ -600,6 +601,7 @@ blogspot.com
 ||gstatic.com
 ||gvt0.com
 ||gvt1.com
+@@||redirector.gvt1.com
 ||gvt3.com
 ||gwtproject.org
 ||html5rocks.com
@@ -1254,6 +1256,7 @@ boyangu.com
 .break.com
 ||break.com
 breakgfw.com
+||breakgfw.com
 .breakingtweets.com
 ||breakingtweets.com
 ||breakwall.net
@@ -1942,7 +1945,7 @@ e-info.org.tw
 .e-zone.com.hk/discuz
 |http://e-zone.com.hk/discuz
 .e123.hk
-|http://e123.hk/
+||e123.hk
 .earlytibet.com
 |http://earlytibet.com
 .earthcam.com
@@ -2437,6 +2440,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001062741
 .ftchinese.com/story/001062794
 .ftchinese.com/story/001063160
+.ftchinese.com/story/001063359
 .ftchinese.com/story/001063692
 .ftchinese.com/story/001063826
 .ftchinese.com/story/001065287
@@ -4253,6 +4257,7 @@ nylonstockingsonline.com
 !--nysingtao.com
 ||a1.nyt.com
 ||int.nyt.com
+||s1.nyt.com
 static01.nyt.com
 ||static01.nyt.com
 ||typeface.nyt.com
@@ -5093,6 +5098,7 @@ sohfrance.org
 chinese.soifind.com
 sokamonline.com
 .solidaritetibet.org
+.solidfiles.com
 ||somee.com
 .songjianjun.com
 ||songjianjun.com
@@ -6507,6 +6513,7 @@ xa.yimg.com
 .yipub.com
 ||yipub.com
 yinlei.org/mt
+.yizhihongxing.com
 .yobt.com
 .yogichen.org
 ||yogichen.org
