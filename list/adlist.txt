@@ -1,5 +1,5 @@
 // thx  https://github.com/lhie1/Surge 
-// updated on 2017-08-19 23:38:18
+// updated on 2017-08-23 13:07:47
 
 DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
 DOMAIN-SUFFIX,afp.iqiyi.com,REJECT

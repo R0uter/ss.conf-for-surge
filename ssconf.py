@@ -64,9 +64,7 @@ def getGfwList():
     try:
 
         data = getList(baseurl)
-
         content = codecs.decode(data, 'base64_codec').decode('utf-8')
-
         # write the decoded content to file then read line by line
         tfs = codecs.open(tmpfile, 'w', 'utf-8')
         tfs.write(content)
@@ -116,14 +114,13 @@ def getAdList():
     try:
 
         data = getList(baseurl)
-
         content = data.decode('utf-8')
-
         # write the decoded content to file then read line by line
         tfs = codecs.open(tmpfile, 'w', 'utf-8')
         tfs.write(content)
         tfs.close()
         print('adlist fetched, writing...')
+        
     except:
         print('adlist fetch failed, use tmpfile instead...')
     # Store all domains, deduplicate records
