@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 3023ku4EucVidRLAFKovCw
+! Checksum: CpODAqC+5sLcrz89kFp/Dg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 19 Aug 2017 02:24:24 -0400
+! Last Modified: Mon, 28 Aug 2017 08:20:33 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -206,6 +206,7 @@ share.dmhy.org
 ||xfinity.com
 ||ytn.co.kr
 ||zattoo.com
+||zim.vn
 ||zozotown.com
 
 !##############General List Start###############
@@ -466,7 +467,9 @@ d3c33hcgiwev3.cloudfront.net
 ||m.me
 ||messenger.com
 ||oculus.com
+||oculuscdn.com
 ||rocksdb.org
+||whatsapp.net
 
 !!---Google---
 !###https://www.google.com/supported_domains###
@@ -479,6 +482,7 @@ d3c33hcgiwev3.cloudfront.net
 ||ampproject.org
 ||android.com
 ||androidify.com
+||api.ai
 .appspot.com
 ||appspot.com
 ||blog.google
@@ -2121,6 +2125,7 @@ falun-co.org
 falunart.org
 ||falunasia.info
 |http://falunau.org
+.falunaz.net
 falundafa.org
 falundafa-dc.org
 ||falundafa-florida.org
@@ -2161,6 +2166,7 @@ fail.hk
 fangeming.com
 .fangmincn.org
 ||fangmincn.org
+.fanhaodang.com
 ||fanswong.com
 .fanyue.info
 .farwestchina.com
@@ -4539,6 +4545,7 @@ popyard.com
 ||pornhd.com
 .pornhost.com
 .pornhub.com
+||pornhub.com
 ||pornmm.net
 .pornoxo.com
 .pornrapidshare.com
@@ -4559,6 +4566,7 @@ popyard.com
 .post852.com
 postadult.com
 .postimg.org
+||potvpn.com
 ||powercx.com
 .powerphoto.org
 ||www.powerpointninja.com
@@ -4725,6 +4733,8 @@ rapidvpn.com
 |http://raremovie.cc
 .raremovie.net
 |http://raremovie.net
+||rawgit.com
+||rawgithub.com
 !--.rayfme.com/bbs
 ||razyboard.com
 rcinet.ca
@@ -4883,6 +4893,7 @@ secretchina.com
 .securitykiss.com
 ||securitykiss.com
 ||seed4.me
+news.seehua.com
 seesmic.com
 ||seevpn.com
 ||seezone.net
@@ -4928,6 +4939,7 @@ shadow.ma
 .shadowsocks.com
 .shadowsocks.org
 ||shadowsocks.org
+||shadowsocks-r.com
 |http://cn.shafaqna.com
 .shambalapost.com
 .shambhalasun.com
@@ -5028,7 +5040,6 @@ sis001.us
 ||skimtube.com
 ||skybet.com
 |http://users.skynet.be/reves/tibethome.html
-|http://skyhighpremium.com/
 bbs.skykiwi.com
 |http://www.skype.com/intl/
 |http://www.skype.com/zh-Hant
@@ -5036,11 +5047,10 @@ bbs.skykiwi.com
 .xskywalker.com
 ||xskywalker.com
 m.slandr.net
-||slavasoft.com
 .slaytizle.com
 .sleazydream.com
 ||slheng.com
-.slideshare.net
+||slideshare.net
 forum.slime.com.tw
 .slinkset.com
 ||slickvpn.com
@@ -5058,12 +5068,7 @@ smhric.org
 ||snaptu.com
 ||sndcdn.com
 sneakme.net
-||snooper.co.uk
 snowlionpub.com
-||so-ga.net
-.so-ga.net
-||so-news.com
-.so-news.com
 home.so-net.net.tw/yisa_tsai
 ||soc.mil
 .sockscap64.com
@@ -6111,7 +6116,7 @@ vraiesagesse.net
 
 !--------------------WW-------------------------
 lists.w3.org/archives/public
-!--||w3schools.com
+||w3schools.com
 ||waffle1999.com
 .wahas.com
 .waigaobu.com
@@ -6291,6 +6296,7 @@ zh-yue.wikipedia.org
 ||windowsphoneme.com
 .windscribe.com
 ||windscribe.com
+||wingy.site
 winning11.com
 winwhispers.info
 ||wiredbytes.com
@@ -6426,6 +6432,7 @@ xmovies.com
 xpdo.net
 ||xpud.org
 .xrentdvd.com
+.xskywalker.net
 ||xtube.com
 blog.xuite.net
 vlog.xuite.net
@@ -6767,6 +6774,7 @@ taipei.gov.tw
 !--ISP cache works sometimes, verified at drpeng + gehua.
 @@||dl.google.com
 @@||kh.google.com
+@@||tools.google.com
 @@||fonts.googleapis.com
 @@||storage.googleapis.com
 @@||cn.gravatar.com
