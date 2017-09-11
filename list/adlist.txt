@@ -1,6 +1,7 @@
 // thx  https://github.com/lhie1/Surge 
-// updated on 2017-08-29 22:27:51
+// updated on 2017-09-12 00:35:44
 
+PROCESS-NAME,Jietu,REJECT
 DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
 DOMAIN-SUFFIX,afp.iqiyi.com,REJECT
 DOMAIN-SUFFIX,api.cupid.iqiyi.com,REJECT
@@ -83,7 +84,6 @@ DOMAIN-SUFFIX,static.app.m.letv.com,REJECT
 DOMAIN-SUFFIX,aiseet.aa.atianqi.com,REJECT
 DOMAIN-SUFFIX,aiseet.atianqi.com,REJECT
 DOMAIN-SUFFIX,c.l.qq.com,REJECT
-DOMAIN-SUFFIX,dp3.play.aiseet.atianqi.com,REJECT
 DOMAIN-SUFFIX,dp3.qq.com,REJECT
 DOMAIN-SUFFIX,livep.l.aiseet.atianqi.com,REJECT
 DOMAIN-SUFFIX,livep.l.qq.com,REJECT
@@ -364,7 +364,6 @@ DOMAIN-SUFFIX,appdownload.alicdn.com,REJECT
 DOMAIN-SUFFIX,atanx.alicdn.com,REJECT
 DOMAIN-SUFFIX,atanx2.alicdn.com,REJECT
 DOMAIN-SUFFIX,cdn0.mobmore.com,REJECT
-DOMAIN-SUFFIX,clickc.admaster.com.cn,REJECT
 DOMAIN-SUFFIX,click.aliyun.com,REJECT
 DOMAIN-SUFFIX,click.mz.simba.taobao.com,REJECT
 DOMAIN-SUFFIX,cm.ipinyou.com,REJECT
@@ -469,8 +468,8 @@ DOMAIN-SUFFIX,boscdn.bpc.baidu.com,REJECT
 DOMAIN-SUFFIX,c.baidu.com,REJECT
 DOMAIN-SUFFIX,cb.baidu.com,REJECT
 DOMAIN-SUFFIX,cbjs.baidu.com,REJECT
-DOMAIN-SUFFIX,cjhq.baidu.com,REJECT
 DOMAIN-SUFFIX,cbjslog.baidu.com,REJECT
+DOMAIN-SUFFIX,cjhq.baidu.com,REJECT
 DOMAIN-SUFFIX,cpro.baidu.com,REJECT
 DOMAIN-SUFFIX,cpro.tieba.baidu.com,REJECT
 DOMAIN-SUFFIX,cpro.zhidao.baidu.com,REJECT
@@ -481,19 +480,21 @@ DOMAIN-SUFFIX,focusbaiduafp.allyes.com,REJECT
 DOMAIN-SUFFIX,hc.baidu.com,REJECT
 DOMAIN-SUFFIX,hm.baidu.com,REJECT
 DOMAIN-SUFFIX,hmma.baidu.com,REJECT
-DOMAIN-SUFFIX,mg09.zhaopin.com,REJECT
+DOMAIN-SUFFIX,hpd.baidu.com,REJECT
 DOMAIN-SUFFIX,imageplus.baidu.com,REJECT
 DOMAIN-SUFFIX,itsdata.map.baidu.com,REJECT
 DOMAIN-SUFFIX,log.nuomi.com,REJECT
 DOMAIN-SUFFIX,log.waimai.baidu.com,REJECT
 DOMAIN-SUFFIX,ma.baidu.com,REJECT
-DOMAIN-SUFFIX,mobads-logs.baidu.com,REJECT
+DOMAIN-SUFFIX,mg09.zhaopin.com,REJECT
 DOMAIN-SUFFIX,mobads.baidu.com,REJECT
+DOMAIN-SUFFIX,mobads-logs.baidu.com,REJECT
 DOMAIN-SUFFIX,nsclick.baidu.com,REJECT
 DOMAIN-SUFFIX,rj.baidu.com,REJECT
 DOMAIN-SUFFIX,shifen.com,REJECT
 DOMAIN-SUFFIX,spcode.baidu.com,REJECT
 DOMAIN-SUFFIX,static.map.bdimg.com,REJECT
+DOMAIN-SUFFIX,static.su.baidu.com,REJECT
 DOMAIN-SUFFIX,tk.baidu.com,REJECT
 DOMAIN-SUFFIX,tuisong.baidu.com,REJECT
 DOMAIN-SUFFIX,ucstat.baidu.com,REJECT
@@ -508,7 +509,6 @@ DOMAIN-SUFFIX,wn.pos.baidu.com,REJECT
 DOMAIN-SUFFIX,zhanzhang.baidu.com,REJECT
 DOMAIN-SUFFIX,znsv.baidu.com,REJECT
 DOMAIN-SUFFIX,zz.bdstatic.com,REJECT
-DOMAIN-SUFFIX,static.su.baidu.com,REJECT
 DOMAIN-SUFFIX,70e.com,REJECT
 DOMAIN-SUFFIX,ad.zhangyue.com,REJECT
 DOMAIN-SUFFIX,adm.easou.com,REJECT
@@ -929,7 +929,6 @@ DOMAIN-SUFFIX,zhihu-analytics.zhihu.com,REJECT
 DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,REJECT
 DOMAIN-SUFFIX,zhstatic.zhihu.com,REJECT
 DOMAIN-KEYWORD,admarvel,REJECT
-DOMAIN-KEYWORD,admaster,REJECT
 DOMAIN-KEYWORD,admdfs,REJECT
 DOMAIN-KEYWORD,adnewnc,REJECT
 DOMAIN-KEYWORD,adsage,REJECT
@@ -1370,7 +1369,6 @@ DOMAIN-SUFFIX,add.freeimg8.com,REJECT
 DOMAIN-SUFFIX,add.mmyuer.com,REJECT
 DOMAIN-SUFFIX,addirector.vindicosuite.com,REJECT
 DOMAIN-SUFFIX,adds.weatherology.com,REJECT
-DOMAIN-SUFFIX,addthis.com,REJECT
 DOMAIN-SUFFIX,ader.mobi,REJECT
 DOMAIN-SUFFIX,adexprt.com,REJECT
 DOMAIN-SUFFIX,adf.dahe.cn,REJECT
@@ -1400,7 +1398,6 @@ DOMAIN-SUFFIX,adm.funshion.com,REJECT
 DOMAIN-SUFFIX,adm.xmfish.com,REJECT
 DOMAIN-SUFFIX,adm.zbinfo.net,REJECT
 DOMAIN-SUFFIX,admaji.com,REJECT
-DOMAIN-SUFFIX,admaster.com.cn,REJECT
 DOMAIN-SUFFIX,admd.yam.com,REJECT
 DOMAIN-SUFFIX,admeta.vo.llnwd.net,REJECT
 DOMAIN-SUFFIX,admin5.com,REJECT
@@ -1823,7 +1820,6 @@ DOMAIN-SUFFIX,combine.urbanairship.com,REJECT
 DOMAIN-SUFFIX,comesgo.com,REJECT
 DOMAIN-SUFFIX,config.ioam.de,REJECT
 DOMAIN-SUFFIX,config2.mparticle.com,REJECT
-DOMAIN-SUFFIX,connect.facebook.net,REJECT
 DOMAIN-SUFFIX,connect.summit.co.uk,REJECT
 DOMAIN-SUFFIX,content.livesportmedia.eu,REJECT
 DOMAIN-SUFFIX,content.streamplay.to,REJECT
@@ -2672,6 +2668,7 @@ DOMAIN-SUFFIX,mobaders.com,REJECT
 DOMAIN-SUFFIX,mobclix.com,REJECT
 DOMAIN-SUFFIX,mobfox.com,REJECT
 DOMAIN-SUFFIX,mobgi.com,REJECT
+DOMAIN-SUFFIX,mobileads.msn.com,REJECT
 DOMAIN-SUFFIX,mobileapptracking.com,REJECT
 DOMAIN-SUFFIX,mobiorg8.com,REJECT
 DOMAIN-SUFFIX,mobisage.cn,REJECT
@@ -2887,6 +2884,7 @@ DOMAIN-SUFFIX,pubmatic.com,REJECT
 DOMAIN-SUFFIX,pubnub.com,REJECT
 DOMAIN-SUFFIX,pubs.hiddennetwork.com,REJECT
 DOMAIN-SUFFIX,pups.bdimg.com,REJECT
+DOMAIN-SUFFIX,push.air-matters.com,REJECT
 DOMAIN-SUFFIX,pyzkk.com,REJECT
 DOMAIN-SUFFIX,qbyy010.com,REJECT
 DOMAIN-SUFFIX,qcjslm.com,REJECT
@@ -3394,6 +3392,7 @@ DOMAIN-SUFFIX,xa9t.com,REJECT
 DOMAIN-SUFFIX,xabaitai.com,REJECT
 DOMAIN-SUFFIX,xabmjr.com,REJECT
 DOMAIN-SUFFIX,xacqp.com,REJECT
+DOMAIN-SUFFIX,xavatar.imedao.com,REJECT
 DOMAIN-SUFFIX,xbtw.com,REJECT
 DOMAIN-SUFFIX,xc.macd.cn,REJECT
 DOMAIN-SUFFIX,xcclzs.com,REJECT
