@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: WCMjznlrIlZA+lwp1p+aWQ
+! Checksum: bYPPJNjT9uVCMYSGrb8lIg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 09 Sep 2017 03:01:52 -0400
+! Last Modified: Sat, 23 Sep 2017 23:42:29 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -176,6 +176,7 @@ share.dmhy.org
 ||slacker.com
 ||sm-miracle.com
 ||spotify.com
+||spreadshirt.es
 ||springboardplatform.com
 ||sprite.org
 @@|http://store.sprite.org
@@ -221,12 +222,17 @@ share.dmhy.org
 
 !----------------------IDN----------------------
 ||xn--4gq171p.com
+||xn--czq75pvv1aj5c.org
+||xn--i2ru8q2qg.com
 ||xn--p8j9a0d9c9a.xn--q9jyb4c
 
 !-----------------DNS Poisoning-----------------
 !---Amazon---
 !-||cdn-images.mailchimp.com
 |https://*.s3.amazonaws.com
+||agro.hk
+||line-scdn.net
+||pixiv.net
 
 !----------------Frauds & Scams-----------------
 china-mmm.jp.net
@@ -237,6 +243,7 @@ china-mmm.sa.com
 
 !---------------------Groups--------------------
 !!---Afraid FreeDNS---
+.allowed.org
 .now.im
 
 !!---Amazon---
@@ -534,7 +541,7 @@ blogspot.com
 .google.ba
 .google.be
 .google.bg
-.google.cat
+.google.ca
 .google.cd
 .google.ci
 .google.co.id
@@ -663,7 +670,6 @@ blogspot.com
 
 !!---KickASS---
 !--OFFICIAL URL list at: https://kastatus.com
-.kat.cr
 
 !!---NaughtyAmerica---
 ||naughtyamerica.com
@@ -682,6 +688,122 @@ blogspot.com
 @@|http://static.v2ex.com
 @@|http://workspace.v2ex.com
 @@|http://www.v2ex.com
+
+!!---Taiwan---
+||gov.taipei
+.gov.tw
+|https://aiss.anws.gov.tw
+||archives.gov.tw
+||tacc.cwb.gov.tw
+||data.gov.tw
+||epa.gov.tw
+||fa.gov.tw
+||fda.gov.tw
+||hpa.gov.tw
+||immigration.gov.tw
+||itaiwan.gov.tw
+||mjib.gov.tw
+||moeaic.gov.tw
+||mol.gov.tw
+||mvdis.gov.tw
+||nat.gov.tw
+||nhi.gov.tw
+||npa.gov.tw
+||nsc.gov.tw
+||ntbk.gov.tw
+||ntbna.gov.tw
+||ntbt.gov.tw
+||ntsna.gov.tw
+||pcc.gov.tw
+||stat.gov.tw
+||taipei.gov.tw
+||taiwanjobs.gov.tw
+||thb.gov.tw
+||tipo.gov.tw
+||wda.gov.tw
+
+@@||aftygh.gov.tw
+@@||aide.gov.tw
+@@||tpde.aide.gov.tw
+@@||arte.gov.tw
+@@||chukuang.gov.tw
+@@||cwb.gov.tw
+@@||cycab.gov.tw
+@@||dbnsa.gov.tw
+@@||df.gov.tw
+@@||eastcoast-nsa.gov.tw
+@@||erv-nsa.gov.tw
+@@||grb.gov.tw
+@@||gysd.nyc.gov.tw
+@@||hchcc.gov.tw
+@@||hsinchu-cc.gov.tw
+@@||iner.gov.tw
+@@||klsio.gov.tw
+@@||kmseh.gov.tw
+@@||lungtanhr.gov.tw
+@@||maolin-nsa.gov.tw
+@@||matsu-news.gov.tw
+@@||matsu-nsa.gov.tw
+@@||matsucc.gov.tw
+@@||moe.gov.tw
+@@||mvdis.gov.tw
+@@||nankan.gov.tw
+@@||ncree.gov.tw
+@@||necoast-nsa.gov.tw
+@@||siraya-nsa.gov.tw
+@@||cromotc.nat.gov.tw
+@@||tax.nat.gov.tw
+@@||necoast-nsa.gov.tw
+@@||ner.gov.tw
+@@||nmmba.gov.tw
+@@||nmp.gov.tw
+@@||nmvttc.gov.tw
+@@||northguan-nsa.gov.tw
+@@||npm.gov.tw
+@@||nstm.gov.tw
+@@||ntdmh.gov.tw
+@@||ntl.gov.tw
+@@||ntsec.gov.tw
+@@||ntuh.gov.tw
+@@||nvri.gov.tw
+@@||penghu-nsa.gov.tw
+@@||post.gov.tw
+@@||siraya-nsa.gov.tw
+@@||stdtime.gov.tw
+@@||sunmoonlake.gov.tw
+@@||taitung-house.gov.tw
+@@||taoyuan.gov.tw
+@@||tphcc.gov.tw
+@@||trimt-nsa.gov.tw
+@@||vghtpe.gov.tw
+@@||vghks.gov.tw
+@@||vghtc.gov.tw
+@@||wanfang.gov.tw
+@@||yatsen.gov.tw
+@@||yda.gov.tw
+
+!--@@||4pppc.gov.tw
+!--@@||921.gov.tw
+!--@@||dmtip.gov.tw
+!--@@||etraining.gov.tw
+!--@@||gsn-cert.nat.gov.tw
+!--@@||nici.nat.gov.tw
+!--@@||hcc.gov.tw
+!--@@||hengchuen.gov.tw
+!--@@||khcc.gov.tw
+!--@@||khms.gov.tw
+!--@@||kk.gov.tw
+!--@@||klccab.gov.tw
+!--@@||klra.gov.tw
+!--@@||nmh.gov.tw
+!--@@||nmtl.gov.tw
+!--@@||pabp.gov.tw
+!--@@||pet.gov.tw
+!--@@||tchb.gov.tw
+!--@@||tcsac.gov.tw
+!--@@||tncsec.gov.tw
+
+||kinmen.org.tw
 
 !------------------Numerics---------------------
 .030buy.com
@@ -1181,6 +1303,8 @@ bipic.net
 .bitshare.com
 ||bitshare.com
 bitsnoop.com
+.bitvise.com
+||bitvise.com
 bizhat.com
 ||bl-doujinsouko.com
 .bjnewlife.org
@@ -1357,6 +1481,7 @@ cn.calameo.com
 .calgarychinese.com
 .calgarychinese.net
 |http://blog.calibre-ebook.com
+|http://google.calstate.edu
 falun.caltech.edu
 .its.caltech.edu/~falun/
 .cam4.com
@@ -1367,6 +1492,7 @@ falun.caltech.edu
 ||cams.com
 .cams.org.sg
 canadameet.com
+.canalporno.com
 |http://bbs.cantonese.asia/
 !--http://www.cantonese.asia/action-bbs.html
 .canyu.org
@@ -2010,6 +2136,7 @@ efcc.org.hk
 .efukt.com
 |http://efukt.com
 ||eic-av.com
+||eireinikotaerukai.com
 .eisbb.com
 .eksisozluk.com
 ||eksisozluk.com
@@ -2421,6 +2548,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001042100
 .ftchinese.com/story/001042252
 .ftchinese.com/story/001042272
+.ftchinese.com/story/001043534
 .ftchinese.com/story/001044776
 .ftchinese.com/story/001045755
 .ftchinese.com/story/001046118
@@ -2439,6 +2567,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001055299
 .ftchinese.com/story/001055551
 .ftchinese.com/story/001055559
+.ftchinese.com/story/001056131
 .ftchinese.com/story/001056529
 .ftchinese.com/story/001056554
 .ftchinese.com/story/001056567
@@ -2448,6 +2577,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001057533
 .ftchinese.com/story/001058295
 .ftchinese.com/story/001058344
+.ftchinese.com/story/001058421
 .ftchinese.com/story/001058458
 .ftchinese.com/story/001058468
 .ftchinese.com/story/001058561
@@ -2500,8 +2630,12 @@ www.ftchinese.com/story/001067479
 ftchinese.com/story/001071200
 .ftchinese.com/story/001071208
 .ftchinese.com/story/001071238
+.ftchinese.com/story/001072271
+.ftchinese.com/story/001072677
 .ftchinese.com/story/001072895
+.ftchinese.com/story/001073043
 .ftchinese.com/story/001073408
+.ftchinese.com/story/001074110
 .ftchinese.com/video/1437
 .ftchinese.com/video/1882
 .ftchinese.com/comments
@@ -3072,7 +3206,6 @@ hentaitube.tv
 ||cl.ly
 @@||f.cl.ly
 ||getsmartlinks.com
-||git-scm.com
 
 heqinglian.net
 ||heungkongdiscuss.com
@@ -3642,6 +3775,7 @@ kinghost.com
 .kink.com
 killwall.com
 ||killwall.com
+||kinmen.travel
 .kir.jp
 .kissbbao.cn
 |http://kiwi.kz
@@ -3851,7 +3985,7 @@ lvhai.org
 |http://lyfhk.net
 
 !--------------------MM-------------------------
-.m-team.cc
+http://*.m-team.cc
 !--m-team.cc/forum
 .macrovpn.com
 macts.com.tw
@@ -4163,6 +4297,7 @@ news.nationalgeographic.com/news/2014/06/140603-tiananmen-square
 ||navyreserve.navy.mil
 ||nko.navy.mil
 ||usno.navy.mil
+naweeklytimes.com
 .nbtvpn.com
 |http://nbtvpn.com
 nccwatch.org.tw
@@ -4297,6 +4432,7 @@ ntdtv.ru
 ntdtvla.com
 .ntrfun.com
 ||cbs.ntu.edu.tw
+||media.nu.nl
 .nubiles.net
 ||nuexpo.com
 .nukistream.com
@@ -4586,6 +4722,7 @@ pobieramy.top
 zh.pokerstrategy.com
 politicalchina.org
 politicalconsultation.org
+||poloniex.com
 .polymerhk.com
 |http://polymerhk.com
 .popo.tw
@@ -5281,6 +5418,7 @@ tw.streetvoice.com
 ||studentsforafreetibet.org
 ||stumbleupon.com
 stupidvideos.com
+.successfn.com
 panamapapers.sueddeutsche.de
 .sugarsync.com
 ||sugarsync.com
@@ -6052,6 +6190,8 @@ vansky.com
 .velkaepocha.sk
 .venbbs.com
 .venchina.com
+.venetianmacao.com
+||venetianmacao.com
 veoh.com
 mysite.verizon.net
 vermonttibet.org
@@ -6179,6 +6319,7 @@ vpnjack.com
 .vpser.net
 @@||vpser.net
 vraiesagesse.net
+.vrmtr.com
 ||vtunnel.com
 ||vuku.cc
 
@@ -6532,6 +6673,7 @@ page.bid.yahoo.com
 tw.bid.yahoo.com
 |https://tw.bid.yahoo.com
 blogs.yahoo.co.jp
+||search.yahoo.co.jp
 buy.yahoo.com.tw/gdsale
 hk.yahoo.com
 hk.knowledge.yahoo.com
@@ -6564,11 +6706,12 @@ yam.com
 yangjianli.com
 .yasni.co.uk
 ||yasni.co.uk
-||yasukuni.or.jp
+!--||yasukuni.or.jp
 .yayabay.com/forum
 .ydy.com
 .yeahteentube.com
 ||yeahteentube.com
+||yecl.net
 ||yeelou.com
 yeeyi.com
 yegle.net
@@ -6579,7 +6722,8 @@ yegle.net
 ||yesasia.com.hk
 .yes-news.com
 |http://yes-news.com
-||yecl.net
+.yespornplease.com
+||yespornplease.com
 !--yfrog.com
 ||yhcw.net
 .yibada.com
@@ -6739,101 +6883,6 @@ q%3DTriangle
 ultrareach
 ultrasurf
 zhengjian
-
-!-------------------TW Govs---------------------
-.gov.tw
-||tacc.cwb.gov.tw
-immigration.gov.tw
-||mjib.gov.tw
-||nsc.gov.tw
-||ntbna.gov.tw
-||ntsna.gov.tw
-taipei.gov.tw
-@@||tax.nat.gov.tw
-@@||moe.gov.tw
-!--@@||cwb.gov.tw
-@@||npm.gov.tw
-@@||yatsen.gov.tw
-@@||mvdis.gov.tw
-@@||stdtime.gov.tw
-@@||nmmba.gov.tw
-@@||ntdmh.gov.tw
-@@||grb.gov.tw
-@@||tpde.aide.gov.tw
-@@||matsu-news.gov.tw
-@@||dapu-house.gov.tw
-@@||vghtc.gov.tw
-@@||aide.gov.tw
-@@||hchcc.gov.tw
-@@||ntuh.gov.tw
-@@||nhri.gov.tw
-@@||nstm.gov.tw
-@@||ntsec.gov.tw
-@@||ner.gov.tw
-@@||nmtl.gov.tw
-@@||ntl.gov.tw
-@@||pet.gov.tw
-@@||khcc.gov.tw
-@@||nmmba.gov.tw
-@@||khms.gov.tw
-@@||wanfang.gov.tw
-@@||nict.gov.tw
-@@||arte.gov.tw
-@@||nmh.gov.tw
-@@||nmp.gov.tw
-@@||tphcc.gov.tw
-@@||iner.gov.tw
-@@||tncsec.gov.tw
-@@||nspo.gov.tw
-@@||aide.gov.tw
-@@||ncree.gov.tw
-@@||vghks.gov.tw
-@@||tchb.gov.tw
-@@||pabp.gov.tw
-@@||itrc.gov.tw
-@@||df.gov.tw
-@@||womenbusiness.nyc.gov.tw
-@@||gsn-cert.nat.gov.tw
-@@||kk.gov.tw
-@@||thbstc.gov.tw
-@@||comnews.gio.gov.tw
-@@||comnews.gio.gov.tw
-@@||klccab.gov.tw
-@@||yvtc.gov.tw
-@@||aftygh.gov.tw
-@@||klra.gov.tw
-@@||lungtanhr.gov.tw
-@@||taoyuan.gov.tw
-@@||hcc.gov.tw
-@@||nvri.gov.tw
-@@||nmvttc.gov.tw
-@@||kmh.gov.tw
-@@||patehr.gov.tw
-@@||nerch.gov.tw
-@@||kmseh.gov.tw
-@@||nertt.gov.tw
-@@||cycab.gov.tw
-@@||chukuang.gov.tw
-@@||gysd.nyc.gov.tw
-@@||cp-house.gov.tw
-@@||vghtpe.gov.tw
-@@||etraining.gov.tw
-@@||stag.gov.tw
-@@||bdhr.gov.tw
-@@||tcsac.gov.tw
-@@||imagesblog.gio.gov.tw
-@@||arte.gov.tw
-@@||dmtip.gov.tw
-@@||chccc.gov.tw
-@@||hengchuen.gov.tw
-@@||hsinchu-cc.gov.tw
-@@||921.gov.tw
-@@||ncdr.nat.gov.tw
-@@||4pppc.gov.tw
-@@||klsio.gov.tw
-@@||nici.nat.gov.tw
-@@||cromotc.nat.gov.tw
-@@||taitung-house.gov.tw
 !#############Supplemental List End#############
 
 !################Whitelist Start################
@@ -6846,8 +6895,20 @@ taipei.gov.tw
 !--ISP cache works sometimes, verified at drpeng + gehua.
 @@||dl.google.com
 @@||kh.google.com
+@@||khm.google.com
+@@||khm0.google.com
+@@||khm1.google.com
+@@||khm2.google.com
+@@||khm3.google.com
+@@||khmdb.google.com
 @@||tools.google.com
 @@||fonts.googleapis.com
+@@||khm.googleapis.com
+@@||khm0.googleapis.com
+@@||khm1.googleapis.com
+@@||khm2.googleapis.com
+@@||khm3.googleapis.com
+@@||khmdb.googleapis.com
 @@||storage.googleapis.com
 @@||cn.gravatar.com
 @@||connectivitycheck.gstatic.com
