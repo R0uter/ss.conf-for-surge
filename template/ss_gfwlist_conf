@@ -20,6 +20,8 @@ DOMAIN-KEYWORD,facebook,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tw,Proxy,force-remote-dns
 //for ios 11 app store
 DOMAIN, apps.mzstatic.com ,Proxy,force-remote-dns
+// Fix youku&yinyuetai
+DOMAIN-SUFFIX,vali.cp31.ott.cibntv.net,ChinaProxy
 
 // AD Block
 __ADBLOCK__
