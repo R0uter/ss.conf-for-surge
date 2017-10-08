@@ -132,7 +132,6 @@ DOMAIN-SUFFIX,livew.l.qq.com,REJECT
 DOMAIN-SUFFIX,mcgi.v.qq.com,REJECT
 DOMAIN-SUFFIX,mdevstat.qqlive.qq.com,REJECT
 DOMAIN-SUFFIX,monitor-uu.play.aiseet.atianqi.com,REJECT
-DOMAIN-SUFFIX,news.l.qq.com,REJECT
 DOMAIN-SUFFIX,news-l.play.aiseet.atianqi.com,REJECT
 DOMAIN-SUFFIX,omgmta1.qq.com,REJECT
 DOMAIN-SUFFIX,otheve.play.aiseet.atianqi.com,REJECT
@@ -954,7 +953,6 @@ DOMAIN-SUFFIX,dm.toutiao.com,REJECT
 DOMAIN-SUFFIX,dsp.toutiao.com,REJECT
 DOMAIN-SUFFIX,nativeapp.toutiao.com,REJECT
 DOMAIN-SUFFIX,partner.toutiao.com,REJECT
-DOMAIN-SUFFIX,s3.bytecdn.cn,REJECT
 
 // Tumblr
 DOMAIN-SUFFIX,92x.tumblr.com,REJECT
@@ -1000,7 +998,6 @@ DOMAIN-SUFFIX,aoodoo.feng.com,REJECT
 DOMAIN-SUFFIX,bbsanalytics.weiphone.net,REJECT
 DOMAIN-SUFFIX,fengbuy.com,REJECT
 DOMAIN-SUFFIX,we.tm,REJECT
-DOMAIN-SUFFIX,yes1.feng.com,REJECT
 
 // Wi-Fi key
 DOMAIN,wifiapi01.51y5.net,REJECT
@@ -2295,7 +2292,6 @@ DOMAIN-SUFFIX,fjkst.com,REJECT
 DOMAIN-SUFFIX,fjmeyer.com,REJECT
 DOMAIN-SUFFIX,flashtalking.com,REJECT
 DOMAIN-SUFFIX,flowcodeapp.com,REJECT
-DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,fmgoal.com,REJECT
 DOMAIN-SUFFIX,fnkjj.com,REJECT
 DOMAIN-SUFFIX,focusprolight.com,REJECT

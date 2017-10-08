@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: bYPPJNjT9uVCMYSGrb8lIg
+! Checksum: NM7MibKCeYeFi070dzSt0A
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 23 Sep 2017 23:42:29 -0400
+! Last Modified: Wed, 04 Oct 2017 01:04:35 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -37,6 +37,7 @@
 ||global.bing.com
 ||bloombergview.com
 ||boysmaster.com
+||bynet.co.il
 ||carfax.com
 .casinobellini.com
 ||casinobellini.com
@@ -112,6 +113,7 @@ share.dmhy.org
 ||khatrimaza.org
 ||kkbox.com
 ||leisurepro.com
+||lifemiles.com
 ||longtoes.com
 ||lovetvshow.com
 |http://www.m-sport.co.uk
@@ -184,6 +186,7 @@ share.dmhy.org
 ||superpages.com
 ||swagbucks.com
 ||switch1.jp
+||t.me
 ||tapanwap.com
 ||target.com
 @@||intl.target.com
@@ -1022,6 +1025,7 @@ alliance.org.hk
 |http://allinfa.com
 .alljackpotscasino.com
 ||allmovie.com
+||almasdarnews.com
 .alphaporno.com
 ||alternate-tools.com
 alternativeto.net/software
@@ -1805,8 +1809,10 @@ corumcollege.com
 |http://cos-moe.com
 .cosplayjav.pl
 |http://cosplayjav.pl
-||couchdbwiki.com
+.cotweet.com
 ||cotweet.com
+.coursehero.com
+||coursehero.com
 cpj.org
 ||cpj.org
 .cq99.us
@@ -2194,6 +2200,7 @@ epochtimestr.com
 .eporner.com
 .equinenow.com
 erabaru.net
+.eracom.com.tw
 .eraysoft.com.tr
 .erepublik.com
 .erights.net
@@ -2549,9 +2556,12 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001042252
 .ftchinese.com/story/001042272
 .ftchinese.com/story/001043534
+.ftchinese.com/story/001043849
+.ftchinese.com/story/001044099
 .ftchinese.com/story/001044776
 .ftchinese.com/story/001045755
 .ftchinese.com/story/001046118
+.ftchinese.com/story/001047317
 .ftchinese.com/story/001047345
 .ftchinese.com/story/001047375
 .ftchinese.com/story/001047545
@@ -2626,6 +2636,7 @@ www.ftchinese.com/story/001067479
 .ftchinese.com/story/001070990
 .ftchinese.com/story/001071042
 .ftchinese.com/story/001071106
+.ftchinese.com/story/001071166
 .ftchinese.com/story/001071181
 ftchinese.com/story/001071200
 .ftchinese.com/story/001071208
@@ -2633,9 +2644,19 @@ ftchinese.com/story/001071200
 .ftchinese.com/story/001072271
 .ftchinese.com/story/001072677
 .ftchinese.com/story/001072895
+.ftchinese.com/story/001072993
 .ftchinese.com/story/001073043
+.ftchinese.com/story/001073103
+.ftchinese.com/story/001073246
 .ftchinese.com/story/001073408
+.ftchinese.com/story/001073537
+.ftchinese.com/story/001073672
+.ftchinese.com/story/001074089
 .ftchinese.com/story/001074110
+.ftchinese.com/story/001074157
+.ftchinese.com/story/001074423
+.ftchinese.com/story/001074467
+.ftchinese.com/story/001074550
 .ftchinese.com/video/1437
 .ftchinese.com/video/1882
 .ftchinese.com/comments
@@ -2781,6 +2802,7 @@ wsgzao.github.io
 .gizlen.net
 ||gizlen.net
 .gjczz.com
+||gjczz.com
 globaljihad.net
 globalmediaoutreach.com
 globalmuseumoncommunism.org
@@ -3763,6 +3785,8 @@ wiki.keso.cn/Home
 .khabdha.org
 .khmusic.com.tw
 ||kichiku-doujinko.com
+.kik.com
+||kik.com
 bbs.kimy.com.tw
 .kindleren.com
 |http://kindleren.com
@@ -5106,6 +5130,7 @@ sesawe.net
 .sesawe.org
 ||sethwklein.net
 .setn.com
+.settv.com.tw
 forum.setty.com.tw
 .sevenload.com
 ||sevenload.com
@@ -5555,6 +5580,7 @@ teamamericany.com
 .teeniefuck.net
 teensinasia.com
 .telecomspace.com
+||telegram.dog
 ||telegram.org
 .telegramdownload.com
 ||telegraph.co.uk
@@ -5768,6 +5794,7 @@ top81.ws
 .topnews.in
 .torguard.net
 ||torguard.net
+||top.tv
 .topshareware.com
 .topsy.com
 ||topsy.com
@@ -6419,6 +6446,8 @@ wezhiyong.org
 ||wheelockslatin.com
 .whippedass.com
 !--|http://who.is/
+.whoer.net
+||whoer.net
 whotalking.com
 whylover.com
 ||whyx.org
@@ -6543,6 +6572,7 @@ worldjournal.com
 .worldvpn.net
 ||worldvpn.net
 
+||videopress.com
 .wordpress.com
 |http://*.wordpress.com
 ||cnbbnews.wordpress.com
@@ -6584,6 +6614,7 @@ wujie.net
 wujieliulan.com
 ||wujieliulan.com
 wukangrui.net
+||wuw.red
 .wwitv.com
 ||wwitv.com
 wzyboy.im/post/160
