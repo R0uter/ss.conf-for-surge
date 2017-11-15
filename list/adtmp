@@ -69,7 +69,6 @@ DOMAIN-SUFFIX,mobilemsg.youku.com,REJECT
 DOMAIN-SUFFIX,msg.youku.com,REJECT
 DOMAIN-SUFFIX,myes.youku.com,REJECT
 DOMAIN-SUFFIX,p.l.youku.com,REJECT
-DOMAIN-SUFFIX,pl.youku.com,REJECT
 DOMAIN-SUFFIX,passport-log.youku.com,REJECT
 DOMAIN-SUFFIX,p-log.ykimg.com,REJECT
 DOMAIN-SUFFIX,push.m.youku.com,REJECT
@@ -1725,6 +1724,7 @@ DOMAIN-SUFFIX,appdriver.cn,REJECT
 DOMAIN-SUFFIX,apple.www.letv.com,REJECT
 DOMAIN-SUFFIX,applifier.com,REJECT
 DOMAIN-SUFFIX,app-measurement.com,REJECT
+DOMAIN-SUFFIX,appservices.comcsoft.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,aqgyju.cn,REJECT
 DOMAIN-SUFFIX,aralego.com,REJECT
@@ -2850,7 +2850,6 @@ DOMAIN-SUFFIX,miniye.xjts.cn,REJECT
 DOMAIN-SUFFIX,mixpanel.com,REJECT
 DOMAIN-SUFFIX,mm.anqu.com,REJECT
 DOMAIN-SUFFIX,mmcc.yxlady.com,REJECT
-DOMAIN-SUFFIX,mmstat.com,REJECT
 DOMAIN-SUFFIX,mng-ads.com,REJECT
 DOMAIN-SUFFIX,mnkan.com,REJECT
 DOMAIN-SUFFIX,mnwan.com,REJECT

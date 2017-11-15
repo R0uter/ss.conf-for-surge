@@ -102,7 +102,7 @@ def getAdList():
     # the url of  https://github.com/lhie1/Surge
     outfile = './list/adlist.txt'
     tmpfile = './list/adtmp'
-    baseurl = 'https://raw.githubusercontent.com/lhie1/Surge/master/Rule_REJECT.conf'
+    baseurl = 'https://github.com/lhie1/Surge/raw/master/REJECT.conf'
 
     comment_pattern = '^\!|\[|^@@|\/|http|\#|\*|\?|\_|^\.|^\d+\.\d+\.\d+\.\d+'
     domain_pattern = '(\#?[\w\-\_]+\,[\/\w\.\-\_]+\,REJECT)[\/\*]*'
