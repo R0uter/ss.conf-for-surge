@@ -428,7 +428,6 @@ DOMAIN-SUFFIX,alipaylog.com,REJECT
 DOMAIN-SUFFIX,amdc.alipay.com,REJECT
 DOMAIN-SUFFIX,api.wapa.taobao.com,REJECT
 DOMAIN-SUFFIX,api.waptest.taobao.com,REJECT
-DOMAIN-SUFFIX,apoll.m.taobao.com,REJECT
 DOMAIN-SUFFIX,appdownload.alicdn.com,REJECT
 DOMAIN-SUFFIX,atanx.alicdn.com,REJECT
 DOMAIN-SUFFIX,atanx2.alicdn.com,REJECT
@@ -466,8 +465,6 @@ DOMAIN-SUFFIX,m.simba.taobao.com,REJECT
 DOMAIN-SUFFIX,match.p4p.1688.com,REJECT
 DOMAIN-SUFFIX,material.istreamsche.com,REJECT
 DOMAIN-SUFFIX,mlt01.com,REJECT
-DOMAIN-SUFFIX,nbsdk-baichuan.alicdn.com,REJECT
-DOMAIN-SUFFIX,nbsdk-baichuan.taobao.com,REJECT
 DOMAIN-SUFFIX,osfota.cdn.aliyun.com,REJECT
 DOMAIN-SUFFIX,osupdate.aliyun.com,REJECT
 DOMAIN-SUFFIX,osupdateservice.yunos.com,REJECT
@@ -2869,6 +2866,7 @@ DOMAIN-SUFFIX,mobisage.cn,REJECT
 DOMAIN-SUFFIX,mobvista.com,REJECT
 DOMAIN-SUFFIX,money.qz828.com,REJECT
 DOMAIN-SUFFIX,monitor.uu.qq.com,REJECT
+DOMAIN-SUFFIX,momo.popupad.cn,REJECT
 DOMAIN-SUFFIX,moodoocrv.com.cn,REJECT
 DOMAIN-SUFFIX,mookie1.com,REJECT
 DOMAIN-SUFFIX,moonwish.com.cn,REJECT
@@ -3122,6 +3120,7 @@ DOMAIN-SUFFIX,qshxc.com,REJECT
 DOMAIN-SUFFIX,qt.biqugezw.com,REJECT
 DOMAIN-SUFFIX,qtmojo.cn,REJECT
 DOMAIN-SUFFIX,qtmojo.com,REJECT
+DOMAIN-SUFFIX,quanliyouxi.cn,REJECT
 DOMAIN-SUFFIX,quansj.cn,REJECT
 DOMAIN-SUFFIX,quantcount.com,REJECT
 DOMAIN-SUFFIX,quantserve.com,REJECT
@@ -3887,6 +3886,7 @@ IP-CIDR,125.46.61.28/32,REJECT,no-resolve
 IP-CIDR,139.159.32.82/32,REJECT,no-resolve
 IP-CIDR,146.148.85.61/32,REJECT,no-resolve
 IP-CIDR,162.212.181.32/32,REJECT,no-resolve
+IP-CIDR,180.166.52.24/32,REJECT,no-resolve
 IP-CIDR,180.76.162.60/32,REJECT,no-resolve
 IP-CIDR,180.76.171.28/32,REJECT,no-resolve
 IP-CIDR,182.92.81.104/32,REJECT,no-resolve
