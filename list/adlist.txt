@@ -1,5 +1,5 @@
 // thx  https://github.com/lhie1/Surge 
-// updated on 2017-11-22 22:25:26
+// updated on 2017-12-04 02:50:15
 
 PROCESS-NAME,Jietu,REJECT
 DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
