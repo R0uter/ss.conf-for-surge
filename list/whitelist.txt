@@ -1,4 +1,4 @@
-// updated on 2017-12-04 02:50:19
+// updated on 2017-12-08 01:22:12
 DOMAIN-SUFFIX,6.com,ChinaProxy
 DOMAIN-SUFFIX,gold.net,ChinaProxy
 DOMAIN-SUFFIX,00.net,ChinaProxy
@@ -3165,6 +3165,7 @@ DOMAIN-SUFFIX,51cxd.com,ChinaProxy
 DOMAIN-SUFFIX,51dai.com,ChinaProxy
 DOMAIN-SUFFIX,51daifu.com,ChinaProxy
 DOMAIN-SUFFIX,51daiwei.com,ChinaProxy
+DOMAIN-SUFFIX,51datakey.com,ChinaProxy
 DOMAIN-SUFFIX,51dc.com,ChinaProxy
 DOMAIN-SUFFIX,51ddlook.com,ChinaProxy
 DOMAIN-SUFFIX,51devapp.com,ChinaProxy
@@ -13558,6 +13559,7 @@ DOMAIN-SUFFIX,dtjwjyzz.com,ChinaProxy
 DOMAIN-SUFFIX,dtlsw.com,ChinaProxy
 DOMAIN-SUFFIX,dtqiufa.com,ChinaProxy
 DOMAIN-SUFFIX,dts007.com,ChinaProxy
+DOMAIN-SUFFIX,dtstack.com,ChinaProxy
 DOMAIN-SUFFIX,dtstatic.com,ChinaProxy
 DOMAIN-SUFFIX,dttt.net,ChinaProxy
 DOMAIN-SUFFIX,dtvalue.com,ChinaProxy
@@ -23001,6 +23003,7 @@ DOMAIN-SUFFIX,liangyi120.com,ChinaProxy
 DOMAIN-SUFFIX,liangyibang.net,ChinaProxy
 DOMAIN-SUFFIX,liangzijie.com,ChinaProxy
 DOMAIN-SUFFIX,lianjia.com,ChinaProxy
+DOMAIN-SUFFIX,lianjixia.com,ChinaProxy
 DOMAIN-SUFFIX,lianle.com,ChinaProxy
 DOMAIN-SUFFIX,lianlianpay.com,ChinaProxy
 DOMAIN-SUFFIX,liansuo.com,ChinaProxy
@@ -26869,6 +26872,7 @@ DOMAIN-SUFFIX,pentaq.com,ChinaProxy
 DOMAIN-SUFFIX,squared.com,ChinaProxy
 DOMAIN-SUFFIX,peopleapp.com,ChinaProxy
 DOMAIN-SUFFIX,peopleart.tv,ChinaProxy
+DOMAIN-SUFFIX,peoplenews.eu,ChinaProxy
 DOMAIN-SUFFIX,peoplerail.com,ChinaProxy
 DOMAIN-SUFFIX,peopleyuqing.com,ChinaProxy
 DOMAIN-SUFFIX,pepperstone2.cdnetworks,ChinaProxy

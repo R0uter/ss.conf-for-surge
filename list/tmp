@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: zJiuBRHiHy0vdBROvFwRVA
+! Checksum: cxvOsNhswylhCnhgAk39Jg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Wed, 29 Nov 2017 21:21:14 -0500
+! Last Modified: Mon, 04 Dec 2017 18:53:36 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -240,6 +240,7 @@ share.dmhy.org
 ||glorystar.me
 ||jiji.com
 ||line-scdn.net
+||i.lithium.com
 ||cloud.mail.ru
 ||cdn-images.mailchimp.com
 ||go.nesnode.com
@@ -248,7 +249,7 @@ share.dmhy.org
 ||pixiv.net
 ||secure.raxcdn.com
 ||sulian.me
-||i.lithium.com
+||unseen.is
 ||xm.com
 
 !----------------Frauds & Scams-----------------
@@ -727,6 +728,7 @@ blogspot.com
 ||whatbrowser.org
 ||widevine.com
 ||withgoogle.com
+||x.company
 ||xn--ngstr-lra8j.com
 ||youtu.be
 .youtube.com
@@ -1047,6 +1049,7 @@ taiwannation.50webs.com
 666kb.com
 6park.com
 ||6park.com
+||6parker.com
 ||7capture.com
 .7cow.com
 .8-d.com
@@ -1832,6 +1835,7 @@ chinese-memorial.org
 ||chinesen.de
 .chinesepen.org
 .chinesetalks.net/ch
+||chineseupress.com
 .chingcheong.com
 ||chingcheong.com
 .chinman.net
@@ -2304,6 +2308,7 @@ electionsmeter.com
 .emaga.com/info/3407
 emilylau.org.hk
 .emanna.com/chineseTraditional
+bitc.bme.emory.edu/~lzhou/blogs
 .empfil.com
 .emule-ed2k.com
 |http://emule-ed2k.com
@@ -3655,6 +3660,8 @@ hentaitube.tv
 heqinglian.net
 ||heungkongdiscuss.com
 .hexieshe.com
+||hexieshe.com
+||hexieshe.xyz
 !--Google employee within Google IP
 ||hexxeh.net
 app.heywire.com
@@ -3811,7 +3818,6 @@ hrweb.org
 .hstt.net
 .htkou.net
 ||htkou.net
-||htmldog.com
 .hua-yue.net
 .huaglad.com
 ||huaglad.com
@@ -4468,6 +4474,7 @@ maskedip.com
 mail-archive.com
 .malaysiakini.com
 ||makemymood.com
+.manchukuo.net
 .maniash.com
 |http://maniash.com
 .mansion.com
@@ -5409,6 +5416,7 @@ rcinet.ca
 |http://online.recoveryversion.org
 ||recoveryversion.com.tw
 ||red-lang.org
+redballoonsolidarity.org
 .redchinacn.net
 |http://redchinacn.net
 redchinacn.org
@@ -7043,9 +7051,11 @@ worldjournal.com
 ||freedominfonetweb.wordpress.com
 ||hka8964.wordpress.com
 ||hkanews.wordpress.com
+||hqsbnet.wordpress.com
 ||hqsbonline.wordpress.com
 ||investigating.wordpress.com
 ||jobnewera.wordpress.com
+||minghuiyw.wordpress.com
 ||wo3ttt.wordpress.com
 ||sujiatun.wordpress.com
 ||wp.com
@@ -7082,6 +7092,7 @@ wujieliulan.com
 ||wujieliulan.com
 wukangrui.net
 ||wuw.red
+||wuyanblog.com
 .wwitv.com
 ||wwitv.com
 wzyboy.im/post/160
