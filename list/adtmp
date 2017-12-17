@@ -1709,7 +1709,6 @@ DOMAIN-SUFFIX,anquan.org,REJECT
 DOMAIN-SUFFIX,anreson.net,REJECT
 DOMAIN-SUFFIX,anysdk.com,REJECT
 DOMAIN-SUFFIX,aoodoo.weiphone.com,REJECT
-DOMAIN-SUFFIX,api.branch.io,REJECT
 DOMAIN-SUFFIX,api.mobula.sdk.duapps.com,REJECT
 DOMAIN-SUFFIX,api.similarweb.com,REJECT
 DOMAIN-SUFFIX,api.talkingdata.com,REJECT
@@ -1722,7 +1721,6 @@ DOMAIN-SUFFIX,apple.www.letv.com,REJECT
 DOMAIN-SUFFIX,applifier.com,REJECT
 DOMAIN-SUFFIX,app-measurement.com,REJECT
 DOMAIN-SUFFIX,appservices.comcsoft.com,REJECT
-DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,aqgyju.cn,REJECT
 DOMAIN-SUFFIX,aralego.com,REJECT
 DOMAIN-SUFFIX,ard.ihookup.com,REJECT
@@ -2383,6 +2381,7 @@ DOMAIN-SUFFIX,ggcode.2345.com,REJECT
 DOMAIN-SUFFIX,ggdoubi.com,REJECT
 DOMAIN-SUFFIX,ggg.zj.com,REJECT
 DOMAIN-SUFFIX,ggmm777.com,REJECT
+DOMAIN-SUFFIX,ggs.myzaker.com,REJECT
 DOMAIN-SUFFIX,ggw.gusuwang.com,REJECT
 DOMAIN-SUFFIX,ggw.watertu.com,REJECT
 DOMAIN-SUFFIX,ggxt.net,REJECT

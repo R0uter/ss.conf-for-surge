@@ -1,4 +1,4 @@
-// updated on 2017-12-08 01:22:12
+// updated on 2017-12-17 18:50:32
 DOMAIN-SUFFIX,6.com,ChinaProxy
 DOMAIN-SUFFIX,gold.net,ChinaProxy
 DOMAIN-SUFFIX,00.net,ChinaProxy
@@ -3243,6 +3243,7 @@ DOMAIN-SUFFIX,51jam.com,ChinaProxy
 DOMAIN-SUFFIX,51jetso.com,ChinaProxy
 DOMAIN-SUFFIX,51jiabo.com,ChinaProxy
 DOMAIN-SUFFIX,51jiameng.com,ChinaProxy
+DOMAIN-SUFFIX,51jianli.com,ChinaProxy
 DOMAIN-SUFFIX,51jiarenla.com,ChinaProxy
 DOMAIN-SUFFIX,51jiaxiao.com,ChinaProxy
 DOMAIN-SUFFIX,51jiecai.com,ChinaProxy
@@ -5085,6 +5086,7 @@ DOMAIN-SUFFIX,88520.cc,ChinaProxy
 DOMAIN-SUFFIX,8855.org,ChinaProxy
 DOMAIN-SUFFIX,8860.net,ChinaProxy
 DOMAIN-SUFFIX,88614.com,ChinaProxy
+DOMAIN-SUFFIX,8864.org,ChinaProxy
 DOMAIN-SUFFIX,886404.org,ChinaProxy
 DOMAIN-SUFFIX,886520.cc,ChinaProxy
 DOMAIN-SUFFIX,8866.org,ChinaProxy
@@ -5802,6 +5804,7 @@ DOMAIN-SUFFIX,9jy.net,ChinaProxy
 DOMAIN-SUFFIX,9k51.com,ChinaProxy
 DOMAIN-SUFFIX,9k9by.com,ChinaProxy
 DOMAIN-SUFFIX,9k9k.com,ChinaProxy
+DOMAIN-SUFFIX,9kjt.com,ChinaProxy
 DOMAIN-SUFFIX,9kld.com,ChinaProxy
 DOMAIN-SUFFIX,9koudai.net,ChinaProxy
 DOMAIN-SUFFIX,9ku.com,ChinaProxy
@@ -10834,6 +10837,7 @@ DOMAIN-SUFFIX,cmaif.com,ChinaProxy
 DOMAIN-SUFFIX,leasing.com,ChinaProxy
 DOMAIN-SUFFIX,cmbchina.com,ChinaProxy
 DOMAIN-SUFFIX,cmbchinaucs.com,ChinaProxy
+DOMAIN-SUFFIX,cmbimg.com,ChinaProxy
 DOMAIN-SUFFIX,cmboy.com,ChinaProxy
 DOMAIN-SUFFIX,cmbuy10086.com,ChinaProxy
 DOMAIN-SUFFIX,conf.org,ChinaProxy
@@ -12488,6 +12492,7 @@ DOMAIN-SUFFIX,db600.com,ChinaProxy
 DOMAIN-SUFFIX,db9db.com,ChinaProxy
 DOMAIN-SUFFIX,dbacg.com,ChinaProxy
 DOMAIN-SUFFIX,dbank.com,ChinaProxy
+DOMAIN-SUFFIX,dbankcdn.com,ChinaProxy
 DOMAIN-SUFFIX,dbankcloud.com,ChinaProxy
 DOMAIN-SUFFIX,dbanotes.net,ChinaProxy
 DOMAIN-SUFFIX,dbc2000.org,ChinaProxy
@@ -13874,6 +13879,7 @@ DOMAIN-SUFFIX,job580.com,ChinaProxy
 DOMAIN-SUFFIX,lifemall.com,ChinaProxy
 DOMAIN-SUFFIX,lining.com,ChinaProxy
 DOMAIN-SUFFIX,lvyou.com,ChinaProxy
+DOMAIN-SUFFIX,mallchina.com,ChinaProxy
 DOMAIN-SUFFIX,nci.com,ChinaProxy
 DOMAIN-SUFFIX,picclife.com,ChinaProxy
 DOMAIN-SUFFIX,sleb.com,ChinaProxy
@@ -14998,6 +15004,7 @@ DOMAIN-SUFFIX,feilu.cc,ChinaProxy
 DOMAIN-SUFFIX,feilvway.com,ChinaProxy
 DOMAIN-SUFFIX,feimalv.com,ChinaProxy
 DOMAIN-SUFFIX,feimao88.com,ChinaProxy
+DOMAIN-SUFFIX,feimaojiasu.com,ChinaProxy
 DOMAIN-SUFFIX,feimosheji.com,ChinaProxy
 DOMAIN-SUFFIX,feiniu.com,ChinaProxy
 DOMAIN-SUFFIX,feipin.com,ChinaProxy
@@ -22983,6 +22990,7 @@ DOMAIN-SUFFIX,lhzy.net,ChinaProxy
 DOMAIN-SUFFIX,ning.com,ChinaProxy
 DOMAIN-SUFFIX,li63.com,ChinaProxy
 DOMAIN-SUFFIX,liageren.com,ChinaProxy
+DOMAIN-SUFFIX,lialiu.com,ChinaProxy
 DOMAIN-SUFFIX,lianaibashi.com,ChinaProxy
 DOMAIN-SUFFIX,lianaibiji.com,ChinaProxy
 DOMAIN-SUFFIX,lianbijr.com,ChinaProxy
@@ -24663,6 +24671,7 @@ DOMAIN-SUFFIX,mico.io,ChinaProxy
 DOMAIN-SUFFIX,notes.com,ChinaProxy
 DOMAIN-SUFFIX,cn.com,ChinaProxy
 DOMAIN-SUFFIX,microbell.com,ChinaProxy
+DOMAIN-SUFFIX,microcai.org,ChinaProxy
 DOMAIN-SUFFIX,microfotos.com,ChinaProxy
 DOMAIN-SUFFIX,microidc.com,ChinaProxy
 DOMAIN-SUFFIX,microlensyh.com,ChinaProxy
@@ -24701,6 +24710,7 @@ DOMAIN-SUFFIX,miidi.net,ChinaProxy
 DOMAIN-SUFFIX,miidol.com,ChinaProxy
 DOMAIN-SUFFIX,miiee.com,ChinaProxy
 DOMAIN-SUFFIX,miit.cc,ChinaProxy
+DOMAIN-SUFFIX,mijiayoupin.com,ChinaProxy
 DOMAIN-SUFFIX,mijishe.com,ChinaProxy
 DOMAIN-SUFFIX,mika123.com,ChinaProxy
 DOMAIN-SUFFIX,mika18.com,ChinaProxy
@@ -27477,6 +27487,7 @@ DOMAIN-SUFFIX,q3060.com,ChinaProxy
 DOMAIN-SUFFIX,q366.com,ChinaProxy
 DOMAIN-SUFFIX,q5.com,ChinaProxy
 DOMAIN-SUFFIX,q68.com,ChinaProxy
+DOMAIN-SUFFIX,q6haqi.com,ChinaProxy
 DOMAIN-SUFFIX,q869.com,ChinaProxy
 DOMAIN-SUFFIX,qalex.com,ChinaProxy
 DOMAIN-SUFFIX,qb5200.com,ChinaProxy
@@ -32155,6 +32166,7 @@ DOMAIN-SUFFIX,toursforfun.com,ChinaProxy
 DOMAIN-SUFFIX,toushibao.com,ChinaProxy
 DOMAIN-SUFFIX,toutiao.com,ChinaProxy
 DOMAIN-SUFFIX,toutiao.io,ChinaProxy
+DOMAIN-SUFFIX,toutiao11.com,ChinaProxy
 DOMAIN-SUFFIX,toutiao9.com,ChinaProxy
 DOMAIN-SUFFIX,toutiaocdn.com,ChinaProxy
 DOMAIN-SUFFIX,toutiaocdn.net,ChinaProxy
@@ -33092,6 +33104,7 @@ DOMAIN-SUFFIX,uz73.com,ChinaProxy
 DOMAIN-SUFFIX,uz73.net,ChinaProxy
 DOMAIN-SUFFIX,uzai.com,ChinaProxy
 DOMAIN-SUFFIX,uzaicdn.com,ChinaProxy
+DOMAIN-SUFFIX,uzer.me,ChinaProxy
 DOMAIN-SUFFIX,uzham.com,ChinaProxy
 DOMAIN-SUFFIX,uzhongtou.com,ChinaProxy
 DOMAIN-SUFFIX,uzicai.com,ChinaProxy
@@ -36788,6 +36801,7 @@ DOMAIN-SUFFIX,yijia.com,ChinaProxy
 DOMAIN-SUFFIX,yijian119.com,ChinaProxy
 DOMAIN-SUFFIX,yijiangshan.net,ChinaProxy
 DOMAIN-SUFFIX,yijianjiaoyu.com,ChinaProxy
+DOMAIN-SUFFIX,yijiaomao.com,ChinaProxy
 DOMAIN-SUFFIX,yijie.com,ChinaProxy
 DOMAIN-SUFFIX,yijiebuyi.com,ChinaProxy
 DOMAIN-SUFFIX,yijied.com,ChinaProxy
@@ -37331,6 +37345,7 @@ DOMAIN-SUFFIX,youxichou.com,ChinaProxy
 DOMAIN-SUFFIX,youxicity.com,ChinaProxy
 DOMAIN-SUFFIX,youxicool.net,ChinaProxy
 DOMAIN-SUFFIX,youxidaxue.com,ChinaProxy
+DOMAIN-SUFFIX,youxidongli.com,ChinaProxy
 DOMAIN-SUFFIX,youxidudu.com,ChinaProxy
 DOMAIN-SUFFIX,youxiduo.com,ChinaProxy
 DOMAIN-SUFFIX,youxigod.com,ChinaProxy

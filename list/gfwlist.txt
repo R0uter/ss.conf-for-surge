@@ -1,5 +1,5 @@
 // SS config file for surge with gfw list 
-// updated on 2017-12-08 01:22:07
+// updated on 2017-12-17 18:50:12
 
 DOMAIN-SUFFIX,2dbook.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,4tern.com,Proxy,force-remote-dns
@@ -611,6 +611,7 @@ DOMAIN-SUFFIX,webrtc.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,whatbrowser.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,widevine.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,withgoogle.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,withyoutube.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,x.company,Proxy,force-remote-dns
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,youtu.be,Proxy,force-remote-dns
@@ -642,7 +643,9 @@ DOMAIN-SUFFIX,telegramdownload.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,periscope.tv,Proxy,force-remote-dns
 DOMAIN-SUFFIX,pscp.tv,Proxy,force-remote-dns
 DOMAIN-SUFFIX,t.co,Proxy,force-remote-dns
+DOMAIN-SUFFIX,tweetdeck.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twimg.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,twitpic.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twitter.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twitter.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,vine.co,Proxy,force-remote-dns
@@ -4453,7 +4456,6 @@ DOMAIN-SUFFIX,tweetbackup.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tweetboard.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tweetboner.biz,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tweetcs.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,tweetdeck.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,deck.ly,Proxy,force-remote-dns
 DOMAIN-SUFFIX,mtw.tl,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tweetedtimes.com,Proxy,force-remote-dns
@@ -4499,7 +4501,6 @@ DOMAIN-SUFFIX,tl.gd,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twitmania.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twitoaster.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twitonmsn.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,twitpic.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twit2d.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twitstat.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,firstfivefollowers.com,Proxy,force-remote-dns
@@ -4856,6 +4857,7 @@ DOMAIN-SUFFIX,vegas.williamhill.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,willw.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,windowsphoneme.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,windscribe.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,community.windy.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,wingy.site,Proxy,force-remote-dns
 DOMAIN-SUFFIX,winning11.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,winwhispers.info,Proxy,force-remote-dns
