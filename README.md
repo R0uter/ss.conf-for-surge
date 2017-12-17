@@ -1,4 +1,5 @@
 ## ss.conf for Surge!
+[![Build Status](https://travis-ci.org/R0uter/ss.conf-for-surge.svg?branch=master)](https://travis-ci.org/R0uter/ss.conf-for-surge)
 
 This is a conf file for Surge!
 
@@ -19,7 +20,7 @@ Ad's list come from [lhie1/Surge](https://github.com/lhie1/Surge).
 
 ## How to use
 
-Just use `gfwlist.conf` or `whitelist.conf` directly. Both in `configFileHere` directory!
+Just use [`gfwlist.conf` or `whitelist.conf`](https://R0uter.github.io/ss.conf-for-surge/) directly. Both in `configFileHere` directory!
 
 > Or use `ssconf.py` to generate config file.
 

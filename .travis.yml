@@ -1,0 +1,20 @@
+language: python
+
+python:
+  - "3.6"
+
+install:
+  - pip install -r requirements.txt
+
+script:
+  - python ssconf.py
+after_success:
+  - cp configFileHere/* gh-pages/
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: gh-pages
+  on:
+    branch: master
