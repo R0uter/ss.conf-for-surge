@@ -9,7 +9,7 @@ import re
 import datetime
 import certifi
 import codecs
-
+import os
 
 def getList(listUrl):
     http = urllib3.PoolManager(
@@ -55,8 +55,8 @@ def getGfwList():
     domain_pattern = '([\w\-\_]+\.[\w\.\-\_]+)[\/\*]*'
 
     tmpfile = './list/tmp'
-
-    gfwListTxt = codecs.open('./list/gfwlist.txt', 'w', 'utf-8')
+    os.makedirs(os.path.dirname('./list/gfwlist.txt'), exist_ok=True)
+    gfwListTxt = codecs.open('./list/gfwlist.txt', 'w+', 'utf-8')
     gfwListTxt.write('// SS config file for surge with gfw list \n')
     gfwListTxt.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
     gfwListTxt.write('\n')
