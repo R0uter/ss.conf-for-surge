@@ -12,6 +12,9 @@ __Proxy__
 IP-CIDR, 17.0.0.0/8, DIRECT, no-resolve
 // Fix youku&yinyuetai
 DOMAIN-SUFFIX,vali.cp31.ott.cibntv.net,ChinaProxy
+// Fix Netgear router setting page
+DOMAIN-SUFFIX,routerlogin.net,DIRECT
+DOMAIN-SUFFIX,routerlogin.com,DIRECT
 
 
 // AD Block

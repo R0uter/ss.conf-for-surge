@@ -20,6 +20,8 @@ Ad's list come from [lhie1/Surge](https://github.com/lhie1/Surge).
 
 ## How to use
 
+**Switch to `gh-pages` branch to [download latest .conf file](https://r0uter.github.io/ss.conf-for-surge/)!**
+
 Just use [`gfwlist.conf` or `whitelist.conf`](https://R0uter.github.io/ss.conf-for-surge/) directly. Both in `configFileHere` directory!
 
 > Or use `ssconf.py` to generate config file.

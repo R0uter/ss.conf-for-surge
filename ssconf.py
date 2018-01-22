@@ -21,7 +21,7 @@ def getList(listUrl):
     return data
 
 def whiteListCheck():
-    dnsmasq_china_list = 'https://github.com/R0uter/gfw_domain_whitelist/raw/master/whitelistCache'
+    dnsmasq_china_list = 'https://r0uter.github.io/gfw_domain_whitelist/whitelist.pac'
     try:
 
         content = getList(dnsmasq_china_list)
@@ -38,7 +38,7 @@ def whiteListCheck():
     # Write list
     for line in whitelist.readlines():
         
-        domain = re.findall(r'\w+\.\w+', line)
+        domain = re.findall(r'(?<=").+\.\w+', line)
         if len(domain) > 0:
             whitelistTxt.write('DOMAIN-SUFFIX,%s,ChinaProxy\n'%(domain[0]))
 
