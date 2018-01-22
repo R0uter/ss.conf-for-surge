@@ -55,7 +55,6 @@ def getGfwList():
     domain_pattern = '([\w\-\_]+\.[\w\.\-\_]+)[\/\*]*'
 
     tmpfile = './list/tmp'
-    os.makedirs(os.path.dirname('./list/gfwlist.txt'), exist_ok=True)
     gfwListTxt = codecs.open('./list/gfwlist.txt', 'w+', 'utf-8')
     gfwListTxt.write('// SS config file for surge with gfw list \n')
     gfwListTxt.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
@@ -193,6 +192,8 @@ def genWhiteConf():
     confs.close()
 
 def main():
+    os.makedirs(os.path.dirname('./list/'), exist_ok=True)
+    os.makedirs(os.path.dirname('./configFileHere/'), exist_ok=True)
     print('Getting GFW list...')
     getGfwList()
     print('Getting AD list...')
