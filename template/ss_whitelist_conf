@@ -2,7 +2,7 @@
 bypass-system = true
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
-dns-server = 114.114.114.114
+dns-server = 114.114.114.114, 114.114.115.115
 loglevel = notify
 
 __Proxy__
@@ -11,7 +11,7 @@ __Proxy__
 // For apple inc
 IP-CIDR, 17.0.0.0/8, DIRECT, no-resolve
 // Fix youku&yinyuetai
-DOMAIN-SUFFIX,vali.cp31.ott.cibntv.net,ChinaProxy
+DOMAIN-SUFFIX,vali.cp31.ott.cibntv.net,DIRECT
 // Fix Netgear router setting page
 DOMAIN-SUFFIX,routerlogin.net,DIRECT
 DOMAIN-SUFFIX,routerlogin.com,DIRECT
@@ -21,18 +21,13 @@ DOMAIN-SUFFIX,routerlogin.com,DIRECT
 __ADBLOCK__
 
 // For cn domains
-DOMAIN-SUFFIX,cn,ChinaProxy
+DOMAIN-SUFFIX,cn,DIRECT
 
 // white list from dnsmasq_china_list!
 __GFWWHITELIST__
 
 
 // last chance
-GEOIP,CN,ChinaProxy
+GEOIP,CN,DIRECT
 
 FINAL,Proxy
-
- [URL Rewrite]
- ^http://www.google.cn http://www.google.com.hk
- ^http://m.baidu.com/s\?from=1099b&word= http://google.com/search\?q=
- ^http://www.baidu.com/s\?wd= http://google.com/search\?q=

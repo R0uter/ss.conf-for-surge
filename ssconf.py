@@ -38,9 +38,9 @@ def whiteListCheck():
     # Write list
     for line in whitelist.readlines():
         
-        domain = re.findall(r'(?<=").+\.\w+', line)
+        domain = re.findall(r'(?<=")[a-z0-9|\-]+\.\w+', line)
         if len(domain) > 0:
-            whitelistTxt.write('DOMAIN-SUFFIX,%s,ChinaProxy\n'%(domain[0]))
+            whitelistTxt.write('DOMAIN-SUFFIX,%s,DIRECT\n'%(domain[0]))
 
     whitelist.close()
     whitelistTxt.close()
@@ -101,7 +101,7 @@ def getAdList():
     # the url of  https://github.com/lhie1/Surge
     outfile = './list/adlist.txt'
     tmpfile = './list/adtmp'
-    baseurl = 'https://github.com/lhie1/Surge/raw/master/REJECT.conf'
+    baseurl = 'https://github.com/lhie1/Rules/raw/master/Surge.conf'
 
     comment_pattern = '^\!|\[|^@@|\/|http|\#|\*|\?|\_|^\.|^\d+\.\d+\.\d+\.\d+'
     domain_pattern = '(\#?[\w\-\_]+\,[\/\w\.\-\_]+\,REJECT)[\/\*]*'
