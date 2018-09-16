@@ -191,6 +191,26 @@ def genWhiteConf():
     confs.write(file_content)
     confs.close()
 
+def genGeoIPWhiteConf():
+    cfs = codecs.open('template/ss_geoip_white_conf', 'r', 'utf-8')
+    adlist = codecs.open('list/adlist.txt', 'r', 'utf-8')
+    proxy = codecs.open('ServerConfig.txt', 'r', 'utf8')
+    file_content = cfs.read()
+    adlist_buffer = adlist.read()
+    proxy_buffer = proxy.read()
+    adlist.close()
+    cfs.close()
+    proxy.close()
+
+    file_content = file_content.replace('__ADBLOCK__', adlist_buffer)
+    file_content = file_content.replace('__Proxy__', proxy_buffer)
+
+    confs = codecs.open('configFileHere/geoip_whitelist.conf', 'w', 'utf-8')
+    confs.write(file_content)
+    confs.close()
+
+
+
 def main():
     os.makedirs(os.path.dirname('./list/'), exist_ok=True)
     os.makedirs(os.path.dirname('./configFileHere/'), exist_ok=True)
@@ -204,6 +224,8 @@ def main():
     genGfwConf()
     print ('Generate config file: whitelist.conf')
     genWhiteConf()
+    print('Generate config file: geoip_whitelist.conf')
+    genGeoIPWhiteConf()
     print ('All done!')
     print('Now you need edit config file to add your server infomation.')
 

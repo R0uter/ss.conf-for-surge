@@ -8,30 +8,21 @@ loglevel = notify
 __Proxy__
 
 [Rule]
-//for Google blogspot
-DOMAIN-SUFFIX,google.cn,DIRECT
-DOMAIN-KEYWORD,google,Proxy,force-remote-dns
-DOMAIN-KEYWORD,blogspot,Proxy,force-remote-dns
-//for BBC 
-DOMAIN-KEYWORD,bbc,Proxy,force-remote-dns
-//for Facebook
-DOMAIN-KEYWORD,facebook,Proxy,force-remote-dns
-//for tw
-DOMAIN-SUFFIX,tw,Proxy,force-remote-dns
-//for ios 11 app store
-DOMAIN, apps.mzstatic.com ,Proxy,force-remote-dns
+// For apple inc
+IP-CIDR, 17.0.0.0/8, DIRECT, no-resolve
 // Fix youku&yinyuetai
 DOMAIN-SUFFIX,vali.cp31.ott.cibntv.net,DIRECT
-// fix xvideos cdn
-DOMAIN-KEYWORD,xvideos,Proxy,force-remote-dns
+// Fix Netgear router setting page
+DOMAIN-SUFFIX,routerlogin.net,DIRECT
+DOMAIN-SUFFIX,routerlogin.com,DIRECT
+
 
 
 // AD Block
 __ADBLOCK__
 
-
-// proxy list from gfwlist!
-__GFWLIST__
+// For cn domains
+DOMAIN-SUFFIX,cn,DIRECT
 
 // LINE
 IP-CIDR,103.2.28.0/22,Proxy,no-resolve
@@ -87,5 +78,8 @@ IP-CIDR,67.202.0.0/18,Proxy
 
 
 
-FINAL,DIRECT
+// last chance
+GEOIP,CN,DIRECT
+
+FINAL,Proxy
 

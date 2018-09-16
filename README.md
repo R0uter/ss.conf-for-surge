@@ -22,7 +22,7 @@ Ad's list come from [lhie1/Surge](https://github.com/lhie1/Surge).
 
 **Switch to `gh-pages` branch to [download latest .conf file](https://r0uter.github.io/ss.conf-for-surge/)!**
 
-Just use [`gfwlist.conf` or `whitelist.conf`](https://R0uter.github.io/ss.conf-for-surge/) directly. Both in `configFileHere` directory!
+Just use [`gfwlist.conf` or `whitelist.conf` or `geoip_whitelist`](https://R0uter.github.io/ss.conf-for-surge/) directly. Both in `configFileHere` directory!
 
 > Or use `ssconf.py` to generate config file.
 
@@ -51,6 +51,8 @@ ChinaProxy = select,💊DIRECT,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
 Proxy = select,💊DIRECT,@Auto,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US
 @Auto = url-test,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US,url=http://www.gstatic.com/generate_204
 ```
+
+For `geoip_whitelist`, current in beta, it is much lighter than standerd version of whitelist, iOS device loadable, but may cause dns leak potentially.
 
 ## License (MIT)
 
