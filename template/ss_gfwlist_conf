@@ -8,6 +8,8 @@ loglevel = notify
 __Proxy__
 
 [Rule]
+//for apple developers
+DOMAIN-SUFFIX,appstoreconnect.apple.com,Proxy
 //for Google blogspot
 DOMAIN-SUFFIX,google.cn,DIRECT
 DOMAIN-KEYWORD,google,Proxy,force-remote-dns

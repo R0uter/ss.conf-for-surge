@@ -9,6 +9,7 @@ __Proxy__
 
 [Rule]
 // For apple inc
+DOMAIN-SUFFIX,appstoreconnect.apple.com,Proxy
 IP-CIDR, 17.0.0.0/8, DIRECT, no-resolve
 // Fix youku&yinyuetai
 DOMAIN-SUFFIX,vali.cp31.ott.cibntv.net,DIRECT
