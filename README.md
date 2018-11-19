@@ -16,7 +16,7 @@ White list come from [GFW Domain White List](https://goo.gl/tBixve).
 
 ## Anti ads
 
-Ad's list come from [lhie1/Surge](https://github.com/lhie1/Surge).
+Ad's list come from [lhie1/Rules](https://github.com/lhie1/Rules).
 
 ## How to use
 

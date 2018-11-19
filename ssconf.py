@@ -101,7 +101,7 @@ def getAdList():
     # the url of  https://github.com/lhie1/Surge
     outfile = './list/adlist.txt'
     tmpfile = './list/adtmp'
-    baseurl = 'https://github.com/lhie1/Rules/raw/master/Surge.conf'
+    baseurl = 'https://github.com/lhie1/Rules/raw/master/Quantumult/Quantumult.conf'
 
     comment_pattern = '^\!|\[|^@@|\/|http|\#|\*|\?|\_|^\.|^\d+\.\d+\.\d+\.\d+'
     domain_pattern = '(\#?[\w\-\_]+\,[\/\w\.\-\_]+\,REJECT)[\/\*]*'
