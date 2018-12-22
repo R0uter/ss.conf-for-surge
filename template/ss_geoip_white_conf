@@ -11,7 +11,10 @@ __Proxy__
 // For apple inc
 DOMAIN-SUFFIX,appstoreconnect.apple.com,Proxy
 // For whatsapp
-DOMAIN-SUFFIX,fbcdn.net,Proxy
+DOMAIN-SUFFIX,whatsapp.com,Proxy
+DOMAIN-SUFFIX,whatsapp.net,Proxy
+IP-CIDR,18.194.0.0/15,Proxy
+IP-CIDR,34.224.0.0/12,Proxy
 
 IP-CIDR, 17.0.0.0/8, DIRECT, no-resolve
 // Fix youku&yinyuetai
