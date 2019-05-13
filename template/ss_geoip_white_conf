@@ -8,6 +8,8 @@ loglevel = notify
 __Proxy__
 
 [Rule]
+// For tw
+DOMAIN-SUFFIX,tw,Proxy
 // For apple inc
 DOMAIN-SUFFIX,appstoreconnect.apple.com,Proxy
 DOMAIN-SUFFIX,contentdelivery.itunes.apple.com,Proxy
