@@ -16,6 +16,9 @@ DOMAIN-SUFFIX,contentdelivery.itunes.apple.com,Proxy
 DOMAIN-SUFFIX,itmsdav.apple.com,Proxy
 IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
 
+// For Mastodon
+DOMAIN-SUFFIX,app-measurement.com,Proxy
+
 // For whatsapp
 DOMAIN-SUFFIX,whatsapp.com,Proxy
 DOMAIN-SUFFIX,whatsapp.net,Proxy
@@ -27,6 +30,7 @@ DOMAIN-SUFFIX,vali.cp31.ott.cibntv.net,DIRECT
 // Fix Netgear router setting page
 DOMAIN-SUFFIX,routerlogin.net,DIRECT
 DOMAIN-SUFFIX,routerlogin.com,DIRECT
+
 
 
 
