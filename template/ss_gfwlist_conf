@@ -8,6 +8,8 @@ loglevel = notify
 __Proxy__
 
 [Rule]
+// For zhihu
+DOMAIN-SUFFIX,oia.zhihu.com,REJECT
 // For tw
 DOMAIN-SUFFIX,tw,Proxy
 // For apple inc
