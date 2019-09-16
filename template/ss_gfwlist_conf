@@ -21,8 +21,8 @@ IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
 // For whatsapp
 DOMAIN-SUFFIX,whatsapp.com,Proxy
 DOMAIN-SUFFIX,whatsapp.net,Proxy
-IP-CIDR,18.194.0.0/15,Proxy
-IP-CIDR,34.224.0.0/12,Proxy
+IP-CIDR,18.194.0.0/15,Proxy,no-resolve
+IP-CIDR,34.224.0.0/12,Proxy,no-resolve
 //for Google blogspot
 DOMAIN-SUFFIX,google.cn,DIRECT
 DOMAIN-KEYWORD,google,Proxy,force-remote-dns
@@ -77,33 +77,33 @@ IP-CIDR,149.154.168.0/22,Proxy,no-resolve
 IP-CIDR,149.154.172.0/22,Proxy,no-resolve
 
 # Amazon EC2
-IP-CIDR,52.0.0.0/11,Proxy
-IP-CIDR,52.192.0.0/11,Proxy
-IP-CIDR,52.32.0.0/11,Proxy
-IP-CIDR,52.64.0.0/12,Proxy
-IP-CIDR,52.84.0.0/14,Proxy
-IP-CIDR,52.88.0.0/13,Proxy
-IP-CIDR,54.160.0.0/12,Proxy
-IP-CIDR,54.176.0.0/12,Proxy
-IP-CIDR,54.192.0.0/12,Proxy
-IP-CIDR,54.208.0.0/13,Proxy
-IP-CIDR,54.216.0.0/14,Proxy
-IP-CIDR,54.220.0.0/15,Proxy
-IP-CIDR,54.224.0.0/12,Proxy
-IP-CIDR,54.240.0.0/12,Proxy
-IP-CIDR,54.64.0.0/13,Proxy
-IP-CIDR,54.72.0.0/13,Proxy
-IP-CIDR,54.80.0.0/12,Proxy
-IP-CIDR,72.44.32.0/19,Proxy
-IP-CIDR,107.20.0.0/14,Proxy
-IP-CIDR,174.129.0.0/16,Proxy
-IP-CIDR,184.72.0.0/15,Proxy
-IP-CIDR,204.236.128.0/17,Proxy
-IP-CIDR,75.101.128.0/17,Proxy
-IP-CIDR,216.182.224.0/20,Proxy
-IP-CIDR,23.20.0.0/14,Proxy
-IP-CIDR,50.16.0.0/14,Proxy
-IP-CIDR,67.202.0.0/18,Proxy
+IP-CIDR,52.0.0.0/11,Proxy,no-resolve
+IP-CIDR,52.192.0.0/11,Proxy,no-resolve
+IP-CIDR,52.32.0.0/11,Proxy,no-resolve
+IP-CIDR,52.64.0.0/12,Proxy,no-resolve
+IP-CIDR,52.84.0.0/14,Proxy,no-resolve
+IP-CIDR,52.88.0.0/13,Proxy,no-resolve
+IP-CIDR,54.160.0.0/12,Proxy,no-resolve
+IP-CIDR,54.176.0.0/12,Proxy,no-resolve
+IP-CIDR,54.192.0.0/12,Proxy,no-resolve
+IP-CIDR,54.208.0.0/13,Proxy,no-resolve
+IP-CIDR,54.216.0.0/14,Proxy,no-resolve
+IP-CIDR,54.220.0.0/15,Proxy,no-resolve
+IP-CIDR,54.224.0.0/12,Proxy,no-resolve
+IP-CIDR,54.240.0.0/12,Proxy,no-resolve
+IP-CIDR,54.64.0.0/13,Proxy,no-resolve
+IP-CIDR,54.72.0.0/13,Proxy,no-resolve
+IP-CIDR,54.80.0.0/12,Proxy,no-resolve
+IP-CIDR,72.44.32.0/19,Proxy,no-resolve
+IP-CIDR,107.20.0.0/14,Proxy,no-resolve
+IP-CIDR,174.129.0.0/16,Proxy,no-resolve
+IP-CIDR,184.72.0.0/15,Proxy,no-resolve
+IP-CIDR,204.236.128.0/17,Proxy,no-resolve
+IP-CIDR,75.101.128.0/17,Proxy,no-resolve
+IP-CIDR,216.182.224.0/20,Proxy,no-resolve
+IP-CIDR,23.20.0.0/14,Proxy,no-resolve
+IP-CIDR,50.16.0.0/14,Proxy,no-resolve
+IP-CIDR,67.202.0.0/18,Proxy,no-resolve
 
 
 

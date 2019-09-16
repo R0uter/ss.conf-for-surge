@@ -21,8 +21,8 @@ IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
 // For whatsapp
 DOMAIN-SUFFIX,whatsapp.com,Proxy
 DOMAIN-SUFFIX,whatsapp.net,Proxy
-IP-CIDR,18.194.0.0/15,Proxy
-IP-CIDR,34.224.0.0/12,Proxy
+IP-CIDR,18.194.0.0/15,Proxy,no-resolve
+IP-CIDR,34.224.0.0/12,Proxy,no-resolve
 
 // Fix youku&yinyuetai
 DOMAIN-SUFFIX,vali.cp31.ott.cibntv.net,DIRECT
