@@ -1,0 +1,38 @@
+[General]
+bypass-system = true
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 1.1.1.1, 1.0.0.1
+loglevel = notify
+
+__Proxy__
+
+[Rule]
+// For zhihu
+DOMAIN-SUFFIX,oia.zhihu.com,REJECT
+
+
+
+
+
+// Fix youku&yinyuetai
+DOMAIN-SUFFIX,vali.cp31.ott.cibntv.net,Proxy
+// Fix Netgear router setting page
+DOMAIN-SUFFIX,routerlogin.net,DIRECT
+DOMAIN-SUFFIX,routerlogin.com,DIRECT
+
+
+
+
+// AD Block
+__ADBLOCK__
+
+// For cn domains
+DOMAIN-SUFFIX,cn,Proxy
+
+
+// last chance
+GEOIP,CN,Proxy
+
+FINAL,DIRECT
+

@@ -11,20 +11,22 @@ import certifi
 import codecs
 import os
 
-def getList(listUrl):
+
+def get_list(list_url):
     http = urllib3.PoolManager(
         cert_reqs='CERT_REQUIRED',  # Force certificate check.
         ca_certs=certifi.where(),  # Path to the Certifi bundle.
     )
 
-    data = http.request('GET', listUrl, timeout=10).data
+    data = http.request('GET', list_url, timeout=10).data
     return data
 
-def whiteListCheck():
+
+def white_list_check():
     dnsmasq_china_list = 'https://r0uter.github.io/gfw_domain_whitelist/whitelist.pac'
     try:
 
-        content = getList(dnsmasq_china_list)
+        content = get_list(dnsmasq_china_list)
         content = content.decode('utf-8')
         f = codecs.open('./list/whitelist', 'w', 'utf-8')
         f.write(content)
@@ -46,15 +48,14 @@ def whiteListCheck():
     whitelistTxt.close()
 
 
-
-def getGfwList():
+def get_gfw_list():
     # the url of gfwlist
-    baseurl = 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt'
+    base_url = 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt'
 
     comment_pattern = '^\!|\[|^@@|^\d+\.\d+\.\d+\.\d+'
     domain_pattern = '([\w\-\_]+\.[\w\.\-\_]+)[\/\*]*'
 
-    tmpfile = './list/tmp'
+    tmp_file = './list/tmp'
     gfwListTxt = codecs.open('./list/gfwlist.txt', 'w+', 'utf-8')
     gfwListTxt.write('// SS config file for surge with gfw list \n')
     gfwListTxt.write('// updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
@@ -62,16 +63,16 @@ def getGfwList():
 
     try:
 
-        data = getList(baseurl)
+        data = get_list(base_url)
         content = codecs.decode(data, 'base64_codec').decode('utf-8')
         # write the decoded content to file then read line by line
-        tfs = codecs.open(tmpfile, 'w', 'utf-8')
+        tfs = codecs.open(tmp_file, 'w', 'utf-8')
         tfs.write(content)
         tfs.close()
         print('GFW list fetched, writing...')
     except:
         print('GFW list fetch failed, use tmp instead...')
-    tfs = codecs.open(tmpfile, 'r', 'utf-8')
+    tfs = codecs.open(tmp_file, 'r', 'utf-8')
 
     # Store all domains, deduplicate records
     domainList = []
@@ -96,7 +97,7 @@ def getGfwList():
     gfwListTxt.close()
 
 
-def getAdList():
+def get_ad_list():
     # get list to block most of ads .
     # the url of  https://github.com/lhie1/Surge
     outfile = './list/adlist.txt'
@@ -112,7 +113,7 @@ def getAdList():
     fs.write('\n')
     try:
 
-        data = getList(baseurl)
+        data = get_list(baseurl)
         content = data.decode('utf-8')
         # write the decoded content to file then read line by line
         tfs = codecs.open(tmpfile, 'w', 'utf-8')
@@ -146,63 +147,64 @@ def getAdList():
     fs.close()
 
 
-def genGfwConf():
+def gen_gfw_conf():
     f = codecs.open('template/ss_gfwlist_conf', 'r','utf-8')
-    gfwlist = codecs.open('list/gfwlist.txt', 'r','utf-8')
-    adlist = codecs.open('list/adlist.txt', 'r','utf-8')
+    gfw_list = codecs.open('list/gfwlist.txt', 'r','utf-8')
+    ad_list = codecs.open('list/adlist.txt', 'r','utf-8')
     proxy = codecs.open('ServerConfig.txt', 'r', 'utf-8-sig')
     file_content = f.read()
-    adlist_buffer = adlist.read()
-    gfwlist_buffer = gfwlist.read()
+    ad_list_buffer = ad_list.read()
+    gfw_list_buffer = gfw_list.read()
     proxy_buffer = proxy.read()
-    gfwlist.close()
-    adlist.close()
+    gfw_list.close()
+    ad_list.close()
     f.close()
     proxy.close()
 
-    file_content = file_content.replace('__ADBLOCK__', adlist_buffer)
-    file_content = file_content.replace('__GFWLIST__', gfwlist_buffer)
+    file_content = file_content.replace('__ADBLOCK__', ad_list_buffer)
+    file_content = file_content.replace('__GFWLIST__', gfw_list_buffer)
     file_content = file_content.replace('__Proxy__', proxy_buffer)
 
-    confs = codecs.open('configFileHere/gfwlist.conf', 'w','utf-8')
+    confs = codecs.open('configFileHere/gfwlist.conf', 'w', 'utf-8')
     confs.write(file_content)
     confs.close()
 
 
-def genWhiteConf():
-    cfs = codecs.open('template/ss_whitelist_conf', 'r','utf-8')
-    gfwlist = codecs.open('list/whitelist.txt', 'r','utf-8')
-    adlist = codecs.open('list/adlist.txt', 'r','utf-8')
-    proxy = codecs.open('ServerConfig.txt','r','utf8')
+def gen_white_conf():
+    cfs = codecs.open('template/ss_whitelist_conf', 'r', 'utf-8')
+    gfw_list = codecs.open('list/whitelist.txt', 'r', 'utf-8')
+    ad_list = codecs.open('list/adlist.txt', 'r', 'utf-8')
+    proxy = codecs.open('ServerConfig.txt', 'r', 'utf8')
     file_content = cfs.read()
-    adlist_buffer = adlist.read()
-    gfwlist_buffer = gfwlist.read()
+    ad_list_buffer = ad_list.read()
+    gfw_list_buffer = gfw_list.read()
     proxy_buffer = proxy.read()
-    gfwlist.close()
-    adlist.close()
+    gfw_list.close()
+    ad_list.close()
     cfs.close()
     proxy.close()
 
-    file_content = file_content.replace('__ADBLOCK__', adlist_buffer)
-    file_content = file_content.replace('__GFWWHITELIST__', gfwlist_buffer)
+    file_content = file_content.replace('__ADBLOCK__', ad_list_buffer)
+    file_content = file_content.replace('__GFWWHITELIST__', gfw_list_buffer)
     file_content = file_content.replace('__Proxy__', proxy_buffer)
 
     confs = codecs.open('configFileHere/whitelist.conf', 'w','utf-8')
     confs.write(file_content)
     confs.close()
 
-def genGeoIPWhiteConf():
+
+def gen_geo_ip_white_conf():
     cfs = codecs.open('template/ss_geoip_white_conf', 'r', 'utf-8')
-    adlist = codecs.open('list/adlist.txt', 'r', 'utf-8')
+    ad_list = codecs.open('list/adlist.txt', 'r', 'utf-8')
     proxy = codecs.open('ServerConfig.txt', 'r', 'utf8')
     file_content = cfs.read()
-    adlist_buffer = adlist.read()
+    ad_list_buffer = ad_list.read()
     proxy_buffer = proxy.read()
-    adlist.close()
+    ad_list.close()
     cfs.close()
     proxy.close()
 
-    file_content = file_content.replace('__ADBLOCK__', adlist_buffer)
+    file_content = file_content.replace('__ADBLOCK__', ad_list_buffer)
     file_content = file_content.replace('__Proxy__', proxy_buffer)
 
     confs = codecs.open('configFileHere/geoip_whitelist.conf', 'w', 'utf-8')
@@ -210,24 +212,45 @@ def genGeoIPWhiteConf():
     confs.close()
 
 
+def gen_cn_conf():
+    cfs = codecs.open('template/ss_cn_conf', 'r', 'utf-8')
+    ad_list = codecs.open('list/adlist.txt', 'r', 'utf-8')
+    proxy = codecs.open('ServerConfig.txt', 'r', 'utf8')
+    file_content = cfs.read()
+    ad_list_buffer = ad_list.read()
+    proxy_buffer = proxy.read()
+    ad_list.close()
+    cfs.close()
+    proxy.close()
+
+    file_content = file_content.replace('__ADBLOCK__', ad_list_buffer)
+    file_content = file_content.replace('__Proxy__', proxy_buffer)
+
+    confs = codecs.open('configFileHere/cn.conf', 'w', 'utf-8')
+    confs.write(file_content)
+    confs.close()
+
 
 def main():
     os.makedirs(os.path.dirname('./list/'), exist_ok=True)
     os.makedirs(os.path.dirname('./configFileHere/'), exist_ok=True)
     print('Getting GFW list...')
-    getGfwList()
+    get_gfw_list()
     print('Getting AD list...')
-    getAdList()
+    get_ad_list()
     print('Getting white list...')
-    whiteListCheck()
-    print ('Generate config file: gfwlist.conf')
-    genGfwConf()
-    print ('Generate config file: whitelist.conf')
-    genWhiteConf()
+    white_list_check()
+    print('Generate config file: gfwlist.conf')
+    gen_gfw_conf()
+    print('Generate config file: whitelist.conf')
+    gen_white_conf()
     print('Generate config file: geoip_whitelist.conf')
-    genGeoIPWhiteConf()
-    print ('All done!')
+    gen_geo_ip_white_conf()
+    print('Generate back to china config file: cn.conf')
+    gen_cn_conf()
+    print('All done!')
     print('Now you need edit config file to add your server infomation.')
+
 
 if __name__ == '__main__':
     main()
