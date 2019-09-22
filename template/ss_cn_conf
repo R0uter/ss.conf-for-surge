@@ -43,10 +43,7 @@ DOMAIN-SUFFIX,abercrombie.com,Proxy
 DOMAIN-SUFFIX,acfun.tv,Proxy
 DOMAIN-SUFFIX,acgvideo.com,Proxy
 DOMAIN-SUFFIX,adobesc.com,Proxy
-DOMAIN-SUFFIX,air-matters.com,Proxy
-DOMAIN-SUFFIX,air-matters.io,Proxy
 DOMAIN-SUFFIX,aixifan.com,Proxy
-DOMAIN-SUFFIX,akadns.net,Proxy
 DOMAIN-SUFFIX,alicdn.com,Proxy
 DOMAIN-SUFFIX,alipay.com,Proxy
 DOMAIN-SUFFIX,alipayobjects.com,Proxy
@@ -62,7 +59,6 @@ DOMAIN-SUFFIX,bdimg.com,Proxy
 DOMAIN-SUFFIX,bdstatic.com,Proxy
 DOMAIN-SUFFIX,beatsbydre.com,Proxy
 DOMAIN-SUFFIX,bilibili.com,Proxy
-DOMAIN-SUFFIX,bing.com,Proxy
 DOMAIN-SUFFIX,blizzard.com,Proxy
 DOMAIN-SUFFIX,caiyunapp.com,Proxy
 DOMAIN-SUFFIX,ccgslb.com,Proxy
@@ -126,7 +122,6 @@ DOMAIN-SUFFIX,lecloud.com,Proxy
 DOMAIN-SUFFIX,lemicp.com,Proxy
 DOMAIN-SUFFIX,letv.com,Proxy
 DOMAIN-SUFFIX,letvcloud.com,Proxy
-DOMAIN-SUFFIX,live.com,Proxy
 DOMAIN-SUFFIX,lizhi.io,Proxy
 DOMAIN-SUFFIX,localizecdn.com,Proxy
 DOMAIN-SUFFIX,lucifr.com,Proxy
@@ -186,12 +181,9 @@ DOMAIN-SUFFIX,store.steampowered.com,Proxy
 DOMAIN-SUFFIX,suning.com,Proxy
 DOMAIN-SUFFIX,symcd.com,Proxy
 DOMAIN-SUFFIX,taobao.com,Proxy
-DOMAIN-SUFFIX,teamviewer.com,Proxy
 DOMAIN-SUFFIX,tenpay.com,Proxy
 DOMAIN-SUFFIX,tietuku.com,Proxy
 DOMAIN-SUFFIX,tmall.com,Proxy
-DOMAIN-SUFFIX,trello.com,Proxy
-DOMAIN-SUFFIX,trellocdn.com,Proxy
 DOMAIN-SUFFIX,ttmeiju.com,Proxy
 DOMAIN-SUFFIX,tudou.com,Proxy
 DOMAIN-SUFFIX,udache.com,Proxy
@@ -201,9 +193,7 @@ DOMAIN-SUFFIX,upyun.com,Proxy
 DOMAIN-SUFFIX,uxengine.net,Proxy
 DOMAIN-SUFFIX,v2ex.co,Proxy
 DOMAIN-SUFFIX,v2ex.com,Proxy
-DOMAIN-SUFFIX,vultr.com,Proxy
 DOMAIN-SUFFIX,wandoujia.com,Proxy
-DOMAIN-SUFFIX,weather.com,Proxy
 DOMAIN-SUFFIX,weibo.com,Proxy
 DOMAIN-SUFFIX,weico.cc,Proxy
 DOMAIN-SUFFIX,weiphone.com,Proxy
