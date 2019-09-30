@@ -8,11 +8,12 @@ install:
 
 script:
   - python ssconf.py
+  - python surge_rule_set.py
 after_success:
   - cp configFileHere/* gh-pages/
-  - cp list/adlist.txt gh-pages/adlist.list
-  - cp list/gfwlist.txt gh-pages/gfwlist.list
-  - cp list/whitelist.txt gh-pages/whitelist.list
+  - cp list/adlist.list gh-pages/adlist.list
+  - cp list/gfwlist.list gh-pages/gfwlist.list
+  - cp list/whitelist.list gh-pages/whitelist.list
 
 deploy:
   provider: pages
