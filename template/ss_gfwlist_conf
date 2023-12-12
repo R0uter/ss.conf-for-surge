@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,oia.zhihu.com,REJECT
 // For tw
 DOMAIN-SUFFIX,tw,Proxy
 // For apple inc
+DOMAIN-SUFFIX,stitcher.simplecastaudio.com,Proxy
 DOMAIN-SUFFIX,appstoreconnect.apple.com,Proxy
 DOMAIN-SUFFIX,contentdelivery.itunes.apple.com,Proxy
 DOMAIN-SUFFIX,itmsdav.apple.com,Proxy
