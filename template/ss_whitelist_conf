@@ -8,6 +8,9 @@ loglevel = notify
 __Proxy__
 
 [Rule]
+// For linkedin.com
+DOMAIN-SUFFIX,linkedin.com,Proxy
+DOMAIN-SUFFIX,licdn.com,Proxy
 // For zhihu
 DOMAIN-SUFFIX,oia.zhihu.com,REJECT
 // For tw
