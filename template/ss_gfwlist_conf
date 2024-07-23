@@ -8,6 +8,41 @@ loglevel = notify
 __Proxy__
 
 [Rule]
+// For AI tools, such as ChatGPT, Gemini, etc.
+DOMAIN-KEYWORD,chatgpt-async-webps-prod-eastus,Proxy
+DOMAIN,chat.openai.com.cdn.cloudflare.net,Proxy
+DOMAIN,o33249.ingest.sentry.io,Proxy
+DOMAIN,openaiapi-site.azureedge.net,Proxy
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Proxy
+DOMAIN,openaicom.imgix.net,Proxy
+DOMAIN,openaicomproductionae4b.blob.core.windows.net,Proxy
+DOMAIN,production-openaicom-storage.azureedge.net,Proxy
+DOMAIN-SUFFIX,chatgpt.com,Proxy
+DOMAIN-SUFFIX,oaistatic.com,Proxy
+DOMAIN-SUFFIX,oaiusercontent.com,Proxy
+DOMAIN-SUFFIX,openai.com,Proxy
+DOMAIN,api.githubcopilot.com,Proxy
+DOMAIN,copilot-proxy.githubusercontent.com,Proxy
+DOMAIN,copilot.microsoft.com,Proxy
+DOMAIN,sydney.bing.com,Proxy
+DOMAIN,www.bing.com,Proxy
+DOMAIN,bard.google.com,Proxy
+DOMAIN,gemini.google.com,Proxy
+DOMAIN,generativelanguage.googleapis.com,Proxy
+DOMAIN,ai.google.dev,Proxy
+DOMAIN,aida.googleapis.com,Proxy
+DOMAIN,aistudio.google.com,Proxy
+DOMAIN,alkalimakersuite-pa.clients6.google.com,Proxy
+DOMAIN,makersuite.google.com,Proxy
+DOMAIN-SUFFIX,anthropic.com,Proxy
+DOMAIN-SUFFIX,claude.ai,Proxy
+IP-CIDR,160.79.104.0/23,Proxy,no-resolve
+IP-CIDR6,2607:6bc0::/48,Proxy,no-resolve
+DOMAIN-SUFFIX,grazie.ai,Proxy
+DOMAIN-SUFFIX,grazie.aws.intellij.net,Proxy
+DOMAIN,imagine.meta.com,Proxy
+DOMAIN-SUFFIX,meta.ai,Proxy
+
 // For linkedin.com
 DOMAIN-SUFFIX,linkedin.com,Proxy
 DOMAIN-SUFFIX,licdn.com,Proxy
